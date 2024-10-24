@@ -124,16 +124,14 @@ const handleBack = () => {
 
 // 保存PDF
 async function savePdf() {
-    // const url = 'https://pdf-lib.js.org/assets/with_update_sections.pdf'
-    // const existingPdfBytes = await fetch(url).then(res => res.arrayBuffer())
-
-    let data = toRaw(pdfData.value);
-    const pdfDoc = await PDFDocument.load(data)
+    // const existingPdfBytes = await fetch(pdfURL.value).then(res => res.arrayBuffer())
+    const copiedBuffer = pdfData.value.slice(0); // 复制一份，避免删除原数据
+    const pdfDoc = await PDFDocument.load(copiedBuffer)
     const pages = pdfDoc.getPages()
 
 
     function getCanvasBytes(index) {
-        let id = 'pdf1-canvas-' + (index + 1)
+        let id = 'pdf2-canvas-' + (index + 1)
         const canvas = document.getElementById(id);
         return new Promise((resolve, reject) => {
             canvas.toBlob((blob) => {
@@ -152,11 +150,12 @@ async function savePdf() {
         let page = pages[i]
         let data = await getCanvasBytes(i)
         const pngImage = await pdfDoc.embedPng(data)
+        console.log('render:', data, pngImage)
         page.drawImage(pngImage, {
             x: 0,
             y: 0,
-            width: 612,
-            height: 792,
+            width: pngImage.width,
+            height: pngImage.height,
         })
     }
     const pdfBytes = await pdfDoc.save()
@@ -215,9 +214,10 @@ const changePenColor = (e) => {
 
 
 onMounted(() => {
-    let data2 = toRaw(pdfData.value);
-    // loadFile({ data: data2 });
-    loadFile({ url: pdfURL });
+    let data = toRaw(pdfData.value);
+    const copiedBuffer = data.slice(0); // 复制一份，避免删除原数据
+    loadFile({ data: copiedBuffer });
+    // loadFile(pdfURL.value);
 });
 
 

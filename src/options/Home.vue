@@ -72,10 +72,11 @@ function getObjectURL(file) {
 const changeUpload = (uploadFile, uploadFiles) => {
     const reader = new FileReader();
     reader.onload = function (e) {
-        const arrayBufferOfPdfData = e.target.result;
-        const myData = new Uint8Array(arrayBufferOfPdfData);
+        // const arrayBufferOfPdfData = e.target.result;
+        // const myData = new Uint8Array(arrayBufferOfPdfData);
         // const docInitParams = { data: myData };
-        updatePDFData(myData)
+        // updatePDFData(myData)
+        updatePDFData(e.target.result)
         updateView('draw')
     };
     reader.readAsArrayBuffer(uploadFile.raw);

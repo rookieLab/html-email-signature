@@ -11,7 +11,7 @@ import Home from './Home'
 import Draw from './Draw'
 
 // 显示视图
-const view = ref('draw')
+const view = ref('home')
 function updateView(value) {
   view.value = value
 }
