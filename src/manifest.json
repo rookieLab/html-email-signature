@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_name__",
+  "homepage_url": "https://wadesk.io/",
+  "description": "__MSG_description__",
+  "default_locale": "en",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "debugger",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/inject/content.bundle.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup.html",
+        "js/inject/obfuscate.js",
+        "js/inject/inject.bundle.js",
+        "fonts/*",
+        "img/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "ext-signature-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue-cli-plugin-browser-extension": "~0.26.1"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "7.23.10",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/chrome": "^0.0.278",
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "browser-extension": "^0.1.1",
+    "element-plus": "^2.8.6",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "3.11.174",
+    "pinia": "2.0.36",
+    "pinia-plugin-persistedstate": "^4.1.1",
+    "playwright-crx": "0.10.0",
+    "sass": "1.79.4",
+    "sass-loader": "16.0.0",
+    "signature_pad": "^5.0.4",
+    "vue": "3.2.25",
+    "vue-i18n": "9.0.0",
+    "web-ext-types": "^3.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
