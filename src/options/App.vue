@@ -6,7 +6,7 @@
 </template>
 
 <script name="App" setup>
-import { provide, ref } from 'vue'
+import { provide, ref, reactive } from 'vue'
 import Home from './Home'
 import Draw from './Draw'
 
@@ -21,11 +21,16 @@ provide('view', {
 
 
 // PDF数据
-const pdfData = ref('')
-function updatePDFData(value) {
-  pdfData.value = value
+const apPdf = reactive({
+  data: "",
+  name: "",
+});
+function updatePDF(name, data) {
+  console.log('updatePDF', name, data)
+  data ? apPdf.data = data : null
+  data ? apPdf.name = name : null
 }
-provide('pdfData', { pdfData, updatePDFData })
+provide('pdfData', { apPdf, updatePDF })
 
 </script>
 <style scoped></style>

@@ -117,15 +117,30 @@ let signaturePads = []
 let activeSignaturePad = ref(0);
 
 const { view, updateView } = inject('view')
-const { pdfData, updatePDFData } = inject('pdfData')
+const { apPdf, updatePDF } = inject('pdfData')
 const handleBack = () => {
     updateView('home')
+}
+
+const downloadPDF = (pdfBytes) => {
+    console.log('download', apPdf.name.value)
+    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+    let name = apPdf.name
+    name = name.replace('.pdf', '(signed).pdf'); // 替换文件名
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = name
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url); // 释放内存
 }
 
 // 保存PDF
 async function savePdf() {
     // const existingPdfBytes = await fetch(pdfURL.value).then(res => res.arrayBuffer())
-    const copiedBuffer = pdfData.value.slice(0); // 复制一份，避免删除原数据
+    const copiedBuffer = apPdf.data.slice(0); // 复制一份，避免删除原数据
     const pdfDoc = await PDFDocument.load(copiedBuffer)
     const pages = pdfDoc.getPages()
 
@@ -159,7 +174,7 @@ async function savePdf() {
         })
     }
     const pdfBytes = await pdfDoc.save()
-    loadFile({ data: pdfBytes });
+    downloadPDF(pdfBytes)
 }
 
 
@@ -214,7 +229,7 @@ const changePenColor = (e) => {
 
 
 onMounted(() => {
-    let data = toRaw(pdfData.value);
+    let data = apPdf.data
     const copiedBuffer = data.slice(0); // 复制一份，避免删除原数据
     loadFile({ data: copiedBuffer });
     // loadFile(pdfURL.value);
