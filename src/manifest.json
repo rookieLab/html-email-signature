@@ -18,6 +18,7 @@
   "icons": {
     "128": "icons/128.png"
   },
+  "options_page": "index.html",
   "background": {
     "service_worker": "js/background.js"
   },
@@ -33,7 +34,6 @@
     }
   ],
   "action": {
-    "default_popup": "popup.html",
     "default_icon": {
       "128": "icons/128.png"
     }
