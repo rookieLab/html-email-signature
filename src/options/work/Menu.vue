@@ -34,7 +34,7 @@ import { useStore } from '@/stores'
 
 const store = useStore()
 
-let menus = ['General', 'Images', 'Social', 'Add-ons', 'Design', 'Templates']
+let menus = ['General', 'Images', 'Social', 'Add-ons', 'Design', 'Templates','Templates-Home']
 const state = reactive({
     PenColor: "",
     PenSize: 2.5

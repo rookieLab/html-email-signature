@@ -81,10 +81,10 @@
 <script name="Social" setup>
 import { provide, ref, reactive } from 'vue'
 import { useEditingStore } from '@/stores/editing'
-const editingStore = useEditingStore()
-
 // 自动导入所有 svg 组件
 import * as iconComponents from '@/components/svg'
+const editingStore = useEditingStore()
+
 
 // 创建过滤后的组件映射
 const socialIconsMap = {}

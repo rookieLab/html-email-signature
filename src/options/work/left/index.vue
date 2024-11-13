@@ -6,7 +6,7 @@
         <Social v-if="activeMenu === 'Social'"></Social>
         <Addons v-if="activeMenu === 'Add-ons'"></Addons>
         <Design v-if="activeMenu === 'Design'"></Design>
-        <Templates v-if="activeMenu === 'Templates'"></Templates>
+        <Templates v-if="activeMenu === 'Templates-Home'"></Templates>
     </div>
 </template>
 

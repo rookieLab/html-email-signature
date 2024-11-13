@@ -10,10 +10,7 @@ def generate_vue_component(svg_content, icon_name):
 </template>
 
 <script name=" {icon_name}" setup>
-import { provide, ref, reactive } from 'vue'
 
-import { useEditingStore } from '@/stores/editing'
-const editing = useEditingStore()
 
 </script>
 <style scoped></style>
@@ -30,30 +27,29 @@ def extract_svgs_and_generate_components(html_file_path, output_dir):
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # 查找所有包含SVG的<a>标签
-    svg_tags = soup.find_all('td')
-
+    svg_tags = soup.select('div.masonry-item')
+    
     # 遍历每个包含SVG的<a>标签并生成Vue组件
     for index, a_tag in enumerate(svg_tags):
         # 获取包含SVG的内容
-        svg = a_tag.find('svg')
-        if not svg:
+        content = a_tag.select_one('div.template > div')
+        if not content:
             continue
         
-        # 获取文件名（根据name属性或者默认的Icon+index）
-        icon_name = a_tag.get('name', f'Icon{index + 1}').capitalize()
 
         # 生成Vue组件内容
-        svg_content = str(svg)
-        vue_component = generate_vue_component(svg_content, data.get(f"{icon_name}Icon", icon_name))
+        svg_content = str(content)
+        vue_component = generate_vue_component(svg_content, f"Template{index+1}")
 
         # 定义Vue组件文件路径，使用name属性值
-        vue_file_path = os.path.join(output_dir, f"{icon_name}Icon.vue")
+        vue_file_path = os.path.join(output_dir, f"Template{index+1}.vue")
 
         # 保存Vue组件到文件
         with open(vue_file_path, 'w', encoding='utf-8') as vue_file:
             vue_file.write(vue_component)
         
         print(f"生成 Vue 组件: {vue_file_path}")
+        
 
 # 主要执行函数
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ export const useStore = defineStore('store', {
   },
   state: () => ({
     activeMenu: 'General', //  General|Images|Social|Add-ons|Design|Templates
+    editingTemplate: "Template1",
   }),
   getters: {
     isChecked: (state) => {
@@ -16,6 +17,10 @@ export const useStore = defineStore('store', {
   actions: {
     handleMenuClick(value) {
       this.activeMenu = value;
+    },
+    handleSelectTemplate(value) {
+      this.editingTemplate = value;
+      this.activeMenu ='General'
     },
   },
 });

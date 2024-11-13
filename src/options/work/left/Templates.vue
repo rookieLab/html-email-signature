@@ -10,15 +10,7 @@
                     </div>
                     <div class="u-pd-b4 u-pd-ha2 u-pd-t1 u-maxht-60 u-of-auto u-pd-t4@xl u-pd-b5@xl u-pd-ha3@xl">
                         <div class="o-sign-list e--1-col u-mr-t3 u-mr-t0@xl">
-                            <div class="o-sign-list__item e--clickable u-bs-1 u-mr-b2 u-mr-b1@xl"
-                                v-for="t in tempComponents">
-                                <span class="o-sign-list__num">### 01</span>
-                                <div id="modal-templates">
-                                    <div class="template default-style u-mr-t1">
-                                        <component :is="t"></component>
-                                    </div>
-                                </div>
-                            </div>
+                       
                             <div class="o-sign-list__item e--clickable u-bs-1 u-mr-b2 u-mr-b1@xl"><span
                                     class="o-sign-list__num"># 02</span>
                                 <div id="modal-templates"><span class="a-pro-icon e--preview-all-sig">
