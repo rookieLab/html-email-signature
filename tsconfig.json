@@ -42,7 +42,7 @@
     "src/**/*.vue",
     "typings/**/*.ts",
     "typings/**/*.d.ts",
-    "src/hooks/useMaterial.js",
+    "src/hooks/useMaterial.js", "src/components/templates/index.js", "src/components/templates/index.js",
   ],
   "references": [
     {

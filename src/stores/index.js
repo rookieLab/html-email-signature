@@ -4,4 +4,5 @@ const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate);
 export default pinia
 
-export * from './douyin'
+export * from './store'
+export * from './editing'

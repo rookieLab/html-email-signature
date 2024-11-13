@@ -1,19 +1,71 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="/assets/index-DqPO8bAK.css">
-    <script src="/assets/signature_pad.umd.min.js"></script>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- <link rel="stylesheet" href="/css/index.css"> -->
+  
+  <link rel="stylesheet" href="/css/index-51f4d51b.css">
+  <link rel="stylesheet" href="https://mysignature.io/assets/VueSlideBar-a9a17144.css">
+  <link rel="stylesheet" href="https://mysignature.io/assets/MasonryWall-65d2aa93.css">
+  <script async="" src="https://script.hotjar.com/modules.6f60e575cf8ad7cb10f7.js" charset="utf-8"></script>
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/index-63515a98.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="/assets/Icomoon-ebf82456.js">
+  <!-- <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template1-fe37fce5.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/useTemplate-4ae8c4b9.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/index-63515a98.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Icomoon-ebf82456.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Photo-10a699a6.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Mypage-04994369.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/BrandingLine-a561c2a8.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/OnboardingModal-2e7a82d1.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/ChooseTemplate-bac4c77d.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/MasonryWall-4f590ac3.js">
+
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/usePrefillTemplates-f1738823.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Step1-6a626507.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Step2-853a421d.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Step3-03341eea.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Step4-b247297f.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Step5-445a0ce9.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Sign-3776471f.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template3-67e80843.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Social-b28edbbd.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/RenderImage-b0160780.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Disclaimer-89814ac8.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template4-cb15c245.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/CallToAction-cf0ae36f.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/browser-f05bd587.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Videos-38f24dec.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template8-93142faa.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Calendar-295022f9.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template5-99d0c046.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template7-72476ab9.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template6-cb6502d7.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template12-72038a14.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Badge-7a6ddbb6.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/GreenMessage-ae91b673.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template11-d6e2a51d.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template9-6941c72f.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template10-6400211f.js">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://mysignature.io/assets/Template2-123a3af1.js"> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/@element-plus/icons-vue"></script> -->
+  <!-- <script src="/js/icons-element.js"></script> -->
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
