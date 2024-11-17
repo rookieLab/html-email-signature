@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/4/e/1/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png?time=1709029238" style="display: block; min-width: 140px;" width="140"/>
+<img alt="SignMaker" src="/assets/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png" style="display: block; min-width: 140px;" width="140"/>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -75,7 +75,7 @@
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/4/e/1/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png?time=1709029238" style="display: block;" valign="top" width="288"/></span>
+<span><img alt="created with MySignature.io" src="/assets/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png" style="display: block;" valign="top" width="288"/></span>
 </td>
 </tr>
 </table>

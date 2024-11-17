@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="XOXO,"
-                        src="https://img.mysignature.io/a/v1/a/0/b/a0b73c1f-353d-5d4f-afcf-8587dda560f8.png"
+                        src="/assets/a0b73c1f-353d-5d4f-afcf-8587dda560f8.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/d/b/b/dbb83be0-f2a3-58b2-b748-f187116109b9.png?time=1709543987"
+                                    src="/assets/dbb83be0-f2a3-58b2-b748-f187116109b9.png"
                                     style="display: block; min-width: 150px;" width="150" />
                             </td>
                             <td style='margin: 0.1px; padding: 0px; font: 12.8px / 16.3px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'
@@ -118,7 +118,7 @@
                 <tr>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="instagram" height="43"
-                                src="https://img.mysignature.io/addons/v2/instagram_v3_shape2_b.png"
+                                src="/assets/addons/instagram_v3_shape2_b.png"
                                 style="display: block;" width="151" /></span>
                     </td>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">

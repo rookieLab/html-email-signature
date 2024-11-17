@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Happy Holidays!"
-                        src="https://img.mysignature.io/a/v1/1/f/f/1ff1daa5-466f-5685-a4ba-14499682b2c6.png"
+                        src="/assets/1ff1daa5-466f-5685-a4ba-14499682b2c6.png"
                         width="500" />
                 </td>
             </tr>
@@ -21,7 +21,7 @@
                                         <td align="center"
                                             style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;">
                                             <img alt="SignMaker"
-                                                src="https://img.mysignature.io/p/b/9/6/b965d2dd-7d06-5ac0-978f-850927afddc8.png?time=1709120995"
+                                                src="/assets/b965d2dd-7d06-5ac0-978f-850927afddc8.png"
                                                 style="display: block; min-width: 155px; margin: 0px auto;"
                                                 width="155" />
                                         </td>
@@ -120,7 +120,7 @@
                 <tr>
                     <td style="padding: 7px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Skype"
-                                src="https://img.mysignature.io/a/v1/b/e/0/be0c3368-848b-5af4-bf39-590a96ab3e63.png"
+                                src="/assets/be0c3368-848b-5af4-bf39-590a96ab3e63.png"
                                 style="display: block;" width="165" /></span>
                     </td>
                 </tr>
@@ -129,7 +129,7 @@
                 <tr>
                     <td style="padding: 7px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Book Your Appointment Today"
-                                src="https://img.mysignature.io/a/v1/6/7/0/67044215-58e5-51b0-adf1-5c0d4e8f00c5.png"
+                                src="/assets/67044215-58e5-51b0-adf1-5c0d4e8f00c5.png"
                                 style="max-width: 490px; display: block;" width="258" /></span>
                     </td>
                 </tr>

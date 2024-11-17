@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/e/f/9/ef9afb0c-8552-56b0-bb52-1d54fe74732d.png?time=1726132633" style="display: block; min-width: 109px;" width="109"/>
+<img alt="SignMaker" src="/assets/ef9afb0c-8552-56b0-bb52-1d54fe74732d.png" style="display: block; min-width: 109px;" width="109"/>
 </td>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -57,10 +57,10 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="appstore" height="37" src="https://img.mysignature.io/addons/v2/appstore_shape3_black.png" style="display: block;" width="130"/></span>
+<span><img alt="appstore" height="37" src="/assets/addons/appstore_shape3_black.png" style="display: block;" width="130"/></span>
 </td>
 <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="googleplay" height="37" src="https://img.mysignature.io/addons/v2/googleplay_shape3_black.png" style="display: block;" width="130"/></span>
+<span><img alt="googleplay" height="37" src="/assets/addons/googleplay_shape3_black.png" style="display: block;" width="130"/></span>
 </td>
 <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">
 <!-- -->
@@ -70,7 +70,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 11px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Check out our case studies &gt;&gt;" src="https://img.mysignature.io/a/v1/9/c/0/9c09c15d-592d-59d1-8a9a-ae78283b4259.png" style="max-width: 490px; display: block;" width="291"/></span>
+<span><img alt="Check out our case studies &gt;&gt;" src="/assets/9c09c15d-592d-59d1-8a9a-ae78283b4259.png" style="max-width: 490px; display: block;" width="291"/></span>
 </td>
 </tr>
 </table><!-- -->

@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Regards," src="https://img.mysignature.io/a/v1/e/7/b/e7bd1d42-9f5d-57a4-ba46-a53d317e2ea3.png" width="500"/>
+<img alt="Regards," src="/assets/e7bd1d42-9f5d-57a4-ba46-a53d317e2ea3.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -15,7 +15,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/b/9/7/b97b5831-4fcc-572c-ad69-cb2e6848e94e.png?time=1716897867" style="display: block; min-width: 95px;" width="95"/>
+<img alt="SignMaker" src="/assets/b97b5831-4fcc-572c-ad69-cb2e6848e94e.png" style="display: block; min-width: 95px;" width="95"/>
 </td>
 <td style='border-left: 1px solid rgb(36, 30, 14); margin: 0.1px; padding: 0px 0px 0px 12px; font: 13.1px / 16.5px "Courier New", Courier, monospace; color: rgb(0, 0, 1);' valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -86,13 +86,13 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 25px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="dribbble" height="27" src="https://img.mysignature.io/addons/v2/dribbble_v1_shape1_i.png" style="display: block;" width="95"/></span>
+<span><img alt="dribbble" height="27" src="/assets/addons/dribbble_v1_shape1_i.png" style="display: block;" width="95"/></span>
 </td>
 <td style="padding: 25px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="behance" height="27" src="https://img.mysignature.io/addons/v2/behance_v1_shape1_i.png" style="display: block;" width="95"/></span>
+<span><img alt="behance" height="27" src="/assets/addons/behance_v1_shape1_i.png" style="display: block;" width="95"/></span>
 </td>
 <td style="padding: 25px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="linkedin" height="27" src="https://img.mysignature.io/addons/v2/linkedin_v1_shape1_i.png" style="display: block;" width="95"/></span>
+<span><img alt="linkedin" height="27" src="/assets/addons/linkedin_v1_shape1_i.png" style="display: block;" width="95"/></span>
 </td>
 <td style="padding: 25px 4px 4px 0px; margin: 0.1px;">
 <!-- -->

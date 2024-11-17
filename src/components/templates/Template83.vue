@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
-<img alt="SignMaker" src="https://img.mysignature.io/p/f/b/2/fb21b6f3-926b-54b7-bbd8-af3a3ef7fdd4.png?time=1709195034" style="display: block; min-width: 173px;" width="173"/>
+<img alt="SignMaker" src="/assets/fb21b6f3-926b-54b7-bbd8-af3a3ef7fdd4.png" style="display: block; min-width: 173px;" width="173"/>
 </td>
 <td style="margin: 0.1px; padding: 0px; font: 13.4px / 17.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="middle">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -80,7 +80,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 17px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<img alt="Subscribe my fashion blog" src="https://img.mysignature.io/a/v1/7/0/7/7075e1bd-f67d-5faa-bfde-72360f198ac2.png" style="max-width: 490px; display: block;" width="233"/>
+<img alt="Subscribe my fashion blog" src="/assets/7075e1bd-f67d-5faa-bfde-72360f198ac2.png" style="max-width: 490px; display: block;" width="233"/>
 </td>
 </tr>
 </table>

@@ -44,7 +44,7 @@
 </table>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/0/1/d/01d38a16-126c-536e-9794-0881d6b65671.png?time=1709215409" style="display: block; min-width: 124px;" width="124"/>
+<img alt="SignMaker" src="/assets/01d38a16-126c-536e-9794-0881d6b65671.png" style="display: block; min-width: 124px;" width="124"/>
 </td>
 </tr>
 </table>
@@ -52,7 +52,7 @@
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 15px 0px 0px; font: 13.1px / 16.7px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); cursor: pointer;'>
-<img alt="created with MySignature.io" src="https://img.mysignature.io/b/0/1/d/01d38a16-126c-536e-9794-0881d6b65671.png?time=1709215409" style="display: block;" valign="top" width="297"/>
+<img alt="created with MySignature.io" src="/assets/01d38a16-126c-536e-9794-0881d6b65671.png" style="display: block;" valign="top" width="297"/>
 </td>
 </tr>
 </table>
@@ -60,10 +60,10 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="instagram" height="30" src="https://img.mysignature.io/addons/v2/instagram_v1_shape2_i.png" style="display: block;" width="105"/></span>
+<span><img alt="instagram" height="30" src="/assets/addons/instagram_v1_shape2_i.png" style="display: block;" width="105"/></span>
 </td>
 <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="pinterest" height="30" src="https://img.mysignature.io/addons/v2/pinterest_v1_shape2_i.png" style="display: block;" width="105"/></span>
+<span><img alt="pinterest" height="30" src="/assets/addons/pinterest_v1_shape2_i.png" style="display: block;" width="105"/></span>
 </td>
 <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
 <!-- -->

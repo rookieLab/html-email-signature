@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Kind regards,"
-                        src="https://img.mysignature.io/a/v1/8/4/f/84fd0ddd-0a74-5545-b303-a57e6eb9c2fb.png"
+                        src="/assets/84fd0ddd-0a74-5545-b303-a57e6eb9c2fb.png"
                         width="500" />
                 </td>
             </tr>
@@ -17,7 +17,7 @@
                             <tr>
                                 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
                                     <img alt="SignMaker"
-                                        src="https://img.mysignature.io/p/e/3/1/e31d4bd3-fc8a-509a-afd4-ff828210b901.png?time=1685569257"
+                                        src="/assets/e31d4bd3-fc8a-509a-afd4-ff828210b901.png"
                                         style="display: block; min-width: 120px;" width="120" />
                                 </td>
                                 <td style='border-left: 1px solid rgb(176, 70, 70); margin: 0.1px; padding: 0px 0px 0px 12px; font: 14.4px / 18.3px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1);'
@@ -75,7 +75,7 @@
                 <tr>
                     <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="patreon" height="37"
-                                src="https://img.mysignature.io/addons/v2/patreon_v3_shape2_i.png"
+                                src="/assets/addons/patreon_v3_shape2_i.png"
                                 style="display: block;" width="130" /></span>
                     </td>
                     <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">

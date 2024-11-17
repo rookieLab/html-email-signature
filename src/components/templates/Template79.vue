@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Kind regards," src="https://img.mysignature.io/a/v1/0/d/b/0db73bcb-d8c3-56bf-9bf2-71baa4a4bc31.png" width="500"/>
+<img alt="Kind regards," src="/assets/0db73bcb-d8c3-56bf-9bf2-71baa4a4bc31.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -14,7 +14,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/9/c/d/9cda2103-860f-5c2e-b3dc-1a3b4bda0b80.png?time=1709287065" style="display: block; min-width: 116px;" width="116"/>
+<img alt="SignMaker" src="/assets/9cda2103-860f-5c2e-b3dc-1a3b4bda0b80.png" style="display: block; min-width: 116px;" width="116"/>
 </td>
 <td style="margin: 0.1px; padding: 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -93,7 +93,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/9/c/d/9cda2103-860f-5c2e-b3dc-1a3b4bda0b80.png?time=1709287065" style="display: block;" valign="top" width="320"/></span>
+<span><img alt="created with MySignature.io" src="/assets/9cda2103-860f-5c2e-b3dc-1a3b4bda0b80.png" style="display: block;" valign="top" width="320"/></span>
 </td>
 </tr>
 </table>

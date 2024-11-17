@@ -10,7 +10,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/8/b/1/8b158dcc-eb77-557e-8a22-90b75521feaf.png?time=1688718520" style="display: block; min-width: 120px; margin: 0px auto;" width="120"/>
+<img alt="SignMaker" src="/assets/8b158dcc-eb77-557e-8a22-90b75521feaf.png" style="display: block; min-width: 120px; margin: 0px auto;" width="120"/>
 </td>
 </tr>
 <tr>
@@ -97,14 +97,14 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 20px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<img alt="Get my free recipe e-book" src="https://img.mysignature.io/a/v1/6/5/e/65e14274-ffdd-5694-a07d-f3f6ac394f5b.png" style="max-width: 490px; display: block;" width="239"/>
+<img alt="Get my free recipe e-book" src="/assets/65e14274-ffdd-5694-a07d-f3f6ac394f5b.png" style="max-width: 490px; display: block;" width="239"/>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr style="cursor: pointer;">
 <td style="padding: 15px 0px 0px; margin: 0.1px;" width="30">
-<img alt="Please consider the environment before printing this email" src="https://img.mysignature.io/addons/v2/hand-leaves.png" style="display: block;"/>
+<img alt="Please consider the environment before printing this email" src="/assets/addons/hand-leaves.png" style="display: block;"/>
 </td>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                                                         Please consider the environment before printing this

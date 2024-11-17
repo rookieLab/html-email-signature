@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/0/2/5/0256c04c-1505-5ee2-9335-e35f5570ba4f.png?time=1685569257" style="display: block; min-width: 200px;" width="200"/>
+<img alt="SignMaker" src="/assets/0256c04c-1505-5ee2-9335-e35f5570ba4f.png" style="display: block; min-width: 200px;" width="200"/>
 </td>
 <td style='margin: 0.1px; padding: 0px; font: 13.4px / 17.1px "Lucida Sans Unicode"; color: rgb(0, 0, 1);' valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -71,13 +71,13 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 9px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="amazon" height="44" src="https://img.mysignature.io/addons/v2/amazon_shape2_black.png" style="display: block;" width="154"/></span>
+<span><img alt="amazon" height="44" src="/assets/addons/amazon_shape2_black.png" style="display: block;" width="154"/></span>
 </td>
 <td style="padding: 9px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="ebay" height="44" src="https://img.mysignature.io/addons/v2/ebay_shape2_black.png" style="display: block;" width="154"/></span>
+<span><img alt="ebay" height="44" src="/assets/addons/ebay_shape2_black.png" style="display: block;" width="154"/></span>
 </td>
 <td style="padding: 9px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="googlemy" height="44" src="https://img.mysignature.io/addons/v2/googlemy_shape2_black.png" style="display: block;" width="154"/></span>
+<span><img alt="googlemy" height="44" src="/assets/addons/googlemy_shape2_black.png" style="display: block;" width="154"/></span>
 </td>
 </tr>
 </table><!-- -->

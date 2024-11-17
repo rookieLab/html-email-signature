@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best regards,"
-                        src="https://img.mysignature.io/a/v1/7/2/5/725bde5c-a1f8-52d3-91f8-ddd15752bc43.png"
+                        src="/assets/725bde5c-a1f8-52d3-91f8-ddd15752bc43.png"
                         width="500" />
                 </td>
             </tr>
@@ -17,7 +17,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/7/0/d/70dea5aa-80e5-5040-aff4-a5fc6ac86304.png?time=1709297689"
+                                    src="/assets/70dea5aa-80e5-5040-aff4-a5fc6ac86304.png"
                                     style="display: block; min-width: 117px;" width="117" />
                             </td>
                             <td style='margin: 0.1px; padding: 0px; font: 13.3px / 16.9px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'
@@ -125,7 +125,7 @@
                 <td
                     style='margin: 0.1px; padding: 15px 20px 20px; font: 13.3px / 16.9px "Times New Roman", Times, serif; color: rgb(0, 0, 1); cursor: pointer;'>
                     <span><img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/7/0/d/70dea5aa-80e5-5040-aff4-a5fc6ac86304.png?time=1709297689"
+                            src="/assets/70dea5aa-80e5-5040-aff4-a5fc6ac86304.png"
                             style="display: block;" valign="top" width="392" /></span>
                 </td>
             </tr>
@@ -135,7 +135,7 @@
                 <tr>
                     <td style="padding: 11px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="cooperate with us"
-                                src="https://img.mysignature.io/a/v1/b/3/1/b316ed7d-96e3-588c-ad22-3dc7a2c5a22e.png"
+                                src="/assets/b316ed7d-96e3-588c-ad22-3dc7a2c5a22e.png"
                                 style="max-width: 490px; display: block;" width="184" /></span>
                     </td>
                 </tr>

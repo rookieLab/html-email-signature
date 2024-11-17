@@ -7,7 +7,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/3/9/5/395d0639-1fe7-5cd4-9ecf-c2e62c695fd1.png?time=1709217101"
+                                    src="/assets/395d0639-1fe7-5cd4-9ecf-c2e62c695fd1.png"
                                     style="display: block; min-width: 97px;" width="97" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px;" valign="top">
@@ -119,7 +119,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <span><img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/3/9/5/395d0639-1fe7-5cd4-9ecf-c2e62c695fd1.png?time=1709217101"
+                            src="/assets/395d0639-1fe7-5cd4-9ecf-c2e62c695fd1.png"
                             style="display: block;" valign="top" width="332" /></span>
                 </td>
             </tr>
@@ -129,7 +129,7 @@
                 <tr>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="amazon" height="29"
-                                src="https://img.mysignature.io/addons/v2/amazon_shape2_gray.png"
+                                src="/assets/addons/amazon_shape2_gray.png"
                                 style="display: block;" width="102" /></span>
                     </td>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">

@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best wishes,"
-                        src="https://img.mysignature.io/a/v1/c/0/1/c01e7193-d60c-5afe-8eb4-f0dd5d22876c.png"
+                        src="/assets/c01e7193-d60c-5afe-8eb4-f0dd5d22876c.png"
                         width="500" />
                 </td>
             </tr>
@@ -107,7 +107,7 @@
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/9/7/8/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png?time=1709108740"
+                                    src="/assets/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png"
                                     style="display: block; min-width: 134px;" width="134" />
                             </td>
                         </tr>
@@ -120,12 +120,12 @@
                 <tr>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="amazon" height="32"
-                                src="https://img.mysignature.io/addons/v2/amazon_shape2_white.png"
+                                src="/assets/addons/amazon_shape2_white.png"
                                 style="display: block;" width="112" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="ebay" height="32"
-                                src="https://img.mysignature.io/addons/v2/ebay_shape2_white.png" style="display: block;"
+                                src="/assets/addons/ebay_shape2_white.png" style="display: block;"
                                 width="112" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
@@ -140,7 +140,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <span><img alt="created with MySignature.io"
-                                src="https://img.mysignature.io/b/9/7/8/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png?time=1709108740"
+                                src="/assets/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png"
                                 style="display: block;" valign="top" width="317" /></span>
                     </td>
                 </tr>

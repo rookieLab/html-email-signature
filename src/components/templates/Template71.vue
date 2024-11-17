@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse; font-size: 11.5px;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/1/8/2/1827be5d-46da-5c58-9e96-6f005e48168a.png?time=1708701707" style="display: block; min-width: 122px;" width="122"/>
+<img alt="SignMaker" src="/assets/1827be5d-46da-5c58-9e96-6f005e48168a.png" style="display: block; min-width: 122px;" width="122"/>
 </td>
 </tr>
 <tr>

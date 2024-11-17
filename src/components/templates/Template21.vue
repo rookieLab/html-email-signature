@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Kind regards,"
-                        src="https://img.mysignature.io/a/v1/b/b/5/bb56790d-08da-535a-908d-e05565871116.png"
+                        src="/assets/bb56790d-08da-535a-908d-e05565871116.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/0/a/0/0a011d7a-be38-568e-9ceb-bd4786e9592b.png?time=1709203440"
+                                    src="/assets/0a011d7a-be38-568e-9ceb-bd4786e9592b.png"
                                     style="display: block; min-width: 119px;" width="119" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
@@ -116,7 +116,7 @@
                 <tr>
                     <td style="padding: 14px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <img alt="Join my culinary adventures on Instagram"
-                            src="https://img.mysignature.io/a/v1/4/f/0/4f09b08f-cbad-5a1c-b7e3-c072fd1878b5.png"
+                            src="/assets/4f09b08f-cbad-5a1c-b7e3-c072fd1878b5.png"
                             style="max-width: 490px; display: block;" width="334" />
                     </td>
                 </tr>

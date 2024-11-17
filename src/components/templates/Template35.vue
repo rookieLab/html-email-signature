@@ -3,14 +3,14 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="https://img.mysignature.io/a/v1/8/d/f/8df1f0f3-352d-5776-8061-809676afe1d5.png"
+                        src="/assets/8df1f0f3-352d-5776-8061-809676afe1d5.png"
                         alt="Regards,"></td>
             </tr>
         </table>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 11.2px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
-                        src="https://img.mysignature.io/p/f/3/d/f3d2e202-9ce1-5f5d-93e5-4cce13dc00ca.png?time=1685569257"
+                        src="/assets/f3d2e202-9ce1-5f5d-93e5-4cce13dc00ca.png"
                         width="122" alt=" &quot;created with MySignature.io&quot;"
                         style="display: block; min-width: 122px;"></td>
             </tr>
@@ -115,7 +115,7 @@
                 <tr>
                     <td style="padding: 11px 10px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 alt="Let's book a meeting "
-                                src="https://img.mysignature.io/a/v1/f/0/d/f0d4dc43-321c-51ac-8a43-e6feeb573d7d.png"
+                                src="/assets/f0d4dc43-321c-51ac-8a43-e6feeb573d7d.png"
                                 width="197" style="max-width: 490px; display: block;"></span></td>
                 </tr>
             </table><!---->

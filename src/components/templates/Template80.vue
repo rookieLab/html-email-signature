@@ -4,14 +4,14 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best wishes," src="https://img.mysignature.io/a/v1/c/8/7/c87d74aa-ac18-5b26-9f10-f26a726a86ec.png" width="500"/>
+<img alt="Best wishes," src="/assets/c87d74aa-ac18-5b26-9f10-f26a726a86ec.png" width="500"/>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 10.9px;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/c/6/6/c669eda2-b90b-5222-95c4-0ae9d7f7986a.png?time=1709122424" style="display: block; min-width: 138px;" width="138"/>
+<img alt="SignMaker" src="/assets/c669eda2-b90b-5222-95c4-0ae9d7f7986a.png" style="display: block; min-width: 138px;" width="138"/>
 </td>
 </tr>
 <tr>
@@ -59,7 +59,7 @@
 </tr>
 <tr>
 <td align="center" style="margin: 0.1px; padding: 15px 0px 0px; font: 10.9px / 13.8px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/c/6/6/c669eda2-b90b-5222-95c4-0ae9d7f7986a.png?time=1709122424" style="display: block;" valign="top" width="250"/></span>
+<span><img alt="created with MySignature.io" src="/assets/c669eda2-b90b-5222-95c4-0ae9d7f7986a.png" style="display: block;" valign="top" width="250"/></span>
 </td>
 </tr>
 </table>

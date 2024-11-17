@@ -51,7 +51,7 @@
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/6/e/2/6e2a161e-58df-525a-b1c2-f18d8fbd02f3.png?time=1709036276"
+                                    src="/assets/6e2a161e-58df-525a-b1c2-f18d8fbd02f3.png"
                                     style="display: block; min-width: 117px;" width="117" />
                             </td>
                         </tr>
@@ -65,7 +65,7 @@
                 <tr>
                     <td style="padding: 19px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Skype"
-                                src="https://img.mysignature.io/a/v1/4/b/d/4bd7b71f-dd10-5ff1-a50e-d79aba68d1c4.png"
+                                src="/assets/4bd7b71f-dd10-5ff1-a50e-d79aba68d1c4.png"
                                 style="display: block;" width="163" /></span>
                     </td>
                 </tr>

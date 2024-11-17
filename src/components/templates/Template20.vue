@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best wishes,"
-                        src="https://img.mysignature.io/a/v1/a/1/1/a11063c0-9bf1-5f3b-9a87-ba0c6aced520.png"
+                        src="/assets/a11063c0-9bf1-5f3b-9a87-ba0c6aced520.png"
                         width="500" />
                 </td>
             </tr>
@@ -13,7 +13,7 @@
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
                     <img alt="SignMaker"
-                        src="https://img.mysignature.io/p/3/9/0/390e98a2-420e-52a6-a8a8-ef6aa04f2b12.png?time=1709198100"
+                        src="/assets/390e98a2-420e-52a6-a8a8-ef6aa04f2b12.png"
                         style="display: block; min-width: 162px;" width="162" />
                 </td>
             </tr>
@@ -103,7 +103,7 @@
                 <tr>
                     <td style="padding: 7px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <img alt="⭐Check out my latest restaurant reviews⭐"
-                            src="https://img.mysignature.io/a/v1/6/7/d/67df7b4b-9506-54b5-a49d-01aef050212a.png"
+                            src="/assets/67df7b4b-9506-54b5-a49d-01aef050212a.png"
                             style="max-width: 490px; display: block;" width="372" />
                     </td>
                 </tr>

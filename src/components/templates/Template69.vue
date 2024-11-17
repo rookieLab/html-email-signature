@@ -10,7 +10,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/5/3/2/532163f3-1956-51c5-9cfa-72f9d87ab928.png?time=1694162142" style="display: block; min-width: 96px; margin: 0px auto;" width="96"/>
+<img alt="SignMaker" src="/assets/532163f3-1956-51c5-9cfa-72f9d87ab928.png" style="display: block; min-width: 96px; margin: 0px auto;" width="96"/>
 </td>
 </tr>
 <tr>
@@ -102,7 +102,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 5px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Оrder flower delivery now" src="https://img.mysignature.io/a/v1/6/c/1/6c13c36d-b398-5694-bc9f-57a088c38323.png" style="max-width: 490px; display: block;" width="215"/></span>
+<span><img alt="Оrder flower delivery now" src="/assets/6c13c36d-b398-5694-bc9f-57a088c38323.png" style="max-width: 490px; display: block;" width="215"/></span>
 </td>
 </tr>
 </table><!-- -->

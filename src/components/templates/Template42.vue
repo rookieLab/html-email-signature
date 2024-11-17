@@ -12,7 +12,7 @@
                                         <td align="center"
                                             style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;">
                                             <img alt="SignMaker"
-                                                src="https://img.mysignature.io/p/6/8/c/68c66a3c-33f9-5213-9652-6b388f4ea408.png?time=1710786433"
+                                                src="/assets/68c66a3c-33f9-5213-9652-6b388f4ea408.png"
                                                 style="display: block; min-width: 143px; margin: 0px auto;"
                                                 width="143" />
                                         </td>

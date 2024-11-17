@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Regards,"
-                        src="https://img.mysignature.io/a/v1/7/c/1/7c10b5cd-24c7-56ee-9599-25e8d86538b1.png"
+                        src="/assets/7c10b5cd-24c7-56ee-9599-25e8d86538b1.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/2/1/7/217b1092-f3c5-56a2-af6d-b61160fb697b.png?time=1709215116"
+                                    src="/assets/217b1092-f3c5-56a2-af6d-b61160fb697b.png"
                                     style="display: block; min-width: 117px;" width="117" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
@@ -81,7 +81,7 @@
                 <tr>
                     <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Let us guide you towards eco-friendly homes!"
-                                src="https://img.mysignature.io/a/v1/5/3/f/53ffb60d-bc89-5128-95f9-c7f286d83aed.png"
+                                src="/assets/53ffb60d-bc89-5128-95f9-c7f286d83aed.png"
                                 style="display: block;" width="349" /></span>
                     </td>
                 </tr>
@@ -90,12 +90,12 @@
                 <tr>
                     <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="facebook" height="32"
-                                src="https://img.mysignature.io/addons/v2/facebook_v2_shape3_b.png"
+                                src="/assets/addons/facebook_v2_shape3_b.png"
                                 style="display: block;" width="112" /></span>
                     </td>
                     <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="twitter" height="32"
-                                src="https://img.mysignature.io/addons/v2/twitter_v2_shape3_b.png"
+                                src="/assets/addons/twitter_v2_shape3_b.png"
                                 style="display: block;" width="112" /></span>
                     </td>
                     <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">

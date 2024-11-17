@@ -73,7 +73,7 @@
 </table>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/e/0/c/e0c37f7d-1995-5dc6-aa94-e1dfb5a04abc.png?time=1708942358" style="display: block; min-width: 134px;" width="134"/>
+<img alt="SignMaker" src="/assets/e0c37f7d-1995-5dc6-aa94-e1dfb5a04abc.png" style="display: block; min-width: 134px;" width="134"/>
 </td>
 </tr>
 </table>
@@ -99,10 +99,10 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="dribbble" height="32" src="https://img.mysignature.io/addons/v2/dribbble_v1_shape3_i.png" style="display: block;" width="112"/></span>
+<span><img alt="dribbble" height="32" src="/assets/addons/dribbble_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="behance" height="32" src="https://img.mysignature.io/addons/v2/behance_v1_shape3_i.png" style="display: block;" width="112"/></span>
+<span><img alt="behance" height="32" src="/assets/addons/behance_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
 <!-- -->

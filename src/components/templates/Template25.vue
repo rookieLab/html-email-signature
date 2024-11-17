@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Thank you, for your choice"
-                        src="https://img.mysignature.io/a/v1/9/d/d/9dd8a81d-69c4-5cc2-8095-b1808b2bd825.png"
+                        src="/assets/9dd8a81d-69c4-5cc2-8095-b1808b2bd825.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/8/9/2/89245067-42b6-5218-b1d1-390132167ace.png?time=1709285002"
+                                    src="/assets/89245067-42b6-5218-b1d1-390132167ace.png"
                                     style="display: block; min-width: 138px;" width="138" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);"
@@ -140,7 +140,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/8/9/2/89245067-42b6-5218-b1d1-390132167ace.png?time=1709285002"
+                            src="/assets/89245067-42b6-5218-b1d1-390132167ace.png"
                             style="display: block;" valign="top" width="360" />
                     </td>
                 </tr>

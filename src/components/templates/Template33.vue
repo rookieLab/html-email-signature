@@ -12,7 +12,7 @@
                                         <td align="center"
                                             style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;">
                                             <img alt="SignMaker"
-                                                src="https://img.mysignature.io/p/1/6/a/16a4235e-656c-5c80-a2e6-633d025af382.png?time=1709566749"
+                                                src="/assets/16a4235e-656c-5c80-a2e6-633d025af382.png"
                                                 style="display: block; min-width: 100px; margin: 0px auto;"
                                                 width="100" />
                                         </td>
@@ -140,7 +140,7 @@
                 <tr>
                     <td style="padding: 21px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Watch school video tour"
-                                src="https://img.mysignature.io/a/v1/f/2/c/f2cc3990-ed60-550b-bda8-38a085ffd06c.png"
+                                src="/assets/f2cc3990-ed60-550b-bda8-38a085ffd06c.png"
                                 style="max-width: 490px; display: block;" width="230" /></span>
                     </td>
                 </tr>

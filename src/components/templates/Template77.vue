@@ -113,7 +113,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<img alt="created with MySignature.io" src="https://img.mysignature.io/b/2/9/e/29e9978b-dd7c-5bac-8d38-6e9f0c6b9b34.png?time=1709051112" style="display: block;" valign="top" width="376"/>
+<img alt="created with MySignature.io" src="/assets/29e9978b-dd7c-5bac-8d38-6e9f0c6b9b34.png" style="display: block;" valign="top" width="376"/>
 </td>
 </tr>
 </table>

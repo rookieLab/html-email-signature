@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse; font-size: 11.7px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/c/a/6/ca62e395-0cb8-5523-96d1-a501bc96d67f.png?time=1708620054" style="display: block; min-width: 142px;" width="142"/>
+<img alt="SignMaker" src="/assets/ca62e395-0cb8-5523-96d1-a501bc96d67f.png" style="display: block; min-width: 142px;" width="142"/>
 </td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 8px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Join our launch" src="https://img.mysignature.io/a/v1/1/c/5/1c5d377d-1640-5910-870d-5816d2c736d0.png" style="max-width: 490px; display: block;" width="135"/></span>
+<span><img alt="Join our launch" src="/assets/1c5d377d-1640-5910-870d-5816d2c736d0.png" style="max-width: 490px; display: block;" width="135"/></span>
 </td>
 </tr>
 </table><!-- -->

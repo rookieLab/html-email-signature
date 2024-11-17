@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best regards," src="https://img.mysignature.io/a/v1/c/0/3/c0339412-6cae-5023-9ada-cab44d6ff816.png" width="500"/>
+<img alt="Best regards," src="/assets/c0339412-6cae-5023-9ada-cab44d6ff816.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -15,7 +15,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/0/b/c/0bce1676-bf3a-54c0-b21d-89903ccd8b64.png?time=1726062711" style="display: block; min-width: 118px;" width="118"/>
+<img alt="SignMaker" src="/assets/0bce1676-bf3a-54c0-b21d-89903ccd8b64.png" style="display: block; min-width: 118px;" width="118"/>
 </td>
 <td style='border-left: 1px solid rgb(0, 0, 0); margin: 0.1px; padding: 0px 0px 0px 12px; font: 11.8px / 15.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);' valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -96,7 +96,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 15px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Schedule a Strategy Call" src="https://img.mysignature.io/a/v1/5/5/d/55d52021-0e4d-5e4f-bf71-930386ff80ee.png" style="max-width: 490px; display: block;" width="227"/></span>
+<span><img alt="Schedule a Strategy Call" src="/assets/55d52021-0e4d-5e4f-bf71-930386ff80ee.png" style="max-width: 490px; display: block;" width="227"/></span>
 </td>
 </tr>
 </table><!-- -->

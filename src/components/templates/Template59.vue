@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
-<img alt="SignMaker" src="https://img.mysignature.io/p/c/f/1/cf188c51-6819-5d3c-99ce-8b399123d99b.png?time=1685569257" style="display: block; min-width: 119px;" width="119"/>
+<img alt="SignMaker" src="/assets/cf188c51-6819-5d3c-99ce-8b399123d99b.png" style="display: block; min-width: 119px;" width="119"/>
 </td>
 <td style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);" valign="middle">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -78,14 +78,14 @@
 <!-- -->
 <tr>
 <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Meet me on Google Meet" src="https://img.mysignature.io/a/v1/a/d/0/ad0e7333-7b4f-56b6-a2a6-7118fc138bc3.png" style="display: block;" width="219"/></span>
+<span><img alt="Meet me on Google Meet" src="/assets/ad0e7333-7b4f-56b6-a2a6-7118fc138bc3.png" style="display: block;" width="219"/></span>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr style="cursor: pointer;">
 <td style="padding: 15px 0px 0px; margin: 0.1px;" width="30">
-<img alt="Please consider the environment before printing this email" src="https://img.mysignature.io/addons/v2/green-earth.png" style="display: block;"/>
+<img alt="Please consider the environment before printing this email" src="/assets/addons/green-earth.png" style="display: block;"/>
 </td>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: gray;">
                                                         Please consider the environment before printing this

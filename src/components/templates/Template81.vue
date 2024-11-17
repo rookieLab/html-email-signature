@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Sincerely," src="https://img.mysignature.io/a/v1/d/4/4/d442b938-a608-5a8d-8074-e0199ac4edc2.png" width="500"/>
+<img alt="Sincerely," src="/assets/d442b938-a608-5a8d-8074-e0199ac4edc2.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -14,7 +14,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/a/3/c/a3c921fb-8337-52e1-a281-df6a0dff237c.png?time=1709132107" style="display: block; min-width: 103px;" width="103"/>
+<img alt="SignMaker" src="/assets/a3c921fb-8337-52e1-a281-df6a0dff237c.png" style="display: block; min-width: 103px;" width="103"/>
 </td>
 <td style="margin: 0.1px; padding: 0px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -82,14 +82,14 @@
 <!-- -->
 <tr>
 <td style="padding: 19px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Meet me on GoToMeeting" src="https://img.mysignature.io/a/v1/7/8/6/786d6fec-de96-557b-afc6-22eebe40f76f.png" style="display: block;" width="213"/></span>
+<span><img alt="Meet me on GoToMeeting" src="/assets/786d6fec-de96-557b-afc6-22eebe40f76f.png" style="display: block;" width="213"/></span>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr style="cursor: pointer;">
 <td style="padding: 15px 0px 0px; margin: 0.1px;" width="30">
-<img alt="Please don’t print this email" src="https://img.mysignature.io/addons/v2/hand-leaves.png" style="display: block;"/>
+<img alt="Please don’t print this email" src="/assets/addons/hand-leaves.png" style="display: block;"/>
 </td>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                                                         Please don’t print this email</td>

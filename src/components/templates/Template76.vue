@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best regards," src="https://img.mysignature.io/a/v1/6/0/3/603814ad-3d1f-5c0d-8c48-afbf9b4a74cd.png" width="500"/>
+<img alt="Best regards," src="/assets/603814ad-3d1f-5c0d-8c48-afbf9b4a74cd.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -14,7 +14,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 9px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/5/5/7/55765d30-5abe-5cd9-96d9-eac81484d237.png?time=1724157307" style="display: block; min-width: 171px;" width="171"/>
+<img alt="SignMaker" src="/assets/55765d30-5abe-5cd9-96d9-eac81484d237.png" style="display: block; min-width: 171px;" width="171"/>
 </td>
 <td style="border-left: 2px solid rgb(106, 52, 27); margin: 0.1px; padding: 0px 0px 0px 9px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -83,7 +83,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 17px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Attend the Speech" src="https://img.mysignature.io/a/v1/8/f/6/8f63c736-d0ed-5fe4-9234-b5f1fecf074f.png" style="max-width: 490px; display: block;" width="177"/></span>
+<span><img alt="Attend the Speech" src="/assets/8f63c736-d0ed-5fe4-9234-b5f1fecf074f.png" style="max-width: 490px; display: block;" width="177"/></span>
 </td>
 </tr>
 </table>

@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Regards,"
-                        src="https://img.mysignature.io/a/v1/3/c/a/3ca55ebc-d304-5b09-b50a-0c1a31515ab2.png"
+                        src="/assets/3ca55ebc-d304-5b09-b50a-0c1a31515ab2.png"
                         width="500" />
                 </td>
             </tr>
@@ -17,7 +17,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/0/b/d/0bd70ff7-65c6-50fa-be4b-f962d8d97f46.png?time=1708943099"
+                                    src="/assets/0bd70ff7-65c6-50fa-be4b-f962d8d97f46.png"
                                     style="display: block; min-width: 135px;" width="135" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);"
@@ -115,12 +115,12 @@
                 <tr>
                     <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="appstore" height="38"
-                                src="https://img.mysignature.io/addons/v2/appstore_shape1_white.png"
+                                src="/assets/addons/appstore_shape1_white.png"
                                 style="display: block;" width="133" /></span>
                     </td>
                     <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="googleplay" height="38"
-                                src="https://img.mysignature.io/addons/v2/googleplay_shape1_white.png"
+                                src="/assets/addons/googleplay_shape1_white.png"
                                 style="display: block;" width="133" /></span>
                     </td>
                     <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">

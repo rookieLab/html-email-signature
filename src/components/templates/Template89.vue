@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/3/8/7/3873803d-418b-5483-b401-06e1c71ba398.png?time=1709215909" style="display: block; min-width: 153px;" width="153"/>
+<img alt="SignMaker" src="/assets/3873803d-418b-5483-b401-06e1c71ba398.png" style="display: block; min-width: 153px;" width="153"/>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -100,7 +100,7 @@
 <!-- -->
 <tr>
 <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Meet me on Skype" src="https://img.mysignature.io/a/v1/b/8/a/b8a97c80-7fc7-5518-9832-ef8d30a2382b.png" style="display: block;" width="167"/></span>
+<span><img alt="Meet me on Skype" src="/assets/b8a97c80-7fc7-5518-9832-ef8d30a2382b.png" style="display: block;" width="167"/></span>
 </td>
 </tr>
 </table>

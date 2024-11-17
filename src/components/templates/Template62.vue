@@ -4,14 +4,14 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Sincerely," src="https://img.mysignature.io/a/v1/6/b/9/6b9eeae4-dad1-50b4-bb08-2551dfbf722a.png" width="500"/>
+<img alt="Sincerely," src="/assets/6b9eeae4-dad1-50b4-bb08-2551dfbf722a.png" width="500"/>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
-<img alt="SignMaker" src="https://img.mysignature.io/p/2/d/1/2d13c468-ba78-5da5-933d-69b0d142c106.png?time=1685569257" style="display: block; min-width: 174px;" width="174"/>
+<img alt="SignMaker" src="/assets/2d13c468-ba78-5da5-933d-69b0d142c106.png" style="display: block; min-width: 174px;" width="174"/>
 </td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 16px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="View my reviews at Upwork" src="https://img.mysignature.io/a/v1/7/4/9/749d472c-daa2-5f8a-bc13-b6a1b2522503.png" style="max-width: 490px; display: block;" width="226"/></span>
+<span><img alt="View my reviews at Upwork" src="/assets/749d472c-daa2-5f8a-bc13-b6a1b2522503.png" style="max-width: 490px; display: block;" width="226"/></span>
 </td>
 </tr>
 </table><!-- -->

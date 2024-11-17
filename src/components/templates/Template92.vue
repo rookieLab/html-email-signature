@@ -78,7 +78,7 @@
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/1/3/8/1386cb6b-b66f-5f6b-a6ae-34de5dfb1c48.png?time=1709544034" style="display: block;" valign="top" width="298"/></span>
+<span><img alt="created with MySignature.io" src="/assets/1386cb6b-b66f-5f6b-a6ae-34de5dfb1c48.png" style="display: block;" valign="top" width="298"/></span>
 </td>
 </tr>
 </table>
@@ -86,7 +86,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 13px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Need assistance? Schedule a call" src="https://img.mysignature.io/a/v1/6/a/8/6a82d428-04dc-5ad5-940f-a8333550daff.png" style="max-width: 490px; display: block;" width="277"/></span>
+<span><img alt="Need assistance? Schedule a call" src="/assets/6a82d428-04dc-5ad5-940f-a8333550daff.png" style="max-width: 490px; display: block;" width="277"/></span>
 </td>
 </tr>
 </table><!-- -->

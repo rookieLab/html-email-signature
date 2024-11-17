@@ -66,7 +66,7 @@
 </table>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/e/f/7/ef73206a-9bed-5f2e-aebf-6d8be914e210.png?time=1709220593" style="display: block; min-width: 146px;" width="146"/>
+<img alt="SignMaker" src="/assets/ef73206a-9bed-5f2e-aebf-6d8be914e210.png" style="display: block; min-width: 146px;" width="146"/>
 </td>
 </tr>
 </table>
@@ -77,14 +77,14 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 15px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Let's make your homeownership dreams come true!" src="https://img.mysignature.io/a/v1/a/e/8/ae87af79-4eb9-5bfe-9ad4-c968b1aa3263.png" style="max-width: 490px; display: block;" width="425"/></span>
+<span><img alt="Let's make your homeownership dreams come true!" src="/assets/ae87af79-4eb9-5bfe-9ad4-c968b1aa3263.png" style="max-width: 490px; display: block;" width="425"/></span>
 </td>
 </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<img alt="created with MySignature.io" src="https://img.mysignature.io/b/e/f/7/ef73206a-9bed-5f2e-aebf-6d8be914e210.png?time=1709220593" style="display: block;" valign="top" width="423"/>
+<img alt="created with MySignature.io" src="/assets/ef73206a-9bed-5f2e-aebf-6d8be914e210.png" style="display: block;" valign="top" width="423"/>
 </td>
 </tr>
 </table>

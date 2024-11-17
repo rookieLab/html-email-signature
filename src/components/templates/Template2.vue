@@ -4,7 +4,7 @@
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
                     <img alt="SignMaker"
-                        src="https://img.mysignature.io/p/9/1/2/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195"
+                        src="/assets/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png"
                         style="display: block; min-width: 100px;" width="100" />
                 </td>
             </tr>
@@ -92,17 +92,17 @@
                 <tr>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="instagram" height="28"
-                                src="https://img.mysignature.io/addons/v2/instagram_v1_shape3_i.png"
+                                src="/assets/addons/instagram_v1_shape3_i.png"
                                 style="display: block;" width="98" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="twitter" height="28"
-                                src="https://img.mysignature.io/addons/v2/twitter_v1_shape3_i.png"
+                                src="/assets/addons/twitter_v1_shape3_i.png"
                                 style="display: block;" width="98" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="28"
-                                src="https://img.mysignature.io/addons/v2/youtube_v1_shape3_i.png"
+                                src="/assets/addons/youtube_v1_shape3_i.png"
                                 style="display: block;" width="98" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">

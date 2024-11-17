@@ -68,7 +68,7 @@
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/b/f/c/bfcf967c-6b64-5c12-a27c-c31c8baceaf3.png?time=1685569257" style="display: block;" valign="top" width="368"/></span>
+<span><img alt="created with MySignature.io" src="/assets/bfcf967c-6b64-5c12-a27c-c31c8baceaf3.png" style="display: block;" valign="top" width="368"/></span>
 </td>
 </tr>
 </table>

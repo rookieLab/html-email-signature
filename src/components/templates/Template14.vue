@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best wishes,"
-                        src="https://img.mysignature.io/a/v1/5/a/d/5ad1f7d5-0b4d-58f7-b8a0-3b1813da7e93.png"
+                        src="/assets/5ad1f7d5-0b4d-58f7-b8a0-3b1813da7e93.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/8/b/e/8be7ede2-72ef-59db-bf44-57b3dc487f04.png?time=1709118805"
+                                    src="/assets/8be7ede2-72ef-59db-bf44-57b3dc487f04.png"
                                     style="display: block; min-width: 136px;" width="136" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);"
@@ -118,12 +118,12 @@
                 <tr>
                     <td style="padding: 19px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="instagram" height="39"
-                                src="https://img.mysignature.io/addons/v2/instagram_v1_shape2_i.png"
+                                src="/assets/addons/instagram_v1_shape2_i.png"
                                 style="display: block;" width="137" /></span>
                     </td>
                     <td style="padding: 19px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="39"
-                                src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_i.png"
+                                src="/assets/addons/youtube_v1_shape2_i.png"
                                 style="display: block;" width="137" /></span>
                     </td>
                     <td style="padding: 19px 4px 4px 0px; margin: 0.1px;">

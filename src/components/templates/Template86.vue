@@ -59,10 +59,10 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="facebook" height="29" src="https://img.mysignature.io/addons/v2/facebook_v1_shape2_i.png" style="display: block;" width="102"/></span>
+<span><img alt="facebook" height="29" src="/assets/addons/facebook_v1_shape2_i.png" style="display: block;" width="102"/></span>
 </td>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="youtube" height="29" src="https://img.mysignature.io/addons/v2/youtube_v3_shape2_i.png" style="display: block;" width="102"/></span>
+<span><img alt="youtube" height="29" src="/assets/addons/youtube_v3_shape2_i.png" style="display: block;" width="102"/></span>
 </td>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
 <!-- -->
@@ -75,7 +75,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/e/0/9/e0962b23-a56c-5912-bb49-580595d48f3c.png?time=1709203140" style="display: block;" valign="top" width="388"/></span>
+<span><img alt="created with MySignature.io" src="/assets/e0962b23-a56c-5912-bb49-580595d48f3c.png" style="display: block;" valign="top" width="388"/></span>
 </td>
 </tr>
 </table>

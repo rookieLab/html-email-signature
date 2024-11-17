@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
                     <img alt="SignMaker"
-                        src="https://img.mysignature.io/p/f/7/5/f7573376-e08c-5aad-b426-938426dd2483.png?time=1688976129"
+                        src="/assets/f7573376-e08c-5aad-b426-938426dd2483.png"
                         style="display: block; min-width: 169px;" width="169" />
                 </td>
             </tr>
@@ -105,7 +105,7 @@
                 <tr>
                     <td style="padding: 15px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="47"
-                                src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_b.png"
+                                src="/assets/addons/youtube_v1_shape2_b.png"
                                 style="display: block;" width="165" /></span>
                     </td>
                     <td style="padding: 15px 4px 4px 0px; margin: 0.1px;">

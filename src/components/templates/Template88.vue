@@ -85,7 +85,7 @@
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 15px 0px 0px; font: 11.8px / 15.1px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); cursor: pointer;'>
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/7/4/b/74b666ad-914b-509a-8170-a1baceec0ce5.png?time=1709213271" style="display: block;" valign="top" width="300"/></span>
+<span><img alt="created with MySignature.io" src="/assets/74b666ad-914b-509a-8170-a1baceec0ce5.png" style="display: block;" valign="top" width="300"/></span>
 </td>
 </tr>
 </table>
@@ -95,7 +95,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 18px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<img alt="Let's find your perfect sunrise property! " src="https://img.mysignature.io/a/v1/c/a/2/ca2c82e5-4335-5972-83c4-9eab7d28728f.png" style="max-width: 490px; display: block;" width="300"/>
+<img alt="Let's find your perfect sunrise property! " src="/assets/ca2c82e5-4335-5972-83c4-9eab7d28728f.png" style="max-width: 490px; display: block;" width="300"/>
 </td>
 </tr>
 </table><!-- -->

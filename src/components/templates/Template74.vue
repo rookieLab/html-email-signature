@@ -4,14 +4,14 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best wishes," src="https://img.mysignature.io/a/v1/d/9/0/d9075265-1584-547f-a729-465bebee8e0e.png" width="500"/>
+<img alt="Best wishes," src="/assets/d9075265-1584-547f-a729-465bebee8e0e.png" width="500"/>
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 12.6px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
-<span><img alt="SignMaker" src="https://img.mysignature.io/p/8/b/e/8be91dbb-80cc-55c2-a15f-900c164c51b8.png?time=1724157807" style="display: block; min-width: 129px;" width="129"/></span>
+<span><img alt="SignMaker" src="/assets/8be91dbb-80cc-55c2-a15f-900c164c51b8.png" style="display: block; min-width: 129px;" width="129"/></span>
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 14px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Find your home now" src="https://img.mysignature.io/a/v1/2/f/d/2fd1b1c7-417e-5f01-b7d6-f8bf9b0da783.png" style="max-width: 490px; display: block;" width="167"/></span>
+<span><img alt="Find your home now" src="/assets/2fd1b1c7-417e-5f01-b7d6-f8bf9b0da783.png" style="max-width: 490px; display: block;" width="167"/></span>
 </td>
 </tr>
 </table><!-- -->

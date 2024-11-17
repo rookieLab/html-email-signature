@@ -109,17 +109,17 @@
                 <tr>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="36"
-                                src="https://img.mysignature.io/addons/v2/youtube_v3_shape1_i.png"
+                                src="/assets/addons/youtube_v3_shape1_i.png"
                                 style="display: block;" width="126" /></span>
                     </td>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="facebook" height="36"
-                                src="https://img.mysignature.io/addons/v2/facebook_v2_shape1_i.png"
+                                src="/assets/addons/facebook_v2_shape1_i.png"
                                 style="display: block;" width="126" /></span>
                     </td>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="linkedin" height="36"
-                                src="https://img.mysignature.io/addons/v2/linkedin_v3_shape1_i.png"
+                                src="/assets/addons/linkedin_v3_shape1_i.png"
                                 style="display: block;" width="126" /></span>
                     </td>
                 </tr>

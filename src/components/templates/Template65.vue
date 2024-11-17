@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best," src="https://img.mysignature.io/a/v1/e/3/7/e376ce3b-d27d-519e-b297-34036c70ff74.png" width="500"/>
+<img alt="Best," src="/assets/e376ce3b-d27d-519e-b297-34036c70ff74.png" width="500"/>
 </td>
 </tr>
 </table>

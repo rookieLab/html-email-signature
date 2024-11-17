@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="I'm looking for a job!"
-                        src="https://img.mysignature.io/a/v1/8/a/3/8a37bce5-2732-5589-81f7-c83062a49a29.png"
+                        src="/assets/8a37bce5-2732-5589-81f7-c83062a49a29.png"
                         width="500" />
                 </td>
             </tr>
@@ -17,7 +17,7 @@
                             <tr>
                                 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
                                     <img alt="SignMaker"
-                                        src="https://img.mysignature.io/p/1/e/a/1ea77c83-09b2-52cd-adb1-ab14e4af67ff.png?time=1712664516"
+                                        src="/assets/1ea77c83-09b2-52cd-adb1-ab14e4af67ff.png"
                                         style="display: block; min-width: 149px;" width="149" />
                                 </td>
                                 <td style='border-left: 1px solid rgb(0, 0, 0); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.6px / 16.1px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'
@@ -144,7 +144,7 @@
                 <tr>
                     <td style="padding: 20px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <img alt="View my CV and let's explore potential collaborations."
-                            src="https://img.mysignature.io/a/v1/5/2/3/5230e021-d3ed-5e35-89b8-113f5ffbcf97.png"
+                            src="/assets/5230e021-d3ed-5e35-89b8-113f5ffbcf97.png"
                             style="max-width: 490px; display: block;" width="420" />
                     </td>
                 </tr>

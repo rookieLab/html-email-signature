@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
-<img alt="SignMaker" src="https://img.mysignature.io/p/1/6/8/168511cc-c20c-50e7-b912-de7f47d4f490.png?time=1709300373" style="display: block; min-width: 121px;" width="121"/>
+<img alt="SignMaker" src="/assets/168511cc-c20c-50e7-b912-de7f47d4f490.png" style="display: block; min-width: 121px;" width="121"/>
 </td>
 <td style="margin: 0.1px; padding: 0px; font: 11.5px / 14.7px Tahoma; color: rgb(0, 0, 1);" valign="middle">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -84,7 +84,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 15px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Check out our research publications" src="https://img.mysignature.io/a/v1/d/6/b/d6baad22-828d-5584-9808-306984e2fbad.png" style="max-width: 490px; display: block;" width="296"/></span>
+<span><img alt="Check out our research publications" src="/assets/d6baad22-828d-5584-9808-306984e2fbad.png" style="max-width: 490px; display: block;" width="296"/></span>
 </td>
 </tr>
 </table>

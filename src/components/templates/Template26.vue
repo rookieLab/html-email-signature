@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Kind regards,"
-                        src="https://img.mysignature.io/a/v1/e/3/4/e34190c9-9a03-5b3a-b4ef-03f0dcae7688.png"
+                        src="/assets/e34190c9-9a03-5b3a-b4ef-03f0dcae7688.png"
                         width="500" />
                 </td>
             </tr>
@@ -18,7 +18,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/5/5/1/55148c6f-d494-5f97-8cc6-4bafcc1a19e8.png?time=1709291317"
+                                    src="/assets/55148c6f-d494-5f97-8cc6-4bafcc1a19e8.png"
                                     style="display: block; min-width: 110px;" width="110" />
                             </td>
                             <td style='margin: 0.1px; padding: 0px; font: 12.5px / 15.9px "Lucida Console", Monaco, monospace; color: rgb(0, 0, 1);'
@@ -110,7 +110,7 @@
                 <tr>
                     <td style="padding: 15px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Discover our latest business programs"
-                                src="https://img.mysignature.io/a/v1/5/3/7/53724a0f-225d-5453-a292-773bbe9cbd27.png"
+                                src="/assets/53724a0f-225d-5453-a292-773bbe9cbd27.png"
                                 style="max-width: 490px; display: block;" width="375" /></span>
                     </td>
                 </tr>
@@ -120,7 +120,7 @@
                 <tr>
                     <td style="padding: 11px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Google Meet"
-                                src="https://img.mysignature.io/a/v1/7/b/f/7bfd3300-ca21-549e-a5b4-0b4abb4ace67.png"
+                                src="/assets/7bfd3300-ca21-549e-a5b4-0b4abb4ace67.png"
                                 style="display: block;" width="224" /></span>
                     </td>
                 </tr>

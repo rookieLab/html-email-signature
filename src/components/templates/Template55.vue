@@ -7,7 +7,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/2/8/7/287e6bc7-fe66-5123-98dc-b28470cd2110.png?time=1685569257" style="display: block; min-width: 182px;" width="182"/>
+<img alt="SignMaker" src="/assets/287e6bc7-fe66-5123-98dc-b28470cd2110.png" style="display: block; min-width: 182px;" width="182"/>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 14.9px / 18.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">

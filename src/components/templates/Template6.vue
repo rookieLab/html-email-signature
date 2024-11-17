@@ -7,7 +7,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/8/d/3/8d3c292b-c231-52c5-ac42-ce03bc09d651.png?time=1708944413"
+                                    src="/assets/8d3c292b-c231-52c5-ac42-ce03bc09d651.png"
                                     style="display: block; min-width: 133px;" width="133" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);"
@@ -111,7 +111,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 0px 0px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <img alt="created with MySignature.io"
-                        src="https://img.mysignature.io/b/8/d/3/8d3c292b-c231-52c5-ac42-ce03bc09d651.png?time=1708944413"
+                        src="/assets/8d3c292b-c231-52c5-ac42-ce03bc09d651.png"
                         style="display: block;" valign="top" width="346" />
                 </td>
             </tr>

@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best regards,"
-                        src="https://img.mysignature.io/a/v1/0/b/f/0bfbb707-8d7f-567a-8dd8-2d56918c6dee.png"
+                        src="/assets/0bfbb707-8d7f-567a-8dd8-2d56918c6dee.png"
                         width="500" />
                 </td>
             </tr>
@@ -73,7 +73,7 @@
                 <tr>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="linkedin" height="32"
-                                src="https://img.mysignature.io/addons/v2/linkedin_v2_shape1_i.png"
+                                src="/assets/addons/linkedin_v2_shape1_i.png"
                                 style="display: block;" width="112" /></span>
                     </td>
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">

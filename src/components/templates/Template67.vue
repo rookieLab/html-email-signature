@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Best regards," src="https://img.mysignature.io/a/v1/5/8/d/58d55eba-c42a-5637-a60d-4d8b2c86eab3.png" width="500"/>
+<img alt="Best regards," src="/assets/58d55eba-c42a-5637-a60d-4d8b2c86eab3.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -14,7 +14,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/5/e/a/5eab8ebb-4d65-57dd-bd27-0458ea9f8775.png?time=1721976979" style="display: block; min-width: 117px;" width="117"/>
+<img alt="SignMaker" src="/assets/5eab8ebb-4d65-57dd-bd27-0458ea9f8775.png" style="display: block; min-width: 117px;" width="117"/>
 </td>
 <td style="margin: 0.1px; padding: 0px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -86,7 +86,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/5/e/a/5eab8ebb-4d65-57dd-bd27-0458ea9f8775.png?time=1721976979" style="display: block;" valign="top" width="306"/></span>
+<span><img alt="created with MySignature.io" src="/assets/5eab8ebb-4d65-57dd-bd27-0458ea9f8775.png" style="display: block;" valign="top" width="306"/></span>
 </td>
 </tr>
 </table>

@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Thanks,"
-                        src="https://img.mysignature.io/a/v1/1/b/7/1b7b7871-21b1-5d11-b28f-78355be27c1c.png"
+                        src="/assets/1b7b7871-21b1-5d11-b28f-78355be27c1c.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/4/9/d/49d02759-50a0-5b96-b089-4643eda7d1f8.png?time=1709568091"
+                                    src="/assets/49d02759-50a0-5b96-b089-4643eda7d1f8.png"
                                     style="display: block; min-width: 140px;" width="140" />
                             </td>
                             <td style='margin: 0.1px; padding: 0px; font: 12.6px / 16.1px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'
@@ -117,7 +117,7 @@
                 <tr style="cursor: pointer;">
                     <td style="padding: 15px 0px 0px; margin: 0.1px;" width="30">
                         <img alt="Please don’t print this email"
-                            src="https://img.mysignature.io/addons/v2/green-earth.png" style="display: block;" />
+                            src="/assets/addons/green-earth.png" style="display: block;" />
                     </td>
                     <td
                         style='margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px "Times New Roman", Times, serif; color: gray;'>
@@ -128,7 +128,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/4/9/d/49d02759-50a0-5b96-b089-4643eda7d1f8.png?time=1709568091"
+                            src="/assets/49d02759-50a0-5b96-b089-4643eda7d1f8.png"
                             style="display: block;" valign="top" width="312" />
                     </td>
                 </tr>

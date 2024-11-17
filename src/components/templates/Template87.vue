@@ -41,7 +41,7 @@
 </table>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-<img alt="SignMaker" src="https://img.mysignature.io/p/b/9/6/b964f00a-d835-5d71-9087-f3eb8dd85c50.png?time=1709205071" style="display: block; min-width: 109px;" width="109"/>
+<img alt="SignMaker" src="/assets/b964f00a-d835-5d71-9087-f3eb8dd85c50.png" style="display: block; min-width: 109px;" width="109"/>
 </td>
 </tr>
 </table>
@@ -49,7 +49,7 @@
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 15px 0px 0px; font: 13.4px / 17.1px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;'>
-<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/b/9/6/b964f00a-d835-5d71-9087-f3eb8dd85c50.png?time=1709205071" style="display: block;" valign="top" width="347"/></span>
+<span><img alt="created with MySignature.io" src="/assets/b964f00a-d835-5d71-9087-f3eb8dd85c50.png" style="display: block;" valign="top" width="347"/></span>
 </td>
 </tr>
 </table>
@@ -57,13 +57,13 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 10px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="pinterest" height="32" src="https://img.mysignature.io/addons/v2/pinterest_v1_shape3_i.png" style="display: block;" width="112"/></span>
+<span><img alt="pinterest" height="32" src="/assets/addons/pinterest_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 10px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="instagram" height="32" src="https://img.mysignature.io/addons/v2/instagram_v1_shape3_i.png" style="display: block;" width="112"/></span>
+<span><img alt="instagram" height="32" src="/assets/addons/instagram_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 10px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="behance" height="32" src="https://img.mysignature.io/addons/v2/behance_v1_shape3_i.png" style="display: block;" width="112"/></span>
+<span><img alt="behance" height="32" src="/assets/addons/behance_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 10px 4px 4px 0px; margin: 0.1px;">
 <!-- -->

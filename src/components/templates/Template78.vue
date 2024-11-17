@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Happy Holidays!" src="https://img.mysignature.io/a/v1/0/2/1/02181f9f-a48e-5bfe-9097-f3dd07b0d66e.png" width="500"/>
+<img alt="Happy Holidays!" src="/assets/02181f9f-a48e-5bfe-9097-f3dd07b0d66e.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -84,7 +84,7 @@
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 15px 0px 0px; font: 12.6px / 16.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;'>
-<img alt="created with MySignature.io" src="https://img.mysignature.io/b/6/3/1/631d8503-6a46-52f7-94c2-ef65e4381efe.png?time=1709111467" style="display: block;" valign="top" width="291"/>
+<img alt="created with MySignature.io" src="/assets/631d8503-6a46-52f7-94c2-ef65e4381efe.png" style="display: block;" valign="top" width="291"/>
 </td>
 </tr>
 </table>

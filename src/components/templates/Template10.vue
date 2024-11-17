@@ -3,7 +3,7 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="https://img.mysignature.io/a/v1/b/4/0/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
+                        src="/assets/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
                         alt="Regards,"></td>
             </tr>
         </table>
@@ -14,7 +14,7 @@
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
                                 <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;"><img
-                                        src="https://img.mysignature.io/p/7/b/5/7b522916-9d8a-5aed-8391-bf432a65fcfc.png?time=1709033673"
+                                        src="/assets/7b522916-9d8a-5aed-8391-bf432a65fcfc.png"
                                         width="120" alt=" &quot;created with MySignature.io&quot;"
                                         style="display: block; min-width: 120px;"></td>
                                 <td valign="top"
@@ -68,13 +68,13 @@
             <table cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/facebook_v1_shape2_b.png" height="34"
+                                src="/assets/addons/facebook_v1_shape2_b.png" height="34"
                                 width="119" alt="facebook" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/twitter_v1_shape2_b.png" height="34"
+                                src="/assets/addons/twitter_v1_shape2_b.png" height="34"
                                 width="119" alt="twitter" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/linkedin_v1_shape2_b.png" height="34"
+                                src="/assets/addons/linkedin_v1_shape2_b.png" height="34"
                                 width="119" alt="linkedin" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
                 </tr>

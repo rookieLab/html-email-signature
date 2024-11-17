@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Happy Holidays!"
-                        src="https://img.mysignature.io/a/v1/a/f/3/af3ace5e-0701-592c-ab09-b4cea72f38e1.png"
+                        src="/assets/af3ace5e-0701-592c-ab09-b4cea72f38e1.png"
                         width="500" />
                 </td>
             </tr>
@@ -17,7 +17,7 @@
                             <tr>
                                 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
                                     <img alt="SignMaker"
-                                        src="https://img.mysignature.io/p/7/3/b/73b11b3b-992a-5862-8886-eddac23928d6.png?time=1709023265"
+                                        src="/assets/73b11b3b-992a-5862-8886-eddac23928d6.png"
                                         style="display: block; min-width: 145px;" width="145" />
                                 </td>
                                 <td style='border-left: 1px solid rgb(85, 24, 4); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.8px / 16.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'
@@ -125,7 +125,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 15px; cursor: pointer;">
                         <img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/7/3/b/73b11b3b-992a-5862-8886-eddac23928d6.png?time=1709023265"
+                            src="/assets/73b11b3b-992a-5862-8886-eddac23928d6.png"
                             style="display: block;" valign="top" width="262" />
                     </td>
                 </tr>

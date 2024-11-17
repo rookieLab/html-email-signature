@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Sincerely,"
-                        src="https://img.mysignature.io/a/v1/2/3/2/232212d4-d0b2-5e2b-a52f-a960a0eb3535.png"
+                        src="/assets/232212d4-d0b2-5e2b-a52f-a960a0eb3535.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/7/9/d/79dd604a-a917-50e4-90ed-b8881f375e12.png?time=1709049312"
+                                    src="/assets/79dd604a-a917-50e4-90ed-b8881f375e12.png"
                                     style="display: block; min-width: 98px;" width="98" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);"
@@ -121,12 +121,12 @@
                 <tr>
                     <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="28"
-                                src="https://img.mysignature.io/addons/v2/youtube_v3_shape2_i.png"
+                                src="/assets/addons/youtube_v3_shape2_i.png"
                                 style="display: block;" width="98" /></span>
                     </td>
                     <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="instagram" height="28"
-                                src="https://img.mysignature.io/addons/v2/instagram_v2_shape2_i.png"
+                                src="/assets/addons/instagram_v2_shape2_i.png"
                                 style="display: block;" width="98" /></span>
                     </td>
                     <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
@@ -141,7 +141,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <span><img alt="created with MySignature.io"
-                                src="https://img.mysignature.io/b/7/9/d/79dd604a-a917-50e4-90ed-b8881f375e12.png?time=1709049312"
+                                src="/assets/79dd604a-a917-50e4-90ed-b8881f375e12.png"
                                 style="display: block;" valign="top" width="288" /></span>
                     </td>
                 </tr>

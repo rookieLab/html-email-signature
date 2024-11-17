@@ -7,7 +7,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 9px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/f/3/4/f340abe0-ea46-5d90-82bc-e0a50981024e.png?time=1685569257"
+                                    src="/assets/f340abe0-ea46-5d90-82bc-e0a50981024e.png"
                                     style="display: block; min-width: 154px;" width="154" />
                             </td>
                             <td style="border-left: 2px solid rgb(235, 62, 145); margin: 0.1px; padding: 0px 0px 0px 9px;"
@@ -149,7 +149,7 @@
                 <tr>
                     <td style="padding: 9px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Two Hours Delivery. Order Now"
-                                src="https://img.mysignature.io/a/v1/9/e/b/9eb34636-4d7a-5852-ab15-26862e7ac4a3.png"
+                                src="/assets/9eb34636-4d7a-5852-ab15-26862e7ac4a3.png"
                                 style="max-width: 490px; display: block;" width="313" /></span>
                     </td>
                 </tr>

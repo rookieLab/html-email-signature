@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best regards,"
-                        src="https://img.mysignature.io/a/v1/a/f/1/af14d5b1-de92-554a-b267-3120d43451f7.png"
+                        src="/assets/af14d5b1-de92-554a-b267-3120d43451f7.png"
                         width="500" />
                 </td>
             </tr>
@@ -18,7 +18,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/f/0/1/f01ae626-b336-56d7-9604-bcd3adf615ff.png?time=1708944713"
+                                    src="/assets/f01ae626-b336-56d7-9604-bcd3adf615ff.png"
                                     style="display: block; min-width: 106px;" width="106" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);"

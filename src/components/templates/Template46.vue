@@ -7,7 +7,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/2/f/3/2f3ce586-4e89-5468-8024-a8fddcb27ab1.png?time=1685569257"
+                                    src="/assets/2f3ce586-4e89-5468-8024-a8fddcb27ab1.png"
                                     style="display: block; min-width: 139px;" width="139" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px;" valign="top">

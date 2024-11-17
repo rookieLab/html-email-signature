@@ -7,7 +7,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/4/8/5/485722b4-b7a2-51cb-a783-858916941755.png?time=1685569257"
+                                    src="/assets/485722b4-b7a2-51cb-a783-858916941755.png"
                                     style="display: block; min-width: 100px;" width="100" />
                             </td>
                             <td style='margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.8px / 16.3px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'
@@ -127,7 +127,7 @@
                 <tr>
                     <td style="padding: 12px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Zoom"
-                                src="https://img.mysignature.io/a/v1/a/2/a/a2af7570-7bf9-50e8-9673-9170b2cf670c.png"
+                                src="/assets/a2af7570-7bf9-50e8-9673-9170b2cf670c.png"
                                 style="display: block;" width="168" /></span>
                     </td>
                 </tr>

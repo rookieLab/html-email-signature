@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Achieve More!"
-                        src="https://img.mysignature.io/a/v1/4/d/5/4d53a4cb-c582-5346-bbc3-ce88b15c569e.png"
+                        src="/assets/4d53a4cb-c582-5346-bbc3-ce88b15c569e.png"
                         width="500" />
                 </td>
             </tr>
@@ -95,7 +95,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 20px 20px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <span><img alt="created with MySignature.io"
-                            src="https://img.mysignature.io/b/b/6/8/b68b25a9-40ef-579b-853e-f2ea91bd371d.png?time=1709288246"
+                            src="/assets/b68b25a9-40ef-579b-853e-f2ea91bd371d.png"
                             style="display: block;" valign="top" width="386" /></span>
                 </td>
             </tr>
@@ -105,7 +105,7 @@
                 <tr>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="facebook" height="41"
-                                src="https://img.mysignature.io/addons/v2/facebook_v2_shape1_i.png"
+                                src="/assets/addons/facebook_v2_shape1_i.png"
                                 style="display: block;" width="144" /></span>
                     </td>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
@@ -121,7 +121,7 @@
                 <tr>
                     <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Zoom"
-                                src="https://img.mysignature.io/a/v1/b/e/f/befec403-19d9-5f8b-947f-5e76f2423281.png"
+                                src="/assets/befec403-19d9-5f8b-947f-5e76f2423281.png"
                                 style="display: block;" width="184" /></span>
                     </td>
                 </tr>

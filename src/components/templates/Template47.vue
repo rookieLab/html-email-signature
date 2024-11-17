@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Stay healthy"
-                        src="https://img.mysignature.io/a/v1/f/5/e/f5e057d6-ca5f-5f9c-bfff-0e5cf56a60ac.png"
+                        src="/assets/f5e057d6-ca5f-5f9c-bfff-0e5cf56a60ac.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
                                 <span><img alt="SignMaker"
-                                        src="https://img.mysignature.io/p/b/6/4/b648ec8e-360a-5dc1-9dc6-013afc68f2b9.png?time=1685569257"
+                                        src="/assets/b648ec8e-360a-5dc1-9dc6-013afc68f2b9.png"
                                         style="display: block; min-width: 137px;" width="137" /></span>
                             </td>
                             <td style='margin: 0.1px; padding: 0px; font: 12.8px / 16.3px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'
@@ -101,7 +101,7 @@
                 <tr>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="youtube" height="35"
-                                src="https://img.mysignature.io/addons/v2/youtube_v2_shape1_b.png"
+                                src="/assets/addons/youtube_v2_shape1_b.png"
                                 style="display: block;" width="123" /></span>
                     </td>
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
@@ -115,7 +115,7 @@
             <table cellpadding="0" style="border-collapse: collapse;" width="500">
                 <tr style="cursor: pointer;">
                     <td style="padding: 15px 0px 0px; margin: 0.1px;" width="30">
-                        <img alt="Save paper. Don’t print" src="https://img.mysignature.io/addons/v2/hand-leaves.png"
+                        <img alt="Save paper. Don’t print" src="/assets/addons/hand-leaves.png"
                             style="display: block;" />
                     </td>
                     <td

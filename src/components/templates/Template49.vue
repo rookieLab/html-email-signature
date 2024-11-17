@@ -8,7 +8,7 @@
                             <tr>
                                 <td style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;" valign="top">
                                     <img alt="SignMaker"
-                                        src="https://img.mysignature.io/p/5/2/f/52f4288e-4dc8-5102-8765-d5a86e57373e.png?time=1685569257"
+                                        src="/assets/52f4288e-4dc8-5102-8765-d5a86e57373e.png"
                                         style="display: block; min-width: 161px;" width="161" />
                                 </td>
                                 <td style='border-left: 1px solid rgb(195, 95, 62); margin: 0.1px; padding: 0px 0px 0px 12px; font: 11.8px / 15.1px "Comic Sans MS", cursive, sans-serif; color: rgb(0, 0, 1);'
@@ -101,7 +101,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 15px; cursor: pointer;">
                         <span><img alt="created with MySignature.io"
-                                src="https://img.mysignature.io/b/5/2/f/52f4288e-4dc8-5102-8765-d5a86e57373e.png?time=1685569257"
+                                src="/assets/52f4288e-4dc8-5102-8765-d5a86e57373e.png"
                                 style="display: block;" valign="top" width="446" /></span>
                     </td>
                 </tr>
@@ -112,7 +112,7 @@
                 <tr>
                     <td style="padding: 11px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Visit our cosy bakery! It will be delicious!"
-                                src="https://img.mysignature.io/a/v1/e/5/2/e5245a3a-5585-5c50-ba51-53b806decd47.png"
+                                src="/assets/e5245a3a-5585-5c50-ba51-53b806decd47.png"
                                 style="max-width: 490px; display: block;" width="363" /></span>
                     </td>
                 </tr>

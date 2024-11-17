@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Happy Holidays!"
-                        src="https://img.mysignature.io/a/v1/b/1/d/b1d475ca-4e49-5e99-b395-06be755481d1.png"
+                        src="/assets/b1d475ca-4e49-5e99-b395-06be755481d1.png"
                         width="500" />
                 </td>
             </tr>
@@ -16,7 +16,7 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
                                 <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/6/c/4/6c480a5c-075a-57fb-8bcf-1c00fa0fd75e.png?time=1724157566"
+                                    src="/assets/6c480a5c-075a-57fb-8bcf-1c00fa0fd75e.png"
                                     style="display: block; min-width: 120px;" width="120" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);"
@@ -114,7 +114,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 0px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <img alt="created with MySignature.io"
-                        src="https://img.mysignature.io/b/6/c/4/6c480a5c-075a-57fb-8bcf-1c00fa0fd75e.png?time=1724157566"
+                        src="/assets/6c480a5c-075a-57fb-8bcf-1c00fa0fd75e.png"
                         style="display: block;" valign="top" width="382" />
                 </td>
             </tr>

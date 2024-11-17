@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Bon Appétit"
-                        src="https://img.mysignature.io/a/v1/1/4/1/14110db7-468d-5654-8708-0f42071862ab.png"
+                        src="/assets/14110db7-468d-5654-8708-0f42071862ab.png"
                         width="500" />
                 </td>
             </tr>

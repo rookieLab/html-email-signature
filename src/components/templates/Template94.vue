@@ -6,7 +6,7 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;"><img
-                                    src="https://img.mysignature.io/p/1/6/5/16581aab-be5e-5657-ac28-2159b7f7dbcb.png?time=1709306910"
+                                    src="/assets/16581aab-be5e-5657-ac28-2159b7f7dbcb.png"
                                     width="140" alt=" &quot;created with MySignature.io&quot;"
                                     style="display: block; min-width: 140px;"></td>
                             <td valign="top" style="margin: 0.1px; padding: 0px;">
@@ -98,7 +98,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 0px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <span><img
-                            src="https://img.mysignature.io/b/1/6/5/16581aab-be5e-5657-ac28-2159b7f7dbcb.png?time=1709306910"
+                            src="/assets/16581aab-be5e-5657-ac28-2159b7f7dbcb.png"
                             valign="top" width="389" alt="created with MySignature.io" style="display: block;"></span>
                 </td>
             </tr>
@@ -107,7 +107,7 @@
             <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
                 <tr>
                     <td style="padding: 14px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
-                                src="https://img.mysignature.io/a/v1/5/e/e/5eed6bd6-6f2a-53e6-9580-58c4e886f692.png"
+                                src="/assets/5eed6bd6-6f2a-53e6-9580-58c4e886f692.png"
                                 alt="Join our video conference" width="198" style="display: block;"></span></td>
                 </tr>
             </table>

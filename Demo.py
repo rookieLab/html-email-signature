@@ -39,24 +39,26 @@ def downlaod_img(_src):
         
         # Extract filename from URL
         filename = os.path.basename(_src)
-        addons
-        
 
         # Create images directory if it doesn't exist
-        if not os.path.exists('images'):
-            os.makedirs('images')
-        if not os.path.exists('images/addons'):
-            os.makedirs('images')
+        if not os.path.exists('assets'):
+            os.makedirs('assets')
+        if not os.path.exists('assets/addons'):
+            os.makedirs('assets/addons')
             
         # Download and save image
         img_data = requests.get(_src).content
         filename = filename.split('?')[0]
+       
         if "addons" in _src:
-            with open(f'images/addons/{filename}', 'wb') as f:
+            with open(f'assets/addons/{filename}', 'wb') as f:
                 f.write(img_data)
+            new_src = f'/assets/addons/{filename}'
         else:
-            with open(f'images/{filename}', 'wb') as f:
+            with open(f'assets/{filename}', 'wb') as f:
                 f.write(img_data)
+            new_src = f'/assets/{filename}'
+        return new_src
     except Exception as e:
         print(f"Error downloading image {_src}: {str(e)}")
 
@@ -72,8 +74,10 @@ def replace_vue_file_img_path(old_vue_content):
     for img in img_tags:
         src = img.get('src')
         if src and src.startswith('http'):
-            downlaod_img(src)
-    
+            new_src = downlaod_img(src)
+            old_vue_content=old_vue_content.replace(src,new_src)
+       
+    return old_vue_content
 
 
 
@@ -84,9 +88,12 @@ if __name__ == "__main__":
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    
-    for i in range(1,2):
+    import time
+    for i in range(33,199):
         vue_path = f"src/components/templates/Template{i}.vue"
         vue_content = load_vue_file(vue_path)
-        replace_vue_file_img_path(vue_content)
-        
+        new_vue_content = replace_vue_file_img_path(vue_content)
+        with open(vue_path, 'w+',encoding="utf-8") as f:
+            f.write(new_vue_content)
+        time.sleep(3)
+        print(vue_path)

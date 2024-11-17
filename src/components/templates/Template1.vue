@@ -3,9 +3,7 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <img alt="Regards,"
-                        src="https://img.mysignature.io/a/v1/8/c/7/8c7f336d-810a-5088-bc33-029256f51e61.png"
-                        width="500" />
+                    <img alt="Regards," src="/assets/8c7f336d-810a-5088-bc33-029256f51e61.png" width="500" />
                 </td>
             </tr>
         </table>
@@ -15,8 +13,7 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
-                                <img alt="SignMaker"
-                                    src="https://img.mysignature.io/p/9/5/9/959bdba5-916e-5669-8de9-cde518a4e6b2.png?time=1721306038"
+                                <img alt="SignMaker" src="/assets/959bdba5-916e-5669-8de9-cde518a4e6b2.png"
                                     style="display: block; min-width: 138px;" width="138" />
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);"
@@ -25,20 +22,22 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Jason
-                                                Fuller
-                                            </span><!-- --><!-- --> <span
-                                                style="font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Creative
-                                                Manager</span>
+                                            <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">
+                                                Jason Fuller
+                                            </span><!-- --><!-- --> 
+                                            <span
+                                                style="font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                                Creative Manager
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">BIG
-                                                    BOLD
-                                                    Innovations
-                                                </span></span><!-- --><!-- -->
+                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">
+                                                    BIG BOLD Innovations
+                                                </span>
+                                            </span><!-- --><!-- -->
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -130,8 +129,7 @@
                 <!-- -->
                 <tr>
                     <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;">
-                        <span><img alt="Meet me on Google Meet"
-                                src="https://img.mysignature.io/a/v1/f/5/4/f54a1792-9dfe-5bb1-89c8-0768acb7d13d.png"
+                        <span><img alt="Meet me on Google Meet" src="/assets/f54a1792-9dfe-5bb1-89c8-0768acb7d13d.png"
                                 style="display: block;" width="203" /></span>
                     </td>
                 </tr>
