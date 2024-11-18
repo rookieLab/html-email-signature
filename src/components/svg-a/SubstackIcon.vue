@@ -1,5 +1,8 @@
 
-<template>
+  <template>
+<a href="https://mysignature.io/" target="_blank"
+    style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: #fd5c63; font-size: 12px; font-family: initial; line-height: 1;">
+    
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100" height="100">
     <svg viewbox="0 0 896 1024" xmlns="http://www.w3.org/2000/svg">
 <path d="M895.936 230.656h-895.936v121.024h895.936v-121.024z" fill="#ffffff"></path>
@@ -9,6 +12,8 @@
 </path>
 </svg>
   </svg>
+
+  </a>
 </template>
 
 <script>

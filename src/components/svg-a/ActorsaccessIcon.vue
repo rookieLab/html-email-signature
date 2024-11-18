@@ -1,10 +1,15 @@
 
-<template>
+  <template>
+<a href="https://mysignature.io/" target="_blank"
+    style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: #fd5c63; font-size: 12px; font-family: initial; line-height: 1;">
+    
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100" height="100">
     <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 <path d="M784.114 694.605l28.643 57.28-14.32 14.323-200.503-78.765-7.161-78.774 193.341 85.936zM554.971 207.662l-42.963-95.515v868.887l85.93-64.452-42.967-708.92zM913.013 809.174l-401.005 214.826 315.075-264.957-315.075-680.275v-64.447l401.005 794.854zM483.358 57.286l14.324-57.286v866.464l-64.448-28.643 50.124-780.535zM433.23 673.123v-28.649l-221.983 100.256-7.161 14.316 28.643 14.32 200.501-100.243zM454.718 200.509l7.162-100.257-350.88 708.926 386.685 214.822v-93.091l-307.916-164.698 264.949-565.702z" fill="#ffffff"></path>
 </svg>
   </svg>
+
+  </a>
 </template>
 
 <script>

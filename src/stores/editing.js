@@ -27,7 +27,7 @@ export const useEditingStore = defineStore('editing', {
       //   { name: "mobile", value: "" },
       // ]
     },
-    socialIcons: [], //  General|Images|Social|Add-ons|Design|Templates
+    socialIcons: ['appstore', 'airbnb'], //  General|Images|Social|Add-ons|Design|Templates
   }),
   getters: {
     isChecked: (state) => {
