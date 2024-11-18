@@ -8,6 +8,7 @@ export const useStore = defineStore('store', {
   state: () => ({
     activeMenu: 'General', //  General|Images|Social|Add-ons|Design|Templates
     editingTemplate: "Template1",
+    savedTemplates: []
   }),
   getters: {
     isChecked: (state) => {
@@ -20,7 +21,16 @@ export const useStore = defineStore('store', {
     },
     handleSelectTemplate(value) {
       this.editingTemplate = value;
-      this.activeMenu ='General'
+      this.activeMenu = 'General'
     },
+    saveTemplate(templateName, data) {
+      this.savedTemplates.push({
+        name: templateName,
+        data: data
+      });
+    },
+    loadTemplateByName(templateName) {
+      return this.savedTemplates.find(template => template.name === templateName)?.data;
+    }
   },
 });

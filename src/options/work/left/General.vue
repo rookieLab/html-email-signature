@@ -131,7 +131,7 @@
 
 <script name="General" setup>
 import { provide, ref, reactive } from 'vue'
-import { useEditingStore } from '@/stores/editing'
+import { useEditingStore } from '@/stores'
 const editing = useEditingStore()
 
 </script>

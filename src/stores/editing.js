@@ -12,14 +12,20 @@ export const useEditingStore = defineStore('editing', {
       company: "",
       position: "",
       department: "",
-      Contacts: [
-        { name: "CellPhone", value: "" },
-        { name: "Emai", value: "" },
-        { name: "Address", value: "" },
-        { name: "phone", value: "" },
-        { name: "skype", value: "" },
-        { name: "mobile", value: "" },
-      ]
+      email: "",
+      phone: "",
+      website: "",
+      CellPhone: "",
+      skype: "",
+      mobile: "",
+      // Contacts: [
+      //   { name: "CellPhone", value: "" },
+      //   { name: "Emai", value: "" },
+      //   { name: "Address", value: "" },
+      //   { name: "phone", value: "" },
+      //   { name: "skype", value: "" },
+      //   { name: "mobile", value: "" },
+      // ]
     },
     socialIcons: [], //  General|Images|Social|Add-ons|Design|Templates
   }),
@@ -38,6 +44,9 @@ export const useEditingStore = defineStore('editing', {
     },
     removeSocialIcon(value) {
       this.socialIcons = this.socialIcons.filter(icon => icon !== value)
+    },
+    setGeneral(value) {
+      this.general = value;
     }
   },
 });

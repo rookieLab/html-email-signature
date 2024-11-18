@@ -16,7 +16,8 @@
         design.</a></div> -->
                     <div class="o-editor-preview__sign">
                         <div id="signature-preview" class="o-signature-preview u-us-none u-mr-b4 u-of-auto-x">
-                            <component :is="tempComponents[store.editingTemplate]"></component>
+                            <component :is="tempComponents[store.editingTemplate]" ref="templateRef"
+                                @saveTemplate="saveTemplate"></component>
                         </div>
                     </div>
                 </div>
@@ -25,6 +26,11 @@
                         <!-- <button type="button" class="a-btn u-wd-full u-wd-auto@xl">Save and Sign up</button> -->
                     </span>
                 </div>
+            </div>
+            <div class="u-ta-right u-of-hidden u-br-b2 u-ta-right@xl u-mr-t2 u-mr-t3@xl">
+                <span class="l-dp-flex e--reverse e--gap-none">
+                    <button type="button" class="a-btn u-wd-full u-wd-auto@xl" @click="saveTemplate">Save</button>
+                </span>
             </div>
         </div>
     </div>
@@ -37,5 +43,15 @@ import { useEditingStore, useStore } from '@/stores'
 // const editing = useEditingStore()
 const store = useStore()
 
+// 创建对子组件的引用
+const templateRef = ref(null)
+
+// 修改 saveTemplate 方法
+const saveTemplate = () => {
+    // 调用子组件的 saveTemplate 方法
+    if (templateRef.value) {
+        templateRef.value.saveTemplate()
+    }
+}
 </script>
 <style scoped></style>
