@@ -1,13 +1,14 @@
 
   <template>
-<a href="https://mysignature.io/" target="_blank"
+<a :href="url" target="_blank"
     style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: #fd5c63; font-size: 12px; font-family: initial; line-height: 1;">
     
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100" height="100">
-    <svg viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+ 
+        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"
+    style="position: relative; top: 4.6px; width: 13.8px;">
 <path d="M1021.082 142.656l-154.528 733.189c-11.658 51.746-42.061 64.626-85.265 40.247l-235.45-174.558-113.61 109.932c-12.573 12.649-23.088 23.228-47.319 23.228l16.916-241.253 436.382-396.723c18.973-17.019-4.115-26.448-29.488-9.429l-539.477 341.756-232.249-73.135c-50.519-15.869-51.433-50.826 10.515-75.205l908.424-352.106c42.061-15.869 78.864 9.429 65.149 74.055z" fill="#ffffff"></path>
 </svg>
-  </svg>
+  
 
   </a>
 </template>
@@ -15,14 +16,14 @@
 <script>
 export default {
   name: 'telegram',
+  props: {
+    url: {
+      type: String,
+      required: true
+    }
+  }
 };
 </script>
 
-<style scoped>
-/* 你可以在这里添加样式 */
-svg {
-  width: 24px;
-  height: 24px;
-}
-</style>
+<style scoped></style>
     

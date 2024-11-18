@@ -80,7 +80,7 @@
                                                 <tr>
                                                     <td v-for="icon in editing.socialIcons"
                                                         style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                                        <component :is="socialIconsMap[icon]" />                                          
+                                                        <component :is="socialIconsMap[icon.name]" :url="icon.url" />
                                                         <!-- <a :href="icon.url" target="_blank"
                                                             style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: rgb(255, 0, 105); font-size: 12px; font-family: initial; line-height: 1;"><svg
                                                                 viewBox="0 0 1024 1024"
@@ -143,7 +143,10 @@ export default {
                 website: 'bigboldin.io',
                 signoff: 'Regards,'
             },
-            socialIcons: ['appstore', 'airbnb']
+            socialIcons: [
+                { name: 'appstore', url: 'https://appstore.com' },
+                { name: 'airbnb', url: 'https://airbnb.com' }
+            ]
         }
     },
     methods: {

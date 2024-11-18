@@ -19,308 +19,360 @@
                                 </ul>
                                 <div>
                                         <div class="l-dp-flex e--gap-none u-text-14">
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_0"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="0"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_0">Happy Holidays!</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_1"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="1"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_1">Best,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_2"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="2"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_2">Best regards,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_3"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="3"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_3">Kind regards,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_4"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="4"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_4">Sincerely,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_5"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="5"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_5">Thanks,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_6"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="6"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_6">Regards,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_7"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="7"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_7">Best wishes,</label></div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2"><input id="sign_off_8"
-                                                                type="radio" class="a-radio" name="sign_off"
-                                                                value="8"><label
-                                                                class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_8">Custom text</label></div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_0" type="radio"
+                                                                class="a-radio" name="sign_off" value="0">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_0">Happy Holidays!</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_1" type="radio"
+                                                                class="a-radio" name="sign_off" value="1">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_1">Best,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_2" type="radio"
+                                                                class="a-radio" name="sign_off" value="2">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_2">Best regards,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_3" type="radio"
+                                                                class="a-radio" name="sign_off" value="3">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_3">Kind regards,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_4" type="radio"
+                                                                class="a-radio" name="sign_off" value="4">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_4">Sincerely,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_5" type="radio"
+                                                                class="a-radio" name="sign_off" value="5">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_5">Thanks,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_6" type="radio"
+                                                                class="a-radio" name="sign_off" value="6">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_6">Regards,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_7" type="radio"
+                                                                class="a-radio" name="sign_off" value="7">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_7">Best wishes,</label>
+                                                </div>
+                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                                        <input v-model="signOff" id="sign_off_8" type="radio"
+                                                                class="a-radio" name="sign_off" value="8">
+                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                                for="sign_off_8">Custom text</label>
+                                                </div>
                                         </div>
-                                        <div class="a-input u-mr-t0f5"><!----><input id="1945"
-                                                        class="a-input__item u-pd-r5" maxlength="60" placeholder="Text"
-                                                        type="text"><span class="a-pro-icon e--input">
+                                        <div class="a-input u-mr-t0f5">
+                                                <input id="1945" class="a-input__item u-pd-r5" maxlength="60"
+                                                        placeholder="Text" type="text">
+                                                <span class="a-pro-icon e--input">
                                                         <div class="a-tooltip u-fw-300" position="top"
                                                                 tooltip="PRO feature"><i class="icon_service-pro"></i>
                                                         </div>
-                                                </span><!----><!----><!----><!----></div>
-                                        <div class="o-content-block__row u-mr-t3 u-mr-b2 u-mr-b0f5@xl u-mr-t5@xl"><label
-                                                        class="o-content-block__label u-wd-12 u-mr-r1f5">Font
-                                                        family</label>
+                                                </span>
+                                        </div>
+
+                                        <div class="o-content-block__row u-mr-t3 u-mr-b2 u-mr-b0f5@xl u-mr-t5@xl">
+                                                <label class="o-content-block__label u-wd-12 u-mr-r1f5">
+                                                        Font family
+                                                </label>
                                                 <div class="o-content-block__media e--full">
-                                                        <div class="m-select"><!---->
-                                                                <div class="m-select__active e--round"><span
-                                                                                class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                style="font-family: Arial, Helvetica, sans-serif;">Arial</span><!---->
+                                                        <div class="m-select">
+                                                                <div class="m-select__active e--round"
+                                                                        @click="$event.currentTarget.nextElementSibling.classList.toggle('u-hide')">
+                                                                        <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                style="font-family: Arial, Helvetica, sans-serif;">Arial</span>
+
                                                                 </div>
                                                                 <div class="m-select__list u-hide">
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Allura;">Allura</span><span
-                                                                                        class="a-pro-icon e--select">
-                                                                                        <div class="a-tooltip u-fw-300"
-                                                                                                position="left"
-                                                                                                tooltip="PRO feature"><i
-                                                                                                        class="icon_service-pro"></i>
-                                                                                        </div>
-                                                                                </span></div>
-                                                                        <div class="e--select m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Arial, Helvetica, sans-serif;">Arial</span><!---->
+                                                                        
+                                                                        <div class="u-fz-20 m-select__item"  v-for="font in fontList" :key="font.name">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        :style="`font-family: ${font.value};`">{{ font.name }}</span>
+                                                                          
                                                                         </div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: &quot;Arial Black&quot;, Gadget, sans-serif;">Arial
-                                                                                        Black</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                        <div class="e--select m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Arial, Helvetica, sans-serif;">Arial</span>
+                                                                                <!---->
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: 'Arial Black', Gadget, sans-serif;">
+                                                                                        Arial Black
+                                                                                </span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
-                                                                                                        class="icon_service-pro"></i>
+                                                                                                tooltip="PRO feature">
+                                                                                             <!-- <i class="icon_service-pro"></i> -->
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">Comic
-                                                                                        Sans MS</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Sans MS</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Courgette;">Courgette</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Courgette;">Courgette</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Courier New&quot;, Courier, monospace;">Courier
-                                                                                        New</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        New</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Georgia, serif;">Georgia</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Georgia, serif;">Georgia</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Grand Hotel&quot;;">Grand
-                                                                                        Hotel</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Hotel</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Great Vibes&quot;;">Great
-                                                                                        Vibes</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Vibes</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Impact, Charcoal, sans-serif;">Impact</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Impact, Charcoal, sans-serif;">Impact</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Lucida Console&quot;, Monaco, monospace;">Lucida
-                                                                                        Console</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Console</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">Lucida
-                                                                                        Sans Unicode</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Sans Unicode</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Ma Shan Zheng&quot;;">Ma
-                                                                                        Shan Zheng</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Shan Zheng</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Merienda;">Merienda</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Merienda;">Merienda</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Nothing You Could Do&quot;;">Nothing
-                                                                                        You Could
-                                                                                        Do</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        You Could Do</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">Palatino
-                                                                                        Linotype</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Linotype</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Parisienne;">Parisienne</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Parisienne;">Parisienne</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Sacramento;">Sacramento</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Sacramento;">Sacramento</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="u-fz-20 m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="u-fz-20 m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Sedgwick Ave&quot;;">Sedgwick
-                                                                                        Ave</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        Ave</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Tahoma, Geneva, sans-serif;">Tahoma</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Tahoma, Geneva, sans-serif;">Tahoma</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Times New Roman&quot;, Times, serif;">Times
-                                                                                        New
-                                                                                        Roman</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        New Roman</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
                                                                                         style="font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">Trebuchet
-                                                                                        MS</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                        MS</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
-                                                                        <div class="m-select__item"><span
-                                                                                        class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
-                                                                                        style="font-family: Verdana, Geneva, sans-serif;">Verdana</span><span
-                                                                                        class="a-pro-icon e--select">
+                                                                                </span>
+                                                                        </div>
+                                                                        <div class="m-select__item">
+                                                                                <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
+                                                                                        style="font-family: Verdana, Geneva, sans-serif;">Verdana</span>
+                                                                                <span class="a-pro-icon e--select">
                                                                                         <div class="a-tooltip u-fw-300"
                                                                                                 position="left"
-                                                                                                tooltip="PRO feature"><i
+                                                                                                tooltip="PRO feature">
+                                                                                                <i
                                                                                                         class="icon_service-pro"></i>
                                                                                         </div>
-                                                                                </span></div>
+                                                                                </span>
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -360,17 +412,22 @@
                                         <div
                                                 class="o-content-block__row e--social u-mr-t2 u-mr-b3 u-mr-b1@xl u-mr-t1@xl">
                                                 <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Font
-                                                        color <span class="a-pro-icon u-mr-l1f5">
+                                                        color
+                                                        <span class="a-pro-icon u-mr-l1f5">
                                                                 <div class="a-tooltip u-fw-300" position="top"
-                                                                        tooltip="PRO feature"><i
-                                                                                class="icon_service-pro"></i></div>
-                                                        </span></label>
+                                                                        tooltip="PRO feature">
+                                                                        <i class="icon_service-pro"></i>
+                                                                </div>
+                                                        </span>
+                                                </label>
                                                 <div class="o-content-block__media">
                                                         <div class="m-color-picker">
-                                                                <div class=""><a href="#"
+                                                                <div class="">
+                                                                        <a href="#"
                                                                                 class="m-color-picker__current-color"
                                                                                 style="background-color: rgb(0, 0, 0);"></a>
-                                                                </div><!---->
+                                                                </div>
+                                                                <!---->
                                                         </div>
                                                 </div>
                                         </div>
@@ -385,6 +442,34 @@
 
 <script name="SignOff" setup>
 import { provide, ref, reactive } from 'vue'
+
+const signOff = ref(0)
+
+const fontFamily = ref('Arial')
+const fontList = [
+        {name: 'Arial', value: 'Arial, Helvetica, sans-serif'},
+        {name: 'Arial Black', value: "'Arial Black', Gadget, sans-serif"},
+        {name: 'Comic Sans MS', value: "'Comic Sans MS', cursive, sans-serif"},
+        {name: 'Courgette', value: 'Courgette'},
+        {name: 'Courier New', value: "'Courier New', Courier, monospace"},
+        {name: 'Georgia', value: 'Georgia, serif'},
+        {name: 'Grand Hotel', value: "'Grand Hotel'"},
+        {name: 'Great Vibes', value: "'Great Vibes'"},
+        {name: 'Impact', value: 'Impact, Charcoal, sans-serif'},
+        {name: 'Lucida Console', value: "'Lucida Console', Monaco, monospace"},
+        {name: 'Lucida Sans Unicode', value: "'Lucida Sans Unicode', 'Lucida Grande', sans-serif"},
+        {name: 'Ma Shan Zheng', value: "'Ma Shan Zheng'"},
+        {name: 'Merienda', value: 'Merienda'},
+        {name: 'Nothing You Could Do', value: "'Nothing You Could Do'"},
+        {name: 'Palatino Linotype', value: "'Palatino Linotype', 'Book Antiqua', Palatino, serif"},
+        {name: 'Parisienne', value: 'Parisienne'},
+        {name: 'Sacramento', value: 'Sacramento'},
+        {name: 'Sedgwick Ave', value: "'Sedgwick Ave'"},
+        {name: 'Tahoma', value: 'Tahoma, Geneva, sans-serif'},
+        {name: 'Times New Roman', value: "'Times New Roman', Times, serif"},
+        {name: 'Trebuchet MS', value: "'Trebuchet MS', Helvetica, sans-serif"},
+        {name: 'Verdana', value: 'Verdana, Geneva, sans-serif'},
+]
 
 </script>
 <style scoped></style>

@@ -16,23 +16,24 @@
                     </div>
                     <ul class="o-content-block__list">
                         <div>
-                            <li v-for="icon in editingStore.socialIcons" :key="icon"
+                            <li v-for="icon in editingStore.socialIcons" :key="icon.name"
                                 class="o-content-block__row e--social u-mr-t2f5 u-mr-b0 draggable-badge"
                                 data-draggable="true">
                                 <i class="o-content-block__icon-drag e--left-0 icon_service-drag sort-badge"></i>
                                 <span class="a-social-logo u-mr-r1 is-brand btn-youtube"
-                                    :class="`btn-${icon.toLowerCase()}`">
-                                    <component :is="socialIconsMap[icon]"></component>
+                                    :class="`btn-${icon.name?.toLowerCase()}`">
+                                    <component :is="socialIconsMap[icon.name]" :url="'#'"></component>
                                 </span>
                                 <span class="o-content-block__media">
                                     <div class="a-input u-mr-t0">
                                         <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow" for="1400">
                                             <!-- Youtube -->
-                                            {{ icon }}
+                                            {{ icon.name }}
                                         </label>
-                                        <input id="1400" class="a-input__item u-pd-r3" maxlength="255"
-                                            :placeholder="icon" type="text">
-                                        <el-icon @click="editingStore.removeSocialIcon(icon)" class="a-input__icon" style="position: absolute;">
+                                        <input  id="1400" class="a-input__item u-pd-r3" maxlength="255"
+                                            :placeholder="icon.url" v-model="icon.url" type="text">
+                                        <el-icon @click="editingStore.removeSocialIcon(icon.name)" class="a-input__icon"
+                                            style="position: absolute;">
                                             <Close />
                                         </el-icon>
                                     </div>
@@ -65,10 +66,10 @@
                             class="a-input__search icon_service-search-regular"></i><!----><!----><!----></div><span
                         class="u-mr-haauto">
                         <div class="m-social-logo-list">
-                            <a class="a-social-logo is-brand" :class="`btn-${iconName}`" href="#"
-                                v-for="iconName in socialIcons" :key="iconName"
-                                @click="editingStore.addSocialIcon(iconName)">
-                                <component :is="socialIconsMap[iconName]"></component>
+                            <a class="a-social-logo is-brand" :class="`btn-${icon}`" href="#"
+                                v-for="icon in socialIcons" :key="icon"
+                                @click="editingStore.addSocialIcon(icon)">
+                                <component :is="socialIconsMap[icon]"></component>
                             </a>
                         </div>
                     </span>

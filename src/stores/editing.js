@@ -27,7 +27,11 @@ export const useEditingStore = defineStore('editing', {
       //   { name: "mobile", value: "" },
       // ]
     },
-    socialIcons: ['appstore', 'airbnb'], //  General|Images|Social|Add-ons|Design|Templates
+    socialIcons: [
+      { name: 'appstore', url: 'https://appstore.com' },
+      { name: 'airbnb', url: 'https://airbnb.com' }
+    ]
+    // socialIcons: ['appstore', 'airbnb'], //  General|Images|Social|Add-ons|Design|Templates
   }),
   getters: {
     isChecked: (state) => {
@@ -36,14 +40,14 @@ export const useEditingStore = defineStore('editing', {
   },
   actions: {
     addSocialIcon(value) {
-      if (this.socialIcons.includes(value)) {
+      if (this.socialIcons.find(icon => icon.name === value)) {
 
       } else {
-        this.socialIcons.push(value)
+        this.socialIcons.push({ name: value, url: '' })
       }
     },
     removeSocialIcon(value) {
-      this.socialIcons = this.socialIcons.filter(icon => icon !== value)
+      this.socialIcons = this.socialIcons.filter(icon => icon.name !== value)
     },
     setGeneral(value) {
       this.general = value;
