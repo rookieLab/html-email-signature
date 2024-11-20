@@ -7,3 +7,4 @@ export default pinia
 export * from './store'
 export * from './editing'
 export * from './templates'
+export * from './inject'

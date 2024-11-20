@@ -6,7 +6,6 @@
         <Social v-if="activeMenu === 'Social'"></Social>
         <Addons v-if="activeMenu === 'Add-ons'"></Addons>
         <Design v-if="activeMenu === 'Design'"></Design>
-        <Templates v-if="activeMenu === 'Templates-Home'"></Templates>
     </div>
 </template>
 
@@ -18,7 +17,6 @@ import Images from './Images'
 import Social from './Social'
 import Addons from './addons/index'
 import Design from './Design'
-import Templates from './Templates'
 
 
 import { useStore } from '@/stores'

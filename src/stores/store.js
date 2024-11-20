@@ -16,6 +16,9 @@ export const useStore = defineStore('store', {
     }
   },
   actions: {
+    getSavedTemplates() {
+      return this.savedTemplates
+    },
     handleMenuClick(value) {
       this.activeMenu = value;
     },

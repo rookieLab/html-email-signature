@@ -16,7 +16,7 @@
                     </div>
                     <ul class="o-content-block__list">
                         <div>
-                            <li v-for="icon in editingStore.socialIcons" :key="icon.name"
+                            <li v-for="icon in editing.socialIcons" :key="icon.name"
                                 class="o-content-block__row e--social u-mr-t2f5 u-mr-b0 draggable-badge"
                                 data-draggable="true">
                                 <i class="o-content-block__icon-drag e--left-0 icon_service-drag sort-badge"></i>
@@ -30,9 +30,9 @@
                                             <!-- Youtube -->
                                             {{ icon.name }}
                                         </label>
-                                        <input  id="1400" class="a-input__item u-pd-r3" maxlength="255"
+                                        <input id="1400" class="a-input__item u-pd-r3" maxlength="255"
                                             :placeholder="icon.url" v-model="icon.url" type="text">
-                                        <el-icon @click="editingStore.removeSocialIcon(icon.name)" class="a-input__icon"
+                                        <el-icon @click="editing.removeSocialIcon(icon.name)" class="a-input__icon"
                                             style="position: absolute;">
                                             <Close />
                                         </el-icon>
@@ -67,8 +67,7 @@
                         class="u-mr-haauto">
                         <div class="m-social-logo-list">
                             <a class="a-social-logo is-brand" :class="`btn-${icon}`" href="#"
-                                v-for="icon in socialIcons" :key="icon"
-                                @click="editingStore.addSocialIcon(icon)">
+                                v-for="icon in socialIcons" :key="icon" @click="editing.addSocialIcon(icon)">
                                 <component :is="socialIconsMap[icon]"></component>
                             </a>
                         </div>
@@ -84,7 +83,7 @@ import { provide, ref, reactive } from 'vue'
 import { useEditingStore } from '@/stores/editing'
 // 自动导入所有 svg 组件
 import * as iconComponents from '@/components/svg'
-const editingStore = useEditingStore()
+const editing = useEditingStore()
 
 
 // 创建过滤后的组件映射

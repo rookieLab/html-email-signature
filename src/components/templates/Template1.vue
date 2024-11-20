@@ -119,8 +119,9 @@
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <a :href="editing.Image?.bannerLink" target="_blank">
-                            <img :src="editing.Image?.bannerImg" valign="top" width="373"
-                                alt="created with MySignature.io" style="display: block;"></a>
+                            <img :src="editing.Image?.bannerImg" valign="top" :width="editing.Image?.bannerWidth"
+                                alt="created with MySignature.io" style="display: block;">
+                        </a>
                     </td>
                 </tr>
             </table>
@@ -174,8 +175,6 @@ export default {
             this.editing.init(data);
         },
         loadSocialIcons() {
-            this.editing.socialIcons = this.socialIcons;
-
             Object.values(iconComponents).map(component => (
                 this.socialIconsMap[component.name] = component
             ))

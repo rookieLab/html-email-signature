@@ -23,29 +23,15 @@
                                 class="m-media-preview__input-file"></a>
                     </div>
                     <div class="u-wd-full u-mr-l4@xl l-flex-box e--column e--between">
-                        <div class="o-content-block__row u-mr-t0 u-mr-b4 u-display-block u-mr-b3@xl"><label
-                                class="o-content-block__label u-mr-b3 u-mr-t3 u-mr-t0@xl">Image width</label>
+                        <div class="o-content-block__row u-mr-t0 u-mr-b4 u-display-block u-mr-b3@xl">
+                            <label class="o-content-block__label u-mr-b3 u-mr-t3 u-mr-t0@xl">Image width</label>
                             <div class="slider-target slider-ltr slider-horizontal slider-txt-dir-ltr">
-                                <div class="slider-base">
-                                    <div class="slider-connects">
-                                        <div class="slider-connect"
-                                            style="transform: translate(0%, 0px) scale(0.633333, 1);"></div>
-                                    </div>
-                                    <div class="slider-origin"
-                                        style="transform: translate(-36.6667%, 0px); z-index: 4;">
-                                        <div class="slider-handle slider-handle-lower" data-handle="0" tabindex="0"
-                                            role="slider" aria-orientation="horizontal" aria-valuemin="20.0"
-                                            aria-valuemax="200.0" aria-valuenow="134.0" aria-valuetext="134 px">
-                                            <div class="slider-touch-area"></div>
-                                            <div class=" slider-tooltip slider-tooltip-top">134 px</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <el-slider :max="200" :min="20" v-model="editing.Image.avatarWidth" />
                             </div>
                         </div>
                         <div class="a-input u-mr-t0 u-wd-full">
                             <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow" for="1383">Link</label>
-                            <input id="1383" v-medel="editing.Image.avatarLink" class="a-input__item u-pd-r5"
+                            <input id="1383" v-model="editing.Image.avatarLink" class="a-input__item u-pd-r5"
                                 maxlength="255" placeholder="Link" type="text">
                             <span class="a-pro-icon e--input">
                                 <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature">
@@ -77,13 +63,13 @@
                     <div class="o-content-block__row u-mr-t2 u-display-inline-block u-display-flex@sm">
                         <label class="o-content-block__label u-mr-b3 u-mr-b1@sm u-mr-b0@xl u-mr-t0@xl">
                             Banner width</label>
-                        <div class="o-content-block__wrap u-mr-t0">
-                            <!-- <el-slider :max="500" :min="100" v-model="editing.Image.bannerWidth" /> -->
+                        <div class="o-content-block__wrap u-mr-t0 slider-target slider-ltr slider-txt-dir-ltr">
+                            <el-slider :max="500" :min="100" v-model="editing.Image.bannerWidth" />
                         </div>
                     </div>
                     <div class="a-input u-mr-t3 u-mr-t3f5@xl">
                         <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow" for="1392">Link</label>
-                        <input id="1392" class="a-input__item" v-medel="editing.Image?.avatarLink" maxlength="255"
+                        <input id="1392" class="a-input__item" v-model="editing.Image.avatarLink" maxlength="255"
                             placeholder="Link" type="text">
                     </div>
                 </div>
@@ -101,14 +87,14 @@ const editing = useEditingStore()
 
 
 // 
-const uploadBanner = (e) => {
-    const file = e.target.files[0];
-    const reader = new FileReader();
-    reader.onload = (e) => {
-        editing.Image.bannerImg = e.target.result;
-    };
-    reader.readAsDataURL(file);
-}
+// const uploadBanner = (e) => {
+//     const file = e.target.files[0];
+//     const reader = new FileReader();
+//     reader.onload = (e) => {
+//         editing.Image.bannerImg = e.target.result;
+//     };
+//     reader.readAsDataURL(file);
+// }
 
 </script>
 <style scoped>
