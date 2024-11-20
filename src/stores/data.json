@@ -11,6 +11,10 @@
         },
         "socialIcons": [
             {
+                "name": "actors-access",
+                "url": "https://appstore.com"
+            },
+            {
                 "name": "appstore",
                 "url": "https://appstore.com"
             },
@@ -34,9 +38,9 @@
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
-            "iconsSize": 16,
+            "iconsSize": 27,
             "iconsShape": "rounded",
-            "iconsColor": "#000000",
+            "iconsColor": "#ffffff",
             "iconsBackground": "#000000"
         }
     }

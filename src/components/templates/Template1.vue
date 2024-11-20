@@ -84,7 +84,12 @@
                                                 <tr>
                                                     <td v-for="icon in editing.socialIcons"
                                                         style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                                        <component :is="socialIconsMap[icon.name]" :url="icon.url" />
+                                                        <component :is="socialIconsMap[icon.name]" :url="icon.url"
+                                                            :shape="editing.design.iconsShape"
+                                                            :size="editing.design.iconsSize"
+                                                            :color="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsColor"
+                                                            :background="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsBackground" />
+
                                                     </td>
                                                 </tr>
                                             </table>

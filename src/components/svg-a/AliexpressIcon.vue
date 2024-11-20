@@ -1,13 +1,13 @@
 <template>
   <a :href="url" target="_blank"
-    style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: #fd5c63; font-size: 12px; font-family: initial; line-height: 1;">
+    :style="{ borderRadius: shapeMap[shape], width: size + 'px', height: size + 'px', display: 'block', textAlign: 'center', backgroundColor: background, fontSize: size / 2 + 'px', fontFamily: 'initial', lineHeight: '1' }">
 
 
     <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"
       style="position: relative; top: 4.6px; width: 13.8px;">
       <path
         d="M884.292 972.68c-15.349-6.218-30.749-18.077-72.058-88.314l-187.566-314.097c4.748-1.347 9.407-2.902 14.025-4.453 111.376-38.573 176.39-141.538 176.39-288.461 0-72.603-29.073-139.659-84.588-189.835-8.093-6.944-16.454-13.566-25.399-19.615-74.11-49.372-173.917-67.791-306.864-67.791l-255.242-0.059c-16.344-0.197-17.887 9.293-11.477 17.898 5.788 7.645 12.332 17.867 15.178 43.827v810.54c-2.832 33.011-9.479 43.527-15.178 51.123-6.479 8.581-3.616 18.406 12.725 18.202h186.17v-343.802h84.612l170.527 292.624c46.17 78.472 86.572 121.968 167 131.254 10.974 1.451 22.676 2.159 35.288 2.28 0.985 0 11.477 0 12.448 0 28.926 0 57.164-11.725 74.743-19.269 2.395-0.898 4.714-1.831 7.023-2.867 21.099-9.448 15.256-23.95 2.241-29.184zM448.682 466.309h-118.279v-331.649h118.279c58.546 0 103.186 7.666 136.621 38.338 12.352 11.814 21.903 26.088 28.673 43.319 8.206 20.889 12.339 46.024 12.339 76.31 0.003 44.059-4.002 173.682-177.632 173.682z"
-        fill="#ffffff"></path>
+        :fill="color"></path>
     </svg>
 
 
@@ -22,6 +22,31 @@ export default {
     url: {
       type: String,
       required: true
+    },
+    shape: {
+      type: String,
+      default: 'rounded'
+    },
+    size: {
+      type: Number,
+      default: 16
+    },
+    color: {
+      type: String,
+      default: '#ffffff'
+    },
+    background: {
+      type: String,
+      default: '#dd2c00'
+    }
+  },
+  data() {
+    return {
+      shapeMap: {
+        'circle': '50%',
+        'rounded': '15%',
+        'square': '0%'
+      }
     }
   }
 };
