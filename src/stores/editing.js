@@ -18,14 +18,6 @@ export const useEditingStore = defineStore('editing', {
       CellPhone: "",
       skype: "",
       mobile: "",
-      // Contacts: [
-      //   { name: "CellPhone", value: "" },
-      //   { name: "Emai", value: "" },
-      //   { name: "Address", value: "" },
-      //   { name: "phone", value: "" },
-      //   { name: "skype", value: "" },
-      //   { name: "mobile", value: "" },
-      // ]
     },
     socialIcons: [
       { name: 'appstore', url: 'https://appstore.com' },
@@ -39,7 +31,19 @@ export const useEditingStore = defineStore('editing', {
       avatarLink: "",
       bannerImg: "",
       bannerLink: ""
-    }
+    },
+    design: {
+      color: "#000000",
+      font: "Arial",
+      fontSize: 16,
+      templateColor: "#000000",
+      TextColor: "#000000",
+      iconsType: "branded", // branded|colored|outline
+      iconsSize: 16,
+      iconsShape: "rounded", // circle|square|rounded
+      iconsColor: "#000000",
+      iconsBackground: "#000000",
+    },
     // socialIcons: ['appstore', 'airbnb'], //  General|Images|Social|Add-ons|Design|Templates
   }),
   getters: {

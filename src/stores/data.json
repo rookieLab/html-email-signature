@@ -26,6 +26,18 @@
             "bannerLink": "https://www.baidu.com",
             "bannerWidth": 317,
             "avatarWidth": 134
+        },
+        "design": {
+            "color": "#000000",
+            "font": "Arial",
+            "fontSize": 80,
+            "templateColor": "#000000",
+            "TextColor": "#000000",
+            "iconsType": "branded",
+            "iconsSize": 16,
+            "iconsShape": "rounded",
+            "iconsColor": "#000000",
+            "iconsBackground": "#000000"
         }
     }
 }

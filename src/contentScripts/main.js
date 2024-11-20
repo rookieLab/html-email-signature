@@ -63,7 +63,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 window.addEventListener('message', function (event) {
     // 验证消息来源是否是当前窗口，且消息类型正确
-    console.log('Content script received1:', event.data);
+    // console.log('Content script received1:', event.data);
     // 确保消息来源可信
     if (event.data.type === 'FROM_INJECT') {
         if (event.data.action === 'INJECT_COMPONENT') {

@@ -59,7 +59,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 <script name="Home" setup>
@@ -67,11 +66,15 @@ import { UploadFilled, } from '@element-plus/icons-vue'
 import { reactive, onMounted, ref, computed, inject } from 'vue';
 import * as tempComponents from '@/components/templates'
 import { useEditingStore, useStore } from '@/stores'
+
+
 // const editing = useEditingStore()
 const store = useStore()
 
 const savedTemplates = store.getSavedTemplates()
 const savedTemplatesNames = savedTemplates.map(t => t.name)
+
+
 
 // 创建一个函数返回指定部分的数据
 const componentArray = Object.values(tempComponents).sort((a, b) => {
