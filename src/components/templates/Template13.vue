@@ -4,7 +4,7 @@
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Happy Holidays!"
-                        src="/assets/ad265583-4e96-5468-af4a-5afbef9ddd46.png"
+                        src="https://img.mysignature.io/a/v1/a/d/2/ad265583-4e96-5468-af4a-5afbef9ddd46.png"
                         width="500" />
                 </td>
             </tr>
@@ -12,8 +12,8 @@
         <table cellpadding="0" style="border-collapse: collapse; font-size: 13.8px;" width="400">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
-                    <img alt="SignMaker"
-                        src="/assets/6d97983b-3c40-5854-bf98-c9511022f270.png"
+                    <img alt=' "created with MySignature.io"'
+                        src="https://img.mysignature.io/p/6/d/9/6d97983b-3c40-5854-bf98-c9511022f270.png?time=1709109843"
                         style="display: block; min-width: 144px;" width="144" />
                 </td>
             </tr>
@@ -70,7 +70,7 @@
                 <tr>
                     <td style="padding: 9px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="View reviews about me"
-                                src="/assets/9b23132a-6332-53d5-bcfd-6d0688359d0b.png"
+                                src="https://img.mysignature.io/a/v1/9/b/2/9b23132a-6332-53d5-bcfd-6d0688359d0b.png"
                                 style="max-width: 490px; display: block;" width="221" /></span>
                     </td>
                 </tr>
@@ -84,10 +84,74 @@
         </div><!-- -->
     </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template13',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

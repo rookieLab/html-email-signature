@@ -6,7 +6,7 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;"><img
-                                    src="/assets/16581aab-be5e-5657-ac28-2159b7f7dbcb.png"
+                                    src="https://img.mysignature.io/p/1/6/5/16581aab-be5e-5657-ac28-2159b7f7dbcb.png?time=1709306910"
                                     width="140" alt=" &quot;created with MySignature.io&quot;"
                                     style="display: block; min-width: 140px;"></td>
                             <td valign="top" style="margin: 0.1px; padding: 0px;">
@@ -98,7 +98,7 @@
                 <td
                     style="margin: 0.1px; padding: 15px 0px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1); cursor: pointer;">
                     <span><img
-                            src="/assets/16581aab-be5e-5657-ac28-2159b7f7dbcb.png"
+                            src="https://img.mysignature.io/b/1/6/5/16581aab-be5e-5657-ac28-2159b7f7dbcb.png?time=1709306910"
                             valign="top" width="389" alt="created with MySignature.io" style="display: block;"></span>
                 </td>
             </tr>
@@ -107,7 +107,7 @@
             <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
                 <tr>
                     <td style="padding: 14px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
-                                src="/assets/5eed6bd6-6f2a-53e6-9580-58c4e886f692.png"
+                                src="https://img.mysignature.io/a/v1/5/e/e/5eed6bd6-6f2a-53e6-9580-58c4e886f692.png"
                                 alt="Join our video conference" width="198" style="display: block;"></span></td>
                 </tr>
             </table>
@@ -128,16 +128,80 @@
             </table><!---->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"> &nbsp;</td>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
         </div><!---->
     </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template94',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

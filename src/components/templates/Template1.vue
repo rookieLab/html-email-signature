@@ -5,8 +5,7 @@
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <!-- <img alt="Regards," src="/assets/8c7f336d-810a-5088-bc33-029256f51e61.png" width="500" /> -->
                     <!-- {{ editing.addons?.signoff }} -->
-
-                    <img alt="Regards," :src="editing.addons?.signoff" width="500" />
+                    <img alt="Regards," :src="editing.Addons?.signOff?.img" width="500" />
                 </td>
             </tr>
         </table>
@@ -20,66 +19,56 @@
                                     <img alt="SignMaker" :src="editing.Image?.avatarImg"
                                         style="display: block; min-width: 138px;" width="138" /></a>
                             </td>
-                            <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);"
-                                valign="top">
+                            <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; "
+                                :style="{ color: editing.design?.TextColor }" valign="top">
+
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">
+                                        <td style="margin: 0.1px; padding: 0px 0px 5px; " :style="textStyle">
+                                            <span style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
                                                 {{ editing.general?.name }}
-                                            </span>
-                                            <span
-                                                style="font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                            </span>&nbsp;<span style="cursor: pointer;">
                                                 {{ editing.general?.position }}
                                             </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">
+                                        <td style="margin: 0.1px; padding: 0px 0px 5px;" :style="textStyle">
+                                            <span style="cursor: pointer;">
+                                                <span>
                                                     {{ editing.general?.company }}
                                                 </span>
                                             </span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">
+                                        <td style="margin: 0.1px; padding: 2px 0px; " :style="textStyle">
+                                            <span style="text-decoration: none; ">
                                                 {{ editing.general?.email }}
                                             </span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!-- --><span style="color: rgb(0, 0, 1);"></span>
+                                        <td style="margin: 0.1px; padding: 2px 0px; " :style="textStyle">
+                                            <span></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!-- --><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">
+                                        <td style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
+                                            <span style=" text-decoration: none;">
                                                 {{ editing.general?.phone }}
                                             </span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!-- -->
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">
+                                        <td style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
+                                            <span style="text-decoration: none;">
                                                 {{ editing.general?.website }}</span>
                                         </td>
-                                    </tr><!-- --><!-- -->
+                                    </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 8px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                        <td style="margin: 0.1px; padding: 8px 0px 0px;" :style="textStyle">
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td v-for="icon in editing.socialIcons"
@@ -156,9 +145,11 @@
 </template>
 
 <script>
+import { shallowRef, ref, computed } from 'vue'
 import { useStore } from '@/stores/store'
 import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-a'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
 
 export default {
     name: 'Template1',
@@ -168,25 +159,50 @@ export default {
             socialIconsMap: {}
         }
     },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
     methods: {
-        saveTemplate() {
-            this.store.saveTemplate('Template1', this.data);
-        },
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
         initEditingStore() {
-            let data = this.store.loadTemplateByName('Template1');
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
             if (!data) {
-                data = this.templates.getTemplate("Template1")
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
             }
             this.editing.init(data);
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = component
+                this.socialIconsMap[component.name] = shallowRef(component)
             ))
         },
         init() {
-            this.initEditingStore("Template1");
+            this.initEditingStore(this.$options.name);
             this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
         }
     },
     mounted() {

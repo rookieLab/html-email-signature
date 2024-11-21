@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse; font-size: 10.7px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
-<img alt="SignMaker" src="/assets/abd22959-f13e-58df-b5cd-85082d3142bb.png" style="display: block; min-width: 77px;" width="77"/>
+<img alt=' "created with MySignature.io"' src="https://img.mysignature.io/p/a/b/d/abd22959-f13e-58df-b5cd-85082d3142bb.png?time=1720532389" style="display: block; min-width: 77px;" width="77"/>
 </td>
 </tr>
 <tr>
@@ -86,7 +86,7 @@
 <!-- -->
 <tr>
 <td style="padding: 11px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Zoom  " src="/assets/07948b7b-ae6d-5b1a-aacc-2ceda10f5fea.png" style="display: block;" width="96"/></span>
+<span><img alt="Zoom  " src="https://img.mysignature.io/a/v1/0/7/9/07948b7b-ae6d-5b1a-aacc-2ceda10f5fea.png" style="display: block;" width="96"/></span>
 </td>
 </tr>
 </table><!-- -->
@@ -99,10 +99,74 @@
 </div><!-- -->
 </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template66',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

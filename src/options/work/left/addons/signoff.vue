@@ -75,7 +75,7 @@
                                                 </div>
                                         </div>
                                         <div class="a-input u-mr-t0f5">
-                                                <input id="1945" v-model="signOffText" class="a-input__item u-pd-r5"
+                                                <input id="1945" v-model="customText" class="a-input__item u-pd-r5"
                                                         maxlength="60" placeholder="Text" type="text">
                                                 <span class="a-pro-icon e--input">
                                                         <div class="a-tooltip u-fw-300" position="top"
@@ -110,7 +110,7 @@
                                                         <el-color-picker v-model="fontColor" id="el-color-picker" />
                                                 </div>
                                         </div>
-                                </div><!---->
+                                </div>
                         </div>
                         <div class="o-editor-accordion__icon-close">
                                 <div class=""><i class="icon_service-site-close"></i></div>
@@ -126,24 +126,24 @@ import FontSelect from '@/components/FontSelect.vue'
 
 const editing = useEditingStore()
 
+const _signOff = editing.Addons?.signOff;
 
-const signOff = ref(0)
-const signOffRadio = ref(0)
-const signOffText = ref('')
+
+const signOffText = ref(_signOff?.text || 'Happy Holidays!')
+const signOffRadio = ref(_signOff?.radio || 0)
+const customText = ref('')
+
 const signOffList = [
         'Happy Holidays!', 'Best,', 'Best regards,', 'Kind regards,', 'Sincerely,', 'Thanks,', 'Regards,', 'Best wishes,', 'Custom text'
 ]
-watch([signOffRadio, signOffText], ([newSignOffRadio, newSignOffText], [oldSignOffRadio, oldSignOffText]) => {
-        console.log('newSignOffRadio:', newSignOffRadio, 'newSignOffText:', newSignOffText)
-        console.log('oldSignOffRadio:', oldSignOffRadio, 'oldSignOffText:', oldSignOffText)
+watch([signOffRadio, customText], ([newSignOffRadio, newCustomText], [oldSignOffRadio, oldCustomText]) => {
+        // console.log('newSignOffRadio:', newSignOffRadio, 'newSignOffText:', newSignOffText)
+        // console.log('oldSignOffRadio:', oldSignOffRadio, 'oldSignOffText:', oldSignOffText)
         if (newSignOffRadio === '8') {
-                signOff.value = newSignOffText
-        }
-        else if (newSignOffText !== oldSignOffText) {
-                signOff.value = newSignOffText
+                signOffText.value = newCustomText
         }
         else if (newSignOffRadio !== oldSignOffRadio) {
-                signOff.value = signOffList[newSignOffRadio]
+                signOffText.value = signOffList[newSignOffRadio]
         }
         handleSaveSignoff()
 })
@@ -192,14 +192,29 @@ const getBase64Image = (text, fontFamily, fontSize, fontColor) => {
 
 const handleSaveSignoff = () => {
         // get base64 image
-        let text = signOff.value
+        let text = signOffText.value
         let fontFamily = selectFont.value.value
         let size = fontSize.value
         let color = fontColor.value
         // get base64 image by text
         console.log('fontSize:', size)
         const base64 = getBase64Image(text, fontFamily, size, color)
-        editing.setSignoff(base64)
+        // editing.setSignoff(base64)
+
+
+        if (editing.Addons?.signOff) {
+                const signOff = editing.Addons.signOff;
+                signOff.radio = signOffRadio
+                signOff.text = text
+                signOff.fontFamily = fontFamily
+                signOff.fontSize = size
+                signOff.fontColor = color
+                signOff.img = base64
+
+                console.log("editing.Addons.signOff1", editing.Addons.signOff)
+        }
+        console.log("editing.Addons.signOff2", editing.Addons.signOff)
+
 }
 
 </script>

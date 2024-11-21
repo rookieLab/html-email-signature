@@ -19,6 +19,12 @@ chrome.action.onClicked.addListener(() => {
 //   chrome.tabs.sendMessage(tab.id, { actionClicked: true }, () => { })
 // });
 
+function saveSavedTemplates(data) {
+  chrome.storage.sync.set({ savedTemplates: data }, () => {
+    console.log('savedTemplates saved')
+  })
+}
+// 
 
 chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
   console.log('background request', request)
@@ -29,6 +35,22 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
   if (request.action === 'MORE_SIGNATURE') {
     console.log('MORE_SIGNATURE')
     chrome.runtime.openOptionsPage();
+  }
+
+  if (request.action === "saveSavedTemplates") {
+    // 处理消息，例如向所有 tab 发送消息
+    console.log("background saveSavedTemplates", request.data)
+    saveSavedTemplates(request.data)
+  }
+  if (request.action === "getSavedTemplates") {
+    // 处理消息，例如向所有 tab 发送消息
+    chrome.storage.sync.get(['savedTemplates'], (result) => {
+      console.log("background getSavedTemplates", request)
+      chrome.tabs.sendMessage(sender.tab.id, {
+        action: 'savedTemplatesResponse',
+        data: result.savedTemplates || []
+      });
+    });
   }
 });
 

@@ -23,6 +23,6 @@ const injectStore = useInjectStore()
 
 const handleClick = () => {
     console.log('handleClick')
-    injectStore.show = true
+    injectStore.showDialog()
 }
 </script>

@@ -27,9 +27,18 @@ export const useStore = defineStore('store', {
       this.activeMenu = 'General'
     },
     saveTemplate(templateName, data) {
-      this.savedTemplates.push({
-        name: templateName,
-        data: data
+      const template = this.savedTemplates.find(template => template.name === templateName)
+      if (template) {
+        template.data = data
+      } else {
+        this.savedTemplates.push({
+          name: templateName,
+          data: data
+        });
+      }
+      chrome.runtime.sendMessage({
+        action: 'saveSavedTemplates',
+        data: this.savedTemplates
       });
     },
     loadTemplateByName(templateName) {

@@ -59,10 +59,10 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="facebook" height="29" src="/assets/addons/facebook_v1_shape2_i.png" style="display: block;" width="102"/></span>
+<span><img alt="facebook" height="29" src="https://img.mysignature.io/addons/v2/facebook_v1_shape2_i.png" style="display: block;" width="102"/></span>
 </td>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-<span><img alt="youtube" height="29" src="/assets/addons/youtube_v3_shape2_i.png" style="display: block;" width="102"/></span>
+<span><img alt="youtube" height="29" src="https://img.mysignature.io/addons/v2/youtube_v3_shape2_i.png" style="display: block;" width="102"/></span>
 </td>
 <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
 <!-- -->
@@ -75,7 +75,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-<span><img alt="created with MySignature.io" src="/assets/e0962b23-a56c-5912-bb49-580595d48f3c.png" style="display: block;" valign="top" width="388"/></span>
+<span><img alt="created with MySignature.io" src="https://img.mysignature.io/b/e/0/9/e0962b23-a56c-5912-bb49-580595d48f3c.png?time=1709203140" style="display: block;" valign="top" width="388"/></span>
 </td>
 </tr>
 </table>
@@ -88,10 +88,74 @@
 </div><!-- -->
 </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template86',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

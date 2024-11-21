@@ -40,7 +40,7 @@
 import { provide, ref, reactive } from 'vue'
 import * as tempComponents from '@/components/templates'
 import { useEditingStore, useStore } from '@/stores'
-// const editing = useEditingStore()
+const editing = useEditingStore()
 const store = useStore()
 
 // 创建对子组件的引用
@@ -48,10 +48,10 @@ const templateRef = ref(null)
 
 // 修改 saveTemplate 方法
 const saveTemplate = () => {
-    // 调用子组件的 saveTemplate 方法
-    if (templateRef.value) {
-        templateRef.value.saveTemplate()
-    }
+    store.saveTemplate('Template1', editing.dump())
+    // if (templateRef.value) {
+    //     templateRef.value.saveTemplate()
+    // }
 }
 </script>
 <style scoped></style>

@@ -74,7 +74,7 @@ const store = useStore()
 const savedTemplates = store.getSavedTemplates()
 const savedTemplatesNames = savedTemplates.map(t => t.name)
 
-
+// console.log("savedTemplatesNames", savedTemplatesNames)
 
 // 创建一个函数返回指定部分的数据
 const componentArray = Object.values(tempComponents).sort((a, b) => {
@@ -82,8 +82,12 @@ const componentArray = Object.values(tempComponents).sort((a, b) => {
     const bInSaved = savedTemplatesNames.includes(b.name)
     if (aInSaved && !bInSaved) return -1
     if (!aInSaved && bInSaved) return 1
-    return 0
+    if (aInSaved && bInSaved) return 0
+    // 根据模版名称排序
+    if (a.name.length != b.name.length) return a.name.length - b.name.length
+    return a.name.localeCompare(b.name)
 })
+
 // console.log(componentArray)
 const getThirdComponents = (part) => {
     const third = Math.ceil(componentArray.length / 3)

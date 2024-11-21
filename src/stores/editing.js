@@ -23,8 +23,16 @@ export const useEditingStore = defineStore('editing', {
       { name: 'appstore', url: 'https://appstore.com' },
       { name: 'airbnb', url: 'https://airbnb.com' }
     ],
-    addons: {
-      signoff: ""
+    "Addons": {
+      "signOff": {
+        "type": "",
+        "radio": 0,
+        "text": "",
+        "fontFamily": "",
+        "fontSize": "",
+        "fontColor": "",
+        "img": ""
+      }
     },
     Image: {
       avatarImg: "",
@@ -53,9 +61,9 @@ export const useEditingStore = defineStore('editing', {
   },
   actions: {
     init(data) {
-      // console.log('useEditingStore init', data)
+      console.log('useEditingStore init', data)
       Object.assign(this, data)
-      // console.log('useEditingStore init', this.socialIcons, this.general)
+      console.log('useEditingStore init', this.Addons, this.general)
     },
     addSocialIcon(value) {
       console.log('useEditingStore addSocialIcon', value, this.socialIcons)
@@ -68,11 +76,20 @@ export const useEditingStore = defineStore('editing', {
     removeSocialIcon(value) {
       this.socialIcons = this.socialIcons.filter(icon => icon.name !== value)
     },
-    setGeneral(value) {
-      this.general = value;
-    },
-    setSignoff(value) {
-      this.addons.signoff = value;
+    dump() {
+      return JSON.stringify({
+        general: this.general,
+        Addons: this.Addons,
+        socialIcons: this.socialIcons,
+        Image: this.Image,
+        design: this.design
+      })
     }
+    // setGeneral(value) {
+    //   this.general = value;
+    // },
+    // setSignoff(value) {
+    //   this.addons.signoff = value;
+    // }
   },
 });

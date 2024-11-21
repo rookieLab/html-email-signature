@@ -19,7 +19,7 @@
                             size</label>
 
                         <div class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl ">
-                            <el-slider :max="110" :min="40" v-model="editing.design.fontSize" />
+                            <el-slider :max="100" :min="3" v-model="editing.design.fontSize" />
                         </div>
                         <!-- <div
                             class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl slider-target slider-ltr slider-horizontal slider-txt-dir-ltr">
@@ -46,11 +46,8 @@
                                         class="icon_service-pro"></i></div>
                             </span></label>
                         <div class="o-content-block__media">
-                            <div class="m-color-picker">
-                                <el-color-picker v-model="editing.design.templateColor" id="template-color-picker" />
-                                <!-- <div class=""><a href="#" class="m-color-picker__current-color"
-                                        style="background-color: rgb(0, 0, 1);"></a></div> -->
-                            </div>
+                            <ColorPicker v-model="editing.design.templateColor"></ColorPicker>
+
                         </div>
                     </div>
                     <div class="o-content-block__row e--social u-mr-b3">
@@ -61,11 +58,10 @@
                             </span>
                         </label>
                         <div class="o-content-block__media">
-                            <div class="m-color-picker">
+                            <ColorPicker v-model="editing.design.TextColor"></ColorPicker>
+                            <!-- <div class="m-color-picker">
                                 <el-color-picker v-model="editing.design.TextColor" id="text-color-picker" />
-                                <!-- <div class=""><a href="#" class="m-color-picker__current-color"
-                                        style="background-color: rgb(0, 0, 1);"></a></div> -->
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!-- <div class="o-content-block__row e--social u-mr-b3f5 u-mr-b2@sm">
@@ -167,23 +163,14 @@
                             <label class="o-content-block__label u-wd-15 u-mr-r2">
                                 Icon color
                             </label>
-                            <div class="m-color-picker">
-                                <el-color-picker v-model="editing.design.iconsColor" id="icon-color-picker" />
-                                <!-- <div class="">
-                                    <a href="#" class="m-color-picker__current-color"
-                                        style="background-color: rgb(255, 255, 255);"></a>
-                                </div> -->
-                            </div>
+                            <ColorPicker v-model="editing.design.iconsColor"></ColorPicker>
                         </div>
                     </div>
                     <div class="o-content-block__row u-mr-b0"
                         :class="{ 'u-pe-none': isBranded, 'u-op-0f5': isBranded }">
                         <div class="u-display-flex">
                             <label class="o-content-block__label u-wd-15 u-mr-r2">Icon background</label>
-                            <div class="m-color-picker">
-                                <el-color-picker v-model="editing.design.iconsBackground"
-                                    id="icon-background-color-picker" />
-                            </div>
+                            <ColorPicker v-model="editing.design.iconsBackground"></ColorPicker>
                         </div>
                     </div>
                 </div>
@@ -193,14 +180,18 @@
 </template>
 
 <script name="Design" setup>
-import { provide, ref, reactive, computed } from 'vue'
+import { provide, ref, reactive, computed, watch } from 'vue'
 import { useEditingStore, useTemplatesStore } from '@/stores'
 import FontSelect from '@/components/FontSelect.vue'
+import ColorPicker from '@/components/ColorPicker.vue'
 
 const editing = useEditingStore()
 const shape = ref('square')
 
-
+watch(shape, (newShape) => {
+    console.log(newShape, "xx")
+    editing.design.iconsShape = newShape
+})
 
 const isBranded = computed(() => editing.design.iconsType === 'branded')
 
@@ -209,7 +200,8 @@ const isBranded = computed(() => editing.design.iconsType === 'branded')
 const selectFont = ref({ name: 'Arial', value: 'Arial, Helvetica, sans-serif' })
 const handleSelectFont = (font) => {
     selectFont.value = font
-    handleSaveSignoff()
+    editing.design.font = font.name
+
 }
 
 </script>
@@ -240,7 +232,7 @@ const handleSelectFont = (font) => {
 
 :deep(.m-color-picker .el-color-picker__trigger) {
     border-radius: 100px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     border: solid 1px #000;
 }
 

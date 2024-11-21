@@ -4,7 +4,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-<img alt="Sincerely," src="/assets/9078703c-d022-5ba9-bb0b-78bf1d338aed.png" width="500"/>
+<img alt="Sincerely," src="https://img.mysignature.io/a/v1/9/0/7/9078703c-d022-5ba9-bb0b-78bf1d338aed.png" width="500"/>
 </td>
 </tr>
 </table>
@@ -14,7 +14,7 @@
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;" valign="middle">
-<img alt="SignMaker" src="/assets/3d35d5c5-4586-50ca-91b7-5a78c732a05b.png" style="display: block; min-width: 100px;" width="100"/>
+<img alt=' "created with MySignature.io"' src="https://img.mysignature.io/p/3/d/3/3d35d5c5-4586-50ca-91b7-5a78c732a05b.png?time=1709286764" style="display: block; min-width: 100px;" width="100"/>
 </td><!-- -->
 <td style="margin: 0.1px; padding: 0px;" valign="middle">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -74,7 +74,7 @@
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
 <tr>
 <td style="padding: 10px 10px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Attend departmental seminar" src="/assets/b0d6959f-112e-513a-989a-f735a58c484e.png" style="max-width: 490px; display: block;" width="244"/></span>
+<span><img alt="Attend departmental seminar" src="https://img.mysignature.io/a/v1/b/0/d/b0d6959f-112e-513a-989a-f735a58c484e.png" style="max-width: 490px; display: block;" width="244"/></span>
 </td>
 </tr>
 </table>
@@ -82,7 +82,7 @@
 <!-- -->
 <tr>
 <td style="padding: 9px 0px 0px; margin: 0.1px; cursor: pointer;">
-<span><img alt="Meet me on Zoom" src="/assets/c03309a2-9537-59c3-91fa-b5c5eeeaa8da.png" style="display: block;" width="173"/></span>
+<span><img alt="Meet me on Zoom" src="https://img.mysignature.io/a/v1/c/0/3/c03309a2-9537-59c3-91fa-b5c5eeeaa8da.png" style="display: block;" width="173"/></span>
 </td>
 </tr>
 </table>
@@ -122,10 +122,74 @@
 </div><!-- -->
 </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template91',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

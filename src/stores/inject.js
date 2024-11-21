@@ -7,10 +7,18 @@ export const useInjectStore = defineStore('inject', {
   },
   state: () => ({
     show: false,
+    savedTemplates: [],
   }),
   actions: {
-    handleMenuClick(value) {
-      this.activeMenu = value;
+    getSavedTemplates() {
+      return this.savedTemplates
     },
+    showDialog() {
+      window.postMessage({
+        type: 'FROM_INJECT',
+        action: 'getSavedTemplates',
+      }, '*')
+      this.show = true
+    }
   },
 });

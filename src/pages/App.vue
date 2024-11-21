@@ -10,8 +10,8 @@
         </div>
       </div>
       <div class="main" style="padding: 0 10px;">
-        <div class="template-container" @click="handleSelectTemplate('Template1')">
-          <Template1 />
+        <div class="template-container" v-for="c in componentArray" @click="handleSelectTemplate(c.name)">
+          <component :is="c" :data="savedTemplatesMap[c.name]?.data" />
         </div>
         <el-button style="width: 100%;margin-top: 15px;" type="primary" round @click="handleMoreSignature">
           More Signature
@@ -21,14 +21,39 @@
   </transition>
 </template>
 
-<script name="Home" setup>
-import { UploadFilled, Close, CloseBold } from '@element-plus/icons-vue'
+<script name="INJECT-APP" setup>
 import { reactive, onMounted, ref, computed } from 'vue';
-import { storeToRefs } from 'pinia'
 import { useInjectStore } from '@/stores'
-import Template1 from '@/components/templates/Template1.vue';
+import * as tempComponents from '@/components/templates'
+import { UploadFilled, Close, CloseBold } from '@element-plus/icons-vue'
 
 const injectStore = useInjectStore()
+
+
+
+// 初始化保持的模版
+const savedTemplates = injectStore.getSavedTemplates()
+const savedTemplatesNames = savedTemplates.map(t => t.name)
+const savedTemplatesMap = {}
+savedTemplates.forEach(t => {
+  savedTemplatesMap[t.name] = t
+})
+const componentArray = Object.values(tempComponents).filter(c => savedTemplatesNames.includes(c.name))
+console.log("savedTemplatesNames", savedTemplatesNames, savedTemplatesMap)
+
+
+
+// const componentArray = Object.values(tempComponents).sort((a, b) => {
+//     const aInSaved = savedTemplatesNames.includes(a.name)
+//     const bInSaved = savedTemplatesNames.includes(b.name)
+//     if (aInSaved && !bInSaved) return -1
+//     if (!aInSaved && bInSaved) return 1
+//     return 0
+// })
+
+
+
+
 
 const closeDialog = () => {
   injectStore.show = false
@@ -46,84 +71,30 @@ const handleMoreSignature = () => {
   }, '*')
 }
 
-// import SVGBlibli from "@/components/svg/bili.vue"
-// import SVGBlibliActive from "@/components/svg/biliActive.vue"
-// import SVGDouyin from "@/components/svg/douyin.vue"
-// import SVGDouyinActive from "@/components/svg/douyinActive.vue"
-// import SVGxhs from "@/components/svg/xhs.vue"
-// import SVGxhsActive from "@/components/svg/xhsActive.vue"
 
-
-// const douyinStore = useDouyinStore();
-// const content = computed({
-//   get() { return douyinStore.content },
-//   set(val) { douyinStore.content = val }
-// })
-// const state = reactive({
-//   fileName: "",
-//   fileType: "",
-//   fileBase64: "",
-// });
-
-
-// // 文件上传
-// const uploadRef = ref()
-// const changeUpload = (uploadFile, uploadFiles) => {
-//   return new Promise((resolve, reject) => {
-//     const reader = new FileReader();
-//     reader.readAsDataURL(uploadFile.raw);
-//     reader.onload = () => {
-//       state.fileBase64 = reader.result
-//       state.fileName = uploadFile.raw.name
-//       state.fileType = uploadFile.raw.type // "video/mp4"
-//       resolve(false);  // 阻止文件的自动上传
-//     };
-//     reader.onerror = (error) => {
-//       console.error('File reading error:', error);
-//       reject(error);
-//     };
-//     console.log('changeUpload', uploadFile)
-//   })
-// }
-
-
-// const closeDialog = () => {
-//   douyinStore.close()
-// }
-
-// const handleUpload = () => {
-//   console.log('inject uploadAll')
-//   const base64String = state.fileBase64.split(',')[1]; // 获取 Base64 字符串
+// 从background 获取保持的数据
+// const initSavedTemplates = () => {
 //   window.postMessage({
-//     to: 'background',
-//     action: "upload",
-//     data: {
-//       title: douyinStore.title,
-//       content: douyinStore.content,
-//       publishTime: douyinStore.publishTime,
-//       fileBase64: base64String,
-//       fileName: state.name,
-//       fileType: state.type,// "video/mp4"
-//       apps: JSON.stringify(douyinStore.socialApps)
-//     }
-//   }, response => {
-//     console.log("Response from background:", response);
-//   });
-//   window.postMessage({ type: 'FROM_INJECT', upload: true, data: 'all' }, '*');
+//     type: 'FROM_INJECT',
+//     action: 'getSavedTemplates',
+//   }, '*')
 // }
 
 onMounted(() => {
-  chrome.runtime.onMessage.addListener((data) => {
-    console.log('page app', data)
-    if (data.actionClicked === true) {
-      douyinStore.isShow = !douyinStore.isShow;
-    }
+  // chrome.runtime.onMessage.addListener((data) => {
+  //   console.log('page app', data)
+  //   if (data.actionClicked === true) {
+  //     douyinStore.isShow = !douyinStore.isShow;
+  //   }
 
-    if (data.closeIndex) {
-      douyinStore.isShow = false
-    }
-  })
+  //   if (data.closeIndex) {
+  //     douyinStore.isShow = false
+  //   }
+  // })
+  // initSavedTemplates()
 })
+
+
 
 </script>
 <style scoped>

@@ -3,7 +3,7 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="/assets/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
+                        src="https://img.mysignature.io/a/v1/b/4/0/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
                         alt="Regards,"></td>
             </tr>
         </table>
@@ -14,7 +14,7 @@
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
                                 <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;"><img
-                                        src="/assets/7b522916-9d8a-5aed-8391-bf432a65fcfc.png"
+                                        src="https://img.mysignature.io/p/7/b/5/7b522916-9d8a-5aed-8391-bf432a65fcfc.png?time=1709033673"
                                         width="120" alt=" &quot;created with MySignature.io&quot;"
                                         style="display: block; min-width: 120px;"></td>
                                 <td valign="top"
@@ -68,13 +68,13 @@
             <table cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="/assets/addons/facebook_v1_shape2_b.png" height="34"
+                                src="https://img.mysignature.io/addons/v2/facebook_v1_shape2_b.png" height="34"
                                 width="119" alt="facebook" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="/assets/addons/twitter_v1_shape2_b.png" height="34"
+                                src="https://img.mysignature.io/addons/v2/twitter_v1_shape2_b.png" height="34"
                                 width="119" alt="twitter" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="/assets/addons/linkedin_v1_shape2_b.png" height="34"
+                                src="https://img.mysignature.io/addons/v2/linkedin_v1_shape2_b.png" height="34"
                                 width="119" alt="linkedin" style="display: block;"></span></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
                 </tr>
@@ -98,16 +98,80 @@
             </table><!---->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"> &nbsp;</td>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
         </div><!---->
     </div>
 </template>
-
 <script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
 export default {
     name: 'Template10',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+        data: {
+            type: Object,
+            default: () => ({})
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+        initEditingStore() {
+            // 先从props 中获取数据，
+            let data = this.data
+            console.log(this.$options.name + "data", data)
+
+            // 如果props 中没有数据，看看用户有没有保存过自定义数据
+            if (!data) {
+                data = this.store.loadTemplateByName(this.$options.name);
+            }
+
+            // 使用默认数据
+            if (!data) {
+                data = this.templates.getTemplate(this.$options.name)
+            }
+            this.editing.init(data);
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        this.editing = useEditingStore()
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
 }
 </script>
 <style scoped></style>

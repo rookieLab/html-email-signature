@@ -82,7 +82,7 @@
 import { provide, ref, reactive } from 'vue'
 import { useEditingStore } from '@/stores/editing'
 // 自动导入所有 svg 组件
-import * as iconComponents from '@/components/svg'
+import * as iconComponents from '@/components/svg-icon'
 const editing = useEditingStore()
 
 
