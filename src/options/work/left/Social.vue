@@ -20,8 +20,7 @@
                                 class="o-content-block__row e--social u-mr-t2f5 u-mr-b0 draggable-badge"
                                 data-draggable="true">
                                 <i class="o-content-block__icon-drag e--left-0 icon_service-drag sort-badge"></i>
-                                <span class="a-social-logo u-mr-r1 is-brand btn-youtube"
-                                    :class="`btn-${icon.name?.toLowerCase()}`">
+                                <span class="a-social-logo u-mr-r1 is-brand" :class="`btn-${icon.name?.toLowerCase()}`">
                                     <component :is="socialIconsMap[icon.name]" :url="'#'"></component>
                                 </span>
                                 <span class="o-content-block__media">
@@ -61,7 +60,7 @@
                     <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Gallery</h2><!---->
                 </div>
                 <div class="u-pd-t4 u-pd-ha2 u-pd-ha3@xl">
-                    <div class="a-input u-mr-t0"><!----><input id="1412" class="a-input__item u-pd-l3f5" maxlength="100"
+                    <div class="a-input u-mr-t0"><input id="1412" class="a-input__item u-pd-l3f5" maxlength="100"
                             placeholder="Search" type="text"><!----><i
                             class="a-input__search icon_service-search-regular"></i><!----><!----><!----></div><span
                         class="u-mr-haauto">

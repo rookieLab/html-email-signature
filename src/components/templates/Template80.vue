@@ -103,7 +103,7 @@ export default {
     props: {
         data: {
             type: Object,
-            default: () => ({})
+            default: () => (null)
         }
     },
     methods: {

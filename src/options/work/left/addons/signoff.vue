@@ -1,122 +1,120 @@
 <template>
-        <div class="u-pd-ha2 u-pd-ha2f5@xl u-pd-t1" id="sign" index="0" data-draggable="true">
-                <div class="o-editor-accordion__item u-br-20 u-bs-1 u-mr-b0"><!---->
+        <!-- <div class="u-pd-ha2 u-pd-ha2f5@xl u-pd-t1" id="sign" index="0" data-draggable="true">
+                <div class="o-editor-accordion__item u-br-20 u-bs-1 u-mr-b0">
                         <div class="title o-editor-accordion__head u-br-t2">
                                 <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5"><i
                                                 class="o-editor-accordion__img icon_addon-sign-off"></i>
                                         <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Sign off</p>
-                                        <!---->
+                              
+                                </div>
+                        </div> -->
+        <div class="o-editor-accordion__description e--addon" style="">
+                <ul class="o-tabs-free u-mr-b3 u-bg-white-medium u-br-20 u-br-40@xl u-mr-b4@xl">
+                        <li class="o-tabs-free__item u-mr-ha0"><a
+                                        class="o-tabs-free__link u-pd-t0f5 u-pd-r2 u-pd-b0f5 u-pd-l2 u-text-12 u-mr-b0 u-fw-600 e--active"
+                                        href="#">Text</a></li>
+                        <li class="o-tabs-free__item u-mr-ha0"><a
+                                        class="o-tabs-free__link u-pd-t0f5 u-pd-r2 u-pd-b0f5 u-pd-l2 u-text-12 u-mr-b0 u-fw-600"
+                                        href="#">Handwritten</a></li>
+                </ul>
+                <div>
+                        <div class="l-dp-flex e--gap-none u-text-14">
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_0" type="radio" class="a-radio"
+                                                name="sign_off" value="0">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_0">Happy Holidays!</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_1" type="radio" class="a-radio"
+                                                name="sign_off" value="1">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_1">Best,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_2" type="radio" class="a-radio"
+                                                name="sign_off" value="2">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_2">Best regards,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_3" type="radio" class="a-radio"
+                                                name="sign_off" value="3">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_3">Kind regards,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_4" type="radio" class="a-radio"
+                                                name="sign_off" value="4">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_4">Sincerely,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_5" type="radio" class="a-radio"
+                                                name="sign_off" value="5">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_5">Thanks,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_6" type="radio" class="a-radio"
+                                                name="sign_off" value="6">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_6">Regards,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_7" type="radio" class="a-radio"
+                                                name="sign_off" value="7">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_7">Best wishes,</label>
+                                </div>
+                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
+                                        <input v-model="signOffRadio" id="sign_off_8" type="radio" class="a-radio"
+                                                name="sign_off" value="8">
+                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
+                                                for="sign_off_8">Custom text</label>
                                 </div>
                         </div>
-                        <div class="o-editor-accordion__description e--addon" style="">
-                                <ul class="o-tabs-free u-mr-b3 u-bg-white-medium u-br-20 u-br-40@xl u-mr-b4@xl">
-                                        <li class="o-tabs-free__item u-mr-ha0"><a
-                                                        class="o-tabs-free__link u-pd-t0f5 u-pd-r2 u-pd-b0f5 u-pd-l2 u-text-12 u-mr-b0 u-fw-600 e--active"
-                                                        href="#">Text</a></li>
-                                        <li class="o-tabs-free__item u-mr-ha0"><a
-                                                        class="o-tabs-free__link u-pd-t0f5 u-pd-r2 u-pd-b0f5 u-pd-l2 u-text-12 u-mr-b0 u-fw-600"
-                                                        href="#">Handwritten</a></li>
-                                </ul>
-                                <div>
-                                        <div class="l-dp-flex e--gap-none u-text-14">
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_0" type="radio"
-                                                                class="a-radio" name="sign_off" value="0">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_0">Happy Holidays!</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_1" type="radio"
-                                                                class="a-radio" name="sign_off" value="1">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_1">Best,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_2" type="radio"
-                                                                class="a-radio" name="sign_off" value="2">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_2">Best regards,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_3" type="radio"
-                                                                class="a-radio" name="sign_off" value="3">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_3">Kind regards,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_4" type="radio"
-                                                                class="a-radio" name="sign_off" value="4">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_4">Sincerely,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_5" type="radio"
-                                                                class="a-radio" name="sign_off" value="5">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_5">Thanks,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_6" type="radio"
-                                                                class="a-radio" name="sign_off" value="6">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_6">Regards,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_7" type="radio"
-                                                                class="a-radio" name="sign_off" value="7">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_7">Best wishes,</label>
-                                                </div>
-                                                <div class="l-dp-flex__item u-wd-50p u-mr-b2">
-                                                        <input v-model="signOffRadio" id="sign_off_8" type="radio"
-                                                                class="a-radio" name="sign_off" value="8">
-                                                        <label class="a-radio__label u-pd-l2 u-mr-r0f1 u-pd-l2f5@xl u-cl-black-dark"
-                                                                for="sign_off_8">Custom text</label>
-                                                </div>
+                        <div class="a-input u-mr-t0f5">
+                                <input id="1945" v-model="customText" class="a-input__item u-pd-r5" maxlength="60"
+                                        placeholder="Text" type="text">
+                                <span class="a-pro-icon e--input">
+                                        <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature"><i
+                                                        class="icon_service-pro"></i>
                                         </div>
-                                        <div class="a-input u-mr-t0f5">
-                                                <input id="1945" v-model="customText" class="a-input__item u-pd-r5"
-                                                        maxlength="60" placeholder="Text" type="text">
-                                                <span class="a-pro-icon e--input">
-                                                        <div class="a-tooltip u-fw-300" position="top"
-                                                                tooltip="PRO feature"><i class="icon_service-pro"></i>
-                                                        </div>
-                                                </span>
-                                        </div>
+                                </span>
+                        </div>
 
-                                        <div class="o-content-block__row u-mr-t3 u-mr-b2 u-mr-b0f5@xl u-mr-t5@xl">
-                                                <label class="o-content-block__label u-wd-12 u-mr-r1f5">
-                                                        Font family
-                                                </label>
-                                                <div class="o-content-block__media e--full">
-                                                        <FontSelect @change="handleSelectFont" />
-                                                </div>
-                                        </div>
-                                        <div
-                                                class="o-content-block__row u-mr-b1 u-display-inline-block u-display-flex@sm u-mr-t2@sm u-mr-t1@xl">
-                                                <label
-                                                        class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b2 u-mr-b1@xl">
-                                                        Font size</label>
-                                                <div class="o-content-block__media">
-                                                        <el-slider v-model="fontSize" :max="60" :min="10" />
-                                                </div>
-                                        </div>
-                                        <div
-                                                class="o-content-block__row e--social u-mr-t2 u-mr-b3 u-mr-b1@xl u-mr-t1@xl">
-                                                <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">
-                                                        Font color
-                                                </label>
-                                                <div class="o-content-block__media">
-                                                        <el-color-picker v-model="fontColor" id="el-color-picker" />
-                                                </div>
-                                        </div>
+                        <div class="o-content-block__row u-mr-t3 u-mr-b2 u-mr-b0f5@xl u-mr-t5@xl">
+                                <label class="o-content-block__label u-wd-12 u-mr-r1f5">
+                                        Font family
+                                </label>
+                                <div class="o-content-block__media e--full">
+                                        <FontSelect @change="handleSelectFont" />
                                 </div>
                         </div>
-                        <div class="o-editor-accordion__icon-close">
-                                <div class=""><i class="icon_service-site-close"></i></div>
+                        <div
+                                class="o-content-block__row u-mr-b1 u-display-inline-block u-display-flex@sm u-mr-t2@sm u-mr-t1@xl">
+                                <label class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b2 u-mr-b1@xl">
+                                        Font size</label>
+                                <div class="o-content-block__media">
+                                        <el-slider v-model="fontSize" :max="60" :min="10" />
+                                </div>
+                        </div>
+                        <div class="o-content-block__row e--social u-mr-t2 u-mr-b3 u-mr-b1@xl u-mr-t1@xl">
+                                <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">
+                                        Font color
+                                </label>
+                                <div class="o-content-block__media">
+                                        <el-color-picker v-model="fontColor" id="el-color-picker" />
+                                </div>
                         </div>
                 </div>
         </div>
+        <!-- <div class="o-editor-accordion__icon-close">
+                                <div class=""><i class="icon_service-site-close"></i></div>
+                        </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
 </template>
 
 <script name="SignOff" setup>

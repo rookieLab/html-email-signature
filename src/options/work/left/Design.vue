@@ -115,9 +115,9 @@
                             </label>
                         </div>
                         <div class="l-dp-flex__item u-wd-auto u-mr-b1f5 u-mr-r1 u-mr-r0@xl u-mr-b0@md">
-                            <input id="default_custom" class="a-radio" type="radio" v-model="editing.design.iconsType"
+                            <input id="default_colored" class="a-radio" type="radio" v-model="editing.design.iconsType"
                                 value="colored">
-                            <label class="a-radio__label u-fz-11 u-fw-600 u-pd-l2f5 u-cl-snow" for="default_custom">
+                            <label class="a-radio__label u-fz-11 u-fw-600 u-pd-l2f5 u-cl-snow" for="default_colored">
                                 <span
                                     class="l-dp-flex e--gap-none e--va-center u-lh-1f53 u-pd-ha1 u-br-20 u-bg-hawkes-blue u-border-hawkes-blue u-cl-black-dark"><span
                                         class="u-mr-va0f3">Colored</span>
@@ -125,7 +125,17 @@
                                 </span>
                             </label>
                         </div>
+                        <div class="l-dp-flex__item u-wd-auto u-mr-b1f5 u-mr-r1 u-mr-r0@xl u-mr-b0@md">
+                            <input id="default_outline" class="a-radio" type="radio" v-model="editing.design.iconsType"
+                                value="outline">
+                            <label class="a-radio__label u-fz-11 u-fw-600 u-pd-l2f5 u-cl-snow" for="default_outline">
+                                <span
+                                    class="l-dp-flex e--gap-none e--va-center u-lh-1f53 u-pd-ha1 u-br-20 u-bg-hawkes-blue u-border-hawkes-blue u-cl-black-dark"><span
+                                        class="u-mr-va0f3">Outline</span>
 
+                                </span>
+                            </label>
+                        </div>
                     </div>
                     <div
                         class="o-content-block__row u-mr-t2 u-mr-b1f5 u-display-inline-block u-display-flex@sm u-mr-b1@xl u-mr-t1@xl">
@@ -137,7 +147,8 @@
                         </div>
 
                     </div>
-                    <div class="o-content-block__row u-mr-b3">
+                    <div class="o-content-block__row u-mr-b3"
+                        :class="{ 'u-pe-none': isOutline, 'u-op-0f5': isOutline }">
                         <div class="l-dp-flex e--gap-none e--va-center">
                             <label class="o-content-block__label u-wd-15 u-mr-r2 e--flex">
                                 Shape
@@ -167,7 +178,7 @@
                         </div>
                     </div>
                     <div class="o-content-block__row u-mr-b0"
-                        :class="{ 'u-pe-none': isBranded, 'u-op-0f5': isBranded }">
+                        :class="{ 'u-pe-none': isBranded || isOutline, 'u-op-0f5': isBranded || isOutline }">
                         <div class="u-display-flex">
                             <label class="o-content-block__label u-wd-15 u-mr-r2">Icon background</label>
                             <ColorPicker v-model="editing.design.iconsBackground"></ColorPicker>
@@ -194,8 +205,7 @@ watch(shape, (newShape) => {
 })
 
 const isBranded = computed(() => editing.design.iconsType === 'branded')
-
-
+const isOutline = computed(() => editing.design.iconsType === 'outline')
 
 const selectFont = ref({ name: 'Arial', value: 'Arial, Helvetica, sans-serif' })
 const handleSelectFont = (font) => {

@@ -32,6 +32,14 @@ export const useEditingStore = defineStore('editing', {
         "fontSize": "",
         "fontColor": "",
         "img": ""
+      },
+      "social": {
+        "paddingTop": 5,
+        "badgeSize": 46,
+        "badgeShape": "rounded",
+        "badgeType": "branded",
+        "badgeColor": "#000000",
+        "badgeBackground": "#000000",
       }
     },
     Image: {

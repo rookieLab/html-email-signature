@@ -2,21 +2,26 @@
     <div><!---->
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
-                <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
-                        src="https://img.mysignature.io/p/9/1/2/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195"
+                <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
+                    <img src="/assets/avatar/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195"
                         width="100" alt=" &quot;created with MySignature.io&quot;"
-                        style="display: block; min-width: 100px;"></td>
+                        style="display: block; min-width: 100px;">
+                </td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.6px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="font-weight: 600; color: rgb(9, 125, 94); cursor: pointer;">NICHOLAS EASTERLIN
-                    </span><!----><!----></td>
+                    <span style="font-weight: 600; color: rgb(9, 125, 94); cursor: pointer;">
+                        {{ editing.general?.name }}
+                    </span>
+                </td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                    <!----><!----><span style="cursor: pointer;"> TRAVEL BLOGGER</span></td>
+
+                    <span style="cursor: pointer;"> TRAVEL BLOGGER</span>
+                </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
@@ -117,7 +122,7 @@ export default {
     props: {
         data: {
             type: Object,
-            default: () => ({})
+            default: () => (null)
         }
     },
     methods: {
@@ -127,15 +132,17 @@ export default {
         initEditingStore() {
             // 先从props 中获取数据，
             let data = this.data
-            console.log(this.$options.name + "data", data)
+
 
             // 如果props 中没有数据，看看用户有没有保存过自定义数据
             if (!data) {
+                console.log(this.$options.name + "-loadTemplateByName-data", data)
                 data = this.store.loadTemplateByName(this.$options.name);
             }
 
             // 使用默认数据
             if (!data) {
+                console.log(this.$options.name + "-getTemplate-data", data)
                 data = this.templates.getTemplate(this.$options.name)
             }
             this.editing.init(data);
@@ -146,7 +153,7 @@ export default {
             ))
         },
         init() {
-            this.initEditingStore(this.$options.name);
+            this.initEditingStore();
             this.loadSocialIcons();
         }
     },
