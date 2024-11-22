@@ -25,13 +25,15 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 20.4px / 25.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">Katie
-                                                    Howard</span><!----><!----></td>
+                                                    Howard</span><!----><!---->
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(31, 31, 31);">
                                                 <span style="color: rgb(31, 31, 31); cursor: pointer;">Family Law
-                                                    Attorney</span><!----><!----><!----><!----></td>
+                                                    Attorney</span><!----><!----><!----><!---->
+                                            </td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -54,7 +56,8 @@
                                                 style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="color: rgb(31, 31, 31); font-weight: 600;">A:&nbsp;</span><span
-                                                    style="color: rgb(31, 31, 31);">Durham, North Carolina</span></td>
+                                                    style="color: rgb(31, 31, 31);">Durham, North Carolina</span>
+                                            </td>
                                         </tr><!---->
                                     </table>
                                 </td>
@@ -93,7 +96,8 @@
                         style="font-family: Verdana, Geneva, sans-serif; font-size: 14.1px; padding: 20px 0px 0px; margin: 0.1px;">
                         <span>If you have problem?&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(10, 58, 178);">Contact to
-                            me</span></td>
+                            me</span>
+                    </td>
                 </tr>
             </table><!---->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -120,6 +124,10 @@ export default {
         }
     },
     props: {
+        type: {
+            type: String,
+            default: 'template' //  editing | preview
+        },
         data: {
             type: Object,
             default: () => (null)
@@ -129,21 +137,24 @@ export default {
         // saveTemplate() {
         //     this.store.saveTemplate('Template1', this.data);
         // },
-        initEditingStore() {
-            // 先从props 中获取数据，
-            let data = this.data
-            console.log(this.$options.name + "data", data)
-
-            // 如果props 中没有数据，看看用户有没有保存过自定义数据
-            if (!data) {
-                data = this.store.loadTemplateByName(this.$options.name);
+         initEditingStore() {
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = data
             }
 
-            // 使用默认数据
-            if (!data) {
-                data = this.templates.getTemplate(this.$options.name)
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = useEditingStore()
+                this.editing.init(data);
             }
-            this.editing.init(data);
+
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
@@ -167,7 +178,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        this.editing = useEditingStore()
+
         this.templates = useTemplatesStore()
 
         this.init()

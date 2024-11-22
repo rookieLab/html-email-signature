@@ -51,13 +51,15 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.9px / 21.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(254, 182, 0); font-weight: 600; cursor: pointer;">Karen
-                                                Shevans</span><!----><!----></td>
+                                                Shevans</span><!----><!---->
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.1px / 17.9px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">Photographer</span><!----><span
-                                                style="cursor: pointer;"></span></td>
+                                                style="cursor: pointer;"></span>
+                                        </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -115,6 +117,10 @@ export default {
         }
     },
     props: {
+        type: {
+            type: String,
+            default: 'preview' // editing | preview
+        },
         data: {
             type: Object,
             default: () => (null)
@@ -125,20 +131,23 @@ export default {
         //     this.store.saveTemplate('Template1', this.data);
         // },
         initEditingStore() {
-            // 先从props 中获取数据，
-            let data = this.data
-            console.log(this.$options.name + "data", data)
-
-            // 如果props 中没有数据，看看用户有没有保存过自定义数据
-            if (!data) {
-                data = this.store.loadTemplateByName(this.$options.name);
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = data
             }
 
-            // 使用默认数据
-            if (!data) {
-                data = this.templates.getTemplate(this.$options.name)
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = useEditingStore()
+                this.editing.init(data);
             }
-            this.editing.init(data);
+
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
@@ -162,9 +171,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        this.editing = useEditingStore()
         this.templates = useTemplatesStore()
-
         this.init()
     }
 }

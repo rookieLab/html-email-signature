@@ -69,9 +69,9 @@ export const useEditingStore = defineStore('editing', {
   },
   actions: {
     init(data) {
-      console.log('useEditingStore init', data)
+      // console.log('useEditingStore init', data)
       Object.assign(this, data)
-      console.log('useEditingStore init', this.Addons, this.general)
+      // console.log('useEditingStore init', this.Addons, this.general)
     },
     addSocialIcon(value) {
       console.log('useEditingStore addSocialIcon', value, this.socialIcons)

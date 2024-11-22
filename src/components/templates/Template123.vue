@@ -126,6 +126,10 @@ export default {
         }
     },
     props: {
+                type: {
+            type: String,
+            default: 'preview' // editing | preview
+        },
         data: {
             type: Object,
             default: () => (null)
@@ -135,21 +139,24 @@ export default {
         // saveTemplate() {
         //     this.store.saveTemplate('Template1', this.data);
         // },
-        initEditingStore() {
-            // 先从props 中获取数据，
-            let data = this.data
-            console.log(this.$options.name + "data", data)
-
-            // 如果props 中没有数据，看看用户有没有保存过自定义数据
-            if (!data) {
-                data = this.store.loadTemplateByName(this.$options.name);
+         initEditingStore() {
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = data
             }
 
-            // 使用默认数据
-            if (!data) {
-                data = this.templates.getTemplate(this.$options.name)
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = useEditingStore()
+                this.editing.init(data);
             }
-            this.editing.init(data);
+
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
@@ -173,7 +180,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        this.editing = useEditingStore()
+        
         this.templates = useTemplatesStore()
 
         this.init()

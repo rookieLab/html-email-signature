@@ -45,7 +45,7 @@
                             <div class="o-sign-list__item_inner">
                                 <div class="o-sign-list__sign-wrap">
                                     <div class="template default-style e--sc-75 e--mb-5">
-                                        <component :is="t"></component>
+                                        <component :is="t" type="preview"></component>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ const store = useStore()
 const savedTemplates = store.getSavedTemplates()
 const savedTemplatesNames = savedTemplates.map(t => t.name)
 
-// console.log("savedTemplatesNames", savedTemplatesNames)
+console.log("savedTemplatesNames", savedTemplatesNames)
 
 // 创建一个函数返回指定部分的数据
 const componentArray = Object.values(tempComponents).sort((a, b) => {

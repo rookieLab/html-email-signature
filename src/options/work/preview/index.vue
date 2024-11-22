@@ -17,7 +17,7 @@
                     <div class="o-editor-preview__sign">
                         <div id="signature-preview" class="o-signature-preview u-us-none u-mr-b4 u-of-auto-x">
                             <component :is="tempComponents[store.editingTemplate]" ref="templateRef"
-                                @saveTemplate="saveTemplate"></component>
+                                @saveTemplate="saveTemplate()" type="editing"></component>
                         </div>
                     </div>
                 </div>
@@ -40,6 +40,7 @@
 import { provide, ref, reactive } from 'vue'
 import * as tempComponents from '@/components/templates'
 import { useEditingStore, useStore } from '@/stores'
+import { ElMessage } from 'element-plus'
 const editing = useEditingStore()
 const store = useStore()
 
@@ -48,10 +49,11 @@ const templateRef = ref(null)
 
 // 修改 saveTemplate 方法
 const saveTemplate = () => {
-    store.saveTemplate('Template1', editing.dump())
-    // if (templateRef.value) {
-    //     templateRef.value.saveTemplate()
-    // }
+    store.saveTemplate(store.editingTemplate, editing.dump())
+    ElMessage({
+        message: 'save success',
+        type: 'success',
+    })
 }
 </script>
 <style scoped></style>

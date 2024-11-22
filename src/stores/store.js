@@ -6,7 +6,7 @@ export const useStore = defineStore('store', {
     storage: localStorage
   },
   state: () => ({
-    activeMenu: 'General', //  General|Images|Social|Add-ons|Design|Templates
+    activeMenu: 'Templates', //  General|Images|Social|Add-ons|Design|Templates
     editingTemplate: "Template1",
     savedTemplates: []
   }),
@@ -17,6 +17,7 @@ export const useStore = defineStore('store', {
   },
   actions: {
     getSavedTemplates() {
+      // .map(template => template.data = JSON.parse(template.data))
       return this.savedTemplates
     },
     handleMenuClick(value) {
@@ -27,6 +28,7 @@ export const useStore = defineStore('store', {
       this.activeMenu = 'General'
     },
     saveTemplate(templateName, data) {
+      // console.log('store saveTemplate', templateName, data)
       const template = this.savedTemplates.find(template => template.name === templateName)
       if (template) {
         template.data = data
@@ -36,13 +38,23 @@ export const useStore = defineStore('store', {
           data: data
         });
       }
-      chrome.runtime.sendMessage({
-        action: 'saveSavedTemplates',
-        data: this.savedTemplates
-      });
+      // 如果是chrome插件，则将数据发送到插件中
+      if (chrome.runtime) {
+        console.log('store saveTemplate', chrome)
+        chrome.runtime.sendMessage({
+          action: 'saveSavedTemplates',
+          data: this.savedTemplates
+        });
+      }
     },
     loadTemplateByName(templateName) {
-      return this.savedTemplates.find(template => template.name === templateName)?.data;
+      // console.log('store loadTemplateByName', templateName)
+      let data = this.savedTemplates.find(template => template.name === templateName)?.data;
+      // console.log('store loadTemplateByName2', templateName, data)
+      if (data) {
+        return JSON.parse(data)
+      }
+      return null
     }
   },
 });

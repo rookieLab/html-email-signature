@@ -151,6 +151,11 @@ import { useEditingStore, useTemplatesStore } from '@/stores'
 import * as iconComponents from '@/components/svg-icon-a'
 import jsonData from '@/stores/data.json'
 
+
+// 模版：显示data.json 中的数据
+// 编辑，需要editingStore 来编辑
+// 预览：显示store中的数据
+
 export default {
     name: 'Template1',
     data() {
@@ -160,6 +165,10 @@ export default {
         }
     },
     props: {
+        type: {
+            type: String,
+            default: 'preview' // editing | preview
+        },
         data: {
             type: Object,
             default: () => (null)
@@ -167,23 +176,30 @@ export default {
     },
     methods: {
         // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.data);
+        //     this.store.saveTemplate('Template1', this.editing);
         // },
         initEditingStore() {
-            // 先从props 中获取数据，
-            let data = this.data
-            console.log(this.$options.name + "data", data)
-
-            // 如果props 中没有数据，看看用户有没有保存过自定义数据
-            if (!data) {
-                data = this.store.loadTemplateByName(this.$options.name);
+            // console.log('initEditingStore', this.$options.name, this.type)
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                // Object.assign(this.editing, data)
+                // console.log('initEditingStore2', this.$options.name, data)
+                this.editing = data
             }
 
-            // 使用默认数据
-            if (!data) {
-                data = this.templates.getTemplate(this.$options.name)
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                // console.log('initEditingStore3', this.$options.name, data)
+                this.editing = useEditingStore()
+                this.editing.init(data);
             }
-            this.editing.init(data);
+
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
@@ -207,9 +223,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        this.editing = useEditingStore()
         this.templates = useTemplatesStore()
-
         this.init()
     }
 }

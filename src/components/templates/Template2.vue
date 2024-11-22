@@ -3,9 +3,8 @@
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
-                    <img src="/assets/avatar/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195"
-                        width="100" alt=" &quot;created with MySignature.io&quot;"
-                        style="display: block; min-width: 100px;">
+                    <img src="/assets/avatar/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195" width="100"
+                        alt=" &quot;created with MySignature.io&quot;" style="display: block; min-width: 100px;">
                 </td>
             </tr>
             <tr>
@@ -19,7 +18,6 @@
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-
                     <span style="cursor: pointer;"> TRAVEL BLOGGER</span>
                 </td>
             </tr>
@@ -120,6 +118,10 @@ export default {
         }
     },
     props: {
+        type: {
+            type: String,
+            default: 'preview' // editing | preview
+        },
         data: {
             type: Object,
             default: () => (null)
@@ -130,22 +132,23 @@ export default {
         //     this.store.saveTemplate('Template1', this.data);
         // },
         initEditingStore() {
-            // 先从props 中获取数据，
-            let data = this.data
-
-
-            // 如果props 中没有数据，看看用户有没有保存过自定义数据
-            if (!data) {
-                console.log(this.$options.name + "-loadTemplateByName-data", data)
-                data = this.store.loadTemplateByName(this.$options.name);
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = data
             }
 
-            // 使用默认数据
-            if (!data) {
-                console.log(this.$options.name + "-getTemplate-data", data)
-                data = this.templates.getTemplate(this.$options.name)
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = useEditingStore()
+                this.editing.init(data);
             }
-            this.editing.init(data);
+
         },
         loadSocialIcons() {
             Object.values(iconComponents).map(component => (
@@ -169,9 +172,8 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        this.editing = useEditingStore()
-        this.templates = useTemplatesStore()
 
+        this.templates = useTemplatesStore()
         this.init()
     }
 }
