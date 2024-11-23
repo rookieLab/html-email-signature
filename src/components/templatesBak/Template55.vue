@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.9px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.9px / 22.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(144, 19, 254); cursor: pointer;">Arnas
-                                                Deleon</span><!----><!---->&nbsp;<span
+                                                Deleon</span>&nbsp;<span
                                                 style="font: 14.9px / 18.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Sales
                                                 Manager</span>
                                         </td>
@@ -26,7 +26,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.9px / 18.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span
-                                                    style="color: rgb(0, 0, 1);">Mysticorps</span></span><!----><!---->
+                                                    style="color: rgb(0, 0, 1);">Mysticorps</span></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -60,7 +60,7 @@
                                                 style="color: rgb(144, 19, 254); font-weight: 600;">skype:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">arnasdeleon</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.9px / 18.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -112,7 +112,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -132,13 +132,13 @@
                             style="text-decoration: none; font-size: 18.1px; color: rgb(144, 19, 254);">here</span>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -25,15 +25,15 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.6px / 21.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(85, 24, 4); cursor: pointer;">Mya
-                                                    Butler ♛</span><!----><!---->
+                                                    Butler ♛</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(157, 83, 83);">
-                                                <!----><!----><span
+                                                <span
                                                     style="color: rgb(157, 83, 83); cursor: pointer;">Villegas
-                                                    Fasion</span><!----><!---->
+                                                    Fasion</span>
                                             </td>
                                         </tr>
                                         <tr style="cursor: pointer;">
@@ -59,7 +59,7 @@
                                                     style="color: rgb(85, 24, 4); font-weight: 600;">address:&nbsp;</span><span
                                                     style="color: rgb(157, 83, 83);">987 Comfort Blvd, Paris</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
@@ -120,13 +120,13 @@
                 </tr>
             </table>
         </div>
-        <div><!----><!----><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

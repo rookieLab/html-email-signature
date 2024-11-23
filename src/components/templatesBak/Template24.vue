@@ -58,7 +58,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(99, 57, 34); font-weight: 600; cursor: pointer;">Jessica
-                                                Martinez</span><!----><!----></td>
+                                                Martinez</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -69,22 +69,22 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(79, 42, 18);">
-                                            <!----><span
-                                                style="color: rgb(79, 42, 18); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+809-890-75</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(79, 42, 18); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+809-890-75</span>,&nbsp;<span
                                                 style="color: rgb(79, 42, 18); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(79, 42, 18);">
-                                            <!----><span style="color: rgb(79, 42, 18);">984 E 9th St, Stuart, FL
-                                                36780</span><!----><!----></td>
+                                            <span style="color: rgb(79, 42, 18);">984 E 9th St, Stuart, FL
+                                                36780</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(79, 42, 18);">
                                             <span>martinez@mysignature&nbsp;</span><span
-                                                style="color: rgb(79, 42, 18); text-decoration: none; font-family: Arial, Helvetica, sans-serif;"></span><!----><!---->
+                                                style="color: rgb(79, 42, 18); text-decoration: none; font-family: Arial, Helvetica, sans-serif;"></span>
                                         </td>
                                     </tr>
                                 </table>
@@ -100,13 +100,13 @@
                         valign="top" width="382" alt="created with MySignature.io" style="display: block;"></td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

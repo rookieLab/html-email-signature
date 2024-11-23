@@ -18,12 +18,12 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 14.1px / 18.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(145, 93, 69); cursor: pointer;">ELIZABETH
-                        RODRERG</span><!----><!----></td>
+                        RODRERG</span></td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 10.9px / 13.8px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">JOB SEEKER</span><!----><!----></td>
+                    <span style="cursor: pointer;">JOB SEEKER</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
@@ -76,13 +76,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

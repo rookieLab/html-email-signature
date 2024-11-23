@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.7px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,7 +51,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.7px / 22.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(254, 19, 183); font-weight: 600; cursor: pointer;">Willy
-                                                Turner</span><!----><!----></td>
+                                                Turner</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -71,7 +71,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.7px / 18.7px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                             <span>w:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">mysignature.io</span><!----><!---->
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                 </table>
@@ -79,7 +79,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -106,16 +106,16 @@
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/dribbble_v1_shape2_b.png" height="32"
                                 width="112" alt="dribbble" style="display: block;"></span></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

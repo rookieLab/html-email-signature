@@ -21,13 +21,23 @@ const emit = defineEmits(['update:modelValue'])
 
 const colorValue = ref(props.modelValue)
 
-watch(() => props.modelValue, (newVal) => {
-    colorValue.value = newVal
-})
 
 const handleChange = (val) => {
     emit('update:modelValue', val)
 }
+
+// Watch for modelValue changes from parent
+watch(() => props.modelValue, (newVal) => {
+    // console.log('shape watch triggered:', newVal)
+    colorValue.value = newVal
+})
+
+// Watch for local shape changes
+watch(colorValue, (newVal) => {
+    // console.log('shape changed:', newVal)
+    handleChange(newVal)
+})
+
 </script>
 
 <style scoped>

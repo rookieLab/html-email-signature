@@ -25,31 +25,31 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.5px / 22.2px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">BIG BOLD
-                                                Innovations.</span><!----><!----></td>
+                                                Innovations.</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 0);">
                                             <span style="cursor: pointer;">Creative Marketing
-                                                cOMPANY</span><!----><!----><!----><!----></td>
+                                                cOMPANY</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+2-535-656-12
-                                            </span>&nbsp;|&nbsp;<!----><span
+                                            </span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">bigboldin.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+2-450-450-32
-                                            </span>&nbsp;|&nbsp;<!----><span use-font-color="true">123 Liberty St, NY,
+                                            </span>&nbsp;|&nbsp;<span use-font-color="true">123 Liberty St, NY,
                                                 NY 10006</span></td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -97,7 +97,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -112,16 +112,16 @@
                         </svg></td>
                     <td
                         style="font-family: Tahoma, Geneva, sans-serif; font-size: 15.1px; padding: 30px 0px 0px; margin: 0.1px;">
-                        <!----><span style="text-decoration: none; font-size: 15.1px; color: rgb(0, 0, 0);">Meet our
+                        <span style="text-decoration: none; font-size: 15.1px; color: rgb(0, 0, 0);">Meet our
                             experts</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

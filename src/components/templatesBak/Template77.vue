@@ -1,10 +1,10 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 15.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px; font: 15.8px / 20.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -57,7 +57,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 19.1px / 24.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(78, 37, 4); font-weight: 600; cursor: pointer;">Brinley
-                                                Morris</span><!----><!----></td>
+                                                Morris</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -68,37 +68,37 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 15.8px / 20.1px Arial, Helvetica, sans-serif; color: rgb(146, 106, 76);">
-                                            <!----><span
-                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">3467-284-14</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">3467-284-14</span>,&nbsp;<span
                                                 style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">2673-254-91</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 15.8px / 20.1px Arial, Helvetica, sans-serif; color: rgb(146, 106, 76);">
-                                            <!----><span
-                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">morris@mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">morris@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 15.8px / 20.1px Arial, Helvetica, sans-serif; color: rgb(146, 106, 76);">
-                                            <!----><span
-                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(146, 106, 76); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 15.8px / 20.1px Arial, Helvetica, sans-serif; color: rgb(146, 106, 76);">
-                                            <!----><span style="color: rgb(146, 106, 76);">13 Sunny St., Boston,
-                                                US.</span><!----><!----></td>
+                                            <span style="color: rgb(146, 106, 76);">13 Sunny St., Boston,
+                                                US.</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="377" cellpadding="0" style="border-collapse: collapse;">
@@ -123,7 +123,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -19,8 +19,8 @@
                                 <UploadFilled />
                             </el-icon>
                             <span class="m-media-preview__choose">Upload Image</span>
-                            <input type="file" accept=".jpg,.jpeg,.png,.gif,.bmp"
-                                class="m-media-preview__input-file"></a>
+                            <input type="file" accept=".jpg,.jpeg,.png,.gif,.bmp" class="m-media-preview__input-file"
+                                @change="uploadAvatar"></a>
                     </div>
                     <div class="u-wd-full u-mr-l4@xl l-flex-box e--column e--between">
                         <div class="o-content-block__row u-mr-t0 u-mr-b4 u-display-block u-mr-b3@xl">
@@ -44,7 +44,7 @@
                 <div class="u-bg-white-medium u-pd-ha2 u-pd-va1 u-pd-va1f5@xl u-pd-ha3@xl u-pd-va2@xl u-display-flex">
                     <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Banner</h2>
                 </div>
-                <div class="u-pd-t3 u-pd-ha2 u-pd-t4@xl u-pd-ha3@xl"><!---->
+                <div class="u-pd-t3 u-pd-ha2 u-pd-t4@xl u-pd-ha3@xl">
                     <div v-if="editing.Image.bannerImg" class="m-media-preview u-wd-full">
                         <img alt="Banner image" :src="editing.Image.bannerImg" class="m-media-preview__image e--btn">
                         <el-icon class="m-media-preview__close icon absolute" @click="editing.Image.bannerImg = ''">
@@ -69,7 +69,7 @@
                     </div>
                     <div class="a-input u-mr-t3 u-mr-t3f5@xl">
                         <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow" for="1392">Link</label>
-                        <input id="1392" class="a-input__item" v-model="editing.Image.avatarLink" maxlength="255"
+                        <input id="1392" class="a-input__item" v-model="editing.Image.bannerLink" maxlength="255"
                             placeholder="Link" type="text">
                     </div>
                 </div>
@@ -84,17 +84,23 @@ import { UploadFilled, Close } from '@element-plus/icons-vue'
 import { useEditingStore, useTemplatesStore } from '@/stores'
 
 const editing = useEditingStore()
+const uploadAvatar = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        editing.Image.avatarImg = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
 
-
-// 
-// const uploadBanner = (e) => {
-//     const file = e.target.files[0];
-//     const reader = new FileReader();
-//     reader.onload = (e) => {
-//         editing.Image.bannerImg = e.target.result;
-//     };
-//     reader.readAsDataURL(file);
-// }
+const uploadBanner = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        editing.Image.bannerImg = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
 
 </script>
 <style scoped>

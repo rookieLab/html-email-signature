@@ -1,32 +1,32 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="top" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.3px / 20.8px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">OLIVIA
-                                                LANRON</span><!----><!----></td>
+                                                LANRON</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 13.6px / 17.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Airbnb Super Host</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Airbnb Super Host</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">+1
-                                                747 3847 4442</span>,&nbsp;<!----><span
+                                                747 3847 4442</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">olivia.airbnb@mysignature.io</span>
                                         </td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.6px / 17.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -92,13 +92,13 @@
                                 src="https://img.mysignature.io/a/v1/d/d/4/dd4eba98-274b-5dac-8a23-f9b7191b0dd7.png"
                                 style="max-width: 490px; display: block;" width="404"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

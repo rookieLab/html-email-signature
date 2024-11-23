@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.2px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,25 +17,25 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.1px / 21.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(39, 192, 187); cursor: pointer;">Weston
-                                                Campbell</span><!----><!----><!----><!----></td>
+                                                Campbell</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Nurse at
-                                                    Cleveland Clinic</span></span><!----><!----></td>
+                                                    Cleveland Clinic</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+1
                                                 (684) 555-0102</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -91,10 +91,10 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/1/9/b/19bbbefd-d5a9-5bdd-b6fe-c77103e40a6d.png"
@@ -114,7 +114,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,10 +17,10 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(157, 154, 146); cursor: pointer;">Jevan
-                                                Ortiz</span><!----><!---->&nbsp;<span
+                                                Ortiz</span>&nbsp;<span
                                                 style="font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">Sales
                                                 Manager | Cozad</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -51,7 +51,7 @@
                                             <span
                                                 style="color: rgb(157, 154, 146); font-weight: 600;">a:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1);">55 Halsey St Brooklyn, NY 11216</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -110,10 +110,10 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 12px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/a/2/a/a2af7570-7bf9-50e8-9673-9170b2cf670c.png"
@@ -121,18 +121,18 @@
                 </tr>
             </table>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px &quot;Courier New&quot;, Courier, monospace; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

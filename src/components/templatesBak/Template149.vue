@@ -18,13 +18,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 18.1px / 23.1px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(229, 90, 90); cursor: pointer;">Danica
-                                                Edwards</span><!----><!---->
+                                                Edwards</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 13.9px / 17.7px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(229, 90, 90);">
-                                            <!----><!----><span style="color: rgb(229, 90, 90); cursor: pointer;">Head
+                                            <span style="color: rgb(229, 90, 90); cursor: pointer;">Head
                                                 of Nurse
                                                 |</span>&nbsp;<span
                                                 style="color: rgb(229, 90, 90); cursor: pointer;">Stanford
@@ -48,7 +48,7 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 13.9px / 17.7px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(229, 90, 90);"></span>
+                                            <span style="color: rgb(229, 90, 90);"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -58,7 +58,7 @@
                                                 style="color: rgb(229, 90, 90); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">+1
                                                 789 534 2234</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 12px 0px 0px; font: 13.9px / 17.7px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -110,7 +110,7 @@
                     </table>
                 </td>
             </tr>
-        </table><!---->
+        </table>
     </div>
     <div>
         <table cellpadding="0" width="500"
@@ -139,13 +139,13 @@
                     the sender. If you received this message by mistake, please reply to this message and follow
                     with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
             </tr>
-        </table><!---->
+        </table>
         <table width="500" cellspacing="0" cellpadding="0" border="0">
             <tr>
                 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
             </tr>
         </table>
-    </div><!---->
+    </div>
 
 </template>
 <script>

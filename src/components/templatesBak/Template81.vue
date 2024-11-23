@@ -23,23 +23,23 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(162, 177, 137); cursor: pointer;">MICHAEL
-                                                DAVIS</span><!----><!----></td>
+                                                DAVIS</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"> Currently Seeking
-                                                Opportunities</span><!----><!----></td>
+                                                Opportunities</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">(555)
-                                                123-4567</span>,&nbsp;<!----><span
+                                                123-4567</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">davis@mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -98,10 +98,10 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 19px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/7/8/6/786d6fec-de96-557b-afc6-22eebe40f76f.png"
@@ -117,13 +117,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                         Please don’t print this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

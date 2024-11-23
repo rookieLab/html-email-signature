@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 17.3px / 22.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(157, 177, 177); cursor: pointer;">Marisa
-                                                Wilkerson</span><!----><!----><!----><span
+                                                Wilkerson</span><span
                                                 style="font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(54, 64, 64); cursor: pointer;"></span>
                                         </td>
                                     </tr>
@@ -53,7 +53,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(54, 64, 64);">a:&nbsp;</span><span
                                                 style="color: rgb(54, 64, 64);">10 California st, fl 6</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -101,11 +101,11 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: gray;">
                         Please don’t print this email</td>
@@ -120,13 +120,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

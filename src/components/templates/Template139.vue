@@ -17,13 +17,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 18.1px / 23.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(121, 54, 54); cursor: pointer;">Dr.Wade
-                                                Thompson - Surgeon</span><!----><!----></td>
+                                                Thompson - Surgeon</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 13.9px / 17.7px &quot;Times New Roman&quot;, Times, serif; color: rgb(121, 54, 54);">
-                                            <!----><!----><span style="color: rgb(121, 54, 54); cursor: pointer;">at
-                                                National University Hospital</span><!----><!----></td>
+                                            <span style="color: rgb(121, 54, 54); cursor: pointer;">at
+                                                National University Hospital</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -40,7 +40,7 @@
                                                 style="color: rgb(121, 54, 54); font-weight: 600;">T:&nbsp;</span><span
                                                 style="color: rgb(121, 54, 54); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">567-099-4465</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 12px 0px 0px; font: 13.9px / 17.7px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
@@ -89,7 +89,7 @@
                     </table>
                 </td>
             </tr>
-        </table><!---->
+        </table>
     </div>
 </template>
 <script>

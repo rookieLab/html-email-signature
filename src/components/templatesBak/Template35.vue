@@ -19,12 +19,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 14.6px / 18.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(0, 0, 0); text-transform: uppercase; cursor: pointer;">Monty
-                        Montes</span><!----><!----></td>
+                        Montes</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">CEO at Mail Nook</span><!----><span style="cursor: pointer;"></span>
+                    <span style="cursor: pointer;">CEO at Mail Nook</span><span style="cursor: pointer;"></span>
                 </td>
             </tr>
             <tr>
@@ -41,29 +41,29 @@
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">+1
                         733 663 3362 </span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">montymontesy@mysignature.io</span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                    <!----><span style="color: rgb(0, 0, 1);">517 Robinson Lane, Athens</span></td>
-            </tr><!---->
+                    <span style="color: rgb(0, 0, 1);">517 Robinson Lane, Athens</span></td>
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 11.2px / 14.2px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -102,7 +102,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -112,13 +112,13 @@
                                 src="https://img.mysignature.io/a/v1/f/0/d/f0d4dc43-321c-51ac-8a43-e6feeb573d7d.png"
                                 style="max-width: 490px; display: block;" width="197"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

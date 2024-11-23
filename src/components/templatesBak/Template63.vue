@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 12.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,7 +12,7 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 16.4px / 20.9px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(74, 144, 226); text-transform: uppercase; cursor: pointer;">Steve
-                        Burnett</span><!----><!----></td>
+                        Burnett</span></td>
             </tr>
             <tr>
                 <td
@@ -64,7 +64,7 @@
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600;">A:&nbsp;</span><span style="color: rgb(0, 0, 1);">Maine, 435 Avalon
                         st, fl 6</span></td>
-            </tr><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 12.6px / 16.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -113,7 +113,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -131,13 +131,13 @@
                         <span>Book a meeting&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(1, 125, 232);">here</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

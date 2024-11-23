@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,30 +51,30 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.9px / 21.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(254, 182, 0); font-weight: 600; cursor: pointer;">Karen
-                                                Shevans</span><!----><!---->
+                                                Shevans</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.1px / 17.9px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Photographer</span><!----><span
+                                            <span style="cursor: pointer;">Photographer</span><span
                                                 style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.1px / 17.9px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">16
-                                                285 928 175</span>,&nbsp;<!----><span
+                                                285 928 175</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">karen@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.1px / 17.9px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
                                         </td>
                                     </tr>
                                 </table>
@@ -92,13 +92,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

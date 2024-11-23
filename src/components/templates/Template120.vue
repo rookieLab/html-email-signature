@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -14,12 +14,12 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Jamila Richmond</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Jamila Richmond</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">CMO</span><!----><span
+                                            <span style="cursor: pointer;">CMO</span><span
                                                 style="cursor: pointer;"></span>&nbsp;<span
                                                 style="cursor: pointer;">Marketing</span></td>
                                     </tr>
@@ -91,7 +91,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -104,19 +104,19 @@
                         Save paper. Don’t print</td>
                 </tr>
             </table>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 15px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/0/8/b/08bbfaa1-c9f5-53e4-8102-aa5e3e05cea9.png"
                                 alt="Meet me on Google Meet" width="224" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

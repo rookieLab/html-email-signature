@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
                 <tr>
@@ -18,14 +18,14 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 18.7px / 23.8px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(115, 221, 245); cursor: pointer;">Aimie
-                                                    Rayner</span><!----><!----></td>
+                                                    Rayner</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                                <!----><!----><span
+                                                <span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">Freelance Video
-                                                    Editor</span><!----><!----></td>
+                                                    Editor</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -58,7 +58,7 @@
                                                     style="color: rgb(115, 221, 245); font-weight: 600;">skype:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">aimie_rayner</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
@@ -129,7 +129,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -142,13 +142,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

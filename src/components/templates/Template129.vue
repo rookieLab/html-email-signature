@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -20,7 +20,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 18.1px / 23.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(99, 204, 200); font-weight: 600; cursor: pointer;">Marissa
-                                                Golvits</span><!----><span
+                                                Golvits</span><span
                                                 style="color: rgb(0, 0, 1); cursor: pointer;"></span></td>
                                     </tr>
                                     <tr>
@@ -59,13 +59,13 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0.1px; padding: 15px 0px 0px;">
-                                            <table cellpadding="0" style="border-collapse: collapse;"><!---->
+                                            <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td
                                                         style="margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -116,22 +116,22 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 18px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/0/9/f/09facc0c-9768-5eb7-b56f-a095cbc5c790.png"
                                 alt="Meet me on Zoom" width="173" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

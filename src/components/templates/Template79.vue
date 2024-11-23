@@ -25,36 +25,36 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.6px / 21.2px Verdana, Geneva, sans-serif; color: rgb(93, 33, 102); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Rayna
-                                                Lewis</span><!----><!----></td>
+                                                Lewis</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(93, 33, 102); text-transform: uppercase; border-top: 1px solid rgb(93, 33, 102);">
                                             <span style="cursor: pointer;">Children's
-                                                nurse</span><!----><!----><!----><!----></td>
+                                                nurse</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(93, 33, 102);">
-                                            <!----><span
-                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">rayna@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">rayna@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 use-font-color="true"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(93, 33, 102);">
                                             <span>Skype&nbsp;</span><span
-                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">RaynaLewis</span>&nbsp;|&nbsp;<!----><span
+                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">RaynaLewis</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
                                                 983 333 3739</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(93, 33, 102);">
-                                            <!----><span
-                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(93, 33, 102); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 5px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(48, 46, 91);">
@@ -118,7 +118,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -134,7 +134,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -25,30 +25,30 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 19.1px / 24.3px Tahoma, Geneva, sans-serif; color: rgb(28, 126, 111); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Randy
-                                                Webster</span><!----><!----></td>
+                                                Webster</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 14.7px / 18.7px Tahoma, Geneva, sans-serif; color: rgb(28, 126, 111); text-transform: uppercase; border-top: 1px solid rgb(28, 126, 111);">
-                                            <!----><!----><span style="cursor: pointer;">Pesonal coach | Fitness
-                                                blogger</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Pesonal coach | Fitness
+                                                blogger</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 14.7px / 18.7px Tahoma, Geneva, sans-serif; color: rgb(28, 126, 111);">
-                                            <!----><span
-                                                style="color: rgb(28, 126, 111); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">randy@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(28, 126, 111); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">randy@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 use-font-color="true"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 14.7px / 18.7px Tahoma, Geneva, sans-serif; color: rgb(28, 126, 111);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(28, 126, 111); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+789
-                                                98 544 1</span>&nbsp;|&nbsp;<!----><span
+                                                98 544 1</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(28, 126, 111); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 14.7px / 18.7px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -107,7 +107,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -140,7 +140,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

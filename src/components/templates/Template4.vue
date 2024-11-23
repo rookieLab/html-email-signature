@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 10.4px; background-color: rgb(239, 238, 238);">
             <tr>
@@ -19,7 +19,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.5px / 17.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Gannon
-                                                Powell</span><!----><!---->
+                                                Powell</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -27,7 +27,7 @@
                                             style="margin: 0.1px; padding: 5px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">CEO</span>&nbsp;|&nbsp;<span
                                                 style="cursor: pointer;">of the Municipal
-                                                Administration</span><!----><!---->
+                                                Administration</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -44,9 +44,9 @@
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span>▝ &nbsp;</span><span use-font-color="true">Florida, 4610 North Street,
-                                                32003</span><!----><!---->
+                                                32003</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -136,13 +136,13 @@
                             here</span>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

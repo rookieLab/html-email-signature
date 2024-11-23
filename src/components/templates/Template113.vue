@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,45 +51,45 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.3px / 20.8px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(11, 11, 11); font-weight: 600; cursor: pointer;">Cara
-                                                Reznor</span><!----><!----></td>
+                                                Reznor</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Manager</span><!----><span
+                                            <span style="cursor: pointer;">Manager</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">222
-                                                335 3632</span>,&nbsp;<!----><span
+                                                335 3632</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">info@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(0, 0, 1);">55 Halsey St Brooklyn, NY
-                                                11216</span><!----><!----></td>
+                                            <span style="color: rgb(0, 0, 1);">55 Halsey St Brooklyn, NY
+                                                11216</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 8px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/c/0/8/c0867927-5f98-52bf-95ae-1d24bf8b0c2e.png"
@@ -106,13 +106,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

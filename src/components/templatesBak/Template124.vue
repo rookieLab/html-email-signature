@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,7 +51,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px &quot;Trebuchet MS&quot;; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(245, 166, 35); font-weight: 600; cursor: pointer;">Brenda
-                                                Figueroa</span><!----><!----></td>
+                                                Figueroa</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -62,16 +62,16 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px &quot;Trebuchet MS&quot;; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;;">658-38-24</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;;">658-38-24</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;;">brenda@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px &quot;Trebuchet MS&quot;; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;;">mysignature.io</span>
                                         </td>
                                     </tr>
                                 </table>
@@ -89,13 +89,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

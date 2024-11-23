@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 14.9px; background-color: rgb(255, 255, 255);">
             <tr>
@@ -18,13 +18,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 19.3px / 24.6px Arial, Helvetica, sans-serif; color: rgb(74, 74, 74); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Jeremy
-                                                Flatik</span><!----><!----></td>
-                                    </tr><!---->
+                                                Flatik</span></td>
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 14.9px / 18.9px Arial, Helvetica, sans-serif; color: rgb(74, 74, 74);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(74, 74, 74); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">jeremy@mysignature.io</span><!----><!---->
+                                                style="color: rgb(74, 74, 74); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">jeremy@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -34,8 +34,8 @@
                                                 style="color: rgb(74, 74, 74); font-weight: 400; cursor: pointer;">Watch
                                                 reviews</span>&nbsp;<span
                                                 style="color: rgb(74, 74, 74); text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-weight: 400;">at
-                                                SReviews</span><!----><!----></td>
-                                    </tr><!---->
+                                                SReviews</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 14.9px / 18.9px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -83,7 +83,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -98,13 +98,13 @@
                                 src="https://img.mysignature.io/addons/v2/twitter_v3_shape3_i.png" height="36"
                                 width="126" alt="twitter" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

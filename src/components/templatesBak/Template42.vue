@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -20,13 +20,13 @@
                                             style="margin: 0.1px; padding: 0px; font: 20.2px / 25.6px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(225, 167, 76); font-weight: 600; cursor: pointer;">Robson
-                                                Cooley</span><!----><span
+                                                Cooley</span><span
                                                 style="color: rgb(0, 0, 1); cursor: pointer;"></span></td>
                                     </tr>
                                     <tr>
                                         <td align="center"
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 200 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Motion Designer</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Motion Designer</span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -58,7 +58,7 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -120,15 +120,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

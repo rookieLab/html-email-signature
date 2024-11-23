@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -16,7 +16,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.2px / 18.1px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">MICHAEL
-                                                EVANS</span><!----><!----></td>
+                                                EVANS</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -27,32 +27,32 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">(555)
-                                                987-6543</span>,&nbsp;<!----><span
+                                                987-6543</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+1
                                                 728 607 2433</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">michaelevans@mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">michaelevans@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(0, 0, 1);">517 Robinson Lane,
-                                                Athens</span><!----><!----></td>
-                                    </tr><!---->
+                                            <span style="color: rgb(0, 0, 1);">517 Robinson Lane,
+                                                Athens</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
@@ -116,16 +116,16 @@
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/amazon_shape2_gray.png" height="29"
                                 width="102" alt="amazon" style="display: block;"></span></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -16,7 +16,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.2px / 19.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(65, 117, 5); cursor: pointer;">SIMON
-                                                KUNST</span><!----><!----></td>
+                                                KUNST</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -27,11 +27,11 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">simon@mysignature.io</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">simon@mysignature.io</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -79,7 +79,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -97,13 +97,13 @@
                         <span>Check our last shoot and backstage&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(65, 117, 5);">here</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

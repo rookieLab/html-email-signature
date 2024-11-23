@@ -23,24 +23,24 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 18.4px / 23.4px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Denzel
-                                                Barron</span><!----><!---->&nbsp;<span
+                                                Barron</span>&nbsp;<span
                                                 style="font: 15.4px / 19.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); cursor: pointer;">Math
                                                 Teacher</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 15.4px / 19.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">+1
                                                 747 3847 4442</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 15.4px / 19.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">barron.@mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 15.4px / 19.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -88,7 +88,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -103,7 +103,7 @@
                         </svg></td>
                     <td
                         style="font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; font-size: 14.1px; padding: 16px 0px 0px; margin: 0.1px;">
-                        <span>Watch my lessons online&nbsp;</span><!----></td>
+                        <span>Watch my lessons online&nbsp;</span></td>
                 </tr>
             </table>
             <table width="366" cellpadding="0" style="border-collapse: collapse;">
@@ -115,13 +115,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

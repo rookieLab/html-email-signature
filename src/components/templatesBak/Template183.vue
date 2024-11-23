@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(74, 144, 226); cursor: pointer;">Dr.
-                                                Marques Faiser</span><!----><!----><!----><span
+                                                Marques Faiser</span><span
                                                 style="font: 11.8px / 15.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;"></span>
                                         </td>
                                     </tr>
@@ -61,7 +61,7 @@
                                             <span style="color: rgb(0, 0, 1);">p:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">343
                                                 535 3373 #345</span></td>
-                                    </tr><!---->
+                                    </tr>
                                 </table>
                             </td>
                         </tr>
@@ -90,16 +90,16 @@
                         </svg></td>
                     <td
                         style="font-family: Arial, Helvetica, sans-serif; font-size: 16.1px; padding: 5px 0px 0px; margin: 0.1px;">
-                        <span>Schedule your next consultation online&nbsp;</span><!----></td>
+                        <span>Schedule your next consultation online&nbsp;</span></td>
                 </tr>
             </table>
-            <table cellpadding="0" style="border-collapse: collapse;"></table><!---->
+            <table cellpadding="0" style="border-collapse: collapse;"></table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

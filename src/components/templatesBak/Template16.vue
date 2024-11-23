@@ -25,13 +25,13 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.4px / 20.9px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Sarah
-                                                    Thompson</span><!----><!----></td>
+                                                    Thompson</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.6px / 16.1px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                                 <span style="color: rgb(0, 0, 1); cursor: pointer;">Unemployed
-                                                    Professional</span><!----><!----><!----><!----></td>
+                                                    Professional</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -63,7 +63,7 @@
                                                 <span style="color: rgb(0, 0, 0); font-weight: 600;">S&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">sarah_thompson</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 12.6px / 16.1px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
@@ -123,7 +123,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -133,13 +133,13 @@
                             src="https://img.mysignature.io/a/v1/5/2/3/5230e021-d3ed-5e35-89b8-113f5ffbcf97.png"
                             style="max-width: 490px; display: block;" width="420"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.3px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -12,14 +12,14 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.9px / 20.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(243, 121, 44); font-weight: 600; cursor: pointer;">WILSON
-                                                ARMSTRONG</span><!----><!----></td>
+                                                ARMSTRONG</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 10px; font: 600 13.3px / 16.9px Arial, Helvetica, sans-serif; color: rgb(75, 75, 75);">
                                             <span style="cursor: pointer;">Fitness and Nutrition
-                                                Blog</span><!----><!----></td>
-                                    </tr><!---->
+                                                Blog</span></td>
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.3px / 16.9px Arial, Helvetica, sans-serif; color: rgb(75, 75, 75);">
@@ -46,7 +46,7 @@
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.3px / 16.9px Arial, Helvetica, sans-serif; color: rgb(75, 75, 75);">
                                             <span style="color: rgb(243, 121, 44);">A:&nbsp;</span><span
                                                 style="color: rgb(75, 75, 75);">814 Mission Str 600</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.3px / 16.9px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -109,7 +109,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -135,7 +135,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

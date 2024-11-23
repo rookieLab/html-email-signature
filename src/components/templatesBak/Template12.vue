@@ -24,7 +24,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.9px / 21.5px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(171, 11, 11); cursor: pointer;">Amy
-                                                Williams</span><!----><!---->&nbsp;<span
+                                                Williams</span>&nbsp;<span
                                                 style="font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">Teacher</span>
                                         </td>
                                     </tr>
@@ -32,7 +32,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Fluent
-                                                    Bridge Institute</span></span><!----><!----></td>
+                                                    Bridge Institute</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -57,7 +57,7 @@
                                                 style="color: rgb(171, 11, 11); font-weight: 600;">w:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
@@ -105,7 +105,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -116,8 +116,8 @@
                     <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/instagram_v2_shape2_i.png" height="28"
                                 width="98" alt="instagram" style="display: block;"></span></td>
-                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -133,7 +133,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

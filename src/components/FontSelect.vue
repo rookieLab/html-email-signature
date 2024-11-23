@@ -8,7 +8,7 @@
             </span>
 
         </div>
-        <div class="m-select__list u-hide" id="m-select__list">
+        <div class="m-select__list u-hide">
             <div class="u-fz-20 m-select__item" v-for="font in fontList" :key="font.name"
                 @click="handleSelectFont($event, font)">
                 <span class="m-select__trim u-display-flex u-ws-nowrap u-of-hidden u-maxwd-16@xl"
@@ -53,8 +53,9 @@ const fontList = [
 // 暴露一個change事件給父組件
 const emit = defineEmits(['change'])
 const handleSelectFont = (e, font) => {
+    console.log('font', font)
     selectFont.value = font
-    document.getElementById('m-select__list').classList.add('u-hide')
+    e.target.closest('.m-select__list').classList.add('u-hide')
     emit('change', font)
 }
 

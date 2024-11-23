@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -20,7 +20,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 19.3px / 24.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(247, 25, 76); font-weight: 600; cursor: pointer;">Xanthe
-                                                Robinson</span><!----><span
+                                                Robinson</span><span
                                                 style="color: rgb(0, 0, 1); cursor: pointer;"></span></td>
                                     </tr>
                                     <tr>
@@ -122,7 +122,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -132,13 +132,13 @@
                                 src="https://img.mysignature.io/a/v1/6/c/1/6c13c36d-b398-5694-bc9f-57a088c38323.png"
                                 style="max-width: 490px; display: block;" width="215"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

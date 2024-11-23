@@ -19,7 +19,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.7px / 22.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(220, 0, 0); cursor: pointer;">Nehemiah
-                                                Davis</span><!----><!----></td>
+                                                Davis</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -30,7 +30,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 200 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">
                                             Duke University Hospital</td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -80,24 +80,24 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">nehemiah@mysignature.io</span>&nbsp;&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">nehemiah@mysignature.io</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">306-098-472</span>&nbsp;&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">306-098-472</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(0, 0, 1);">Durham, North
-                                                Carolina</span><!----><!----></td>
+                                            <span style="color: rgb(0, 0, 1);">Durham, North
+                                                Carolina</span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -112,13 +112,13 @@
                         valign="top" width="291" alt="created with MySignature.io" style="display: block;"></td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(214, 0, 0); cursor: pointer;">Laurence
-                                                Maddox</span><!----><!----><!----><!----></td>
+                                                Maddox</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -46,7 +46,7 @@
                                             style="margin: 0.1px; padding: 2px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(214, 0, 0); font-weight: 600;">?:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1);">84 Libron st</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -94,7 +94,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -102,15 +102,15 @@
                     <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/pinterest_v1_shape2_b.png" height="55"
                                 width="193" alt="pinterest" style="display: block;"></span></td>
-                    <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

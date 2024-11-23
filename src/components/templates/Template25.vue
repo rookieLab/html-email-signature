@@ -24,7 +24,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(51, 124, 201); cursor: pointer;">John
-                                                Smith</span><!----><!---->&nbsp;<span
+                                                Smith</span>&nbsp;<span
                                                 style="font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Realtor</span>
                                         </td>
                                     </tr>
@@ -32,7 +32,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">ABC
-                                                    Realty</span></span><!----><!----></td>
+                                                    Realty</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -57,7 +57,7 @@
                                                 style="color: rgb(51, 124, 201); font-weight: 600;">w:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -105,7 +105,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -123,7 +123,7 @@
                         <span>Book a CALL with me&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(51, 124, 201);">here</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;"><img
@@ -136,7 +136,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

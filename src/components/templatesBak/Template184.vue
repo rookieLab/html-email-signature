@@ -18,12 +18,12 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 14.6px / 18.5px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(224, 16, 108); cursor: pointer;">MARRY &amp;
-                        SALIM</span><!----><!----></td>
+                        SALIM</span></td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.2px / 14.2px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><!----><span style="cursor: pointer;">HAPPYSHOPPERS</span></td>
+                    <span style="cursor: pointer;">HAPPYSHOPPERS</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
@@ -37,8 +37,8 @@
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 11.2px / 14.2px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(224, 16, 108); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <!----><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">mysignature.io</span><!----><!---->
+                    <span
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">mysignature.io</span>
                 </td>
             </tr>
             <tr>
@@ -75,13 +75,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

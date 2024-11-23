@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -16,7 +16,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Rebeca
-                                                Bonilla</span><!----><!---->&nbsp;<span
+                                                Bonilla</span>&nbsp;<span
                                                 style="font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">Assistant
                                                 Director</span></td>
                                     </tr>
@@ -51,7 +51,7 @@
                                                 style="color: rgb(0, 0, 0); font-weight: 600;">phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+2-450-450-32</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -88,7 +88,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="357" cellpadding="0" style="border-collapse: collapse;">
@@ -100,13 +100,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

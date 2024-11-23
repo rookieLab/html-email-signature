@@ -1,6 +1,7 @@
 <template>
     <div class="">
         <span class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p">
+
             <div class="m-shapes__icon u-mr-r2 shape-square" :class="{ active: shape === 'square' }"
                 @click="shape = 'square'"></div>
             <div class="m-shapes__icon u-mr-r2 shape-rounded" :class="{ active: shape === 'rounded' }"
@@ -24,16 +25,22 @@ const props = defineProps({
 const emit = defineEmits(['update:modelValue'])
 
 const shape = ref(props.modelValue)
-
-watch(() => props.modelValue, (newVal) => {
-    shape.value = newVal
-    handleChange(newVal)
-})
-
 const handleChange = (val) => {
+    // console.log('shape', val)
     emit('update:modelValue', val)
 }
 
+// Watch for modelValue changes from parent
+watch(() => props.modelValue, (newVal) => {
+    // console.log('shape watch triggered:', newVal)
+    shape.value = newVal
+})
+
+// Watch for local shape changes
+watch(shape, (newVal) => {
+    // console.log('shape changed:', newVal)
+    handleChange(newVal)
+})
 
 </script>
 <style scoped>

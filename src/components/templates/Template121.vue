@@ -24,14 +24,14 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.7px / 22.5px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 17.7px / 22.5px Georgia, serif; color: rgb(161, 80, 26); cursor: pointer;">Paolo
-                                                Fox</span><!----><!---->&nbsp;&nbsp;<span
+                                                Fox</span>&nbsp;&nbsp;<span
                                                 style="font: 14.7px / 18.7px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">HR
                                                 Generalist</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 14.7px / 18.7px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Greenshine</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Greenshine</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -60,7 +60,7 @@
                                             <span style="color: rgb(0, 0, 1);">p:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+12027953533</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.7px / 18.7px Georgia, serif; color: rgb(0, 0, 1);">
@@ -108,7 +108,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -121,13 +121,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Georgia, serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

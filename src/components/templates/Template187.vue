@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 14.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,12 +12,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 18.3px / 23.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(48, 55, 63); text-transform: uppercase; cursor: pointer;">Tom
-                        Joins</span><!----><!----></td>
+                        Joins</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 14.1px / 17.9px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">Sales Manager</span><!----><span style="cursor: pointer;"></span>
+                    <span style="cursor: pointer;">Sales Manager</span><span style="cursor: pointer;"></span>
                 </td>
             </tr>
             <tr>
@@ -44,9 +44,9 @@
                     <span style="font-weight: 600;">W:&nbsp;</span><span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
                 </td>
-            </tr><!----><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table cellpadding="0" width="500"
                 style="width: 500px; color: rgb(128, 128, 128); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
                 <tr style="cursor: pointer;">
@@ -59,15 +59,15 @@
                         </svg></td>
                     <td
                         style="font-family: &quot;Courier New&quot;, Courier, monospace; font-size: 14.1px; padding: 6px 0px 0px; margin: 0.1px;">
-                        <span>Book a meeting&nbsp;</span><!----></td>
+                        <span>Book a meeting&nbsp;</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

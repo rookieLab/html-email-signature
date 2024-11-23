@@ -23,19 +23,19 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(55, 0, 154); cursor: pointer;">SAHAR
-                                                WARD</span><!----><!----></td>
+                                                WARD</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Head Teacher</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Head Teacher</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span>phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                728 607 2433</span>,&nbsp;<!----><span
+                                                728 607 2433</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
                                         </td>
                                     </tr>
@@ -43,16 +43,16 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">saharward@mysignature.io</span><!----><!---->
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">saharward@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -100,7 +100,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="359" cellpadding="0" style="border-collapse: collapse;">
@@ -123,7 +123,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

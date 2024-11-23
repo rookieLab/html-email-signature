@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -15,7 +15,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">PROF.
-                                                MICHAEL EVANS</span><!----><!----></td>
+                                                MICHAEL EVANS</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -27,25 +27,25 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">+1
-                                                (555) 987-6543</span>,&nbsp;<!----><span
+                                                (555) 987-6543</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">
-                                                michael.evans@mysignature.io</span><!----><!----></td>
+                                                michael.evans@mysignature.io</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span style="color: rgb(0, 0, 0);">Richmond Staten Island, NY 10306
-                                                USA</span><!----><!----></td>
-                                    </tr><!---->
+                                            <span style="color: rgb(0, 0, 0);">Richmond Staten Island, NY 10306
+                                                USA</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
@@ -104,7 +104,7 @@
             </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 14px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/5/e/e/5eed6bd6-6f2a-53e6-9580-58c4e886f692.png"
@@ -123,15 +123,15 @@
                         </svg></td>
                     <td
                         style="font-family: &quot;Times New Roman&quot;, Times, serif; font-size: 14.1px; padding: 10px 0px 0px; margin: 0.1px;">
-                        <span>Register for our upcoming event&nbsp;</span><!----></td>
+                        <span>Register for our upcoming event&nbsp;</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.3px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,52 +51,52 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.8px / 18.8px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(5, 135, 137); font-weight: 600; cursor: pointer;">Oleen
-                                                Patterson</span><!----><!----></td>
+                                                Patterson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(64, 64, 64);">
-                                            <span style="cursor: pointer;">Gynecologist </span><!----><span
+                                            <span style="cursor: pointer;">Gynecologist </span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(64, 64, 64);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">230
-                                                355 9875</span><!----><!----><span
+                                                355 9875</span><span
                                                 style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(64, 64, 64);">
-                                            <!----><span
-                                                style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">name@example.com</span><!----><!---->
+                                            <span
+                                                style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">name@example.com</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(64, 64, 64);">
-                                            <!----><span
-                                                style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(64, 64, 64); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(64, 64, 64);">
-                                            <!----><span style="color: rgb(64, 64, 64);">555 Maple Lane, Toronto,
-                                                Canada</span><!----><!----></td>
+                                            <span style="color: rgb(64, 64, 64);">555 Maple Lane, Toronto,
+                                                Canada</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 25px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/f/5/7/f57b15d0-56e4-59d1-8db9-b196e4db229e.png"
@@ -112,13 +112,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

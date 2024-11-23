@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.5px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,7 +51,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 13.8px / 17.6px Tahoma; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">Benjamin
-                                                Garcia </span><!----><!----></td>
+                                                Garcia </span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -71,21 +71,21 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.5px / 14.7px Tahoma; color: rgb(0, 0, 1);">
                                             <span>Address:&nbsp;</span><span style="color: rgb(0, 0, 1);">10 California
-                                                st, fl 6</span><!----><!----></td>
+                                                st, fl 6</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.5px / 14.7px Tahoma; color: rgb(0, 0, 1);">
                                             <span>Phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">+1
-                                                (555) 876-5432</span><!----><!----></td>
+                                                (555) 876-5432</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -104,13 +104,13 @@
                         the European Union and the European Economic Area. You can request the information on how we
                         collect and process your private data according to the law by contacting the email sender.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

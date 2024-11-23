@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="550" style="border-collapse: collapse; font-size: 13.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -12,13 +12,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 18.8px / 23.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(212, 8, 109); cursor: pointer;">Regina
-                                                Spils</span><!----><!----></td>
-                                    </tr><!---->
+                                                Spils</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 200 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             fashion blogger</td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -70,7 +70,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(212, 8, 109); font-weight: 600;">E&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">regina@mysignature.io</span>&nbsp;&nbsp;<!----><span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">regina@mysignature.io</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -80,7 +80,7 @@
                                             <span
                                                 style="color: rgb(212, 8, 109); font-weight: 600; cursor: pointer;">PARTENRSHIPS&nbsp;</span><span
                                                 style="color: rgb(212, 8, 109); text-decoration: none; font-family: Tahoma, Geneva, sans-serif; font-weight: 600;">544
-                                                646 2662</span>&nbsp;<!----><span
+                                                646 2662</span>&nbsp;<span
                                                 style="color: rgb(212, 8, 109); font-weight: 600; cursor: pointer;"></span>
                                         </td>
                                     </tr>
@@ -100,13 +100,13 @@
             </tr>
         </table>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;"></table><!---->
+            <table cellpadding="0" style="border-collapse: collapse;"></table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

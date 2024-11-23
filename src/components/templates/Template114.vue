@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -14,13 +14,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 16.1px / 20.5px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Melissa Tean</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Melissa Tean</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 13.4px / 17.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"></span><!----><span
-                                                style="cursor: pointer;">Kid's Corner Entertainment</span><!----><span
+                                            <span style="cursor: pointer;"></span><span
+                                                style="cursor: pointer;">Kid's Corner Entertainment</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -74,7 +74,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -85,15 +85,15 @@
                     <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/youtube_v1_shape3_i.png" height="41"
                                 width="144" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 12px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

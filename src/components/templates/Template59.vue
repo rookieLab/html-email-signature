@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,7 +51,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(53, 54, 61); font-weight: 600; cursor: pointer;">Justin
-                                                Mccullough</span><!----><!----></td>
+                                                Mccullough</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -62,26 +62,26 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+809-890-75</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+809-890-75</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(0, 0, 1);">984 E 9th St, Stuart, FL
-                                                36780</span><!----><!----></td>
+                                            <span style="color: rgb(0, 0, 1);">984 E 9th St, Stuart, FL
+                                                36780</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/a/d/0/ad0e7333-7b4f-56b6-a2a6-7118fc138bc3.png"
@@ -98,13 +98,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

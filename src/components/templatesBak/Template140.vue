@@ -22,12 +22,12 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.1px / 17.8px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">DR.
-                                                MATTHEW HOWARD</span><!----><!----></td>
+                                                MATTHEW HOWARD</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 11.7px / 14.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <span style="cursor: pointer;">Cardiologist</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Cardiologist</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -42,16 +42,16 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.7px / 14.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">name@example.com</span><!----><!---->
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">name@example.com</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.7px / 14.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 0);">
                                             <span>skype:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">Dr.Matthew</span><!----><!---->
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">Dr.Matthew</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.7px / 14.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -99,7 +99,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -107,16 +107,16 @@
                     <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png" height="35"
                                 width="123" alt="facebook" style="display: block;"></span></td>
-                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 11px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

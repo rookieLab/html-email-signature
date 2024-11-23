@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
                 <tr>
@@ -18,14 +18,14 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 18.7px / 23.8px Georgia, serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(218, 187, 26); cursor: pointer;">MACK
-                                                    MEADOWS </span><!----><!----></td>
+                                                    MEADOWS </span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
-                                                <!----><!----><span
+                                                <span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">Business
-                                                    Consultant</span><!----><!----></td>
+                                                    Consultant</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -46,10 +46,10 @@
                                         <tr style="cursor: pointer;">
                                             <td
                                                 style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
-                                                <!----><span
+                                                <span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;"></span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -98,15 +98,15 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

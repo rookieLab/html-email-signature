@@ -21,13 +21,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.1px / 21.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Sara Fischer</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Sara Fischer</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Professional Photographer</span><!----><span
-                                                style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;">Professional Photographer</span><span
+                                                style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -98,22 +98,22 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 14px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/b/6/9/b69e95aa-84f4-50cd-be23-6d3cebc528a0.png"
                                 alt="Meet me on Google Hangouts" width="293" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

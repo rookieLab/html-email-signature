@@ -3,8 +3,6 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <!-- <img alt="Regards," src="/assets/8c7f336d-810a-5088-bc33-029256f51e61.png" width="500" /> -->
-                    <!-- {{ editing.addons?.signoff }} -->
                     <img alt="Regards," :src="editing.Addons?.signOff?.img" width="500" />
                 </td>
             </tr>
@@ -25,46 +23,40 @@
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
                                         <td style="margin: 0.1px; padding: 0px 0px 5px; " :style="textStyle">
-                                            <span style="font-weight: 600;  cursor: pointer;"
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
                                                 :style="{ color: editing.design?.templateColor }">
-                                                {{ editing.general?.name }}
-                                            </span>&nbsp;<span style="cursor: pointer;">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
                                                 {{ editing.general?.position }}
                                             </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0.1px; padding: 0px 0px 5px;" :style="textStyle">
-                                            <span style="cursor: pointer;">
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
                                                 <span>
-                                                    {{ editing.general?.company }}
+                                                    {{ editing.general?.company }}&nbsp;
                                                 </span>
                                             </span>
+                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">
+                                                    {{ editing.general?.department }}
+                                                </span></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td style="margin: 0.1px; padding: 2px 0px; " :style="textStyle">
-                                            <span style="text-decoration: none; ">
-                                                {{ editing.general?.email }}
+                                    <tr v-for="c in editing.general?.contacts" style="cursor: pointer;">
+                                        <td v-if="c.value" style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
+                                            <span v-if="c.key" style="color: rgb(31, 31, 31); font-weight: 600;">
+                                                {{ c.key }}&nbsp;
                                             </span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td style="margin: 0.1px; padding: 2px 0px; " :style="textStyle">
-                                            <span></span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
-                                            <span style=" text-decoration: none;">
-                                                {{ editing.general?.phone }}
+                                            <span
+                                                style="color: rgb(31, 31, 31); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">
+                                                {{ c.value }}
                                             </span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
-                                            <span style="text-decoration: none;">
-                                                {{ editing.general?.website }}</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -109,7 +101,7 @@
                     </td>
                 </tr>
             </table>
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
+            <table v-if="editing.Image?.bannerImg" width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <a :href="editing.Image?.bannerLink" target="_blank">
@@ -125,13 +117,21 @@
                 </tr>
             </table>
         </div>
-        <!-- <div>
+        <div>
             <table cellpadding="0" style="border-collapse: collapse;" width="500">
-               
+
                 <tr>
                     <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;">
-                        <span><img alt="Meet me on Google Meet" src="/assets/f54a1792-9dfe-5bb1-89c8-0768acb7d13d.png"
-                                style="display: block;" width="203" /></span>
+                        <a :href="editing.Addons?.video?.url" target="_blank" :style="meetStyle" style="
+                            display: flex;
+                            gap: 10px;
+                            padding: 10px;
+                            display: inline-flex;
+                            font-weight: 800;
+                        ">
+                            <IconsMeet :name="editing.Addons?.video?.type" :color="editing.Addons?.video?.color" />
+                            <span> {{ editing.Addons?.video?.text }}</span>
+                        </a>
                     </td>
                 </tr>
             </table>
@@ -140,92 +140,20 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
                 </tr>
             </table>
-        </div> -->
+        </div>
     </div>
 </template>
 
 <script>
-import { shallowRef, ref, computed } from 'vue'
-import { useStore } from '@/stores/store'
-import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
-import jsonData from '@/stores/data.json'
 
-
+import { myMixin } from './mixin.js'
 // 模版：显示data.json 中的数据
 // 编辑，需要editingStore 来编辑
 // 预览：显示store中的数据
 
 export default {
     name: 'Template1',
-    data() {
-        return {
-            editing: {},
-            socialIconsMap: {}
-        }
-    },
-    props: {
-        type: {
-            type: String,
-            default: 'preview' // editing | preview
-        },
-        data: {
-            type: Object,
-            default: () => (null)
-        }
-    },
-    methods: {
-        // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.editing);
-        // },
-        initEditingStore() {
-            // console.log('initEditingStore', this.$options.name, this.type)
-            if (this.type === 'preview') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                // Object.assign(this.editing, data)
-                // console.log('initEditingStore2', this.$options.name, data)
-                this.editing = data
-            }
-
-            if (this.type === 'editing') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                // console.log('initEditingStore3', this.$options.name, data)
-                this.editing = useEditingStore()
-                this.editing.init(data);
-            }
-
-        },
-        loadSocialIcons() {
-            Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = shallowRef(component)
-            ))
-        },
-        init() {
-            this.initEditingStore(this.$options.name);
-            this.loadSocialIcons();
-        }
-    },
-    computed: {
-        textStyle() {
-            let fontName = this.editing?.design?.font || "Arial"
-            return {
-                color: this.editing.design?.TextColor,
-                fontFamily: jsonData.fontList[fontName],
-                fontSize: this.editing.design?.fontSize + 'px'
-            }
-        }
-    },
-    mounted() {
-        this.store = useStore();
-        this.templates = useTemplatesStore()
-        this.init()
-    }
+    mixins: [myMixin]
 }
 </script>
 <style scoped></style>

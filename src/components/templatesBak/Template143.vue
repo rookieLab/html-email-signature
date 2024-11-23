@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(154, 86, 5); cursor: pointer;">Adam
-                                                Thomas</span><!----><!----><!----><!----></td>
+                                                Thomas</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -54,7 +54,7 @@
                                             style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(154, 86, 5); font-weight: 600;">▪︎&nbsp;</span><span
                                                 style="color: rgb(54, 64, 64);">10 California st, fl 6</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.8px / 16.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -112,18 +112,18 @@
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

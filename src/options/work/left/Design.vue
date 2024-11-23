@@ -99,7 +99,7 @@
                     </div> -->
                 </div>
                 <div class="u-bg-white-medium u-pd-ha2 u-pd-va1 u-pd-va1f5@xl u-pd-ha3@xl u-pd-va2@xl u-display-flex">
-                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Social icons</h2><!---->
+                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Social icons</h2>
                 </div>
                 <div class="u-pd-t3 u-pd-ha2 u-pd-t3f5@xl u-pd-ha3@xl">
                     <div class="l-dp-flex e--gap-x3 u-pd-t1 u-pd-b1">

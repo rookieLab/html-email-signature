@@ -1,10 +1,10 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px; font: 11.8px / 15.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -56,12 +56,12 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.2px / 18.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">Olivia
-                                                Anderson</span><!----><!----></td>
+                                                Anderson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 11.8px / 15.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 46, 255);">
-                                            <span style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;">Real Estate Broker</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -77,13 +77,13 @@
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 46, 255);">
                                             <span>m:&nbsp;</span><span
                                                 style="color: rgb(0, 46, 255); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">+1
-                                                373 947 3340</span><!----><!----></td>
+                                                373 947 3340</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 46, 255);">
                                             <span>a:&nbsp;</span><span style="color: rgb(0, 46, 255);">649 E Girard Ave
-                                                Englewood, CO 80113</span><!----><!----></td>
+                                                Englewood, CO 80113</span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -109,13 +109,13 @@
                             src="https://img.mysignature.io/a/v1/c/a/2/ca2c82e5-4335-5972-83c4-9eab7d28728f.png"
                             style="max-width: 490px; display: block;" width="300"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

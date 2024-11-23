@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -16,28 +16,28 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(122, 30, 221); cursor: pointer;">LOUIS
-                                                MCLAUGHLIN</span><!----><!----></td>
+                                                MCLAUGHLIN</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(27, 14, 1);">
-                                            <span style="cursor: pointer;">Podcaster</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Podcaster</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(27, 14, 1);">
-                                            <!----><span
-                                                style="color: rgb(27, 14, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">luis@mysignature.io</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(27, 14, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">luis@mysignature.io</span>,&nbsp;<span
                                                 style="color: rgb(27, 14, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(27, 14, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(27, 14, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">+1
-                                                983 333 3739</span><!----><!----></td>
-                                    </tr><!---->
+                                                983 333 3739</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
@@ -85,15 +85,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
                 style="width: 500px; color: rgb(6, 184, 68); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; font-size: 14.1px; padding: 13px 0px 0px; margin: 0.1px;">
-                        <span>?️Have an intresting story to tell?&nbsp;</span><!----></td>
+                        <span>?️Have an intresting story to tell?&nbsp;</span></td>
                 </tr>
             </table>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -103,13 +103,13 @@
                             src="https://img.mysignature.io/a/v1/6/e/f/6ef8ad84-ab94-50db-a989-fb71fe84ae63.png"
                             style="max-width: 490px; display: block;" width="287"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

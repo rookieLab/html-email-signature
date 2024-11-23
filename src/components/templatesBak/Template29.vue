@@ -58,12 +58,12 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(216, 29, 84); font-weight: 600; cursor: pointer;">Shania
-                                                Mason</span><!----><!----></td>
+                                                Mason</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;">Instagram Influencer</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -71,14 +71,14 @@
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span>phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">+1
-                                                733 953 63</span><!----><!----><span
+                                                733 953 63</span><span
                                                 style="color: rgb(0, 0, 1);"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">shania@mason.io</span><!----><!---->
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">shania@mason.io</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -95,7 +95,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -103,16 +103,16 @@
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/instagram_v3_shape2_b.png" height="43"
                                 width="151" alt="instagram" style="display: block;"></span></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 14px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

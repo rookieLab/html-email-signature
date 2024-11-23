@@ -23,8 +23,8 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.6px / 19.8px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Sadie
-                                                &amp; Nixon Family Blog</span><!----><!----><!----><!----></td>
-                                    </tr><!---->
+                                                &amp; Nixon Family Blog</span></td>
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -42,7 +42,7 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><!----><span
+                                            <span
                                                 style="color: rgb(255, 20, 104); font-weight: 400; cursor: pointer;">Listen
                                                 to our podcast about relations</span></td>
                                     </tr>
@@ -98,7 +98,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -109,7 +109,7 @@
                     <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_i.png" height="39"
                                 width="137" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table width="419" cellpadding="0" style="border-collapse: collapse;">
@@ -119,13 +119,13 @@
                         If you do not wish to receive more information about our products and/or services, you can
                         unsubscribe by replying to this email with the subject line "DO NOT SEND".</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

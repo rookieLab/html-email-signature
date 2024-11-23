@@ -23,7 +23,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.2px / 19.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(37, 52, 102); cursor: pointer;">MILA
-                                                COLLINS</span><!----><!----></td>
+                                                COLLINS</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -43,8 +43,8 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(37, 52, 102);">
                                             <span>●&nbsp;</span><span style="color: rgb(37, 52, 102);">Boston,
-                                                USA</span><!----><!----></td>
-                                    </tr><!---->
+                                                USA</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.6px / 16.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -103,7 +103,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -119,7 +119,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

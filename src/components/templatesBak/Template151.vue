@@ -19,13 +19,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.1px / 21.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(187, 22, 45); cursor: pointer;"> Emily
-                                                Johnson</span><!----><!----></td>
+                                                Johnson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 200 12.2px / 15.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             Job Seeker</td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.2px / 15.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -75,16 +75,16 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 12.2px / 15.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                747 3847 4442</span>&nbsp;&nbsp;<!----><span
+                                                747 3847 4442</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1);"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 12.2px / 15.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">emily@mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">emily@mysignature.io</span>
                                         </td>
                                     </tr>
                                 </table>
@@ -102,13 +102,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

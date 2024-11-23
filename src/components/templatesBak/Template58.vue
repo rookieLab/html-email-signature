@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -14,13 +14,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Adriana Jacobs</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Adriana Jacobs</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 14.4px / 18.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">HR Manager</span>&nbsp;<span
-                                                style="cursor: pointer;">Capitol Max</span><!----><span
+                                                style="cursor: pointer;">Capitol Max</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -94,13 +94,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -25,12 +25,12 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.2px / 20.6px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(110, 76, 55); cursor: pointer;">Gregory
-                                                    Shelton</span><!----><!----></td>
+                                                    Shelton</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <!----><!----><span style="color: rgb(0, 0, 1); cursor: pointer;">Travel
+                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Travel
                                                     Blogger |</span>&nbsp;<span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">The G Word
                                                     channel</span></td>
@@ -122,13 +122,13 @@
                 </tr>
             </table>
         </div>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

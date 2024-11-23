@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,20 +51,20 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.3px / 20.8px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(74, 74, 74); font-weight: 600; cursor: pointer;">Amber
-                                                Miles</span><!----><!----></td>
+                                                Miles</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Copywriter</span><!----><span
+                                            <span style="cursor: pointer;">Copywriter</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">+1
-                                                987 223 7332</span>,&nbsp;<!----><span
+                                                987 223 7332</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -73,7 +73,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -84,13 +84,13 @@
                                 style="max-width: 490px; display: block;" width="158"></span></td>
                 </tr>
             </table>
-            <table cellpadding="0" style="border-collapse: collapse;"></table><!---->
+            <table cellpadding="0" style="border-collapse: collapse;"></table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

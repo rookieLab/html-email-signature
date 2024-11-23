@@ -21,13 +21,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 16.1px / 20.5px Tahoma, Geneva, sans-serif; color: rgb(30, 2, 67);">
-                                            <span style="cursor: pointer;">Dr. Olivia Thompson</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Dr. Olivia Thompson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(30, 2, 67);">
                                             <span style="cursor: pointer;">Assistant Professor</span>&nbsp;<span
-                                                style="cursor: pointer;"> Central State University</span><!----><span
+                                                style="cursor: pointer;"> Central State University</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -58,11 +58,11 @@
                                         </td>
                                     </tr>
                                 </table>
-                            </td><!---->
+                            </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -73,8 +73,8 @@
                     <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/twitter_v1_shape2_b.png" height="24"
                                 width="84" alt="twitter" style="display: block;"></span></td>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table cellpadding="0" width="500"
@@ -89,7 +89,7 @@
                         </svg></td>
                     <td
                         style="font-family: Tahoma, Geneva, sans-serif; font-size: 14.1px; padding: 16px 0px 0px; margin: 0.1px;">
-                        <span>Attend our webinar&nbsp;</span><!----></td>
+                        <span>Attend our webinar&nbsp;</span></td>
                 </tr>
             </table>
             <table width="436" cellpadding="0" style="border-collapse: collapse;">
@@ -101,13 +101,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

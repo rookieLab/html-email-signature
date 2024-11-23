@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.5px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -16,7 +16,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.1px / 19.1px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span
                                                 style="font-weight: 600; color: rgb(59, 171, 214); cursor: pointer;">DEBORAH
-                                                LARSON</span><!----><!----></td>
+                                                LARSON</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -37,16 +37,16 @@
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.5px / 15.9px Georgia, serif; color: rgb(54, 54, 54);">
                                             <span>✦ &nbsp;</span><span
-                                                style="color: rgb(54, 54, 54); text-decoration: none; font-family: Georgia, serif;">deborah@.mysignature.io</span><!----><!---->
+                                                style="color: rgb(54, 54, 54); text-decoration: none; font-family: Georgia, serif;">deborah@.mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.5px / 15.9px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><!----><span
+                                            <span
                                                 style="color: rgb(54, 54, 54); font-weight: 400; cursor: pointer;">8.00
                                                 am - 8.00 pm</span></td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.5px / 15.9px Georgia, serif; color: rgb(0, 0, 1);">
@@ -94,7 +94,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -122,13 +122,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

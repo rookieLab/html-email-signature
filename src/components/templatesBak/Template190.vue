@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
@@ -11,7 +11,7 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 18.7px / 23.8px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(155, 155, 155); cursor: pointer;">KAYDAN
-                        PADILLA</span><!----><!----></td>
+                        PADILLA</span></td>
             </tr>
             <tr>
                 <td align="center"
@@ -30,8 +30,8 @@
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(155, 155, 155); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <!----><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                    <span
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                 </td>
             </tr>
             <tr>
@@ -74,15 +74,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

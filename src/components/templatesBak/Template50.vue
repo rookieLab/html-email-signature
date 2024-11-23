@@ -1,12 +1,12 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 10.2px; background-color: rgb(255, 255, 255);">
             <tr>
                 <td
                     style="margin: 0.1px; padding: 20px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -14,12 +14,12 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.3px / 16.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Garry
-                                                Wolf</span><!----><!----></td>
+                                                Wolf</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 0);">
-                                            <span style="cursor: pointer;">Broker</span><!----><!----><!----><!---->
+                                            <span style="cursor: pointer;">Broker</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -42,10 +42,10 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -93,7 +93,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -108,13 +108,13 @@
                                 src="https://img.mysignature.io/addons/v2/linkedin_v3_shape1_i.png" height="36"
                                 width="126" alt="linkedin" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

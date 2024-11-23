@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="550" style="border-collapse: collapse; font-size: 13.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -12,13 +12,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 18.4px / 23.4px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(212, 0, 0); cursor: pointer;">Shawn
-                                                Rogers</span><!----><!----></td>
+                                                Rogers</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 200 13.1px / 16.7px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); cursor: pointer;">
                                             CEO of Regildet</td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.1px / 16.7px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -70,7 +70,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 13.1px / 16.7px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(212, 0, 0); font-weight: 600;">ꕤ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">shawn@regildet.com</span>&nbsp;&nbsp;<!----><span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">shawn@regildet.com</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;"></span>
                                         </td>
                                     </tr>
@@ -79,7 +79,7 @@
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 13.1px / 16.7px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(212, 0, 0); font-weight: 600;">ꕤ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>&nbsp;&nbsp;<!----><span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;"></span>
                                         </td>
                                     </tr>
@@ -89,14 +89,14 @@
                                             <span
                                                 style="color: rgb(212, 0, 0); font-weight: 600;">ꕤ&nbsp;&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1);">24 Sunny St., New York,
-                                                USA</span><!----><!----></td>
+                                                USA</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="352" cellpadding="0" style="border-collapse: collapse;">
@@ -123,13 +123,13 @@
                             style="text-decoration: none; font-size: 14.1px; color: rgb(212, 0, 0);">Book a
                             ticket</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

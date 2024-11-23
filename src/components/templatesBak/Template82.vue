@@ -25,13 +25,13 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.8px / 21.4px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(36, 30, 14); cursor: pointer;">David
-                                                    Wilson</span><!----><!----></td>
+                                                    Wilson</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 13.1px / 16.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 0);">
                                                 <span style="color: rgb(0, 0, 0); cursor: pointer;">Freelancers
-                                                </span><!----><!----><!----><span
+                                                </span><span
                                                     style="color: rgb(0, 0, 0); cursor: pointer;">Motion Designer</span>
                                             </td>
                                         </tr>
@@ -58,7 +58,7 @@
                                                     style="color: rgb(36, 30, 14); font-weight: 600;">w:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">www.davidwil.com</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 13.1px / 16.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -107,7 +107,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -121,16 +121,16 @@
                     <td style="padding: 25px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/linkedin_v1_shape1_i.png" height="27"
                                 width="95" alt="linkedin" style="display: block;"></span></td>
-                    <td style="padding: 25px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 25px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 25px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 25px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

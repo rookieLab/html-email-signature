@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 12.5px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
@@ -11,12 +11,12 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 16.2px / 20.6px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(43, 138, 86); cursor: pointer;">PETE
-                        BROWN</span><!----><!----></td>
+                        BROWN</span></td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">NURSE</span><!----><!----></td>
+                    <span style="cursor: pointer;">NURSE</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
@@ -66,25 +66,25 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
                 style="width: 500px; color: rgb(43, 138, 86); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="font-family: Tahoma, Geneva, sans-serif; font-size: 14.1px; padding: 5px 0px 0px; margin: 0.1px;">
                         <span>Download&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(43, 138, 86);">the checklist to
                             check your health yourself</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

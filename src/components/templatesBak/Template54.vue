@@ -24,7 +24,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(66, 195, 193); cursor: pointer;">Bred
-                                                Traler</span><!----><!---->&nbsp;<span
+                                                Traler</span>&nbsp;<span
                                                 style="font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">Public
                                                 School Teacher</span></td>
                                     </tr>
@@ -67,7 +67,7 @@
                                                 style="color: rgb(66, 195, 193); font-weight: 600;">phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">453-32-656</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -115,15 +115,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

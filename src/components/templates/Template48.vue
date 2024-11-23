@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,14 +17,14 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 17.3px / 22.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(235, 62, 145); cursor: pointer;">Anny
-                                                Parson</span><!----><!----><!----><span
+                                                Parson</span><span
                                                 style="font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;"></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Anny's Flowers</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Anny's Flowers</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -58,15 +58,15 @@
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(235, 62, 145); font-weight: 400; cursor: pointer;">Wedding
-                                                services</span>&nbsp;<!----></td>
+                                                services</span>&nbsp;</td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><!----><span
+                                            <span
                                                 style="color: rgb(235, 62, 145); font-weight: 400; cursor: pointer;">454
                                                 6444 8844</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -125,7 +125,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -135,13 +135,13 @@
                                 src="https://img.mysignature.io/a/v1/9/e/b/9eb34636-4d7a-5852-ab15-26862e7ac4a3.png"
                                 style="max-width: 490px; display: block;" width="313"></span></td>
                 </tr>
-            </table><!----><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

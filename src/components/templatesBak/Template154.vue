@@ -24,19 +24,19 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.2px / 19.3px Verdana, Geneva, sans-serif; color: rgb(239, 244, 145); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Leo
-                                                Anderson</span><!----><!----></td>
+                                                Anderson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 11.7px / 14.9px Verdana, Geneva, sans-serif; color: rgb(239, 244, 145); text-transform: uppercase; border-top: 1px solid rgb(239, 244, 145);">
                                             <span style="cursor: pointer;"> Tech Blogger &amp; Gadgets
-                                                Guru</span><!----><!----><!----><!----></td>
+                                                Guru</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 11.7px / 14.9px Verdana, Geneva, sans-serif; color: rgb(239, 244, 145);">
                                             <span>m:&nbsp;</span><span
-                                                style="color: rgb(239, 244, 145); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">404-5566-154</span>&nbsp;|&nbsp;<!----><span
+                                                style="color: rgb(239, 244, 145); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">404-5566-154</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(239, 244, 145); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
                                         </td>
                                     </tr>
@@ -111,7 +111,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -121,13 +121,13 @@
                             src="https://img.mysignature.io/a/v1/b/0/0/b006360f-f981-54d8-8a1d-668f271a5afa.png"
                             style="max-width: 490px; display: block;" width="415"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

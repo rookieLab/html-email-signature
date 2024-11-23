@@ -21,13 +21,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Addison Mosley</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Addison Mosley</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"> Florist</span>&nbsp;<span
-                                                style="cursor: pointer;">at LilyBloom</span><!----><span
+                                                style="cursor: pointer;">at LilyBloom</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -124,15 +124,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

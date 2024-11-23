@@ -59,19 +59,19 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(20, 186, 71); font-weight: 600; cursor: pointer;">Camelia
-                                                Poler</span><!----><!----></td>
+                                                Poler</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Healthy Nutrition Coach</span><!----><span
+                                            <span style="cursor: pointer;">Healthy Nutrition Coach</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">cam@mysignature.io</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">cam@mysignature.io</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -80,7 +80,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -88,8 +88,8 @@
                     <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/youtube_v2_shape1_b.png" height="35"
                                 width="123" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -101,13 +101,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: gray;">
                         Save paper. Don’t print</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

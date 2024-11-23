@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(114, 43, 182); cursor: pointer;">Nyle
-                                                Hope</span><!----><!---->&nbsp;<span
+                                                Hope</span>&nbsp;<span
                                                 style="font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Head
                                                 of Marketing</span></td>
                                     </tr>
@@ -25,7 +25,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span
-                                                    style="color: rgb(0, 0, 1);">Vortech</span></span><!----><!---->
+                                                    style="color: rgb(0, 0, 1);">Vortech</span></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -50,7 +50,7 @@
                                             <span
                                                 style="color: rgb(114, 43, 182); font-weight: 600;">address:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1);">3413 Post Farm Road, Atlanta</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -108,13 +108,13 @@
                 </td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

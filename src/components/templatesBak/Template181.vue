@@ -25,13 +25,13 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 17.7px / 22.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(70, 127, 0); cursor: pointer;">Jac
-                                                    Drake</span><!----><!----></td>
+                                                    Drake</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 13.6px / 17.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span style="color: rgb(0, 0, 1); cursor: pointer;">Explorer and
-                                                    Traveler</span><!----><!----><!----><!----></td>
+                                                    Traveler</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -56,7 +56,7 @@
                                                     style="color: rgb(70, 127, 0); font-weight: 600;">P:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">432
                                                     403 425</span></td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 13.6px / 17.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -105,7 +105,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;"></table>
@@ -125,13 +125,13 @@
                             style="text-decoration: none; font-size: 14.1px; color: rgb(70, 127, 0);">Workaway.info</span>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

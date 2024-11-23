@@ -25,22 +25,22 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.2px / 20.6px &quot;Lucida Console&quot;, Monaco, monospace; color: rgb(39, 65, 46); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Prof. David
-                                                Patel</span><!----><!----></td>
+                                                Patel</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 12.5px / 15.9px &quot;Lucida Console&quot;, Monaco, monospace; color: rgb(39, 65, 46); text-transform: uppercase; border-top: 1px solid rgb(39, 65, 46);">
                                             <span style="cursor: pointer;">School of Business</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">Horizon University</span><!----><!----></td>
+                                                style="cursor: pointer;">Horizon University</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.5px / 15.9px &quot;Lucida Console&quot;, Monaco, monospace; color: rgb(39, 65, 46);">
-                                            <!----><span
-                                                style="color: rgb(39, 65, 46); text-decoration: none; font-family: &quot;Lucida Console&quot;, Monaco, monospace;">david@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(39, 65, 46); text-decoration: none; font-family: &quot;Lucida Console&quot;, Monaco, monospace;">david@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(39, 65, 46); text-decoration: none; font-family: &quot;Lucida Console&quot;, Monaco, monospace;">+1
                                                 (555) 789-0123</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.5px / 15.9px &quot;Lucida Console&quot;, Monaco, monospace; color: rgb(0, 0, 1);">
@@ -88,7 +88,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -99,19 +99,19 @@
                                 style="max-width: 490px; display: block;" width="375"></span></td>
                 </tr>
             </table>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 11px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/7/b/f/7bfd3300-ca21-549e-a5b4-0b4abb4ace67.png"
                                 alt="Meet me on Google Meet" width="224" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

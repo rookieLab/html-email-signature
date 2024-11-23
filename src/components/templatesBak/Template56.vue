@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 13.4px; background-color: rgb(251, 212, 218);">
             <tr>
@@ -18,13 +18,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.5px / 22.2px &quot;Lucida Sans Unicode&quot;; color: rgb(0, 0, 0); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Sanya
-                                                Avila</span><!----><!----></td>
+                                                Avila</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 13.4px / 17.1px &quot;Lucida Sans Unicode&quot;; color: rgb(0, 0, 0); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 0);">
                                             <span style="cursor: pointer;">Sales Manager</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">Pink Sports</span><!----><!----></td>
+                                                style="cursor: pointer;">Pink Sports</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -37,10 +37,10 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px &quot;Lucida Sans Unicode&quot;; color: rgb(0, 0, 0);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.4px / 17.1px &quot;Lucida Sans Unicode&quot;; color: rgb(0, 0, 1);">
@@ -88,7 +88,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -103,13 +103,13 @@
                                 src="https://img.mysignature.io/addons/v2/googlemy_shape2_black.png" height="44"
                                 width="154" alt="googlemy" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

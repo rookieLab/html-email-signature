@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.6px;">
                 <tr>
@@ -18,7 +18,7 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 17.7px / 22.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(68, 139, 153); cursor: pointer;">Paula
-                                                    Thomas</span><!----><!----></td>
+                                                    Thomas</span></td>
                                         </tr>
                                         <tr>
                                             <td
@@ -26,7 +26,7 @@
                                                 <span style="color: rgb(0, 0, 1); cursor: pointer;">Doctor
                                                     Ophthalmologist</span>&nbsp;<span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">at Mayo
-                                                    Clinic</span><!----><!----></td>
+                                                    Clinic</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -50,7 +50,7 @@
                                                 <span
                                                     style="color: rgb(68, 139, 153); font-weight: 600;">address:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1);">123 Health Way, Rochester</span></td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 13.6px / 17.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
@@ -99,7 +99,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -119,13 +119,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px &quot;Times New Roman&quot;, Times, serif; color: gray;">
                         Please don’t print this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

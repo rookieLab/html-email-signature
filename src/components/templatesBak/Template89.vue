@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.1px / 20.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(69, 129, 149); cursor: pointer;">Robert
-                                                Davis</span><!----><!---->&nbsp;<span
+                                                Davis</span>&nbsp;<span
                                                 style="font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Real
                                                 Estate Agent</span></td>
                                     </tr>
@@ -25,7 +25,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.4px / 17.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Blue Sky
-                                                    Realty</span></span><!----><!----></td>
+                                                    Realty</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -126,10 +126,10 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/b/8/a/b8a97c80-7fc7-5518-9832-ef8d30a2382b.png"
@@ -144,13 +144,13 @@
                         European Union and the European Economic Area. You can request the information on how we collect
                         and process your private data according to the law by contacting the email sender.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

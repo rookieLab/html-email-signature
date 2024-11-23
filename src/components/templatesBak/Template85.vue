@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.5px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -20,7 +20,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.5px / 22.2px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(109, 211, 148); font-weight: 600; cursor: pointer;">Ethan
-                                                Brown</span><!----><span
+                                                Brown</span><span
                                                 style="color: rgb(0, 0, 1); cursor: pointer;"></span></td>
                                     </tr>
                                     <tr>
@@ -36,34 +36,34 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 12.5px / 15.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
                                                 729 855 4555</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.5px / 15.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
                                                 728 607 2433</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.5px / 15.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">brown@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.5px / 15.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0.1px; padding: 15px 0px 0px;">
-                                            <table cellpadding="0" style="border-collapse: collapse;"><!---->
+                                            <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td
                                                         style="margin: 0.1px; padding: 5px 0px 0px; font: 12.5px / 15.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -114,7 +114,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -135,13 +135,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

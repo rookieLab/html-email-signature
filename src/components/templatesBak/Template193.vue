@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 13.3px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,12 +12,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.3px / 22.1px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(231, 142, 11); text-transform: uppercase; cursor: pointer;">Fabio
-                        Fenton</span><!----><!----></td>
+                        Fenton</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 13.3px / 16.9px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">Freelancer (Designer)</span><!----><span
+                    <span style="cursor: pointer;">Freelancer (Designer)</span><span
                         style="cursor: pointer;"></span></td>
             </tr>
             <tr>
@@ -51,7 +51,7 @@
                     <span style="font-weight: 600;">E:&nbsp;</span><span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">Fentonfabilo@mysignature.io</span>
                 </td>
-            </tr><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 13.3px / 16.9px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -90,7 +90,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -98,16 +98,16 @@
                     <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/behance_v1_shape1_i.png" height="41"
                                 width="144" alt="behance" style="display: block;"></span></td>
-                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -24,10 +24,10 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.1px / 21.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 17.1px / 21.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Ameera
-                                                Charles</span><!----><!---->&nbsp;&nbsp;<span
+                                                Charles</span>&nbsp;&nbsp;<span
                                                 style="font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(61, 36, 7); cursor: pointer;">?
                                                 Art Teacher</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -55,7 +55,7 @@
                                             <span style="color: rgb(61, 36, 7);">?&nbsp;</span><span
                                                 style="color: rgb(61, 36, 7); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">433-88-90</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -123,13 +123,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                         Please don’t print this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

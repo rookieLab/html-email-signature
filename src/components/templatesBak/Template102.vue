@@ -27,7 +27,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 16.8px / 21.4px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(69, 15, 7); font-weight: 600; cursor: pointer;">Jamila
-                                                Richmond</span><!----><span
+                                                Richmond</span><span
                                                 style="color: rgb(0, 0, 1); cursor: pointer;"></span></td>
                                     </tr>
                                     <tr>
@@ -74,7 +74,7 @@
                                     </tr>
                                     <tr>
                                         <td style="margin: 0.1px; padding: 15px 0px 0px;">
-                                            <table cellpadding="0" style="border-collapse: collapse;"><!---->
+                                            <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td
                                                         style="margin: 0.1px; padding: 5px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -143,13 +143,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Verdana, Geneva, sans-serif; color: gray;">
                         Save paper. Don’t print</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

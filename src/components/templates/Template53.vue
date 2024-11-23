@@ -25,14 +25,14 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.6px / 21.2px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(17, 42, 62); cursor: pointer;">Winston
-                                                    Mellor</span><!----><!----></td>
+                                                    Mellor</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">Freelancer</span>&nbsp;<span
-                                                    style="color: rgb(0, 0, 1); cursor: pointer;">Photographer</span><!----><!---->
+                                                    style="color: rgb(0, 0, 1); cursor: pointer;">Photographer</span>
                                             </td>
                                         </tr>
                                         <tr style="cursor: pointer;">
@@ -66,7 +66,7 @@
                                                     style="color: rgb(17, 42, 62); font-weight: 600;">W:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -115,15 +115,15 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

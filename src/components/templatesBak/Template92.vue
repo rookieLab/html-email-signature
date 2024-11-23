@@ -1,10 +1,10 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -12,7 +12,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="font-weight: 600; color: rgb(67, 67, 67); cursor: pointer;">Dr.
-                                                Sophia Lee</span><!----><!---->&nbsp;<span
+                                                Sophia Lee</span>&nbsp;<span
                                                 style="font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(130, 130, 130); cursor: pointer;">Department
                                                 of English</span></td>
                                     </tr>
@@ -20,7 +20,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(130, 130, 130);">Ivy
-                                                    College</span></span><!----><!----></td>
+                                                    College</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -116,13 +116,13 @@
                                 src="https://img.mysignature.io/a/v1/6/a/8/6a82d428-04dc-5ad5-940f-a8333550daff.png"
                                 style="max-width: 490px; display: block;" width="277"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

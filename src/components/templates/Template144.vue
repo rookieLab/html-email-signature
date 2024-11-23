@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.1px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -14,13 +14,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 15.7px / 20.1px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Bria Nelson</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Bria Nelson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 13.1px / 16.7px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Defender of women's rights</span><!----><span
-                                                style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;">Defender of women's rights</span><span
+                                                style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -91,7 +91,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -117,7 +117,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

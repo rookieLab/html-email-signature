@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,13 +17,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.1px / 20.5px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(136, 133, 87); cursor: pointer;">TRAVEL
-                                                BLOGER</span><!----><!----><!----><!----></td>
+                                                BLOGER</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.4px / 17.1px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Antony
-                                                    Myers</span></span><!----><!----></td>
+                                                    Myers</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -48,7 +48,7 @@
                                                 style="color: rgb(136, 133, 87); font-weight: 600;">website:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Arial Black&quot;, Gadget, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 13.4px / 17.1px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1);">
@@ -107,15 +107,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

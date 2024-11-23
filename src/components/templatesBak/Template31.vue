@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,13 +17,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(44, 62, 134); cursor: pointer;">Aimie
-                                                Rayner</span><!----><!----><!----><!----></td>
+                                                Rayner</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">French
-                                                    Teacher ? ☕</span></span><!----><!----></td>
+                                                    Teacher ? ☕</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -63,7 +63,7 @@
                                                 style="color: rgb(44, 62, 134); font-weight: 600;">m:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">838
                                                 3837 3344</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
@@ -130,13 +130,13 @@
                         valign="top" width="289" alt="created with MySignature.io" style="display: block;"></td>
             </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

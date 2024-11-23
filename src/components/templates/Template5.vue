@@ -24,32 +24,32 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.5px / 22.2px Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Henrik
-                                                Ross</span><!----><!---->
+                                                Ross</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);">
                                             <span style="cursor: pointer;">Co-founder</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">| APEXIN DIGITAL</span><!----><!---->
+                                                style="cursor: pointer;">| APEXIN DIGITAL</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(255, 255, 255);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(255, 255, 255); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">
-                                                name@example.com</span>&nbsp;|&nbsp;<!----><span
+                                                name@example.com</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(255, 255, 255); text-decoration: none; font-family: Arial, Helvetica, sans-serif;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(255, 255, 255);">
-                                            <!----><span
-                                                style="color: rgb(255, 255, 255); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(255, 255, 255); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -100,7 +100,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -111,15 +111,15 @@
                     <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/googleplay_shape1_white.png" height="38"
                                 width="133" alt="googleplay" style="display: block;"></span></td>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -51,33 +51,33 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 16.1px / 20.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(120, 104, 118); font-weight: 600; cursor: pointer;">Ethan
-                                                Mitchell</span><!----><!----></td>
+                                                Mitchell</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.4px / 17.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;">Fashion &amp; Style Guru</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span>✉:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">meadows@mysignature.io</span><!----><!----><span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">meadows@mysignature.io</span><span
                                                 style="color: rgb(0, 0, 1);"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span>☏:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+55-686-876-3572</span><!----><!---->
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+55-686-876-3572</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
                                         </td>
                                     </tr>
                                 </table>
@@ -85,7 +85,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;"></table>
@@ -107,13 +107,13 @@
                         consider your own needs before making any purchasing decisions. Our goal is to empower and
                         inspire you on your fashion journey, but ultimately, the choice is yours</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

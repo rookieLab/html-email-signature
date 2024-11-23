@@ -1,11 +1,11 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 16.1px; background-color: rgb(239, 202, 176);">
             <tr>
                 <td style="margin: 0.1px; padding: 20px; font: 16.1px / 20.4px Georgia, serif; color: rgb(0, 0, 1);">
                     <table cellpadding="0" style="border-collapse: collapse;">
-                        <tr><!---->
+                        <tr>
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 16.1px / 20.4px Georgia, serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -13,13 +13,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 20.8px / 26.5px Georgia, serif; color: rgb(255, 255, 255); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Andriana
-                                                Jacobs</span><!----><!----></td>
+                                                Jacobs</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 16.1px / 20.4px Georgia, serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);">
                                             <span style="cursor: pointer;">HR manager</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">Capitol</span><!----><!----></td>
+                                                style="cursor: pointer;">Capitol</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -29,7 +29,7 @@
                                                 757 3145 2220</span>&nbsp;|&nbsp;<span>email:&nbsp;</span><span
                                                 style="color: rgb(255, 255, 255); text-decoration: none; font-family: Georgia, serif;">andriana@mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 16.1px / 20.4px Georgia, serif; color: rgb(0, 0, 1);">
@@ -77,15 +77,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 13.4px; background-color: rgb(254, 207, 54);">
             <tr>
@@ -18,22 +18,22 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.5px / 22.2px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 0); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Ray
-                                                Flot</span><!----><!----></td>
+                                                Flot</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 13.4px / 17.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 0); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 0);">
                                             <span style="cursor: pointer;">Writer,
-                                                Vlogger</span><!----><!----><!----><!----></td>
+                                                Vlogger</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 0);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">ray@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">ray@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.4px / 17.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -81,7 +81,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -108,13 +108,13 @@
                                 src="https://img.mysignature.io/a/v1/e/3/f/e3fe5267-60ee-516b-b192-332e421d0f66.png"
                                 style="max-width: 490px; display: block;" width="348"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

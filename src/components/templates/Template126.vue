@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.2px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -50,7 +50,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 14.6px / 18.6px Tahoma; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">Joe
-                                                Folen</span><!----><!----></td>
+                                                Folen</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -61,24 +61,24 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.2px / 15.5px Tahoma; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">+4
-                                                507 5780</span>,&nbsp;<!----><span
+                                                507 5780</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">+4
                                                 435 9503</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.2px / 15.5px Tahoma; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">folen@mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">folen@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.2px / 15.5px Tahoma; color: rgb(0, 0, 1);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">mysignature.io</span><!----><!---->
+                                            <span
+                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma;">mysignature.io</span>
                                         </td>
                                     </tr>
                                 </table>
@@ -86,7 +86,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -98,13 +98,13 @@
                                 src="https://img.mysignature.io/addons/v2/dribbble_v3_shape1_i.png" height="48"
                                 width="168" alt="dribbble" style="display: block;"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -30,8 +30,8 @@
                                                 class="a-input__label u-ws-nowrap u-display-block u-bg-snow"
                                                 for="1504">Link</label><input id="1504" class="a-input__item u-pd-r3"
                                                 maxlength="255" placeholder="Link" type="text"
-                                                value="https://baidu.com"><!----><!----><i
-                                                class="a-input__icon icon_service-site-close"></i><!----><!---->
+                                                value="https://baidu.com"><i
+                                                class="a-input__icon icon_service-site-close"></i>
                                 </div>
                         </div>
                         <div class="o-content-block__row e--social u-mr-b3" data-draggable="true">
@@ -42,8 +42,8 @@
                                 <div class="a-input o-content-block__media u-mr-t0 u-mr-l0f5@xl"><label
                                                 class="a-input__label u-ws-nowrap u-bg-snow"
                                                 for="1506">Link</label><input id="1506" class="a-input__item u-pd-r3"
-                                                maxlength="255" placeholder="Link" type="text" value=""><!----><!----><i
-                                                class="a-input__icon icon_service-site-close"></i><!----><!---->
+                                                maxlength="255" placeholder="Link" type="text" value=""><i
+                                                class="a-input__icon icon_service-site-close"></i>
                                 </div>
                         </div>
                         <div class="o-content-block__row e--social u-mr-b3" data-draggable="true">
@@ -54,8 +54,8 @@
                                 <div class="a-input o-content-block__media u-mr-t0 u-mr-l0f5@xl"><label
                                                 class="a-input__label u-ws-nowrap u-bg-snow"
                                                 for="1508">Link</label><input id="1508" class="a-input__item u-pd-r3"
-                                                maxlength="255" placeholder="Link" type="text" value=""><!----><!----><i
-                                                class="a-input__icon icon_service-site-close"></i><!----><!---->
+                                                maxlength="255" placeholder="Link" type="text" value=""><i
+                                                class="a-input__icon icon_service-site-close"></i>
                                 </div>
                         </div>
                         <div class="o-content-block__row e--social u-mr-b3" data-draggable="true">
@@ -66,8 +66,8 @@
                                 <div class="a-input o-content-block__media u-mr-t0 u-mr-l0f5@xl"><label
                                                 class="a-input__label u-ws-nowrap u-bg-snow"
                                                 for="1510">Link</label><input id="1510" class="a-input__item u-pd-r3"
-                                                maxlength="255" placeholder="Link" type="text" value=""><!----><!----><i
-                                                class="a-input__icon icon_service-site-close"></i><!----><!---->
+                                                maxlength="255" placeholder="Link" type="text" value=""><i
+                                                class="a-input__icon icon_service-site-close"></i>
                                 </div>
                         </div>
                         <div class="o-content-block__row e--social u-mr-b3" data-draggable="true">
@@ -78,15 +78,15 @@
                                 <div class="a-input o-content-block__media u-mr-t0 u-mr-l0f5@xl"><label
                                                 class="a-input__label u-ws-nowrap u-bg-snow"
                                                 for="1512">Link</label><input id="1512" class="a-input__item u-pd-r3"
-                                                maxlength="255" placeholder="Link" type="text" value=""><!----><!----><i
-                                                class="a-input__icon icon_service-site-close"></i><!----><!---->
+                                                maxlength="255" placeholder="Link" type="text" value=""><i
+                                                class="a-input__icon icon_service-site-close"></i>
                                 </div>
                         </div>
                 </div>
                 <div class="o-content-block__row u-mr-b1 u-mr-t4">
-                        <div class="u-display-flex"><label
-                                        class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Shape</label><span
-                                        class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p u-pd-t0f5">
+                        <div class="u-display-flex">
+                                <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Shape</label>
+                                <span class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p u-pd-t0f5">
                                         <ShapeSelect v-model="shape" />
                                         <!-- <i class="m-shapes__icon u-mr-r2 icon_service-shape-fill-1 u-cl-black-dark"></i>
                                         <i

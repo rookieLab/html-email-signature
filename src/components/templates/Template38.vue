@@ -12,7 +12,7 @@
                 <tr>
                     <td style="margin: 0.1px; padding: 0px;">
                         <table cellpadding="0" style="border-collapse: collapse;">
-                            <tr><!---->
+                            <tr>
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(255, 189, 0); margin: 0.1px; padding: 0px 0px 0px 12px; font: 14.6px / 18.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -20,15 +20,15 @@
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 18.9px / 24.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                                 <span
-                                                    style="font-weight: 600; color: rgb(255, 189, 0); cursor: pointer;">Mandoo</span><!----><!---->
+                                                    style="font-weight: 600; color: rgb(255, 189, 0); cursor: pointer;">Mandoo</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 14.6px / 18.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                                <!----><!----><span
+                                                <span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">Support
-                                                    team</span><!----><!----></td>
+                                                    team</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -45,7 +45,7 @@
                                                     style="color: rgb(255, 189, 0); font-weight: 600;">e:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">info@mysignature.io</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 14.6px / 18.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -94,15 +94,15 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
-        <div><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

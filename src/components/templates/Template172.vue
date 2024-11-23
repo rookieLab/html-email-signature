@@ -19,13 +19,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(166, 130, 86); font-weight: 600; cursor: pointer;">ROSIE
-                                                VILLEGAS</span><!----><!----></td>
+                                                VILLEGAS</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 10px; font: 600 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><!----><span style="cursor: pointer;">Villegas Fasion</span></td>
-                                    </tr><!---->
+                                            <span style="cursor: pointer;">Villegas Fasion</span></td>
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -56,10 +56,10 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <!----><!----><span
+                                            <span
                                                 style="color: rgb(166, 130, 86); font-weight: 400; cursor: pointer;">454
                                                 6444 8844</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -130,13 +130,13 @@
                         valign="top" width="364" alt="created with MySignature.io" style="display: block;"></td>
             </tr>
         </table>
-        <div><!----><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

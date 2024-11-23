@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 12.8px; background-color: rgb(245, 229, 205);">
             <tr>
@@ -18,30 +18,30 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.6px / 21.2px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Emily
-                                                Thompson</span><!----><!----></td>
+                                                Thompson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 12.8px / 16.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 0); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 0);">
                                             <span style="cursor: pointer;">Recipe Developer &amp; Food
-                                                Photographer</span><!----><!----><!----><!----></td>
+                                                Photographer</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.8px / 16.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">
-                                                emily.thompson@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                                emily.thompson@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;"></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.8px / 16.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">+1
-                                                747 3847 4442</span><!----><!----></td>
-                                    </tr><!----><!---->
+                                                747 3847 4442</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -89,15 +89,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
                 style="width: 500px; color: rgb(0, 0, 0); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif; font-size: 14.1px; padding: 14px 0px 0px; margin: 0.1px;">
-                        <span>? Get inspired by delicious recipes on my YouTube channel &nbsp;</span><!----></td>
+                        <span>? Get inspired by delicious recipes on my YouTube channel &nbsp;</span></td>
                 </tr>
             </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -113,7 +113,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

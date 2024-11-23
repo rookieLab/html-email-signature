@@ -24,13 +24,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(234, 127, 76); cursor: pointer;">Sunrise
-                                                Realty</span><!----><!----><!----><!----></td>
+                                                Realty</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Real
-                                                    Estate Company</span></span><!----><!----></td>
+                                                    Estate Company</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -55,7 +55,7 @@
                                                 style="color: rgb(234, 127, 76); font-weight: 600;">phone&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+1
                                                 678 909 5432</span></td>
-                                    </tr><!----><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -114,7 +114,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -129,7 +129,7 @@
                         </svg></td>
                     <td
                         style="font-family: Tahoma, Geneva, sans-serif; font-size: 14.1px; padding: 17px 0px 0px; margin: 0.1px;">
-                        <!----><span style="text-decoration: none; font-size: 14.1px; color: rgb(1, 125, 232);">Select
+                        <span style="text-decoration: none; font-size: 14.1px; color: rgb(1, 125, 232);">Select
                             Date</span></td>
                 </tr>
             </table>
@@ -140,13 +140,13 @@
                         If you do not wish to receive more information about our products and/or services, you can
                         unsubscribe by replying to this email with the subject line "DO NOT SEND".</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -25,13 +25,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.8px / 21.4px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(11, 33, 62); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">GABRIELLA
-                                                HARRIS</span><!----><!----></td>
+                                                HARRIS</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 13.1px / 16.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(11, 33, 62); text-transform: uppercase; border-top: 1px solid rgb(11, 33, 62);">
                                             <span style="cursor: pointer;">Graphic designer
-                                            </span><!----><!----><!----><!----></td>
+                                            </span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -45,9 +45,9 @@
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(11, 33, 62);">
                                             <span>●&nbsp;</span><span
-                                                style="color: rgb(11, 33, 62); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span><!----><!---->
+                                                style="color: rgb(11, 33, 62); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.1px / 16.5px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
@@ -95,7 +95,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -109,15 +109,15 @@
                     <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/dribbble_v1_shape3_b.png" height="29"
                                 width="102" alt="dribbble" style="display: block;"></span></td>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

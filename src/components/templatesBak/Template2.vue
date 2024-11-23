@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
@@ -44,8 +44,8 @@
                             <td
                                 style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
                                 <span style="color: rgb(0, 0, 1); font-weight: 600; cursor: pointer;">Join my adventures
-                                    for travel </span><!----><span
-                                    style="color: rgb(195, 95, 62); font-weight: 600; cursor: pointer;"></span><!----><!---->
+                                    for travel </span><span
+                                    style="color: rgb(195, 95, 62); font-weight: 600; cursor: pointer;"></span>
                             </td>
                         </tr>
                     </table>
@@ -97,8 +97,8 @@
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/youtube_v1_shape3_i.png" height="28"
                                 width="98" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">

@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 11.2px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,12 +12,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 14.6px / 18.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(166, 188, 201); text-transform: uppercase; cursor: pointer;">Leo
-                        Vance</span><!----><!----></td>
+                        Vance</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 11.2px / 14.2px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;"></span><!----><span style="cursor: pointer;">Food Blogger</span></td>
+                    <span style="cursor: pointer;"></span><span style="cursor: pointer;">Food Blogger</span></td>
             </tr>
             <tr>
                 <td style="margin: 0.1px; padding: 15px 0px;">
@@ -55,10 +55,10 @@
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 11.2px / 14.2px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                     <span style="color: rgb(0, 0, 0); font-weight: 600; font-style: italic; cursor: pointer;">500+
-                        restaurants inspected</span><!----><span
+                        restaurants inspected</span><span
                         style="color: rgb(224, 16, 108); font-weight: 600; font-style: italic; cursor: pointer;"></span>
                 </td>
-            </tr><!----><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 11.2px / 14.2px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -107,7 +107,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -116,13 +116,13 @@
                             src="https://img.mysignature.io/a/v1/8/9/6/896cc8de-f2d8-5b21-8520-9bd9a08a23d6.png"
                             style="max-width: 490px; display: block;" width="131"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -21,7 +21,7 @@
                                                 src="https://img.mysignature.io/p/b/9/6/b965d2dd-7d06-5ac0-978f-850927afddc8.png?time=1709120995"
                                                 width="155" alt=" &quot;created with MySignature.io&quot;"
                                                 style="display: block; min-width: 155px; margin: 0px auto;"></td>
-                                    </tr><!----><!---->
+                                    </tr>
                                 </table>
                             </td>
                             <td valign="middle" style="margin: 0.1px; padding: 0px 0px 0px 20px;">
@@ -29,26 +29,26 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 13.6px / 17.3px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(14, 14, 40); text-decoration: none; font-family: &quot;Arial Black&quot;, Gadget, sans-serif;">mayo@mysignature.io</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.6px / 17.3px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(14, 14, 40); text-decoration: none; font-family: &quot;Arial Black&quot;, Gadget, sans-serif;">+1
                                                 987 223 7332</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 13.6px / 17.3px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span style="color: rgb(14, 14, 40);">Rochester, Minnesota,
+                                            <span style="color: rgb(14, 14, 40);">Rochester, Minnesota,
                                                 USA</span></td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0.1px; padding: 15px 0px 0px;">
-                                            <table cellpadding="0" style="border-collapse: collapse;"><!---->
+                                            <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
                                                     <td
                                                         style="margin: 0.1px; padding: 5px 0px 0px; font: 13.6px / 17.3px &quot;Arial Black&quot;, Gadget, sans-serif; color: rgb(0, 0, 1);">
@@ -99,10 +99,10 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 7px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/b/e/0/be0c3368-848b-5af4-bf39-590a96ab3e63.png"
@@ -116,13 +116,13 @@
                                 src="https://img.mysignature.io/a/v1/6/7/0/67044215-58e5-51b0-adf1-5c0d4e8f00c5.png"
                                 style="max-width: 490px; display: block;" width="258"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

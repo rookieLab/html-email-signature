@@ -19,8 +19,8 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.2px / 21.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(191, 106, 75); cursor: pointer;">Lion Node
-                                                Inc.</span><!----><!----></td>
-                                    </tr><!---->
+                                                Inc.</span></td>
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 200 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
@@ -93,7 +93,7 @@
                                             style="margin: 0.1px; padding: 2px 0px 0px; font: 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(191, 106, 75); font-weight: 600;">E&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">hampton@mysignature.io</span>&nbsp;&nbsp;<!----><span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">hampton@mysignature.io</span>&nbsp;&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
                                         </td>
                                     </tr>
@@ -102,7 +102,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -117,15 +117,15 @@
                         </svg></td>
                     <td
                         style="font-family: Verdana, Geneva, sans-serif; font-size: 14.1px; padding: 19px 0px 0px; margin: 0.1px;">
-                        <span>Schedule a call&nbsp;</span><!----></td>
+                        <span>Schedule a call&nbsp;</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

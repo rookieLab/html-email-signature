@@ -58,41 +58,41 @@
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.2px / 19.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(15, 15, 15); font-weight: 600; cursor: pointer;">Maya
-                                                Beard</span><!----><!----></td>
+                                                Beard</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <span style="cursor: pointer;">Preschool Teacher</span><!----><span
+                                            <span style="cursor: pointer;">Preschool Teacher</span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">beard@mysignature.io</span>,&nbsp;<!----><span
+                                            <span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">beard@mysignature.io</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">+45-875-3885-43</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span style="color: rgb(0, 0, 0);">Primary School,
-                                            </span><!----><!----></td>
+                                            <span style="color: rgb(0, 0, 0);">Primary School,
+                                            </span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">517
-                                                Robinson Lane, Athens</span><!----><!----></td>
+                                                Robinson Lane, Athens</span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -117,7 +117,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

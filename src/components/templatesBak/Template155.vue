@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 12.6px;">
                 <tr>
@@ -18,13 +18,13 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 16.4px / 20.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Ryan
-                                                    Davis</span><!----><!----></td>
+                                                    Davis</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.6px / 16.1px Verdana, Geneva, sans-serif; color: rgb(73, 66, 56);">
                                                 <span style="color: rgb(73, 66, 56); cursor: pointer;">Food
-                                                    Writer</span><!----><!----><!----><!----></td>
+                                                    Writer</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -49,7 +49,7 @@
                                                     style="color: rgb(0, 0, 0); font-weight: 600;">phone:&nbsp;</span><span
                                                     style="color: rgb(73, 66, 56); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+5-354-23-445</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 12.6px / 16.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -98,7 +98,7 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -121,7 +121,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -21,13 +21,13 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 20.9px / 26.6px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Alex Johnson</span><!----><!----></td>
+                                            <span style="cursor: pointer;">Alex Johnson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 17.4px / 22.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Foodie Extraordinaire</span><!----><span
-                                                style="cursor: pointer;"></span><!----><span
+                                            <span style="cursor: pointer;">Foodie Extraordinaire</span><span
+                                                style="cursor: pointer;"></span><span
                                                 style="cursor: pointer;"></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -91,7 +91,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -111,13 +111,13 @@
                         the sender. If you received this message by mistake, please reply to this message and follow
                         with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

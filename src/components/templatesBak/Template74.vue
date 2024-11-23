@@ -19,12 +19,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 16.4px / 20.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(85, 55, 33); text-transform: uppercase; cursor: pointer;">Holland
-                        Hill</span><!----><!----></td>
+                        Hill</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">Noble Nest Realty</span><!----><span style="cursor: pointer;"></span>
+                    <span style="cursor: pointer;">Noble Nest Realty</span><span style="cursor: pointer;"></span>
                 </td>
             </tr>
             <tr>
@@ -41,36 +41,36 @@
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+1
                         987 223 7332</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;"></span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">holland@noblenest.io</span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;"></span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <!----><span style="color: rgb(0, 0, 1);">814 Mission Str 600</span></td>
-            </tr><!---->
+                    <span style="color: rgb(0, 0, 1);">814 Mission Str 600</span></td>
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 12.6px / 16.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -109,7 +109,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -119,13 +119,13 @@
                                 src="https://img.mysignature.io/a/v1/2/f/d/2fd1b1c7-417e-5f01-b7d6-f8bf9b0da783.png"
                                 style="max-width: 490px; display: block;" width="167"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

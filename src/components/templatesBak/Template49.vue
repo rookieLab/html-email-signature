@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 11.8px;">
                 <tr>
@@ -18,14 +18,14 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.4px / 19.6px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(195, 95, 62); cursor: pointer;">Kurt
-                                                    Marsel</span><!----><!----></td>
+                                                    Marsel</span></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                                <!----><!----><span
+                                                <span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">Flourcourt
-                                                    bakery</span><!----><!----></td>
+                                                    bakery</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -50,7 +50,7 @@
                                                     style="color: rgb(195, 95, 62); font-weight: 600;">A:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1);">1107 Pennsylvania St Denver, CO
                                                     80203</span></td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
@@ -106,13 +106,13 @@
                                 src="https://img.mysignature.io/a/v1/e/5/2/e5245a3a-5585-5c50-ba51-53b806decd47.png"
                                 style="max-width: 490px; display: block;" width="363"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

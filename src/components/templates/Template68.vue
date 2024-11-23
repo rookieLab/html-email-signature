@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 11.7px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,7 +12,7 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 15.2px / 19.3px Georgia, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(65, 37, 37); text-transform: uppercase; cursor: pointer;">Queena
-                        Price</span><!----><!----></td>
+                        Price</span></td>
             </tr>
             <tr>
                 <td
@@ -41,7 +41,7 @@
                     <span style="font-weight: 600;">W:&nbsp;</span><span
                         style="color: rgb(134, 69, 69); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
                 </td>
-            </tr><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 11.7px / 14.9px Georgia, serif; color: rgb(0, 0, 1);">
@@ -90,7 +90,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;"></table>
@@ -101,13 +101,13 @@
                                 src="https://img.mysignature.io/a/v1/1/c/5/1c5d377d-1640-5910-870d-5816d2c736d0.png"
                                 style="max-width: 490px; display: block;" width="135"></span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

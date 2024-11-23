@@ -22,23 +22,23 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 18.6px / 23.7px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">GREGG
-                                                REED ✍</span><!----><!----></td>
+                                                REED ✍</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 600 15.5px / 19.7px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Copywriter | Freelancer</span><!----><!---->
+                                            <span style="cursor: pointer;">Copywriter | Freelancer</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 1px 0px; font: 15.5px / 19.7px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">+1
-                                                747 3847 4442</span>,&nbsp;<!----><span
+                                                747 3847 4442</span>,&nbsp;<span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">gregg_text.@mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 15.5px / 19.7px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
@@ -97,7 +97,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -107,13 +107,13 @@
                             src="https://img.mysignature.io/a/v1/d/a/9/da943413-837d-505c-a4a1-f0ab0a8f3176.png"
                             style="max-width: 490px; display: block;" width="369"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

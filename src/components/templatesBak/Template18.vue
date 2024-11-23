@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,12 +12,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 18.7px / 23.8px Georgia, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(0, 0, 0); text-transform: uppercase; cursor: pointer;">Benjamin
-                        Cruz</span><!----><!----></td>
+                        Cruz</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;"></span><!----><span style="cursor: pointer;">Blog: The Thrifty
+                    <span style="cursor: pointer;"></span><span style="cursor: pointer;">Blog: The Thrifty
                         Traveler</span></td>
             </tr>
             <tr>
@@ -42,7 +42,7 @@
                     <span style="font-weight: 600;">W:&nbsp;</span><span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
                 </td>
-            </tr><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 14.4px / 18.3px Georgia, serif; color: rgb(0, 0, 1);">
@@ -91,7 +91,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -99,16 +99,16 @@
                     <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_b.png" height="47"
                                 width="165" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><!----></td>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

@@ -18,7 +18,7 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 16.6px / 21.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(75, 73, 79); cursor: pointer;">SARAH
-                        THOMPSON</span><!----><!----></td>
+                        THOMPSON</span></td>
             </tr>
             <tr>
                 <td align="center"
@@ -74,7 +74,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -84,13 +84,13 @@
                             src="https://img.mysignature.io/a/v1/0/e/6/0e673000-a6c2-55ed-a408-ff075df0ab3a.png"
                             style="max-width: 490px; display: block;" width="299"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

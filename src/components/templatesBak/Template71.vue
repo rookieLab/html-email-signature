@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.5px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
@@ -11,27 +11,27 @@
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 15.1px / 19.1px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <span style="font-weight: 600; color: rgb(0, 181, 237); cursor: pointer;">DR. DIANA
-                        ADAMS</span><!----><!----></td>
+                        ADAMS</span></td>
             </tr>
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.5px / 14.7px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">PSYCHOLOGIST</span><!----><!----></td>
+                    <span style="cursor: pointer;">PSYCHOLOGIST</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 11.5px / 14.7px Tahoma, Geneva, sans-serif; color: rgb(0, 181, 237); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <!----><span
+                    <span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+1
-                        897 887 5432</span>&nbsp;&nbsp;<!----><span
+                        897 887 5432</span>&nbsp;&nbsp;<span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">
                         name@example.com</span></td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 11.5px / 14.7px Tahoma, Geneva, sans-serif; color: rgb(0, 181, 237); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <!----><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span><!----><!---->
+                    <span
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span>
                 </td>
             </tr>
             <tr>
@@ -66,7 +66,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"
@@ -85,13 +85,13 @@
                             style="text-decoration: none; font-size: 14.1px; color: rgb(0, 181, 237);">Schedule
                             consultation</span></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

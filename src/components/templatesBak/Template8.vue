@@ -24,20 +24,20 @@
                                             style="margin: 0.1px; padding: 0px; font: 17.1px / 21.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font: 17.1px / 21.7px Arial, Helvetica, sans-serif; color: rgb(9, 125, 94); cursor: pointer;">Giuliana
-                                                Thompson</span><!----><!---->&nbsp;&nbsp;<span
+                                                Thompson</span>&nbsp;&nbsp;<span
                                                 style="font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Paediatrician</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Apollo Hospital</span><!----><!---->
+                                            <span style="cursor: pointer;">Apollo Hospital</span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+1
                                                 578 223 5675</span>
                                         </td>
@@ -45,10 +45,10 @@
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <!----><span
+                                            <span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">name@example.com</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -99,7 +99,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -115,7 +115,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

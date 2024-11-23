@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
                 <tr>
@@ -18,7 +18,7 @@
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 18.7px / 23.8px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="font-weight: 600; color: rgb(35, 30, 28); cursor: pointer;">August
-                                                    Mcmanus</span><!----><!----></td>
+                                                    Mcmanus</span></td>
                                         </tr>
                                         <tr>
                                             <td
@@ -26,7 +26,7 @@
                                                 <span style="color: rgb(0, 0, 1); cursor: pointer;">Creative
                                                     Director</span>&nbsp;<span
                                                     style="color: rgb(0, 0, 1); cursor: pointer;">at
-                                                    Varazil</span><!----><!----></td>
+                                                    Varazil</span></td>
                                         </tr>
                                         <tr style="cursor: pointer;">
                                             <td
@@ -51,7 +51,7 @@
                                                     style="color: rgb(35, 30, 28); font-weight: 600;">phone:&nbsp;</span><span
                                                     style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+5-354-23-445</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -100,10 +100,10 @@
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;"><!---->
+            <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td style="padding: 9px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
                                 src="https://img.mysignature.io/a/v1/1/d/2/1d2d4354-d6f0-5aee-ad70-6ca0a046b1be.png"
@@ -120,13 +120,13 @@
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

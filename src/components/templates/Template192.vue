@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 12.6px; background-color: rgb(85, 85, 85);">
             <tr>
                 <td
@@ -17,13 +17,13 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.4px / 20.9px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); cursor: pointer;">
                                             <span style="font-weight: 600; cursor: pointer;">Roberta
-                                                Traynor</span><!----><!----></td>
+                                                Traynor</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px; font: 12.6px / 16.1px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);">
                                             <span style="cursor: pointer;">Teacher</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">Maclern University</span><!----><!----></td>
+                                                style="cursor: pointer;">Maclern University</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -37,10 +37,10 @@
                                         <td
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 12.6px / 16.1px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255);">
                                             <span>email:&nbsp;</span><span
-                                                style="color: rgb(255, 255, 255); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">Traynor@mysignature.io</span>&nbsp;|&nbsp;<!----><span
+                                                style="color: rgb(255, 255, 255); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">Traynor@mysignature.io</span>&nbsp;|&nbsp;<span
                                                 style="color: rgb(255, 255, 255); text-decoration: none; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;">mysignature.io</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 12.6px / 16.1px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -88,22 +88,22 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr style="cursor: pointer;"><!---->
+                <tr style="cursor: pointer;">
                     <td
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px &quot;Trebuchet MS&quot;, Helvetica, sans-serif; color: gray;">
                         Please consider the environment before printing this email</td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

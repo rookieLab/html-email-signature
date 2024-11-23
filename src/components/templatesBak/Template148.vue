@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 8px; font: 17.5px / 22.2px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(224, 157, 195); cursor: pointer;">Charlotte
-                                                Patterson</span><!----><!----></td>
+                                                Patterson</span></td>
                                     </tr>
                                     <tr>
                                         <td
@@ -25,7 +25,7 @@
                                             <span style="color: rgb(62, 62, 62); cursor: pointer;">Nurse
                                                 •</span>&nbsp;<span
                                                 style="color: rgb(62, 62, 62); cursor: pointer;">UCLA Medical
-                                                Center</span><!----><!----></td>
+                                                Center</span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -111,7 +111,7 @@
                     </table>
                 </td>
             </tr>
-        </table><!---->
+        </table>
     </div>
 </template>
 <script>

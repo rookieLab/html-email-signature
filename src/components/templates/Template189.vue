@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.4px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -17,7 +17,7 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(89, 86, 151); cursor: pointer;">Viktor
-                                                Fry</span><!----><!---->&nbsp;<span
+                                                Fry</span>&nbsp;<span
                                                 style="font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Content
                                                 Marketing Manager</span></td>
                                     </tr>
@@ -25,7 +25,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span
-                                                    style="color: rgb(0, 0, 1);">Soulmart</span></span><!----><!---->
+                                                    style="color: rgb(0, 0, 1);">Soulmart</span></span>
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
@@ -58,7 +58,7 @@
                                                 style="color: rgb(89, 86, 151); font-weight: 600;">skype:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">contact_fry</span>
                                         </td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -117,7 +117,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -128,15 +128,15 @@
                     <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/pinterest_v1_shape2_b.png" height="41"
                                 width="144" alt="pinterest" style="display: block;"></span></td>
-                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 13px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

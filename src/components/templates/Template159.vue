@@ -1,5 +1,5 @@
 <template>
-    <div><!---->
+    <div>
         <table cellpadding="0" width="400" style="border-collapse: collapse; font-size: 13.8px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
@@ -12,12 +12,12 @@
                     style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.9px / 22.8px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
                     <span
                         style="font-weight: 600; color: rgb(25, 32, 32); text-transform: uppercase; cursor: pointer;">Emily
-                        Johnson</span><!----><!----></td>
+                        Johnson</span></td>
             </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 5px 0px 0px; font: 13.8px / 17.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(54, 42, 44);">
-                    <span style="cursor: pointer;"></span><!----><span style="cursor: pointer;">Clean shield, private
+                    <span style="cursor: pointer;"></span><span style="cursor: pointer;">Clean shield, private
                         clinic</span></td>
             </tr>
             <tr>
@@ -34,7 +34,7 @@
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(54, 42, 44); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;"></span>
                 </td>
             </tr>
@@ -54,16 +54,16 @@
             <tr style="cursor: pointer;">
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                    <!----><span
+                    <span
                         style="color: rgb(54, 42, 44); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;"></span>
                 </td>
-            </tr><!----><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                    <!----><!----><span style="color: rgb(204, 100, 190); font-weight: 600; cursor: pointer;">Explore
+                    <span style="color: rgb(204, 100, 190); font-weight: 600; cursor: pointer;">Explore
                         the best listings </span></td>
-            </tr><!---->
+            </tr>
             <tr>
                 <td
                     style="margin: 0.1px; padding: 12px 0px 0px; font: 13.8px / 17.5px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
@@ -102,15 +102,15 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
-        <div><!----><!---->
+        <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

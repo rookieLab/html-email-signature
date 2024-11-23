@@ -24,13 +24,13 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.2px / 19.3px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(181, 43, 204); cursor: pointer;">Emma
-                                                Thompson</span><!----><!----><!----><!----></td>
+                                                Thompson</span></td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.6px / 16.1px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"><span style="color: rgb(0, 0, 0);">Lifestyle
-                                                    blogger</span></span><!----><!----></td>
+                                                    blogger</span></span></td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -55,7 +55,7 @@
                                                 style="color: rgb(181, 43, 204); font-weight: 600;">phone:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 0); text-decoration: none; font-family: Georgia, serif;">+3
                                                 455-56-02</span></td>
-                                    </tr><!---->
+                                    </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.6px / 16.1px Georgia, serif; color: rgb(0, 0, 1);">
@@ -103,7 +103,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
@@ -127,7 +127,7 @@
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

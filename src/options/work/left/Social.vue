@@ -1,10 +1,10 @@
 <template>
     <div class="o-outer-block u-ps-rel">
-        <div class="o-outer-block__wrap u-bs-2 u-of-auto-y social"><!----><!---->
+        <div class="o-outer-block__wrap u-bs-2 u-of-auto-y social">
             <div class="o-content-block u-pd-b8 u-pd-b6@xl u-maxwd-full">
                 <div
                     class="u-bg-white-medium u-pd-ha2 u-pd-va1 u-pd-va1f5@xl u-pd-ha3@xl u-pd-va2@xl u-display-flex u-br-t2">
-                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Added social icons</h2><!---->
+                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Added social icons</h2>
                 </div>
                 <div class="u-pd-va4 u-pd-ha2 u-pd-va5@xl u-pd-ha3@xl">
                     <div class="a-tooltip" position="top" tooltip="Your current layout does not have a caption field">
@@ -57,12 +57,12 @@
                     </div>
                 </div> -->
                 <div class="u-bg-white-medium u-pd-ha2 u-pd-va1 u-pd-va1f5@xl u-pd-ha3@xl u-pd-va2@xl u-display-flex">
-                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Gallery</h2><!---->
+                    <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Gallery</h2>
                 </div>
                 <div class="u-pd-t4 u-pd-ha2 u-pd-ha3@xl">
                     <div class="a-input u-mr-t0"><input id="1412" class="a-input__item u-pd-l3f5" maxlength="100"
-                            placeholder="Search" type="text"><!----><i
-                            class="a-input__search icon_service-search-regular"></i><!----><!----><!----></div><span
+                            placeholder="Search" type="text"><i
+                            class="a-input__search icon_service-search-regular"></i></div><span
                         class="u-mr-haauto">
                         <div class="m-social-logo-list">
                             <a class="a-social-logo is-brand" :class="`btn-${icon}`" href="#"
