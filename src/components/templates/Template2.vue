@@ -3,8 +3,8 @@
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
-                    <img src="/assets/avatar/9126f327-2333-5f6e-819a-dd1b1c4ba7d6.png?time=1721975195" width="100"
-                        alt=" &quot;created with MySignature.io&quot;" style="display: block; min-width: 100px;">
+                    <img :src="editing.Image?.avatarImg" width="100" alt=" &quot;created with MySignature.io&quot;"
+                        style="display: block; min-width: 100px;">
                 </td>
             </tr>
             <tr>
@@ -18,15 +18,22 @@
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;"> TRAVEL BLOGGER</span>
+                    <span style="cursor: pointer;">
+                        {{ editing.general?.position }}
+                    </span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <span>email:&nbsp;</span><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">nicksterlin@mysignature.io</span>&nbsp;&nbsp;<span>skype:&nbsp;</span><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;"> sterlin</span>
+                    <span>email:&nbsp;</span>
+                    <span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">
+                        {{ editing.general?.email }}
+                    </span>
+                    &nbsp;&nbsp;<span>skype:&nbsp;</span>
+                    <span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">
+                        {{ editing.general?.skype }}
+                    </span>
                 </td>
             </tr>
             <tr>
@@ -76,7 +83,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!---->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -93,13 +100,13 @@
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>

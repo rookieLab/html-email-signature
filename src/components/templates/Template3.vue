@@ -3,9 +3,7 @@
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <img alt="Best wishes,"
-                        src="https://img.mysignature.io/a/v1/c/0/1/c01e7193-d60c-5afe-8eb4-f0dd5d22876c.png"
-                        width="500" />
+                    <img alt="Best wishes," :src="editing.Addons?.signOff?.img" width="500" />
                 </td>
             </tr>
         </table>
@@ -71,8 +69,8 @@
                                                 <tr>
                                                     <td v-for="icon in editing.socialIcons"
                                                         style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                                       
-                                        
+
+
                                                         <component :is="socialIconsMap[icon.name]" :url="icon.url"
                                                             :shape="editing.design.iconsShape"
                                                             :size="editing.design.iconsSize"
@@ -164,7 +162,7 @@ export default {
         // saveTemplate() {
         //     this.store.saveTemplate('Template1', this.data);
         // },
-         initEditingStore() {
+        initEditingStore() {
             if (this.type === 'preview') {
                 let data = this.store.loadTemplateByName(this.$options.name);
                 if (!data) {
@@ -205,7 +203,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-        
+
         this.templates = useTemplatesStore()
 
         this.init()

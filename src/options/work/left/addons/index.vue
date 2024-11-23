@@ -77,9 +77,25 @@
                         <div class="u-pd-ha2 u-pd-ha2f5@xl u-pd-t1" id="social" index="4" data-draggable="true">
                             <Social></Social>
                         </div>
+                        <div class="u-pd-ha2 u-pd-ha2f5@xl u-pd-t1 draggable" id="calendar" index="3"
+                            data-draggable="true">
+                            <div class="o-editor-accordion__item u-br-20 u-bs-1 u-mr-b0">
+                                <div class="sort"></div>
+                                <div class="title o-editor-accordion__head u-br-t2">
+                                    <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5"><i
+                                            class="o-editor-accordion__img icon_addon-event"></i>
+                                        <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53"> Event &amp;
+                                            Calendar </p><span class="a-pro-icon">
+                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature"><i
+                                                    class="icon_service-pro"></i></div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <Calendar></Calendar>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -94,6 +110,7 @@ import Disclaimer from "./Disclaimer.vue"
 import GreenMessage from "./GreenMessage.vue"
 import Marketplace from "./Marketplace.vue"
 import Social from "./Social.vue"
+import Calendar from "./Calendar.vue"
 
 const state = reactive({
     show: "sign"

@@ -2,9 +2,9 @@
     <div>
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="https://img.mysignature.io/a/v1/f/e/6/fe6b83cb-1be8-5787-8ad3-1070f2223202.png"
-                        alt="Sincerely,"></td>
+                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
+                    <img width="500" :src="editing.Addons?.signOff?.img" alt="Sincerely,">
+                </td>
             </tr>
         </table>
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.2px;">
@@ -147,7 +147,7 @@ export default {
         // saveTemplate() {
         //     this.store.saveTemplate('Template1', this.data);
         // },
-         initEditingStore() {
+        initEditingStore() {
             if (this.type === 'preview') {
                 let data = this.store.loadTemplateByName(this.$options.name);
                 if (!data) {

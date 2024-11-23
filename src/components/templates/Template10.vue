@@ -2,9 +2,9 @@
     <div>
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="https://img.mysignature.io/a/v1/b/4/0/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
-                        alt="Regards,"></td>
+                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
+                    <img width="500" :src="editing.Addons?.signOff?.img" alt="Regards,">
+                </td>
             </tr>
         </table>
         <div>
@@ -24,18 +24,35 @@
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 20.4px / 25.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
-                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">Katie
-                                                    Howard</span><!----><!---->
+                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">
+                                                    <!-- Katie Howard -->
+                                                    {{ editing.general?.name }}
+                                                </span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(31, 31, 31);">
-                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">Family Law
-                                                    Attorney</span><!----><!----><!----><!---->
+                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">
+                                                    <!-- Family Law Attorney -->
+                                                    {{ editing.general?.position }}
+                                                </span>
                                             </td>
                                         </tr>
-                                        <tr style="cursor: pointer;">
+                                        <tr v-for="c in editing.general?.contacts" style="cursor: pointer;">
+                                            <td v-if="c.value"
+                                                style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                                <span style="color: rgb(31, 31, 31); font-weight: 600;">
+
+                                                    {{ c.key }} &nbsp;
+                                                </span>
+                                                <span
+                                                    style="color: rgb(31, 31, 31); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">
+                                                    {{ c.value }}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <!-- <tr style="cursor: pointer;">
                                             <td
                                                 style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
@@ -58,14 +75,14 @@
                                                     style="color: rgb(31, 31, 31); font-weight: 600;">A:&nbsp;</span><span
                                                     style="color: rgb(31, 31, 31);">Durham, North Carolina</span>
                                             </td>
-                                        </tr><!---->
+                                        </tr> -->
                                     </table>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
         </div>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -79,7 +96,7 @@
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/linkedin_v1_shape2_b.png" height="34"
                                 width="119" alt="linkedin" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
+                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
             <table cellpadding="0" width="500"
@@ -99,13 +116,13 @@
                             me</span>
                     </td>
                 </tr>
-            </table><!---->
+            </table>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div><!---->
+        </div>
     </div>
 </template>
 <script>
@@ -137,7 +154,7 @@ export default {
         // saveTemplate() {
         //     this.store.saveTemplate('Template1', this.data);
         // },
-         initEditingStore() {
+        initEditingStore() {
             if (this.type === 'preview') {
                 let data = this.store.loadTemplateByName(this.$options.name);
                 if (!data) {
@@ -178,9 +195,7 @@ export default {
     },
     mounted() {
         this.store = useStore();
-
         this.templates = useTemplatesStore()
-
         this.init()
     }
 }
