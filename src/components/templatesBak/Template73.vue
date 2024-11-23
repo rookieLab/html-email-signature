@@ -1,0 +1,210 @@
+<template>
+    <div><!---->
+        <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.1px;">
+            <tr>
+                <td style="margin: 0.1px; padding: 0px;">
+                    <table cellpadding="0" style="border-collapse: collapse;">
+                        <tr>
+                            <td valign="top" style="margin: 0.1px; padding: 0px; cursor: pointer;"><img
+                                    src="https://img.mysignature.io/p/4/e/1/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png?time=1709029238"
+                                    width="140" alt=" &quot;created with MySignature.io&quot;"
+                                    style="display: block; min-width: 140px;"></td>
+                            <td valign="top"
+                                style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                <table cellpadding="0" style="border-collapse: collapse;">
+                                    <tr>
+                                        <td
+                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 15.6px / 19.8px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <span
+                                                style="font-weight: 600; color: rgb(0, 60, 255); cursor: pointer;">Cruz
+                                                Chambers </span><!----><!----><!----><!----></td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <!----><!----><span style="cursor: pointer;"><span
+                                                    style="color: rgb(0, 0, 0);">Freelance Video Editor</span></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="cursor: pointer;">
+                                        <td
+                                            style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <span style="color: rgb(0, 60, 255); font-weight: 600;">m:&nbsp;</span><span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">+1
+                                                789 534 2234</span></td>
+                                    </tr>
+                                    <tr style="cursor: pointer;">
+                                        <td
+                                            style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <span style="color: rgb(0, 60, 255); font-weight: 600;">w:&nbsp;</span><span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span>
+                                        </td>
+                                    </tr>
+                                    <tr style="cursor: pointer;">
+                                        <td
+                                            style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <span style="color: rgb(0, 60, 255); font-weight: 600;">e:&nbsp;</span><span
+                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">cruz@chambers.io</span>
+                                        </td>
+                                    </tr><!---->
+                                    <tr>
+                                        <td
+                                            style="margin: 0.1px; padding: 8px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                                            <table cellpadding="0" style="border-collapse: collapse;">
+                                                <tr>
+                                                    <td
+                                                        style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                                        <span
+                                                            style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: rgb(253, 5, 5); font-size: 12px; font-family: initial; line-height: 1;"><svg
+                                                                viewBox="0 0 1024 1024"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                style="position: relative; top: 4.6px; width: 13.8px;">
+                                                                <path
+                                                                    d="M1024 512.329c0-282.951-229.23-512.329-512-512.329s-512 229.378-512 512.329c0 255.715 187.23 467.671 432 506.101v-358.005h-130v-148.096h130v-112.872c0-128.403 76.44-199.328 193.39-199.328 56 0 114.61 10.006 114.61 10.006v126.081h-64.56c-63.6 0-83.44 39.496-83.44 80.052v96.061h142l-22.7 148.096h-119.3v358.005c244.77-38.43 432-250.386 432-506.101z"
+                                                                    fill="#003CFF"></path>
+                                                            </svg></span></td>
+                                                    <td
+                                                        style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                                        <span
+                                                            style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: rgb(253, 5, 5); font-size: 12px; font-family: initial; line-height: 1;"><svg
+                                                                viewBox="0 0 1053 1024"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                style="position: relative; top: 4.6px; width: 13.8px;">
+                                                                <path
+                                                                    d="M529.314 0c-282.77 0-512 229.23-512 512s229.23 512 512 512c282.77 0 512-229.23 512-512s-229.23-512-512-512zM796.625 362.543c26.244-3.104 51.27-10.053 74.533-20.331-17.39 25.922-39.386 48.681-64.758 66.899 0.252 5.533 0.377 11.115 0.377 16.715 0 170.821-130.525 367.774-369.199 367.774-73.275 0-141.499-21.39-198.893-58.078 10.132 1.205 20.486 1.814 30.938 1.814 60.81 0 116.752-20.658 161.171-55.331-56.794-1.050-104.705-38.423-121.215-89.764 7.917 1.504 16.036 2.305 24.415 2.305 11.817 0 23.303-1.571 34.181-4.541-59.351-11.867-104.097-64.102-104.097-126.73 0-0.541 0-1.088 0.010-1.638 17.486 9.708 37.509 15.518 58.768 16.185-34.798-23.175-57.722-62.754-57.722-107.587 0-23.684 6.406-45.902 17.573-64.989 64.005 78.225 159.623 129.679 267.465 135.069-2.226-9.468-3.379-19.327-3.379-29.459 0-71.37 58.111-129.255 129.761-129.255 37.344 0 71.066 15.694 94.738 40.805 29.544-5.796 57.326-16.542 82.4-31.358-9.708 30.2-30.269 55.504-57.066 71.496z"
+                                                                    fill="#003CFF"></path>
+                                                            </svg></span></td>
+                                                    <td
+                                                        style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                                        <span
+                                                            style="border-radius: 15%; width: 23px; height: 23px; display: block; text-align: center; background-color: rgb(253, 5, 5); font-size: 12px; font-family: initial; line-height: 1;"><svg
+                                                                viewBox="0 0 1024 1024"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                style="position: relative; top: 4.6px; width: 13.8px;">
+                                                                <path
+                                                                    d="M365.714 327.385h202.407v104.748h2.894c28.16-50.993 97.095-104.748 199.819-104.748 213.653 0 253.166 134.28 253.166 308.924v355.692h-210.983v-315.321c0-75.212-1.525-171.953-109.746-171.953-109.883 0-126.651 81.907-126.651 166.491v320.783h-210.905v-664.615zM0 327.385h219.429v664.615h-219.429v-664.615zM219.429 142.769c0 61.176-49.121 110.769-109.714 110.769s-109.714-49.593-109.714-110.769c0-61.176 49.121-110.769 109.714-110.769s109.714 49.593 109.714 110.769z"
+                                                                    fill="#003CFF"></path>
+                                                            </svg></span></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="margin: 0.1px; padding: 15px 0px 0px; font: 13.1px / 16.5px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                    <span><img
+                            src="https://img.mysignature.io/b/4/e/1/4e132e0c-a5dc-5752-87b3-6a9c6b3092cf.png?time=1709029238"
+                            valign="top" width="288" alt="created with MySignature.io" style="display: block;"></span>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <table cellpadding="0" width="500"
+                style="width: 500px; color: rgb(0, 0, 0); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
+                <tr style="cursor: pointer;">
+                    <td width="35" height="35" align="center"
+                        style="padding: 15px 0px 0px; margin: 0.1px; min-width: 35px;"><svg viewBox="0 0 1024 1024"
+                            xmlns="http://www.w3.org/2000/svg" style="width: 22.75px;">
+                            <path
+                                d="M355.833 335.966l204.84 204.84h190.552l-204.84-204.84h161.448l204.84 204.84h109.487v396.106c0 31.006-25.135 56.141-56.141 56.141v0h-891.507c-31.006 0-56.141-25.135-56.141-56.141v0-556.241c0-5.939 1.182-11.594 3.284-16.778v0l176.913 176.913h190.552l-204.84-204.84h171.554zM1022.161 335.966v123.776l-123.776-123.776h123.776zM494.922 54.080l-173.352 232.091-159.784 23.151 173.356-232.094 159.781-23.148zM146.56 104.549l-130.408 174.599-1.92-13.258-13.764-95.003c-3.54-24.435 13.4-47.114 37.831-50.654v0l108.261-15.684zM853.288 2.159l-173.352 232.094-169.788 24.596 173.356-232.091 169.785-24.6zM995.355 37.107l15.080 104.091c3.54 24.438-13.4 47.114-37.834 50.655v0l-104.091 15.080 126.845-169.825z"
+                                fill="#003CFF"></path>
+                        </svg></td>
+                    <td
+                        style="font-family: Tahoma, Geneva, sans-serif; font-size: 14.1px; padding: 15px 0px 0px; margin: 0.1px;">
+                        <span>Level up your content.&nbsp;</span><span
+                            style="text-decoration: none; font-size: 14.1px; color: rgb(0, 60, 255);">Contact me
+                            now</span></td>
+                </tr>
+            </table><!---->
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div><!---->
+    </div>
+</template>
+<script>
+import { shallowRef, ref, computed } from 'vue'
+import { useStore } from '@/stores/store'
+import { useEditingStore, useTemplatesStore } from '@/stores'
+import * as iconComponents from '@/components/svg-icon-a'
+import jsonData from '@/stores/data.json'
+
+export default {
+    name: 'Template73',
+    data() {
+        return {
+            editing: {},
+            socialIconsMap: {}
+        }
+    },
+    props: {
+                type: {
+            type: String,
+            default: 'preview' // editing | preview
+        },
+        data: {
+            type: Object,
+            default: () => (null)
+        }
+    },
+    methods: {
+        // saveTemplate() {
+        //     this.store.saveTemplate('Template1', this.data);
+        // },
+         initEditingStore() {
+            if (this.type === 'preview') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = data
+            }
+
+            if (this.type === 'editing') {
+                let data = this.store.loadTemplateByName(this.$options.name);
+                if (!data) {
+                    data = this.templates.getTemplate(this.$options.name)
+                }
+                this.editing = useEditingStore()
+                this.editing.init(data);
+            }
+
+        },
+        loadSocialIcons() {
+            Object.values(iconComponents).map(component => (
+                this.socialIconsMap[component.name] = shallowRef(component)
+            ))
+        },
+        init() {
+            this.initEditingStore(this.$options.name);
+            this.loadSocialIcons();
+        }
+    },
+    computed: {
+        textStyle() {
+            let fontName = this.editing?.design?.font || "Arial"
+            return {
+                color: this.editing.design?.TextColor,
+                fontFamily: jsonData.fontList[fontName],
+                fontSize: this.editing.design?.fontSize + 'px'
+            }
+        }
+    },
+    mounted() {
+        this.store = useStore();
+        
+        this.templates = useTemplatesStore()
+
+        this.init()
+    }
+}
+</script>
+<style scoped></style>
