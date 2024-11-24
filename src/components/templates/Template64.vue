@@ -23,7 +23,7 @@
 <td style='margin: 0.1px; padding: 0px 0px 8px; font: 15.4px / 19.6px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
 <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">GREGG
                                                                                     REED
-                                                                                </span><!-- --><!-- -->
+                                                                                </span>
 </td>
 </tr>
 <tr>
@@ -31,27 +31,27 @@
 <span style="color: rgb(0, 0, 1); cursor: pointer;">Co-founder
                                                                                 </span> <span style="color: rgb(0, 0, 1); cursor: pointer;">in
                                                                                     APEXIN DIGITAL
-                                                                                </span><!-- --><!-- -->
+                                                                                </span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 0px; font: 11.8px / 15.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
-<!-- --><span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Courier New", Courier, monospace;'>+1
+<span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Courier New", Courier, monospace;'>+1
                                                                                     747 3847 4442</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 0px; font: 11.8px / 15.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
-<!-- --><span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Courier New", Courier, monospace;'>gregg.@apexin.io</span>
+<span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Courier New", Courier, monospace;'>gregg.@apexin.io</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 0px; font: 11.8px / 15.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
-<!-- --><span style="color: rgb(0, 0, 1);">21st,
+<span style="color: rgb(0, 0, 1);">21st,
                                                                                     New
                                                                                     York, USA</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style='margin: 0.1px; padding: 12px 0px 0px; font: 11.8px / 15.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -90,7 +90,7 @@
 </table>
 </td>
 </tr>
-</table><!-- -->
+</table>
 </div>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -99,14 +99,14 @@
 <span><img alt="Schedule a Strategy Call" src="https://img.mysignature.io/a/v1/5/5/d/55d52021-0e4d-5e4f-bf71-930386ff80ee.png" style="max-width: 490px; display: block;" width="227"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

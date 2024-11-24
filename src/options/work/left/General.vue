@@ -50,15 +50,15 @@
                                         <div class="u-wd-full u-wd-45p@sm u-pd-r0f5@sm">
                                             <div class="a-input u-mr-t0">
                                                 <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow"
-                                                    for="1594">{{ c.name }} title</label>
+                                                    for="1594">{{ c.title }} title</label>
                                                 <input id="1594" class="a-input__item u-pd-r3" maxlength="20"
-                                                    :placeholder="c.name" type="text" v-model="c.key">
+                                                    :placeholder="c.title" type="text" v-model="c.name">
                                             </div>
                                         </div>
                                         <div class="a-input u-wd-full u-wd-55p@sm u-pd-l0f5@sm u-mr-t2 u-mr-t0@sm">
                                             <label class="a-input__label u-ws-nowrap u-display-block u-bg-snow"
-                                                for="1595">{{ c.name }}</label>
-                                            <input id="1595" class="a-input__item" maxlength="100" :placeholder="c.name"
+                                                for="1595">{{ c.title }}</label>
+                                            <input id="1595" class="a-input__item" maxlength="100" :placeholder="c.title"
                                                 type="text" v-model="c.value">
                                         </div>
                                         <!-- <span class="m-added-field__icon-close icon_service-site-close"></span> -->

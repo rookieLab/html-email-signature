@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img width="500" :src="editing.Addons?.signOff?.img" alt="Regards,">
@@ -13,10 +13,13 @@
                     style="margin: 0.1px; padding: 20px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;"><img
-                                    src="https://img.mysignature.io/p/0/b/d/0bd70ff7-65c6-50fa-be4b-f962d8d97f46.png?time=1708943099"
-                                    width="135" alt=" &quot;created with MySignature.io&quot;"
-                                    style="display: block; min-width: 135px;"></td>
+                            <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;">
+
+                                <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                            </td>
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 13.4px / 17.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">

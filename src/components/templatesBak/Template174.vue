@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;" width="500">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
@@ -14,14 +14,14 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="font-weight: 600; color: rgb(15, 15, 15); cursor: pointer;">Victoria
-                                                                                Brookes</span><!-- --><!-- --> <span style="font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(85, 176, 200); cursor: pointer;">Potter
+                                                                                Brookes</span> <span style="font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(85, 176, 200); cursor: pointer;">Potter
                                                                             </span>
 </td>
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="cursor: pointer;"><span style="color: rgb(85, 176, 200);">Victoria's
-                                                                                    cups</span></span><!-- --><!-- -->
+                                                                                    cups</span></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -39,13 +39,13 @@
 <span style="color: rgb(15, 15, 15); font-weight: 600;">address: </span><span style="color: rgb(85, 176, 200);">517
                                                                                 Robinson Lane, Athens</span>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 </td>
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -57,20 +57,20 @@
 <span><img alt="behance" height="32" src="https://img.mysignature.io/addons/v2/behance_v1_shape3_i.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

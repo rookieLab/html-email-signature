@@ -89,7 +89,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!-- -->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -105,10 +105,10 @@
                                 width="112" /></span>
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <!-- -->
+                        
                     </td>
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <!-- -->
+                        
                     </td>
                 </tr>
             </table>
@@ -127,7 +127,7 @@
                          </td>
                 </tr>
             </table>
-        </div><!-- -->
+        </div>
     </div>
 </template>
 <script>

@@ -12,23 +12,23 @@
 <tr>
 <td style="margin: 0.1px; padding: 20px 20px 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <table cellpadding="0" style="border-collapse: collapse;">
-<tr><!-- -->
+<tr>
 <td style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 0px 5px; font: 20.4px / 25.9px Verdana, Geneva, sans-serif; color: rgb(241, 241, 241); cursor: pointer;">
 <span style="font-weight: 600; cursor: pointer;">
                                                                                 Max Cooper ? Fitness
-                                                                                Blogger</span><!-- --><!-- -->
+                                                                                Blogger</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 5px 0px 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(241, 241, 241);">
-<!-- --><span style="color: rgb(241, 241, 241); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
+<span style="color: rgb(241, 241, 241); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
                                                                                 (555)
-                                                                                724-9632</span> | <!-- --><span style="color: rgb(241, 241, 241); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">cooper@mysignature.io</span>
+                                                                                724-9632</span> | <span style="color: rgb(241, 241, 241); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">cooper@mysignature.io</span>
 </td>
-</tr><!-- --><!-- -->
+</tr>
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -74,28 +74,28 @@
 <span><img alt="facebook" height="41" src="https://img.mysignature.io/addons/v2/facebook_v2_shape1_i.png" style="display: block;" width="144"/></span>
 </td>
 <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 <td style="padding: 5px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<!-- -->
+
 <tr>
 <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
 <span><img alt="Meet me on Zoom" src="https://img.mysignature.io/a/v1/b/e/f/befec403-19d9-5f8b-947f-5e76f2423281.png" style="display: block;" width="184"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

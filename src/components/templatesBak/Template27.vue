@@ -21,14 +21,14 @@
 <tr>
 <td style='margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px "Times New Roman", Times, serif; color: rgb(255, 255, 255); cursor: pointer;'>
 <span style="font-weight: 600; cursor: pointer;">Emily
-                                                                                Carter</span><!-- --><!-- -->
+                                                                                Carter</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px; font: 13.3px / 16.9px "Times New Roman", Times, serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);'>
 <span style="cursor: pointer;">
                                                                                 Director</span> | <span style="cursor: pointer;">Diamond
-                                                                                Haven</span><!-- --><!-- -->
+                                                                                Haven</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -48,9 +48,9 @@
 <tr>
 <td style='margin: 0.1px; padding: 10px 0px 0px; font: 13.3px / 16.9px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
 <span style="color: rgb(255, 255, 255); font-weight: 600; cursor: pointer;">Book
-                                                                                a call</span><!-- --><span style="color: rgb(255, 255, 255); font-weight: 600; cursor: pointer;"></span><!-- --><!-- -->
+                                                                                a call</span><span style="color: rgb(255, 255, 255); font-weight: 600; cursor: pointer;"></span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style='margin: 0.1px; padding: 10px 0px 0px; font: 13.3px / 16.9px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -96,14 +96,14 @@
 <span><img alt="cooperate with us" src="https://img.mysignature.io/a/v1/b/3/1/b316ed7d-96e3-588c-ad22-3dc7a2c5a22e.png" style="max-width: 490px; display: block;" width="184"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

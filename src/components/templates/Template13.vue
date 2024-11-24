@@ -22,14 +22,14 @@
                     style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.9px / 22.8px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
                     <span
                         style="font-weight: 600; color: rgb(32, 142, 192); text-transform: uppercase; cursor: pointer;">Gunner
-                        Lee</span><!-- --><!-- -->
+                        Lee</span>
                 </td>
             </tr>
             <tr>
                 <td
                     style='margin: 0.1px; padding: 5px 0px 0px; font: 13.8px / 17.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(39, 39, 39);'>
                     <span style="cursor: pointer;">Nurse at Private Clinic
-                    </span><!-- --><span style="cursor: pointer;"></span>
+                    </span><span style="cursor: pointer;"></span>
                 </td>
             </tr>
             <tr>
@@ -63,7 +63,7 @@
                     <span style="font-weight: 600;">T: </span><span
                         style='color: rgb(39, 39, 39); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>2376-987-021</span>
                 </td>
-            </tr><!-- --><!-- -->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -74,14 +74,14 @@
                                 style="max-width: 490px; display: block;" width="221" /></span>
                     </td>
                 </tr>
-            </table><!-- -->
+            </table>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                          </td>
                 </tr>
             </table>
-        </div><!-- -->
+        </div>
     </div>
 </template>
 <script>

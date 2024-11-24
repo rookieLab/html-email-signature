@@ -1,33 +1,33 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.2px; background-color: rgb(11, 23, 56);">
 <tr>
 <td style='margin: 0.1px; padding: 20px; font: 14.2px / 18.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
 <table cellpadding="0" style="border-collapse: collapse;">
-<tr><!-- -->
+<tr>
 <td style='margin: 0.1px; padding: 0px; font: 14.2px / 18.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);' valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style='margin: 0.1px; padding: 0px 0px 5px; font: 18.5px / 23.5px "Courier New", Courier, monospace; color: rgb(255, 255, 255); cursor: pointer;'>
 <span style="font-weight: 600; cursor: pointer;">Martin
-                                                                                Smith</span><!-- --><!-- -->
+                                                                                Smith</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px; font: 14.2px / 18.1px "Courier New", Courier, monospace; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);'>
 <span style="cursor: pointer;">Bankruptcy
                                                                                 Lawyer</span> | <span style="cursor: pointer;">Fincompany
-                                                                            </span><!-- --><!-- -->
+                                                                            </span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 14.2px / 18.1px "Courier New", Courier, monospace; color: rgb(255, 255, 255);'>
-<!-- --><span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Courier New", Courier, monospace;'>+1
+<span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Courier New", Courier, monospace;'>+1
                                                                                 757 3145
-                                                                                2220</span> | <!-- --><span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Courier New", Courier, monospace;'>martin@mysignature.io</span>
+                                                                                2220</span> | <span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Courier New", Courier, monospace;'>martin@mysignature.io</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style='margin: 0.1px; padding: 10px 0px 0px; font: 14.2px / 18.1px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -59,16 +59,16 @@
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
-<div><!-- -->
+<div>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

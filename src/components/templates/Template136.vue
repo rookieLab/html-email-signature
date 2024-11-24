@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 12.8px;" width="500">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
@@ -11,7 +11,7 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px Georgia, serif; color: rgb(0, 0, 1);">
 <span style="color: rgb(57, 142, 128); font-weight: 600; cursor: pointer;">JOSEPH
-                                                                                COLLINS</span><!-- --><!-- -->
+                                                                                COLLINS</span>
 </td>
 </tr>
 <tr>
@@ -21,7 +21,7 @@
                                                                                 Wastestop
                                                                                 Startup</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px Georgia, serif; color: rgb(85, 76, 76);">
 <span style="color: rgb(57, 142, 128);">e: </span><span style="color: rgb(85, 76, 76); text-decoration: none; font-family: Georgia, serif;">name@example.com</span>
@@ -48,9 +48,9 @@
 <td style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1);">
 <span style="color: rgb(57, 142, 128); font-weight: 400; cursor: pointer;">Let's
                                                                                 make the Earth
-                                                                                cleaner</span><!-- --><span style="color: rgb(57, 142, 128); font-weight: 400; cursor: pointer;"></span>
+                                                                                cleaner</span><span style="color: rgb(57, 142, 128); font-weight: 400; cursor: pointer;"></span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px Georgia, serif; color: rgb(0, 0, 1);">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -91,7 +91,7 @@
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -103,7 +103,7 @@
 <span><img alt="appstore" height="38" src="https://img.mysignature.io/addons/v2/appstore_shape1_black.png" style="display: block;" width="133"/></span>
 </td>
 <td style="padding: 11px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
 </table>
@@ -117,14 +117,14 @@
                                                         email
                                                     </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

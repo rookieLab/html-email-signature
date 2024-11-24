@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 10.7px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
@@ -10,7 +10,7 @@
 <tr>
 <td style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 13.9px / 17.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
 <span style="font-weight: 600; color: rgb(0, 0, 0); text-transform: uppercase; cursor: pointer;">Juliette
-                                                        Perry</span><!-- --><!-- -->
+                                                        Perry</span>
 </td>
 </tr>
 <tr>
@@ -31,32 +31,32 @@
 </tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-<!-- --><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">perry@mysignature.io</span>
+<span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">perry@mysignature.io</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-<!-- --><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
+<span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;"></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-<!-- --><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">16
+<span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">16
                                                         286 134 579</span>
 </td>
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 1px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="color: rgb(0, 71, 175); font-weight: 400; cursor: pointer;">❍
-                                                        maximize revenue </span><!-- --><span style="color: rgb(0, 71, 175); font-weight: 400; cursor: pointer;"></span>
+                                                        maximize revenue </span><span style="color: rgb(0, 71, 175); font-weight: 400; cursor: pointer;"></span>
 </td>
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 1px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-<!-- --><!-- --><span style="color: rgb(0, 71, 175); font-weight: 400; cursor: pointer;">❍
+<span style="color: rgb(0, 71, 175); font-weight: 400; cursor: pointer;">❍
                                                         expert advice</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style="margin: 0.1px; padding: 12px 0px 0px; font: 10.7px / 13.6px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -79,24 +79,24 @@
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<!-- -->
+
 <tr>
 <td style="padding: 11px 0px 0px; margin: 0.1px; cursor: pointer;">
 <span><img alt="Zoom  " src="https://img.mysignature.io/a/v1/0/7/9/07948b7b-ae6d-5b1a-aacc-2ceda10f5fea.png" style="display: block;" width="96"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

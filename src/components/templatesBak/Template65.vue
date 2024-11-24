@@ -12,13 +12,13 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
 <table cellpadding="0" style="border-collapse: collapse;">
-<tr><!-- -->
+<tr>
 <td style="margin: 0.1px; padding: 0px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style="margin: 0.1px; padding: 0px 0px 2px; font: 13.8px / 17.6px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
 <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">DANYAL
-                                                                                FISHER</span><!-- --><!-- -->
+                                                                                FISHER</span>
 </td>
 </tr>
 <tr>
@@ -32,19 +32,19 @@
 <td style="margin: 0.1px; padding: 1px 0px; font: 11.5px / 14.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
 <span>mobile: </span><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+1
                                                                                 729 855
-                                                                                4555</span>, <!-- --><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;"></span>
+                                                                                4555</span>, <span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;"></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 11.5px / 14.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-<!-- --><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span><!-- --><!-- -->
+<span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 1px 0px; font: 11.5px / 14.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-<span>email: </span><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">danyalfisher@mysignature.io</span><!-- --><!-- -->
+<span>email: </span><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">danyalfisher@mysignature.io</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style="margin: 0.1px; padding: 10px 0px 0px; font: 11.5px / 14.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -76,16 +76,16 @@
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
-<div><!-- -->
+<div>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

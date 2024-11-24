@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 11.2px; background-color: rgb(0, 0, 0);">
 <tr>
 <td style='margin: 0.1px; padding: 20px 20px 0px; font: 11.2px / 14.2px "Arial Black", Gadget, sans-serif; color: rgb(0, 0, 1);'>
@@ -14,21 +14,21 @@
 <tr>
 <td style='margin: 0.1px; padding: 0px 0px 5px; font: 14.6px / 18.5px "Arial Black", Gadget, sans-serif; color: rgb(255, 255, 255); cursor: pointer;'>
 <span style="font-weight: 600; cursor: pointer;">Claude
-                                                                                Boucher</span><!-- --><!-- -->
+                                                                                Boucher</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px; font: 11.2px / 14.2px "Arial Black", Gadget, sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);'>
 <span style="cursor: pointer;">Fashion
                                                                                 Designer</span> | <span style="cursor: pointer;">Claude
-                                                                                Boucher</span><!-- --><!-- -->
+                                                                                Boucher</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 11.2px / 14.2px "Arial Black", Gadget, sans-serif; color: rgb(255, 255, 255);'>
-<!-- --><span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Arial Black", Gadget, sans-serif;'>mysignature.io</span><!-- --><!-- -->
+<span style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Arial Black", Gadget, sans-serif;'>mysignature.io</span>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 </td>
 </tr>
@@ -41,14 +41,14 @@
 </td>
 </tr>
 </table>
-<div><!-- -->
+<div>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

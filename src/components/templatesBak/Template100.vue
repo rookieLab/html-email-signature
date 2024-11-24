@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 11.4px;" width="550">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
@@ -12,13 +12,13 @@
 <td style="margin: 0.1px; padding: 0px; font: 15.9px / 20.2px Georgia, serif; color: rgb(0, 0, 1);">
 <span style="color: rgb(73, 132, 204); cursor: pointer;">
                                                                                 David
-                                                                                Barrett</span><!-- --><!-- -->
+                                                                                Barrett</span>
 </td>
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 2px 0px 0px; font: 200 11.4px / 14.4px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">
                                                                             Wake Blue ◮ Owner </td>
-</tr><!-- --><!-- -->
+</tr>
 </table>
 </td>
 <td style="margin: 0.1px; padding: 0px 0px 0px 20px;">
@@ -58,7 +58,7 @@
 <span><img alt="linkedin" height="35" src="https://img.mysignature.io/addons/v2/linkedin_v2_shape1_i.png" style="display: block;" width="123"/></span>
 </td>
 <td style="padding: 15px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
 </table>
@@ -82,14 +82,14 @@
                                                         ensure
                                                         such a mistake does not occur in the future.</td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

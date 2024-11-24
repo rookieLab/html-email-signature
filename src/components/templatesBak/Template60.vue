@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 12.6px;" width="500">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
@@ -14,13 +14,13 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px; font: 15.2px / 19.3px Tahoma; color: rgb(0, 0, 1);">
 <span style="cursor: pointer;">James
-                                                                                Mittow</span><!-- --><!-- -->
+                                                                                Mittow</span>
 </td>
 </tr>
 <tr>
 <td style="margin: 0.1px; padding: 4px 0px; font: 12.6px / 16.1px Tahoma; color: rgb(0, 0, 1);">
 <span style="cursor: pointer;">Business
-                                                                                Developer</span> <span style="cursor: pointer;">SoftSolutions</span><!-- --><span style="cursor: pointer;"></span>
+                                                                                Developer</span> <span style="cursor: pointer;">SoftSolutions</span><span style="cursor: pointer;"></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -47,11 +47,11 @@
 </td>
 </tr>
 </table>
-</td><!-- -->
+</td>
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -63,7 +63,7 @@
 <span><img alt="googleplay" height="37" src="https://img.mysignature.io/addons/v2/googleplay_shape3_black.png" style="display: block;" width="130"/></span>
 </td>
 <td style="padding: 12px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
 </table>
@@ -73,14 +73,14 @@
 <span><img alt="Check out our case studies &gt;&gt;" src="https://img.mysignature.io/a/v1/9/c/0/9c09c15d-592d-59d1-8a9a-ae78283b4259.png" style="max-width: 490px; display: block;" width="291"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

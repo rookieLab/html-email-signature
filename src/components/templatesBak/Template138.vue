@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 13.3px;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
@@ -10,7 +10,7 @@
 <tr>
 <td align="center" style='margin: 0.1px; padding: 0px 0px 5px; font: 17.3px / 22.1px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
 <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">LAYLA
-                                                        STEWART</span><!-- --><!-- -->
+                                                        STEWART</span>
 </td>
 </tr>
 <tr>
@@ -21,7 +21,7 @@
 </tr>
 <tr style="cursor: pointer;">
 <td align="center" style='margin: 0.1px; padding: 5px 20px; font: 13.3px / 16.9px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 0); border-bottom: 1px solid rgb(235, 228, 228);'>
-<!-- --><span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>mysignature.io</span>  <!-- --><span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>
+<span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>mysignature.io</span>  <span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>
                                                         name@example.com</span>
 </td>
 </tr>
@@ -32,7 +32,7 @@
 <td style='margin: 0.1px; padding: 5px 20px; font: 13.3px / 16.9px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 0); border-bottom: 1px solid rgb(235, 228, 228);'>
 <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">Keep
                                                                     up with our news:</span> <span style='color: rgb(220, 20, 138); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: 600;'>Click
-                                                                    here</span><!-- --><!-- -->
+                                                                    here</span>
 </td>
 </tr>
 </table>
@@ -65,7 +65,7 @@
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -74,14 +74,14 @@
 <span><img alt=" Find our shop in your city" src="https://img.mysignature.io/a/v1/3/8/e/38ebc655-fd65-5b5c-99f8-210e054c34ff.png" style="max-width: 490px; display: block;" width="259"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

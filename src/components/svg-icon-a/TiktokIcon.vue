@@ -1,8 +1,7 @@
 <template>
+  <!-- shape: {{ shape }} color: {{ color }} background: {{ background }} -->
   <a :href="url" target="_blank"
     :style="{ borderRadius: shapeMap[shape], width: size + 'px', height: size + 'px', display: 'block', textAlign: 'center', backgroundColor: background, fontSize: size / 2 + 'px', fontFamily: 'initial', lineHeight: '1' }">
-
-
 
 
     <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"

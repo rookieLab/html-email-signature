@@ -21,7 +21,7 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="cursor: pointer;">Samantha
-                                                                                Wilson</span><!-- --><!-- -->
+                                                                                Wilson</span>
 </td>
 </tr>
 <tr>
@@ -29,7 +29,7 @@
 <span style="cursor: pointer;">Property
                                                                                 Specialist</span> <span style="cursor: pointer;">Green
                                                                                 Leaf
-                                                                                Properties</span><!-- --><span style="cursor: pointer;"></span>
+                                                                                Properties</span><span style="cursor: pointer;"></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -56,15 +56,15 @@
 </td>
 </tr>
 </table>
-</td><!-- -->
+</td>
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<!-- -->
+
 <tr>
 <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
 <span><img alt="Let us guide you towards eco-friendly homes!" src="https://img.mysignature.io/a/v1/5/3/f/53ffb60d-bc89-5128-95f9-c7f286d83aed.png" style="display: block;" width="349"/></span>
@@ -80,26 +80,26 @@
 <span><img alt="twitter" height="32" src="https://img.mysignature.io/addons/v2/twitter_v2_shape3_b.png" style="display: block;" width="112"/></span>
 </td>
 <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<tr style="cursor: pointer;"><!-- -->
+<tr style="cursor: pointer;">
 <td style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: gray;">
                                                         Save paper. Don’t print</td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

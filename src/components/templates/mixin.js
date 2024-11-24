@@ -4,6 +4,9 @@ import { useEditingStore, useTemplatesStore } from '@/stores'
 import * as iconComponents from '@/components/svg-icon-a'
 import jsonData from '@/stores/data.json'
 import IconsMeet from '@/components/svg-meeting/Index'
+import ContactIndex from '@/components/contacts/Index.vue'
+import AddonIndex from '@/components/svg/Index.vue'
+import Layout1Contact from '@/components/contacts/Layout1Contact.vue'
 
 export const myMixin = {
   data() {
@@ -13,7 +16,7 @@ export const myMixin = {
     }
   },
   components: {
-    IconsMeet
+    IconsMeet, ContactIndex, AddonIndex,Layout1Contact
   },
   props: {
     type: {
@@ -61,6 +64,10 @@ export const myMixin = {
     }
   },
   computed: {
+    contacts() {
+      let contacts = this.editing?.general?.contacts || []
+      return contacts.filter(c => c.key != "" || c.value != "")
+    },
     textStyle() {
       let fontName = this.editing?.design?.font || "Arial"
       return {

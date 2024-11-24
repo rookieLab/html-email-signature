@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
@@ -10,7 +10,7 @@
 <tr>
 <td style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 18.7px / 23.8px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
 <span style="font-weight: 600; color: rgb(74, 74, 74); text-transform: uppercase; cursor: pointer;">Rudra
-                                                        Rosales</span><!-- --><!-- -->
+                                                        Rosales</span>
 </td>
 </tr>
 <tr>
@@ -48,24 +48,24 @@
 <td style="margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="font-weight: 600;">W: </span><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
 </td>
-</tr><!-- --><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<!-- -->
+
 <tr>
 <td style="padding: 15px 0px 0px; margin: 0.1px; cursor: pointer;">
 <span><img alt="Meet me on Zoom" src="https://img.mysignature.io/a/v1/3/b/e/3be1ed76-e5f2-5c4e-be3f-4e582bedefac.png" style="display: block;" width="182"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

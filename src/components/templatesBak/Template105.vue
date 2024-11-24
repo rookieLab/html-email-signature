@@ -1,23 +1,23 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;" width="500">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
 <table cellpadding="0" style="border-collapse: collapse;">
-<tr><!-- -->
+<tr>
 <td style="border-left: 2px solid rgb(4, 150, 147); margin: 0.1px; padding: 0px 0px 0px 9px;" valign="top">
 <table cellpadding="0" style="border-collapse: collapse;">
 <tr>
 <td style='margin: 0.1px; padding: 0px; font: 17.3px / 22.1px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
 <span style='font: 17.3px / 22.1px "Times New Roman", Times, serif; color: rgb(4, 150, 147); cursor: pointer;'>Kurt
-                                                                                Howard</span><!-- --><!-- -->  <span style='font: 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1); cursor: pointer;'>Account
+                                                                                Howard</span>  <span style='font: 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1); cursor: pointer;'>Account
                                                                                 manager</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px; font: 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
-<span style="cursor: pointer;">Mulegroup</span><!-- --><!-- -->
+<span style="cursor: pointer;">Mulegroup</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -41,13 +41,13 @@
                                                                                 Halsey St
                                                                                 Brooklyn, NY 11216</span>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 </td>
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -70,14 +70,14 @@
                                                         ensure
                                                         such a mistake does not occur in the future.</td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

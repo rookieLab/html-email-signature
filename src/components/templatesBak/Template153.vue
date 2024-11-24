@@ -22,14 +22,14 @@
 <tr>
 <td style='margin: 0.1px; padding: 0px 0px 8px; font: 20.1px / 25.4px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
 <span style="font-weight: 600; color: rgb(217, 104, 26); cursor: pointer;">Lily
-                                                                                    Foster</span><!-- --><!-- -->
+                                                                                    Foster</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 0px 0px 8px; font: 15.4px / 19.5px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
-<!-- --><!-- --><span style="color: rgb(0, 0, 1); cursor: pointer;">Beauty
+<span style="color: rgb(0, 0, 1); cursor: pointer;">Beauty
                                                                                     &amp; Skincare
-                                                                                    Lover</span><!-- --><!-- -->
+                                                                                    Lover</span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
@@ -47,7 +47,7 @@
 <span style="color: rgb(217, 104, 26); font-weight: 600;">p: </span><span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Times New Roman", Times, serif;'>+1
                                                                                     (555) 319-6078</span>
 </td>
-</tr><!-- -->
+</tr>
 <tr>
 <td style='margin: 0.1px; padding: 12px 0px 0px; font: 15.4px / 19.5px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -80,11 +80,11 @@
 </table>
 </td>
 </tr>
-</table><!-- -->
+</table>
 </div>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<!-- -->
+
 <tr>
 <td style="padding: 16px 0px 0px; margin: 0.1px; cursor: pointer;">
 <span><img alt="Meet me on Skype" src="https://img.mysignature.io/a/v1/f/5/1/f5111940-c470-5337-af44-0966466edd7f.png" style="display: block;" width="167"/></span>
@@ -92,20 +92,20 @@
 </tr>
 </table>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
-<tr style="cursor: pointer;"><!-- -->
+<tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px "Times New Roman", Times, serif; color: gray;'>
                                                         Please consider the environment before printing this
                                                         email
                                                     </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

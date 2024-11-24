@@ -1,5 +1,12 @@
 <template>
     <div>
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
+            <tr>
+                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
+                    <img width="500" :src="editing.Addons?.signOff?.img" alt="Regards,">
+                </td>
+            </tr>
+        </table>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 11.8px;">
             <tr>
                 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
@@ -18,22 +25,49 @@
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 600 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">
-                        {{ editing.general?.position }}
-                    </span>
+                    <span style="cursor: pointer;">{{ editing.general?.position }}&nbsp;</span>
+                    <span style="cursor: pointer;">{{ editing.general?.company }}</span>
                 </td>
             </tr>
             <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
                     <span>email:&nbsp;</span>
-                    <span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">
-                        {{ editing.general?.email }}
-                    </span>
-                    &nbsp;&nbsp;<span>skype:&nbsp;</span>
-                    <span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">
-                        {{ editing.general?.skype }}
-                    </span>
+                    <a href="mailto:nicksterlin@mysignature.io" target="_blank"
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">nicksterlin@mysignature.io</a>
+                    &nbsp;&nbsp;
+                    <span>skype:&nbsp;</span>
+                    <a href="skype: sterlin?chat" target="_blank"
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;"> sterlin</a>
+                
+                    </td>
+            </tr>
+            <tr style="cursor: pointer;">
+                <td align="center"
+                    style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
+                    <span>website:&nbsp;</span>
+                    <a href="https://baidu.com" target="_blank"
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">baidu.com</a>&nbsp;&nbsp;
+                    
+                        <span>phone&nbsp;</span>
+                    <a href="tel:phone value" target="_blank"
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">phone value</a>
+                
+                    </td>
+            </tr>
+            <tr style="cursor: pointer;">
+                <td align="center"
+                    style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
+                    <span>address&nbsp;</span>
+                    <span style="color: rgb(0, 0, 1);">address</span>
+                </td>
+            </tr>
+            <tr style="cursor: pointer;">
+                <td align="center"
+                    style="margin: 0.1px; padding: 5px 20px; font: 11.8px / 15.1px Georgia, serif; color: rgb(9, 125, 94); border-bottom: 1px solid rgb(235, 228, 228);">
+                    <span>work phone&nbsp;</span>
+                    <a href="tel:phone" target="_blank"
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">phone</a>
                 </td>
             </tr>
             <tr>

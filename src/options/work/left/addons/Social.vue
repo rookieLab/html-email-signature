@@ -1,95 +1,82 @@
 <template>
-        <div class="o-editor-accordion__item u-br-20 u-bs-1 u-mr-b0">
-                <div class="title o-editor-accordion__head u-br-t2">
-                        <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5">
-                                <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Social</p>
-                                <span class="a-pro-icon">
-                                        <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature">
-                                                <i class="icon_service-pro"></i>
+
+        <div class="o-editor-accordion__description e--addon u-of-hidden" style="">
+                <div class="l-dp-flex e--gap-x3 u-mr-b4">
+                        <div class="l-dp-flex__item u-wd-auto">
+                                <input id="brand" class="a-radio" type="radio" value="brand" v-model="type">
+                                <label class="a-radio__label" for="brand">
+                                        <span
+                                                class="u-fz-11 u-fw-600 u-pd-ha1 u-pd-va0f5 u-cl-snow u-bg-black-dark u-border-black-dark u-br-20">Brand</span></label>
+                        </div>
+                        <div class="l-dp-flex__item u-wd-auto">
+                                <input id="invert" class="a-radio" type="radio" value="invert" v-model="type">
+                                <label class="a-radio__label" for="invert">
+                                        <span
+                                                class="u-fz-11 u-fw-600 u-pd-ha1 u-pd-va0f5 u-border-black-dark u-br-20 u-cl-black-dark">Invert</span></label>
+                        </div>
+                </div>
+                <div>
+                        <div v-for="badge in type === 'brand' ? badgesBrand : badgesInvert"
+                                class="o-content-block__row e--social u-mr-b3" data-draggable="true">
+                                <label class="m-social-addon" :for="badge.imgName">
+                                        <i class="o-content-block__icon-drag e--left-0 icon_service-drag e--empty"></i>
+
+                                        <el-popover placement="right" :width="200" trigger="hover">
+                                                <template #reference>
+                                                        <img class="m-social-addon__img"
+                                                                :src="editing.Addons.social[badge.imgName]"
+                                                                alt="Facebook">
+                                                </template>
+                                                <div class="">
+                                                        <img v-for="image in badge.images" :src="image"
+                                                                class="m-social-addon__group-item"
+                                                                @click="editing.Addons.social[badge.imgName] = image">
+                                                </div>
+                                        </el-popover>
+                                </label>
+                                <span class="o-content-block__media u-mr-l0f5@xl">
+                                        <div class="a-input u-mr-t0">
+                                                <label class="a-input__label u-ws-nowrap u-bg-snow"
+                                                        for="1226">Link</label>
+                                                <input id="1226" class="a-input__item u-pd-r3" maxlength="255"
+                                                        placeholder="Link" type="text"
+                                                        v-model="editing.Addons.social[badge.linkName]">
+
                                         </div>
                                 </span>
                         </div>
                 </div>
-                <div class="o-editor-accordion__description e--addon u-of-hidden" style="">
-                        <div class="l-dp-flex e--gap-x3 u-mr-b4">
-                                <div class="l-dp-flex__item u-wd-auto">
-                                        <input id="brand" class="a-radio" type="radio" value="brand" v-model="type">
-                                        <label class="a-radio__label" for="brand">
-                                                <span
-                                                        class="u-fz-11 u-fw-600 u-pd-ha1 u-pd-va0f5 u-cl-snow u-bg-black-dark u-border-black-dark u-br-20">Brand</span></label>
-                                </div>
-                                <div class="l-dp-flex__item u-wd-auto">
-                                        <input id="invert" class="a-radio" type="radio" value="invert" v-model="type">
-                                        <label class="a-radio__label" for="invert">
-                                                <span
-                                                        class="u-fz-11 u-fw-600 u-pd-ha1 u-pd-va0f5 u-border-black-dark u-br-20 u-cl-black-dark">Invert</span></label>
-                                </div>
-                        </div>
-                        <div>
-                                <div v-for="badge in type === 'brand' ? badgesBrand : badgesInvert"
-                                        class="o-content-block__row e--social u-mr-b3" data-draggable="true">
-                                        <label class="m-social-addon" :for="badge.imgName">
-                                                <i
-                                                        class="o-content-block__icon-drag e--left-0 icon_service-drag e--empty"></i>
-
-                                                <el-popover placement="right" :width="200" trigger="hover">
-                                                        <template #reference>
-                                                                <img class="m-social-addon__img"
-                                                                        :src="editing.Addons.social[badge.imgName]"
-                                                                        alt="Facebook">
-                                                        </template>
-                                                        <div class="">
-                                                                <img v-for="image in badge.images" :src="image"
-                                                                        class="m-social-addon__group-item"
-                                                                        @click="editing.Addons.social[badge.imgName] = image">
-                                                        </div>
-                                                </el-popover>
-                                        </label>
-                                        <span class="o-content-block__media u-mr-l0f5@xl">
-                                                <div class="a-input u-mr-t0">
-                                                        <label class="a-input__label u-ws-nowrap u-bg-snow"
-                                                                for="1226">Link</label>
-                                                        <input id="1226" class="a-input__item u-pd-r3" maxlength="255"
-                                                                placeholder="Link" type="text"
-                                                                v-model="editing.Addons.social[badge.linkName]">
-
-                                                </div>
-                                        </span>
-                                </div>
-                        </div>
-                        <div class="o-content-block__row u-mr-b2 u-mr-t4 u-mr-b1@xl u-mr-t5@xl">
-                                <div class="u-display-flex">
-                                        <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Shape</label>
-                                        <span class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p u-pd-t0f5">
-                                                <ShapeSelect v-model="shape" />
-                                        </span>
-                                </div>
-                        </div>
-                        <div
-                                class="o-content-block__row u-mr-t1 u-display-inline-block u-display-flex@sm u-mr-t0@xl u-mr-b0">
-                                <label
-                                        class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b3 u-mr-b2@sm u-mr-b1@xl">Size</label>
-
-                                <div class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl ">
-                                        <el-slider :max="65" :min="15" v-model="editing.Addons.social.badgeSize" />
-                                </div>
-                        </div>
-                        <div
-                                class="o-content-block__row u-mr-t1 u-display-inline-block u-display-flex@sm u-mr-t0@xl u-mr-b0">
-                                <label
-                                        class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b3 u-mr-b2@sm u-mr-b1@xl u-mr-t0@xl">Padding
-                                        top</label>
-
-
-                                <div class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl ">
-                                        <el-slider :max="30" :min="5" v-model="editing.Addons.social.paddingTop" />
-                                </div>
+                <div class="o-content-block__row u-mr-b2 u-mr-t4 u-mr-b1@xl u-mr-t5@xl">
+                        <div class="u-display-flex">
+                                <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Shape</label>
+                                <span class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p u-pd-t0f5">
+                                        <ShapeSelect v-model="shape" />
+                                </span>
                         </div>
                 </div>
-                <div class="o-editor-accordion__icon-close">
-                        <div class=""><i class="icon_service-site-close"></i></div>
+                <div class="o-content-block__row u-mr-t1 u-display-inline-block u-display-flex@sm u-mr-t0@xl u-mr-b0">
+                        <label
+                                class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b3 u-mr-b2@sm u-mr-b1@xl">Size</label>
+
+                        <div class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl ">
+                                <el-slider :max="65" :min="15" v-model="editing.Addons.social.badgeSize" />
+                        </div>
+                </div>
+                <div class="o-content-block__row u-mr-t1 u-display-inline-block u-display-flex@sm u-mr-t0@xl u-mr-b0">
+                        <label
+                                class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-b3 u-mr-b2@sm u-mr-b1@xl u-mr-t0@xl">Padding
+                                top</label>
+
+
+                        <div class="o-content-block__media e--full u-mr-b2 u-mr-t1 u-mr-va3@xl ">
+                                <el-slider :max="30" :min="5" v-model="editing.Addons.social.paddingTop" />
+                        </div>
                 </div>
         </div>
+        <!-- <div class="o-editor-accordion__icon-close">
+                <div class=""><i class="icon_service-site-close"></i></div>
+        </div> -->
+
 </template>
 
 <script name="SignOff" setup>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img alt="Best wishes," :src="editing.Addons?.signOff?.img" width="500" />
@@ -32,36 +32,13 @@
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
+                                    <tr style="cursor: pointer;" v-for="c in contacts">
                                         <td
                                             style='margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                                            <span
-                                                style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>
-                                                {{ editing.general?.phone }}
-                                                <!-- +1 983 333 3739 -->
-                                            </span>
+
+                                            <ContactIndex :name="c.name" :key="c.key" :value="c.value" />
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style='margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                                            <span
-                                                style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>
-                                                {{ editing.general?.email }}
-                                                <!-- vanessa@skyline.com -->
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style='margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                                            <span
-                                                style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>
-                                                {{ editing.general?.website }}
-                                                <!-- mysignature.io -->
-                                            </span>
-                                        </td>
-                                    </tr><!-- -->
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
@@ -85,42 +62,34 @@
                                 </table>
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-                                <img alt=' "created with MySignature.io"'
-                                    src="https://img.mysignature.io/p/9/7/8/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png?time=1709108740"
-                                    style="display: block; min-width: 134px;" width="134" />
+                                <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                                        
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr><!-- -->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
                 <tr>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <span><img alt="amazon" height="32"
-                                src="https://img.mysignature.io/addons/v2/amazon_shape2_white.png"
-                                style="display: block;" width="112" /></span>
-                    </td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <span><img alt="ebay" height="32"
-                                src="https://img.mysignature.io/addons/v2/ebay_shape2_white.png" style="display: block;"
-                                width="112" /></span>
-                    </td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <!-- -->
-                    </td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <!-- -->
+                    <td v-for="provider in editing.Addons?.marketplace?.providers.filter(p => p.link !== '')"
+                        style="padding: 16px 4px 4px 0px; margin: 0.1px;">
+                        <a :href="provider.link" target="_blank"><img :src="provider.img" height="45" width="158"
+                                :alt="provider.name" style="display: block;"></a>
                     </td>
                 </tr>
             </table>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-                        <span><img alt="created with MySignature.io"
-                                src="https://img.mysignature.io/b/9/7/8/978bfbea-ac34-57fd-b81a-9e0edf7e0eeb.png?time=1709108740"
-                                style="display: block;" valign="top" width="317" /></span>
+                        <a :href="editing.Image?.bannerLink" target="_blank">
+                            <img :src="editing.Image?.bannerImg" valign="top" :width="editing.Image?.bannerWidth"
+                                alt="created with MySignature.io" style="display: block;">
+                        </a>
                     </td>
                 </tr>
             </table>
@@ -130,84 +99,16 @@
                          </td>
                 </tr>
             </table>
-        </div><!-- -->
+        </div>
     </div>
 </template>
 <script>
-import { shallowRef, ref, computed } from 'vue'
-import { useStore } from '@/stores/store'
-import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
-import jsonData from '@/stores/data.json'
+
+import { myMixin } from './mixin.js'
 
 export default {
     name: 'Template3',
-    data() {
-        return {
-            editing: {},
-            socialIconsMap: {}
-        }
-    },
-    props: {
-        type: {
-            type: String,
-            default: 'preview' // editing | preview
-        },
-        data: {
-            type: Object,
-            default: () => (null)
-        }
-    },
-    methods: {
-        // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.data);
-        // },
-        initEditingStore() {
-            if (this.type === 'preview') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = data
-            }
-
-            if (this.type === 'editing') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = useEditingStore()
-                this.editing.init(data);
-            }
-
-        },
-        loadSocialIcons() {
-            Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = shallowRef(component)
-            ))
-        },
-        init() {
-            this.initEditingStore(this.$options.name);
-            this.loadSocialIcons();
-        }
-    },
-    computed: {
-        textStyle() {
-            let fontName = this.editing?.design?.font || "Arial"
-            return {
-                color: this.editing.design?.TextColor,
-                fontFamily: jsonData.fontList[fontName],
-                fontSize: this.editing.design?.fontSize + 'px'
-            }
-        }
-    },
-    mounted() {
-        this.store = useStore();
-
-        this.templates = useTemplatesStore()
-
-        this.init()
-    }
+    mixins: [myMixin]
 }
 </script>
 <style scoped></style>

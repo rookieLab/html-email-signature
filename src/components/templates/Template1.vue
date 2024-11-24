@@ -14,8 +14,9 @@
                         <tr>
                             <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
                                 <a :href="editing.Image?.avatarLink" target="_blank">
-                                    <img alt="SignMaker" :src="editing.Image?.avatarImg"
-                                        style="display: block; min-width: 138px;" width="138" /></a>
+                                    <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                        :style="{ minWidth: editing.Image?.avatarWidth }"
+                                        :width="editing.Image?.avatarWidth" /></a>
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; "
                                 :style="{ color: editing.design?.TextColor }" valign="top">
@@ -81,7 +82,7 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!-- -->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" width="500"

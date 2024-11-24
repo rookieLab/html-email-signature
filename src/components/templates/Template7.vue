@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img width="500" :src="editing.Addons?.signOff?.img" alt="Best regards,">
@@ -14,10 +14,13 @@
                     style="margin: 0.1px; padding: 20px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;"><img
-                                    src="https://img.mysignature.io/p/f/0/1/f01ae626-b336-56d7-9604-bcd3adf615ff.png?time=1708944713"
-                                    width="106" alt=" &quot;created with MySignature.io&quot;"
-                                    style="display: block; min-width: 106px;"></td>
+                            <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;">
+                                <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                               
+                            </td>
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">

@@ -18,3 +18,10 @@ escapeHTMLPolicy = trustedTypes.createPolicy("forceInner", {
 ```
 
 oss://ap-data-us-oss/signmaker/web/js13kpwa/
+
+
+
+
+Design colored|branded
+
+/assets/signoff/af3ace5e-0701-592c-ab09-b4cea72f38e1.png

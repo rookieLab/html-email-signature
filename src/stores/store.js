@@ -7,7 +7,7 @@ export const useStore = defineStore('store', {
   },
   state: () => ({
     activeMenu: 'Templates', //  General|Images|Social|Add-ons|Design|Templates
-    editingTemplate: "Template1",
+    editingTemplate: "Template3",
     savedTemplates: []
   }),
   getters: {

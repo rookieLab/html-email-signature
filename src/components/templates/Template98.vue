@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 10.2px;">
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;">
@@ -10,7 +10,7 @@
 <tr>
 <td align="center" style="margin: 0.1px; padding: 0px 0px 5px; font: 13.3px / 16.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
 <span style="font-weight: 600; color: rgb(10, 50, 20); cursor: pointer;">JOHNATHAN
-                                                        POPE</span><!-- --><!-- -->
+                                                        POPE</span>
 </td>
 </tr>
 <tr>
@@ -32,7 +32,7 @@
 <span>website: </span><span style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>  <span>address: </span><span style="color: rgb(0, 0, 1);">10 California st, fl
                                                         6</span>
 </td>
-</tr><!-- --><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -54,17 +54,17 @@
 <span><img alt="youtube" height="30" src="https://img.mysignature.io/addons/v2/youtube_v1_shape3_i.png" style="display: block;" width="105"/></span>
 </td>
 <td style="padding: 17px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

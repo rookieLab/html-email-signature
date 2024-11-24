@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 14.6px;" width="500">
 <tr>
 <td style="margin: 0.1px; padding: 0px;">
@@ -8,12 +8,12 @@
 <tr>
 <td style="margin: 0.1px; padding: 0px 20px 0px 0px; border-right: 2px solid rgb(171, 1, 206);" valign="middle">
 <table cellpadding="0" style="border-collapse: collapse;">
-<tr><!-- --></tr>
+<tr></tr>
 <tr>
 <td align="center" style='margin: 0.1px; padding: 0px; font: 20.4px / 25.9px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
 <span style="color: rgb(171, 1, 206); font-weight: 600; cursor: pointer;">Dr.
                                                                                 Emma
-                                                                                Wilson</span><!-- --><span style="color: rgb(0, 0, 0); cursor: pointer;"></span>
+                                                                                Wilson</span><span style="color: rgb(0, 0, 0); cursor: pointer;"></span>
 </td>
 </tr>
 <tr>
@@ -44,12 +44,12 @@
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 14.6px / 18.5px "Courier New", Courier, monospace; color: rgb(0, 0, 1);'>
-<!-- --><span style="color: rgb(0, 0, 0);"></span>
+<span style="color: rgb(0, 0, 0);"></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 14.6px / 18.5px "Courier New", Courier, monospace; color: rgb(0, 0, 1); white-space: nowrap;'>
-<!-- --><span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Courier New", Courier, monospace;'></span>
+<span style='color: rgb(0, 0, 0); text-decoration: none; font-family: "Courier New", Courier, monospace;'></span>
 </td>
 </tr>
 <tr>
@@ -61,13 +61,13 @@
                                                                                 opportunities</span>
 </td>
 </tr>
-<tr><!-- --></tr>
+<tr></tr>
 </table>
 </td>
 </tr>
 </table>
 </td>
-</tr><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -80,14 +80,14 @@
                                                         email
                                                     </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

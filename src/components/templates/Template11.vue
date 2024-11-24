@@ -1,5 +1,5 @@
 <template>
-    <div><!-- -->
+    <div>
         <table cellpadding="0" style="border-collapse: collapse; font-size: 14.4px;" width="500">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -12,7 +12,7 @@
                                             style='margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
                                             <span
                                                 style="color: rgb(13, 31, 117); font-weight: 600; cursor: pointer;">FRANCO
-                                                ALEXANDER</span><!-- --><!-- -->
+                                                ALEXANDER</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -20,9 +20,9 @@
                                             style='margin: 0.1px; padding: 0px 0px 10px; font: 600 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
                                             <span style="cursor: pointer;">Criminal
                                                 Defense
-                                                Attorney</span><!-- --><!-- -->
+                                                Attorney</span>
                                         </td>
-                                    </tr><!-- -->
+                                    </tr>
                                     <tr style="cursor: pointer;">
                                         <td
                                             style='margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
@@ -46,7 +46,7 @@
                                                 Mission Str
                                                 600</span>
                                         </td>
-                                    </tr><!-- -->
+                                    </tr>
                                 </table>
                             </td>
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
@@ -57,11 +57,11 @@
                         </tr>
                     </table>
                 </td>
-            </tr><!-- -->
+            </tr>
         </table>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;" width="500">
-                <!-- -->
+                
                 <tr>
                     <td style="padding: 19px 0px 0px; margin: 0.1px; cursor: pointer;">
                         <span><img alt="Meet me on Skype"
@@ -91,14 +91,14 @@
                         ensure
                         such a mistake does not occur in the future.</td>
                 </tr>
-            </table><!-- -->
+            </table>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                          </td>
                 </tr>
             </table>
-        </div><!-- -->
+        </div>
     </div>
 </template>
 <script>

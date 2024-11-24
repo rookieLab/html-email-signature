@@ -2,9 +2,9 @@
     <div>
         <table cellpadding="0" style="border-collapse: collapse;">
             <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <img width="500" :src="editing.Addons?.signOff?.img" alt="Regards,">
-                </td>
+                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
+                        src="https://img.mysignature.io/a/v1/b/4/0/b40d3f3b-8f92-5f76-9c11-3e3a12a25a57.png"
+                        alt="Regards,"></td>
             </tr>
         </table>
         <div>
@@ -24,20 +24,15 @@
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 20.4px / 25.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
-                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">
-                                                    Katie Howard
-                                                </span>
-                                            </td>
+                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">Katie
+                                                    Howard</span><!----><!----></td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(31, 31, 31);">
-                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">
-                                                    Family Law Attorney
-                                                </span>
-                                            </td>
+                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">Family Law
+                                                    Attorney</span><!----><!----><!----><!----></td>
                                         </tr>
-
                                         <tr style="cursor: pointer;">
                                             <td
                                                 style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
@@ -59,16 +54,15 @@
                                                 style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
                                                     style="color: rgb(31, 31, 31); font-weight: 600;">A:&nbsp;</span><span
-                                                    style="color: rgb(31, 31, 31);">Durham, North Carolina</span>
-                                            </td>
-                                        </tr>
+                                                    style="color: rgb(31, 31, 31);">Durham, North Carolina</span></td>
+                                        </tr><!---->
                                     </table>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
-            </table>
+            </table><!---->
         </div>
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
@@ -82,7 +76,7 @@
                     <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
                                 src="https://img.mysignature.io/addons/v2/linkedin_v1_shape2_b.png" height="34"
                                 width="119" alt="linkedin" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"></td>
+                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><!----></td>
                 </tr>
             </table>
             <table cellpadding="0" width="500"
@@ -99,16 +93,15 @@
                         style="font-family: Verdana, Geneva, sans-serif; font-size: 14.1px; padding: 20px 0px 0px; margin: 0.1px;">
                         <span>If you have problem?&nbsp;</span><span
                             style="text-decoration: none; font-size: 14.1px; color: rgb(10, 58, 178);">Contact to
-                            me</span>
-                    </td>
+                            me</span></td>
                 </tr>
-            </table>
+            </table><!---->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
                 </tr>
             </table>
-        </div>
+        </div><!---->
     </div>
 </template>
 <script>

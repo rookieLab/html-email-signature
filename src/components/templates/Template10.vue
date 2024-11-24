@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img width="500" :src="editing.Addons?.signOff?.img" alt="Regards,">
@@ -13,10 +13,12 @@
                     <td style="margin: 0.1px; padding: 0px;">
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
-                                <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;"><img
-                                        src="https://img.mysignature.io/p/7/b/5/7b522916-9d8a-5aed-8391-bf432a65fcfc.png?time=1709033673"
-                                        width="120" alt=" &quot;created with MySignature.io&quot;"
-                                        style="display: block; min-width: 120px;"></td>
+                                <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;">
+                                    <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                                </td>
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(31, 31, 31); margin: 0.1px; padding: 0px 0px 0px 12px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -24,35 +26,18 @@
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 20.4px / 25.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
-                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">
-                                                    <!-- Katie Howard -->
-                                                    {{ editing.general?.name }}
-                                                </span>
+                                                    style="font-weight: 600; color: rgb(31, 31, 31); cursor: pointer;">Katie
+                                                    Howard</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(31, 31, 31);">
-                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">
-                                                    <!-- Family Law Attorney -->
-                                                    {{ editing.general?.position }}
-                                                </span>
+                                                <span style="color: rgb(31, 31, 31); cursor: pointer;">Family Law
+                                                    Attorney</span>
                                             </td>
                                         </tr>
-                                        <tr v-for="c in editing.general?.contacts" style="cursor: pointer;">
-                                            <td v-if="c.value"
-                                                style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(31, 31, 31); font-weight: 600;">
-
-                                                    {{ c.key }} &nbsp;
-                                                </span>
-                                                <span
-                                                    style="color: rgb(31, 31, 31); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">
-                                                    {{ c.value }}
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <!-- <tr style="cursor: pointer;">
+                                        <tr style="cursor: pointer;">
                                             <td
                                                 style="margin: 0.1px; padding: 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
@@ -75,7 +60,7 @@
                                                     style="color: rgb(31, 31, 31); font-weight: 600;">A:&nbsp;</span><span
                                                     style="color: rgb(31, 31, 31);">Durham, North Carolina</span>
                                             </td>
-                                        </tr> -->
+                                        </tr>
                                     </table>
                                 </td>
                             </tr>
@@ -124,80 +109,17 @@
             </table>
         </div>
     </div>
+
+
 </template>
+
 <script>
-import { shallowRef, ref, computed } from 'vue'
-import { useStore } from '@/stores/store'
-import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
-import jsonData from '@/stores/data.json'
+
+import { myMixin } from './mixin.js'
 
 export default {
     name: 'Template10',
-    data() {
-        return {
-            editing: {},
-            socialIconsMap: {}
-        }
-    },
-    props: {
-        type: {
-            type: String,
-            default: 'template' //  editing | preview
-        },
-        data: {
-            type: Object,
-            default: () => (null)
-        }
-    },
-    methods: {
-        // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.data);
-        // },
-        initEditingStore() {
-            if (this.type === 'preview') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = data
-            }
-
-            if (this.type === 'editing') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = useEditingStore()
-                this.editing.init(data);
-            }
-
-        },
-        loadSocialIcons() {
-            Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = shallowRef(component)
-            ))
-        },
-        init() {
-            this.initEditingStore(this.$options.name);
-            this.loadSocialIcons();
-        }
-    },
-    computed: {
-        textStyle() {
-            let fontName = this.editing?.design?.font || "Arial"
-            return {
-                color: this.editing.design?.TextColor,
-                fontFamily: jsonData.fontList[fontName],
-                fontSize: this.editing.design?.fontSize + 'px'
-            }
-        }
-    },
-    mounted() {
-        this.store = useStore();
-        this.templates = useTemplatesStore()
-        this.init()
-    }
+    mixins: [myMixin]
 }
 </script>
 <style scoped></style>

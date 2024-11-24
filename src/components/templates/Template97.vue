@@ -1,6 +1,6 @@
 
 <template>
- <div><!-- -->
+ <div>
 <table cellpadding="0" style="border-collapse: collapse; font-size: 13.4px;" width="400">
 <tr>
 <td style="margin: 0.1px; padding: 0px; cursor: pointer;">
@@ -10,12 +10,12 @@
 <tr>
 <td style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.5px / 22.2px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
 <span style="font-weight: 600; color: rgb(248, 25, 25); text-transform: uppercase; cursor: pointer;">Lenny
-                                                        Logan</span><!-- --><!-- -->
+                                                        Logan</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 13.4px / 17.1px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'>
-<span style="cursor: pointer;"></span><!-- --><span style="cursor: pointer;">Chemistry teacher</span>
+<span style="cursor: pointer;"></span><span style="cursor: pointer;">Chemistry teacher</span>
 </td>
 </tr>
 <tr>
@@ -40,20 +40,20 @@
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'>
-<!-- --><span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;'></span>
+<span style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;'></span>
 </td>
 </tr>
 <tr style="cursor: pointer;">
 <td style='margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'>
-<!-- --><span style="color: rgb(0, 0, 1);"></span>
+<span style="color: rgb(0, 0, 1);"></span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 1px 0px; font: 13.4px / 17.1px "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: rgb(0, 0, 1);'>
 <span style="color: rgb(7, 7, 7); font-weight: 600; cursor: pointer;">Virtual
-                                                        School Tour</span><!-- --><span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;"></span>
+                                                        School Tour</span><span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;"></span>
 </td>
-</tr><!-- --><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;">
@@ -62,20 +62,20 @@
 <span><img alt="youtube" height="37" src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_i.png" style="display: block;" width="130"/></span>
 </td>
 <td style="padding: 13px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 <td style="padding: 13px 4px 4px 0px; margin: 0.1px;">
-<!-- -->
+
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img width="500" :src="editing.Addons?.signOff?.img" alt="Happy Holidays!">
@@ -13,10 +13,12 @@
                     <td style="margin: 0.1px; padding: 0px;">
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
-                                <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;"><img
-                                        src="https://img.mysignature.io/p/7/3/b/73b11b3b-992a-5862-8886-eddac23928d6.png?time=1709023265"
-                                        width="145" alt=" &quot;created with MySignature.io&quot;"
-                                        style="display: block; min-width: 145px;"></td>
+                                <td valign="top" style="margin: 0.1px; padding: 0px 12px 0px 0px; cursor: pointer;">
+                                    <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                                </td>
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(85, 24, 4); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -31,8 +33,7 @@
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.8px / 16.3px &quot;Times New Roman&quot;, Times, serif; color: rgb(157, 83, 83);">
-                                                <span
-                                                    style="color: rgb(157, 83, 83); cursor: pointer;">Villegas
+                                                <span style="color: rgb(157, 83, 83); cursor: pointer;">Villegas
                                                     Fasion</span>
                                             </td>
                                         </tr>

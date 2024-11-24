@@ -17,12 +17,12 @@
 <tr>
 <td style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 18.7px / 23.8px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
 <span style="font-weight: 600; color: rgb(25, 149, 248); text-transform: uppercase; cursor: pointer;">Amelia
-                                                        Morre</span><!-- --><!-- -->
+                                                        Morre</span>
 </td>
 </tr>
 <tr>
 <td style='margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-<span style="cursor: pointer;"></span><!-- --><span style="cursor: pointer;">Content Writer</span>
+<span style="cursor: pointer;"></span><span style="cursor: pointer;">Content Writer</span>
 </td>
 </tr>
 <tr>
@@ -49,7 +49,7 @@
 <td style='margin: 0.1px; padding: 1px 0px; font: 14.4px / 18.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
 <span style="color: rgb(25, 149, 248); font-weight: 600; cursor: pointer;">S</span> <span style="color: rgb(25, 149, 248); font-weight: 600; cursor: pointer;">amelia.cw</span>
 </td>
-</tr><!-- --><!-- -->
+</tr>
 </table>
 <div>
 <table cellpadding="0" style="border-collapse: collapse;" width="500">
@@ -58,14 +58,14 @@
 <span><img alt="View my reviews at Upwork" src="https://img.mysignature.io/a/v1/7/4/9/749d472c-daa2-5f8a-bc13-b6a1b2522503.png" style="max-width: 490px; display: block;" width="226"/></span>
 </td>
 </tr>
-</table><!-- -->
+</table>
 <table border="0" cellpadding="0" cellspacing="0" width="500">
 <tr>
 <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
                                                          </td>
 </tr>
 </table>
-</div><!-- -->
+</div>
 </div>
 </template>
 <script>

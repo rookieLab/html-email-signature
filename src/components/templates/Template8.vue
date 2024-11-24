@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
+        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
             <tr>
                 <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
                     <img width="500" :src="editing.Addons?.signOff?.img" alt="Sincerely,">
@@ -12,10 +12,13 @@
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td valign="top" style="margin: 0.1px; padding: 0px 9px 0px 0px; cursor: pointer;"><img
-                                    src="https://img.mysignature.io/p/a/c/c/acc5a5b2-2dc5-5836-a8df-bb818f28dfde.png?time=1708938021"
-                                    width="123" alt=" &quot;created with MySignature.io&quot;"
-                                    style="display: block; min-width: 123px;"></td>
+                            <td valign="top" style="margin: 0.1px; padding: 0px 9px 0px 0px; cursor: pointer;">
+                                <a :href="editing.Image?.avatarLink" target="_blank">
+                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
+                                            :style="{ minWidth: editing.Image?.avatarWidth }"
+                                            :width="editing.Image?.avatarWidth" /></a>
+                               
+                            </td>
                             <td valign="top"
                                 style="border-left: 2px solid rgb(9, 125, 94); margin: 0.1px; padding: 0px 0px 0px 9px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
