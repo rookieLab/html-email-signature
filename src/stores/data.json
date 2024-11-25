@@ -131,6 +131,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -166,33 +176,33 @@
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "email:",
                     "value": "nicksterlin@mysignature.io"
                 },
                 {
                     "title": "Skype",
-                    "name": "",
+                    "name": "Skype:",
                     "value": "sterlin"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": ""
+                    "name": "Website",
+                    "value": "Website"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": ""
+                    "name": "Cellphone",
+                    "value": "Cellphone"
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "Address",
+                    "value": "Address"
                 },
                 {
                     "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "Phone",
+                    "value": "Phone"
                 }
             ]
         },
@@ -261,6 +271,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -276,13 +296,13 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
+            "font": "Georgia",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
+            "templateColor": "#097d5e",
             "TextColor": "rgb(0, 0, 1)",
             "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsSize": 23,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
             "iconsBackground": "#000000"
         }
@@ -390,6 +410,16 @@
             },
             "green": {
                 "fontSize": 1
+            },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
             },
             "marketplace": {
                 "type": "white",
@@ -593,8 +623,8 @@
                 "link": "",
                 "size": 34,
                 "top": 5,
-                "textColor": "",
-                "CTAColor": ""
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
             }
         },
         "Image": {
@@ -662,15 +692,15 @@
         },
         "socialIcons": [
             {
-                "name": "facebook",
+                "name": "twitter",
                 "url": ""
             },
             {
-                "name": "tiktok",
+                "name": "linkedin",
                 "url": ""
             },
             {
-                "name": "telegram",
+                "name": "google",
                 "url": ""
             }
         ],
@@ -725,6 +755,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -744,11 +784,11 @@
             "fontSize": 12,
             "templateColor": "rgb(9, 125, 94)",
             "TextColor": "rgb(0, 0, 1)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 26,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#3C3C3C",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template6": {
@@ -799,11 +839,11 @@
                 "url": ""
             },
             {
-                "name": "tiktok",
+                "name": "twitter",
                 "url": ""
             },
             {
-                "name": "telegram",
+                "name": "linkedin",
                 "url": ""
             }
         ],
@@ -858,6 +898,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -865,10 +915,10 @@
         },
         "Image": {
             "avatarImg": "/assets/avatar/8d3c292b-c231-52c5-ac42-ce03bc09d651.gif",
-            "bannerImg": "",
+            "bannerImg": "/assets/banner/8d3c292b-c231-52c5-ac42-ce03bc09d651.png",
             "avatarLink": "https://www.baidu.com",
             "bannerLink": "https://www.baidu.com",
-            "bannerWidth": 317,
+            "bannerWidth": 346,
             "avatarWidth": 133
         },
         "design": {
@@ -877,11 +927,11 @@
             "fontSize": 12,
             "templateColor": "rgb(9, 125, 94)",
             "TextColor": "rgb(0, 0, 1)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 21,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "#ea7f4c"
         }
     },
     "Template7": {
@@ -932,7 +982,7 @@
                 "url": ""
             },
             {
-                "name": "tiktok",
+                "name": "twitter",
                 "url": ""
             },
             {
@@ -991,6 +1041,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -1010,10 +1070,10 @@
             "fontSize": 12,
             "templateColor": "rgb(9, 125, 94)",
             "TextColor": "rgb(0, 0, 1)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
+            "iconsType": "colored",
+            "iconsSize": 24,
+            "iconsShape": "circle",
+            "iconsColor": "#FFC068",
             "iconsBackground": "#000000"
         }
     },
@@ -1061,11 +1121,11 @@
         },
         "socialIcons": [
             {
-                "name": "facebook",
+                "name": "instagram",
                 "url": ""
             },
             {
-                "name": "tiktok",
+                "name": "facebook",
                 "url": ""
             },
             {
@@ -1124,6 +1184,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -1131,10 +1201,10 @@
         },
         "Image": {
             "avatarImg": "/assets/avatar/acc5a5b2-2dc5-5836-a8df-bb818f28dfde.png",
-            "bannerImg": "",
+            "bannerImg": "/assets/banner/acc5a5b2-2dc5-5836-a8df-bb818f28dfde.png?time=1708938021",
             "avatarLink": "https://www.baidu.com",
             "bannerLink": "https://www.baidu.com",
-            "bannerWidth": 317,
+            "bannerWidth": 321,
             "avatarWidth": 123
         },
         "design": {
@@ -1143,66 +1213,63 @@
             "fontSize": 12,
             "templateColor": "rgb(9, 125, 94)",
             "TextColor": "rgb(0, 0, 1)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsType": "colored",
+            "iconsSize": 26,
+            "iconsShape": "circle",
+            "iconsColor": "#097D5E",
+            "iconsBackground": "#e7f1ff"
         }
     },
     "Template9": {
         "general": {
-            "name": "NICHOLAS EASTERLIN",
+            "name": "Mya Butler ♛",
             "pronoun": "",
             "company": "",
-            "position": "TRAVEL BLOGGER",
-            "email": "nicksterlin@mysignature.io",
-            "skype": "sterlin",
-            "website": "",
+            "position": "Villegas Fasion",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "E:",
-                    "value": "katie@mysignature.io"
-                },
-                {
-                    "title": "Cellphone",
-                    "name": "M:",
-                    "value": "+12023893201"
-                },
-                {
-                    "title": "Address",
-                    "name": "A:",
-                    "value": "Durham, North Carolina"
-                },
-                {
-                    "title": "Phone",
-                    "name": "P:",
-                    "value": ""
+                    "name": "email: ",
+                    "value": "mya@villegas.io"
                 },
                 {
                     "title": "Website",
-                    "name": "W:",
+                    "name": "website: ",
+                    "value": "mysignature.io"
+                },
+                {
+                    "title": "Address",
+                    "name": "address: ",
+                    "value": "987 Comfort Blvd, Paris"
+                },
+                {
+                    "title": "Cellphone",
+                    "name": "",
+                    "value": ""
+                },
+                {
+                    "title": "Phone",
+                    "name": "",
                     "value": ""
                 },
                 {
                     "title": "Skype",
-                    "name": "S:",
+                    "name": "",
                     "value": ""
                 }
             ]
         },
         "socialIcons": [
             {
-                "name": "facebook",
+                "name": "map-1",
                 "url": ""
             },
             {
-                "name": "tiktok",
+                "name": "instagram",
                 "url": ""
             },
             {
-                "name": "telegram",
+                "name": "threads",
                 "url": ""
             }
         ],
@@ -1257,6 +1324,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "museum",
+                "text": "Check our",
+                "CTA": "Projects here",
+                "link": "",
+                "size": 34,
+                "top": 5,
+                "textColor": "#1f1f1f",
+                "CTAColor": "#0a3ab"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -1264,10 +1341,10 @@
         },
         "Image": {
             "avatarImg": "/assets/avatar/73b11b3b-992a-5862-8886-eddac23928d6.png",
-            "bannerImg": "",
+            "bannerImg": "/assets/banner/73b11b3b-992a-5862-8886-eddac23928d6.png",
             "avatarLink": "https://www.baidu.com",
             "bannerLink": "https://www.baidu.com",
-            "bannerWidth": 317,
+            "bannerWidth": 262,
             "avatarWidth": 145
         },
         "design": {
@@ -1276,11 +1353,11 @@
             "fontSize": 12,
             "templateColor": "rgb(9, 125, 94)",
             "TextColor": "rgb(0, 0, 1)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsType": "colored",
+            "iconsSize": 26,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "#d09595"
         }
     },
     "Template10": {
@@ -1352,6 +1429,13 @@
                 "badgeShape": "rounded",
                 "badgeType": "branded",
                 "badgeColor": "#000000",
+                "data": [
+                    {
+                        "name": "facebook",
+                        "badge": "https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png",
+                        "link": ""
+                    }
+                ],
                 "facebookBadge": "https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png",
                 "facebookLink": "",
                 "instagramBadge": "https://img.mysignature.io/addons/v2/instagram_v1_shape1_b.png",
@@ -1387,6 +1471,16 @@
             "green": {
                 "fontSize": 1
             },
+            "calender": {
+                "icon": "hands",
+                "text": "If you have problem?",
+                "CTA": "Contact to me",
+                "link": "",
+                "size": 29,
+                "top": 5,
+                "color": "#1f1f1f",
+                "CTAColor": "#0a3ab2"
+            },
             "marketplace": {
                 "size": 45,
                 "paddingTop": 5
@@ -1401,11 +1495,11 @@
             "avatarWidth": 120
         },
         "design": {
+            "font": "Verdana",
+            "fontSize": 14,
+            "fontWeight": 500,
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#1f1f1f",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",

@@ -1,9 +1,6 @@
 <template>
-    <div>
-        <span>{{ name }}&nbsp;</span>
-        <a href="tel:phone" target="_blank"
-            style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">{{ value }}</a>
-    </div>
+    <span :style="nameStyle">{{ name }}&nbsp;</span>
+    <a href="tel:phone" target="_blank" style="color: inherit; text-decoration: none; ">{{ value }}</a>
 </template>
 
 <script>
@@ -17,6 +14,10 @@ export default {
         value: {
             type: String,
             default: ''
+        },
+        nameStyle: {
+            type: Object,
+            default: () => ({})
         }
     }
 };

@@ -39,7 +39,7 @@
             <label class="o-content-block__label u-wd-12 u-mr-r1f5">Text color</label>
 
             <div class="o-content-block__media">
-                <ColorPicker v-model="editing.Addons.calender.textColor"></ColorPicker>
+                <ColorPicker v-model="editing.Addons.calender.color"></ColorPicker>
                 <!-- <div class="m-color-picker">
                     <div class=""><a href="#" class="m-color-picker__current-color"
                             style="background-color: rgb(31, 31, 31);"></a></div>

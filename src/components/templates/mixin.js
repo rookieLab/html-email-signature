@@ -1,22 +1,28 @@
 import { shallowRef, ref, computed } from 'vue'
 import { useStore } from '@/stores/store'
 import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
+// import * as iconComponents from '@/components/svg-icon-a'
 import jsonData from '@/stores/data.json'
 import IconsMeet from '@/components/svg-meeting/Index'
 import ContactIndex from '@/components/contacts/Index.vue'
-import AddonIndex from '@/components/svg/Index.vue'
+import Calender from '@/components/svg/Calender.vue'
 import Layout1Contact from '@/components/contacts/Layout1Contact.vue'
+import Banner from '@/components/Banner.vue'
+import SocialShare from '@/components/SocialShare.vue'
+import Contact from '@/components/Contact.vue'
+import Avatar from '@/components/Avatar.vue'
+import SignOff from '@/components/SignOff.vue'
+
 
 export const myMixin = {
   data() {
     return {
       editing: {},
-      socialIconsMap: {}
+      // socialIconsMap: {}
     }
   },
   components: {
-    IconsMeet, ContactIndex, AddonIndex,Layout1Contact
+    IconsMeet, ContactIndex, Calender, Layout1Contact, Banner, SocialShare, Contact, Avatar, SignOff
   },
   props: {
     type: {
@@ -53,14 +59,14 @@ export const myMixin = {
       }
 
     },
-    loadSocialIcons() {
-      Object.values(iconComponents).map(component => (
-        this.socialIconsMap[component.name] = shallowRef(component)
-      ))
-    },
+    // loadSocialIcons() {
+    //   Object.values(iconComponents).map(component => (
+    //     this.socialIconsMap[component.name] = shallowRef(component)
+    //   ))
+    // },
     init() {
       this.initEditingStore(this.$options.name);
-      this.loadSocialIcons();
+      // this.loadSocialIcons();
     }
   },
   computed: {
@@ -68,13 +74,22 @@ export const myMixin = {
       let contacts = this.editing?.general?.contacts || []
       return contacts.filter(c => c.key != "" || c.value != "")
     },
-    textStyle() {
-      let fontName = this.editing?.design?.font || "Arial"
+    templateStyle() {  // 模版的样式
       return {
-        color: this.editing.design?.TextColor,
+        fontFamily: this.editing.design?.fontFamily,
+        fontSize: this.editing.design?.fontSize + 'px',
+        color: this.editing.design?.templateColor
+      }
+    },
+    textStyle() { // 文本样式 baseStyle
+      let fontName = this.editing?.design?.font || "Arial"
+      let data = {
+        color: this.editing.design?.color,
         fontFamily: jsonData.fontList[fontName],
         fontSize: this.editing.design?.fontSize + 'px'
       }
+      // console.log('mixin textStyle', fontName, data)
+      return data
     },
     meetStyle() {
       let fontName = this.editing?.Addons?.video?.font || "Arial"

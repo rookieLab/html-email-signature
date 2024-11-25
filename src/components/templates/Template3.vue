@@ -1,12 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;" v-if="editing.Addons?.signOff?.img">
-            <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <img alt="Best wishes," :src="editing.Addons?.signOff?.img" width="500" />
-                </td>
-            </tr>
-        </table>
+        <SignOff :data="editing.Addons?.signOff" />
         <table cellpadding="0" style="border-collapse: collapse; font-size: 12.8px;" width="500">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -32,42 +26,25 @@
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;" v-for="c in contacts">
+                                    <Contact :data="editing.general?.contacts" :design="editing.design"
+                                        :layout="'column'" />
+                                    <!-- <tr style="cursor: pointer;" v-for="c in contacts">
                                         <td
                                             style='margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
 
                                             <ContactIndex :name="c.name" :key="c.key" :value="c.value" />
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                                            <table cellpadding="0" style="border-collapse: collapse;">
-                                                <tr>
-                                                    <td v-for="icon in editing.socialIcons"
-                                                        style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
 
-
-                                                        <component :is="socialIconsMap[icon.name]" :url="icon.url"
-                                                            :shape="editing.design.iconsShape"
-                                                            :size="editing.design.iconsSize"
-                                                            :color="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsColor"
-                                                            :background="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsBackground" />
-
-                                                    </td>
-                                                </tr>
-                                            </table>
                                         </td>
                                     </tr>
                                 </table>
                             </td>
-                            <td style="margin: 0.1px; padding: 0px 0px 0px 15px; cursor: pointer;" valign="top">
-                                <a :href="editing.Image?.avatarLink" target="_blank">
-                                        <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
-                                            :style="{ minWidth: editing.Image?.avatarWidth }"
-                                            :width="editing.Image?.avatarWidth" /></a>
-                                        
-                            </td>
+                            <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 0px 15px' }" />
                         </tr>
                     </table>
                 </td>
@@ -83,7 +60,7 @@
                     </td>
                 </tr>
             </table>
-            <table border="0" cellpadding="0" cellspacing="0" width="500">
+            <!-- <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <a :href="editing.Image?.bannerLink" target="_blank">
@@ -92,7 +69,8 @@
                         </a>
                     </td>
                 </tr>
-            </table>
+            </table> -->
+            <Banner :data="editing.Image"></Banner>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">

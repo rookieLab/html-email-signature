@@ -1,8 +1,6 @@
 <template>
-    <div>
-        <span>{{ name }}&nbsp;</span>
-        <span style="color: rgb(0, 0, 1);">{{ value }}</span>
-    </div>
+    <span :style="nameStyle">{{ name }}&nbsp;</span>
+    <span>{{ value }}</span>
 </template>
 
 <script>
@@ -16,6 +14,10 @@ export default {
         value: {
             type: String,
             default: ''
+        },
+        nameStyle: {
+            type: Object,
+            default: () => ({})
         }
     }
 };

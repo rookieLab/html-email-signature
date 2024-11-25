@@ -1,23 +1,12 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
-            <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;">
-                    <img alt="Regards," :src="editing.Addons?.signOff?.img" width="500" />
-                </td>
-            </tr>
-        </table>
+        <SignOff :data="editing.Addons?.signOff" />
         <table cellpadding="0" style="border-collapse: collapse; font-size: 12.1px;" width="500">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td style="margin: 0.1px; padding: 0px; cursor: pointer;" valign="top">
-                                <a :href="editing.Image?.avatarLink" target="_blank">
-                                    <img alt="SignMaker" :src="editing.Image?.avatarImg" style="display: block;"
-                                        :style="{ minWidth: editing.Image?.avatarWidth }"
-                                        :width="editing.Image?.avatarWidth" /></a>
-                            </td>
+                            <Avatar :data="editing.Image" />
                             <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; "
                                 :style="{ color: editing.design?.TextColor }" valign="top">
 
@@ -49,32 +38,10 @@
                                                 </span></span>
                                         </td>
                                     </tr>
-                                    <tr v-for="c in editing.general?.contacts" style="cursor: pointer;">
-                                        <td v-if="c.value" style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
-                                            <span v-if="c.key" style="color: rgb(31, 31, 31); font-weight: 600;">
-                                                {{ c.key }}&nbsp;
-                                            </span>
-                                            <span
-                                                style="color: rgb(31, 31, 31); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">
-                                                {{ c.value }}
-                                            </span>
-                                        </td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :design="editing.design" :layout="'column'" />
                                     <tr>
                                         <td style="margin: 0.1px; padding: 8px 0px 0px;" :style="textStyle">
-                                            <table cellpadding="0" style="border-collapse: collapse;">
-                                                <tr>
-                                                    <td v-for="icon in editing.socialIcons"
-                                                        style="margin: 0.1px; padding: 0px 4px 0px 0px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                                        <component :is="socialIconsMap[icon.name]" :url="icon.url"
-                                                            :shape="editing.design.iconsShape"
-                                                            :size="editing.design.iconsSize"
-                                                            :color="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsColor"
-                                                            :background="editing.design.iconsType === 'branded' ? undefined : editing.design.iconsBackground" />
-
-                                                    </td>
-                                                </tr>
-                                            </table>
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>
@@ -102,7 +69,7 @@
                     </td>
                 </tr>
             </table>
-            <table v-if="editing.Image?.bannerImg" width="500" cellspacing="0" cellpadding="0" border="0">
+            <!-- <table v-if="editing.Image?.bannerImg" width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
                         <a :href="editing.Image?.bannerLink" target="_blank">
@@ -111,7 +78,8 @@
                         </a>
                     </td>
                 </tr>
-            </table>
+            </table> -->
+            <Banner :data="editing.Image"></Banner>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

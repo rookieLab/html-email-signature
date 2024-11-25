@@ -58,7 +58,7 @@
                             </span>
                         </label>
                         <div class="o-content-block__media">
-                            <ColorPicker v-model="editing.design.TextColor"></ColorPicker>
+                            <ColorPicker v-model="editing.design.color"></ColorPicker>
                             <!-- <div class="m-color-picker">
                                 <el-color-picker v-model="editing.design.TextColor" id="text-color-picker" />
                             </div> -->

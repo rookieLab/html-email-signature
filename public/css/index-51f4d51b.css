@@ -54855,7 +54855,7 @@ html[dir=rtl] .u-bg-main-header:before {
 }
 
 .u-us-none {
-    user-select: none!important
+    /* user-select: none!important */
 }
 
 @media (min-width: 360px) {

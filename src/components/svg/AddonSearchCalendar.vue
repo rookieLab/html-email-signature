@@ -11,6 +11,12 @@
 <script>
 export default {
     name: 'addon-search-calendar',
+    props: {
+        size: {
+            type: Number,
+            default: 22.1
+        }
+    }
 };
 </script>
 

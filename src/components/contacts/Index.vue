@@ -1,12 +1,11 @@
 <template>
-    <div>
-        <ContactEmail v-if="title === 'Email'" :name="name" :value="value" />
-        <ContactPhone v-if="title === 'Cellphone'" :name="name" :value="value" />
-        <ContactSkype v-if="title === 'Skype'" :name="name" :value="value" />
-        <ContactWebsite v-if="title === 'Website'" :name="name" :value="value" />
-        <ContactCellPhone v-if="title === 'Phone'" :name="name" :value="value" />
-        <ContactAddress v-if="title === 'Address'" :name="name" :value="value" />
-    </div>
+
+    <ContactEmail v-if="title === 'Email'" :name="name" :value="value" :nameStyle="nameStyle" />
+    <ContactPhone v-if="title === 'Cellphone'" :name="name" :value="value" :nameStyle="nameStyle" />
+    <ContactSkype v-if="title === 'Skype'" :name="name" :value="value" :nameStyle="nameStyle" />
+    <ContactWebsite v-if="title === 'Website'" :name="name" :value="value" :nameStyle="nameStyle" />
+    <ContactCellPhone v-if="title === 'Phone'" :name="name" :value="value" :nameStyle="nameStyle" />
+    <ContactAddress v-if="title === 'Address'" :name="name" :value="value" :nameStyle="nameStyle" />
 </template>
 
 <script name="ContactIndex" setup>
@@ -30,6 +29,10 @@ const props = defineProps({
     value: {
         type: String,
         default: ''
+    },
+    nameStyle: {
+        type: Object,
+        default: () => ({})
     }
 })
 
