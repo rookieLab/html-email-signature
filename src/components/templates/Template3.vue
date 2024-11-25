@@ -51,25 +51,7 @@
             </tr>
         </table>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td v-for="provider in editing.Addons?.marketplace?.providers.filter(p => p.link !== '')"
-                        style="padding: 16px 4px 4px 0px; margin: 0.1px;">
-                        <a :href="provider.link" target="_blank"><img :src="provider.img" height="45" width="158"
-                                :alt="provider.name" style="display: block;"></a>
-                    </td>
-                </tr>
-            </table>
-            <!-- <table border="0" cellpadding="0" cellspacing="0" width="500">
-                <tr>
-                    <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;">
-                        <a :href="editing.Image?.bannerLink" target="_blank">
-                            <img :src="editing.Image?.bannerImg" valign="top" :width="editing.Image?.bannerWidth"
-                                alt="created with MySignature.io" style="display: block;">
-                        </a>
-                    </td>
-                </tr>
-            </table> -->
+            <Marketplace :data="editing.Addons?.marketplace" />
             <Banner :data="editing.Image"></Banner>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>

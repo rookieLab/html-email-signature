@@ -3,16 +3,19 @@ import { useStore } from '@/stores/store'
 import { useEditingStore, useTemplatesStore } from '@/stores'
 // import * as iconComponents from '@/components/svg-icon-a'
 import jsonData from '@/stores/data.json'
-import IconsMeet from '@/components/svg-meeting/Index'
 import ContactIndex from '@/components/contacts/Index.vue'
 import Calender from '@/components/svg/Calender.vue'
 import Layout1Contact from '@/components/contacts/Layout1Contact.vue'
 import Banner from '@/components/Banner.vue'
-import SocialShare from '@/components/SocialShare.vue'
+
 import Contact from '@/components/Contact.vue'
 import Avatar from '@/components/Avatar.vue'
 import SignOff from '@/components/SignOff.vue'
-
+import SocialShare from '@/components/SocialShare.vue'
+import SocialShareLarge from '@/components/SocialShareLarge.vue'
+import Marketplace from '@/components/Marketplace.vue'
+import Disclaimer from '@/components/Disclaimer.vue'
+import Conference from '@/components/Conference.vue'
 
 export const myMixin = {
   data() {
@@ -22,7 +25,8 @@ export const myMixin = {
     }
   },
   components: {
-    IconsMeet, ContactIndex, Calender, Layout1Contact, Banner, SocialShare, Contact, Avatar, SignOff
+    ContactIndex, Calender, Layout1Contact, Banner, SocialShare, Contact,
+    Avatar, SignOff, SocialShareLarge, Marketplace, Disclaimer, Conference
   },
   props: {
     type: {
@@ -81,6 +85,10 @@ export const myMixin = {
         color: this.editing.design?.templateColor
       }
     },
+    fontFamily() {
+      let fontName = this.editing?.design?.font || "Arial"
+      return jsonData.fontList[fontName]
+    },
     textStyle() { // 文本样式 baseStyle
       let fontName = this.editing?.design?.font || "Arial"
       let data = {
@@ -90,21 +98,6 @@ export const myMixin = {
       }
       // console.log('mixin textStyle', fontName, data)
       return data
-    },
-    meetStyle() {
-      let fontName = this.editing?.Addons?.video?.font || "Arial"
-      let shapemap = {
-        square: '0px',
-        rounded: '5px',
-        circle: '30px'
-      }
-      return {
-        color: this.editing.Addons?.video?.color,
-        fontFamily: jsonData.fontList[fontName],
-        marginTop: this.editing.Addons?.video?.top + 'px',
-        backgroundColor: this.editing.Addons?.video?.bgcolor,
-        borderRadius: shapemap[this.editing.Addons?.video?.shape]
-      }
     }
   },
   mounted() {

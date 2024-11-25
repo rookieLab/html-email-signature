@@ -55,17 +55,7 @@
             </tr>
         </table>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/appstore_shape1_white.png" height="38"
-                                width="133" alt="appstore" style="display: block;"></span></td>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/googleplay_shape1_white.png" height="38"
-                                width="133" alt="googleplay" style="display: block;"></span></td>
-                    <td style="padding: 17px 4px 4px 0px; margin: 0.1px;"></td>
-                </tr>
-            </table>
+            <Marketplace :data="editing.Addons?.marketplace" />
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

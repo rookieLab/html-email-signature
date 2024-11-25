@@ -85,6 +85,14 @@ watch(type, (newVal) => {
 
 })
 
+const initByEditing = () => {
+        type.value = editing.Addons.marketplace.type
+        editing.Addons.marketplace.providers.forEach(provider => {
+                provider.img = `/assets/addons/${provider.name}_shape1_${type.value}.png`
+        })
+}
+initByEditing()
+
 
 </script>
 <style scoped>

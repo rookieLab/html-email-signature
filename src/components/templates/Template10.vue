@@ -45,20 +45,7 @@
             </table>
         </div>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/facebook_v1_shape2_b.png" height="34"
-                                width="119" alt="facebook" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/twitter_v1_shape2_b.png" height="34"
-                                width="119" alt="twitter" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/linkedin_v1_shape2_b.png" height="34"
-                                width="119" alt="linkedin" style="display: block;"></span></td>
-                    <td style="padding: 16px 4px 4px 0px; margin: 0.1px;"></td>
-                </tr>
-            </table>
+            <SocialShareLarge :data="editing.Addons?.social"  />
             <Calender :calender="editing.Addons?.calender" :design="editing.design" />
 
             <table width="500" cellspacing="0" cellpadding="0" border="0">

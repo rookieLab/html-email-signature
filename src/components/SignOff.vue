@@ -18,8 +18,8 @@ const props = defineProps({
         default: 'column' // table or tr
     },
     data: {
-        type: Array,
-        default: []
+        type: Object,
+        default: {}
     },
     design: {
         type: Object,

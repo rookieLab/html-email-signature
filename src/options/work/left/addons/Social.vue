@@ -1,6 +1,7 @@
 <template>
 
         <div class="o-editor-accordion__description e--addon u-of-hidden" style="">
+                <!-- editing.Addons.social.type{{ editing.Addons.social.badgeType }} -->
                 <div class="l-dp-flex e--gap-x3 u-mr-b4">
                         <div class="l-dp-flex__item u-wd-auto">
                                 <input id="brand" class="a-radio" type="radio" value="brand" v-model="type">
@@ -16,21 +17,19 @@
                         </div>
                 </div>
                 <div>
-                        <div v-for="badge in type === 'brand' ? badgesBrand : badgesInvert"
-                                class="o-content-block__row e--social u-mr-b3" data-draggable="true">
-                                <label class="m-social-addon" :for="badge.imgName">
+                        <div v-for="badge in badges" class="o-content-block__row e--social u-mr-b3"
+                                data-draggable="true">
+                                <label class="m-social-addon" :for="badge.name">
                                         <i class="o-content-block__icon-drag e--left-0 icon_service-drag e--empty"></i>
-
                                         <el-popover placement="right" :width="200" trigger="hover">
                                                 <template #reference>
-                                                        <img class="m-social-addon__img"
-                                                                :src="editing.Addons.social[badge.imgName]"
-                                                                alt="Facebook">
+                                                        <img class="m-social-addon__img" :src="badge.img"
+                                                                :alt="badge.name">
                                                 </template>
                                                 <div class="">
-                                                        <img v-for="image in badge.images" :src="image"
-                                                                class="m-social-addon__group-item"
-                                                                @click="editing.Addons.social[badge.imgName] = image">
+                                                        <img v-for="image in type === 'brand' ? badge.brand : badge.invert"
+                                                                :src="image" class="m-social-addon__group-item"
+                                                                @click="handleBadgeImgChange(badge, image)">
                                                 </div>
                                         </el-popover>
                                 </label>
@@ -39,8 +38,8 @@
                                                 <label class="a-input__label u-ws-nowrap u-bg-snow"
                                                         for="1226">Link</label>
                                                 <input id="1226" class="a-input__item u-pd-r3" maxlength="255"
-                                                        placeholder="Link" type="text"
-                                                        v-model="editing.Addons.social[badge.linkName]">
+                                                        placeholder="Link" type="text" v-model="badge.link"
+                                                        @blur="handleBadgeLinkBlur">
 
                                         </div>
                                 </span>
@@ -50,7 +49,7 @@
                         <div class="u-display-flex">
                                 <label class="o-content-block__label u-wd-12 u-mr-r1f5 e--flex">Shape</label>
                                 <span class="m-shapes l-dp-flex e--va-center e--gap-none u-wd-60p u-pd-t0f5">
-                                        <ShapeSelect v-model="shape" />
+                                        <ShapeSelect v-model="editing.Addons.social.badgeShape" />
                                 </span>
                         </div>
                 </div>
@@ -87,225 +86,209 @@ import ShapeSelect from '@/components/ShapeSelect.vue'
 const editing = useEditingStore()
 
 
-
-//  改变shape
-const shape = ref('square')
-watch([shape, shape], () => {
-
-})
-
-
-
 // badges
-const badgesBrand = [
+const badges = ref([
         {
-                imgName: 'facebookBadge',
-                linkName: 'facebookLink',
-                images: [
+                name: 'facebook',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png',
+                brand: [
                         'https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png',
                         'https://img.mysignature.io/addons/v2/facebook_v2_shape1_b.png',
                         'https://img.mysignature.io/addons/v2/facebook_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'instagramBadge',
-                linkName: 'instagramLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/instagram_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/instagram_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/instagram_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'twitterBadge',
-                linkName: 'twitterLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/twitter_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/twitter_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/twitter_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'linkedinBadge',
-                linkName: 'linkedinLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/linkedin_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/linkedin_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/linkedin_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'youtubeBadge',
-                linkName: 'youtubeLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/youtube_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/youtube_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/youtube_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'pinterestBadge',
-                linkName: 'pinterestLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/pinterest_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/pinterest_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/pinterest_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'dribbbleBadge',
-                linkName: 'dribbbleLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/dribbble_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/dribbble_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/dribbble_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'behanceBadge',
-                linkName: 'behanceLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/behance_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/behance_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/behance_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'patreonBadge',
-                linkName: 'patreonLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/patreon_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/patreon_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/patreon_v3_shape1_b.png',
-                ]
-        },
-        {
-                imgName: 'vimeoBadge',
-                linkName: 'vimeoLink',
-                images: [
-                        'https://img.mysignature.io/addons/v2/vimeo_v1_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/vimeo_v2_shape1_b.png',
-                        'https://img.mysignature.io/addons/v2/vimeo_v3_shape1_b.png',
-                ]
-        }
-
-]
-
-
-const badgesInvert = [
-        {
-                imgName: 'facebookBadge',
-                linkName: 'facebookLink',
-                images: [
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/facebook_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/facebook_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/facebook_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'instagramBadge',
-                linkName: 'instagramLink',
-                images: [
+                name: 'instagram',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/instagram_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/instagram_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/instagram_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/instagram_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/instagram_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/instagram_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/instagram_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'twitterBadge',
-                linkName: 'twitterLink',
-                images: [
+                name: 'twitter',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/twitter_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/twitter_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/twitter_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/twitter_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/twitter_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/twitter_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/twitter_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'linkedinBadge',
-                linkName: 'linkedinLink',
-                images: [
+                imgName: 'linkedin',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/linkedin_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/linkedin_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/linkedin_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/linkedin_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/linkedin_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/linkedin_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/linkedin_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'youtubeBadge',
-                linkName: 'youtubeLink',
-                images: [
+                imgName: 'youtube',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/youtube_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/youtube_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/youtube_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/youtube_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/youtube_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/youtube_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/youtube_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'pinterestBadge',
-                linkName: 'pinterestLink',
-                images: [
+                imgName: 'pinterest',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/pinterest_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/pinterest_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/pinterest_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/pinterest_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/pinterest_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/pinterest_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/pinterest_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'dribbbleBadge',
-                linkName: 'dribbbleLink',
-                images: [
+                imgName: 'dribbble',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/dribbble_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/dribbble_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/dribbble_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/dribbble_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/dribbble_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/dribbble_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/dribbble_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'behanceBadge',
-                linkName: 'behanceLink',
-                images: [
+                imgName: 'behance',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/behance_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/behance_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/behance_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/behance_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/behance_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/behance_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/behance_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'patreonBadge',
-                linkName: 'patreonLink',
-                images: [
+                imgName: 'patreon',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/patreon_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/patreon_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/patreon_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/patreon_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/patreon_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/patreon_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/patreon_v3_shape1_i.png',
                 ]
         },
         {
-                imgName: 'vimeoBadge',
-                linkName: 'vimeoLink',
-                images: [
+                imgName: 'vimeo',
+                link: '',
+                img: 'https://img.mysignature.io/addons/v2/vimeo_v1_shape1_b.png',
+                brand: [
+                        'https://img.mysignature.io/addons/v2/vimeo_v1_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/vimeo_v2_shape1_b.png',
+                        'https://img.mysignature.io/addons/v2/vimeo_v3_shape1_b.png',
+                ],
+                invert: [
                         'https://img.mysignature.io/addons/v2/vimeo_v1_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/vimeo_v2_shape1_i.png',
                         'https://img.mysignature.io/addons/v2/vimeo_v3_shape1_i.png',
                 ]
         }
 
-]
+])
+
+const updateEditing = () => {
+        let data = badges.value.filter(item => item.link).map(item => {
+                return { name: item.name, link: item.link, img: item.img }
+        })
+        editing.Addons.social.data = data
+}
+const handleBadgeImgChange = (badge, image) => {
+        badge.img = image
+}
+
+const handleBadgeLinkBlur = () => {
+        updateEditing()
+}
+
 
 
 //  改变Type
 const type = ref('brand') // brand | invert
 watch(type, (newType) => {
-        initBadges(newType)
+        // console.log(newType)
+        editing.Addons.social.badgeType = newType
+        updateType(newType)
+        updateEditing()
 })
+const updateType = (newType) => {
+        for (let i = 0; i < badges.value.length; i++) {
+                badges.value[i].img = newType === 'brand' ? badges.value[i].brand[0] : badges.value[i].invert[0]
+        }
 
-const initBadges = (newType) => {
-        editing.Addons.social.facebookBadge = newType === 'brand' ? badgesBrand[0].images[0] : badgesInvert[0].images[0]
-        editing.Addons.social.instagramBadge = newType === 'brand' ? badgesBrand[1].images[0] : badgesInvert[1].images[0]
-        editing.Addons.social.twitterBadge = newType === 'brand' ? badgesBrand[2].images[0] : badgesInvert[2].images[0]
-        editing.Addons.social.linkedinBadge = newType === 'brand' ? badgesBrand[3].images[0] : badgesInvert[3].images[0]
-        editing.Addons.social.youtubeBadge = newType === 'brand' ? badgesBrand[4].images[0] : badgesInvert[4].images[0]
-        editing.Addons.social.pinterestBadge = newType === 'brand' ? badgesBrand[5].images[0] : badgesInvert[5].images[0]
-        editing.Addons.social.dribbbleBadge = newType === 'brand' ? badgesBrand[6].images[0] : badgesInvert[6].images[0]
-        editing.Addons.social.behanceBadge = newType === 'brand' ? badgesBrand[7].images[0] : badgesInvert[7].images[0]
-        editing.Addons.social.patreonBadge = newType === 'brand' ? badgesBrand[8].images[0] : badgesInvert[8].images[0]
-        editing.Addons.social.vimeoBadge = newType === 'brand' ? badgesBrand[9].images[0] : badgesInvert[9].images[0]
 }
 
+
+
+const initByEditing = () => {
+        type.value = editing.Addons.social.badgeType
+        updateType(editing.Addons.social.badgeType)
+
+        let m = {}
+        editing.Addons.social.data.map(item => m[item.name] = item)
+        for (let i = 0; i < badges.value.length; i++) {
+                let name = badges.value[i].name
+                // console.log('name', name, m[name]?.link)
+                m[name]?.img && (badges.value[i].img = m[name]?.img)
+                m[name]?.link && (badges.value[i].link = m[name]?.link)
+        }
+        updateEditing()
+}
+initByEditing()
 
 </script>
 <style scoped>

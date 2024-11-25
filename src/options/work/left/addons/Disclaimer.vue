@@ -10,48 +10,6 @@
                                                 <el-option v-for="item in options" :key="item.value" :label="item.label"
                                                         :value="item.value" />
                                         </el-select>
-
-                                        <!-- <div class="m-select__active e--round"
-                                                @click="$event.currentTarget.nextElementSibling.classList.toggle('u-hide')">
-                                                <a class="m-select__text" href="#" use-font-to-item="true">{{ selectType
-                                                        }}</a>
-
-                                        </div>
-                                        <div class="m-select__list u-hide" id="m-select__list_type">
-                                                <div class="e--select m-select__item"
-                                                        @click="handleSelectType($event, 'Confidentiality')">
-                                                        <div class="m-select__text" href="#" use-font-to-item="true">
-                                                                Confidentiality</div>
-                                                </div>
-                                                <div class="m-select__item"
-                                                        @click="handleSelectType($event, 'Data protection')">
-                                                        <a class="m-select__text" href="#" use-font-to-item="true">
-                                                                Data protection
-                                                        </a>
-                                                </div>
-                                                <div class="m-select__item"
-                                                        @click="handleSelectType($event, 'Ecommerce')">
-                                                        <a class="m-select__text" href="#"
-                                                                use-font-to-item="true">Ecommerce</a>
-                                                </div>
-                                                <div class="m-select__item" @click="handleSelectType($event, 'GDPR')">
-                                                        <a class="m-select__text" href="#"
-                                                                use-font-to-item="true">GDPR</a>
-                                                </div>
-                                                <div class="m-select__item"
-                                                        @click="handleSelectType($event, 'UK Companies Act')">
-                                                        <a class="m-select__text" href="#" use-font-to-item="true">UK
-                                                                Companies Act</a>
-                                                </div>
-                                                <div class="m-select__item" @click="handleSelectType($event, 'HIPAA')">
-                                                        <a class="m-select__text" href="#"
-                                                                use-font-to-item="true">HIPAA</a>
-                                                </div>
-                                                <div class="m-select__item" @click="handleSelectType($event, 'Custom')">
-                                                        <a class="m-select__text" href="#"
-                                                                use-font-to-item="true">Custom</a>
-                                                </div>
-                                        </div> -->
                                 </div>
                         </div>
                 </div>
@@ -63,34 +21,29 @@
                         </label>
 
                         <div class="o-content-block__media">
-                                <el-slider v-model="value2" />
+                                <el-slider v-model="editing.Addons.Disclaimer.fontSize" />
                         </div>
 
                 </div>
                 <div class="o-content-block__row u-mr-b1 u-display-inline-block u-display-flex@sm">
                         <label class="o-content-block__label u-wd-12 u-mr-t0 u-mr-b2 u-mr-r1f5 u-mr-b0@sm">Width</label>
                         <div class="o-content-block__media">
-                                <el-slider v-model="value2" />
+                                <el-slider v-model="editing.Addons.Disclaimer.width" />
                         </div>
                 </div>
                 <div class="o-content-block__row e--social u-mr-t2 u-mr-b3 u-mr-t1f5@xl u-mr-b4@xl">
                         <label class="o-content-block__label u-wd-12 u-mr-r1f5 u-mr-va0">Auto width</label>
                         <div class="o-content-block__media">
                                 <div class="a-switch e--jc-start">
-                                        <input id="disclaimerWithAuto" class="a-switch__icon" type="checkbox">
+                                        <input id="disclaimerWithAuto" class="a-switch__icon" type="checkbox"
+                                                v-model="editing.Addons.Disclaimer.autoWidth" />
                                 </div>
                         </div>
                 </div>
                 <div class="o-content-block__row e--social u-mr-t2 u-mr-b1f5@xl">
                         <label class="o-content-block__label u-wd-12 u-mr-r1f5">Font color</label>
                         <div class="o-content-block__media">
-                                <div class="m-color-picker">
-                                        <div class="">
-                                                <a href="#" class="m-color-picker__current-color"
-                                                        style="background-color: rgb(186, 198, 217);"></a>
-                                        </div>
-
-                                </div>
+                                <el-color-picker v-model="editing.Addons.Disclaimer.color" id="el-color-picker" />
                         </div>
                 </div>
         </div>
@@ -106,7 +59,7 @@ import { useEditingStore } from '@/stores'
 import FontSelect from '@/components/FontSelect.vue'
 
 const editing = useEditingStore()
-
+// const Disclaimer = editing.Addons?.Disclaimer
 const options = [
         {
                 value: 'Confidentiality',
@@ -153,6 +106,7 @@ let selectTextMap = {
 }
 watch(selectType, (newVal) => {
         selectText.value = selectTextMap[newVal]
+        editing.Addons.Disclaimer.type = selectType.value
 })
 
 

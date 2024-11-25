@@ -1,9 +1,9 @@
 <template>
     <table cellpadding="0" style="border-collapse: collapse;">
         <tr>
-            <td v-for="item in data.data" :style="_styles">
+            <td v-for="item in providers" :style="_styles">
                 <a :href="item.link" target="_blank">
-                    <img :src="item.img" :height="data.badgeSize" :width="data.badgeSize * 3.3" :alt="item.name"
+                    <img :src="item.img" :height="data.size" :width="data.size * 3.5" :alt="item.name"
                         style="display: block;">
                 </a>
             </td>
@@ -34,17 +34,17 @@ const props = defineProps({
     }
 })
 
-const defaultStyle = { margin: '0.1px', padding: '16px 4px 4px 0px', color: 'rgb(0, 0, 1)', cursor: 'pointer' }
+const defaultStyle = { margin: '0.1px', padding: '17px 4px 4px 0px', color: 'rgb(0, 0, 1)', cursor: 'pointer' }
 const _styles = computed(() => {
     return { ...defaultStyle, ...props.styles }
 })
 
-const socialIconsMap = ref({})
-Object.values(iconComponents).map(component => (
-    socialIconsMap.value[component.name] = shallowRef(component)
-))
+const providers = computed(() => {
+    console.log("data?.providers", props.data?.providers)
+    return props.data?.providers?.filter(item => item.link)
+})
 
-console.log('socialIconsMap', socialIconsMap, props.data)
+
 </script>
 
 <style scoped></style>

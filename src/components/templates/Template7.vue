@@ -56,7 +56,7 @@
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />
-                                            
+
                                         </td>
                                     </tr>
                                 </table>
@@ -67,16 +67,7 @@
             </tr>
         </table>
         <div>
-            <table width="436" cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td
-                        style="margin: 0.1px; padding: 15px 0px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                        IMPORTANT: The contents of this email and any attachments are confidential. It is strictly
-                        forbidden to share any part of this message with any third party, without a written consent of
-                        the sender. If you received this message by mistake, please reply to this message and follow
-                        with its deletion, so that we can ensure such a mistake does not occur in the future.</td>
-                </tr>
-            </table>
+            <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
