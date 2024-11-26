@@ -17,7 +17,7 @@
                                             <i class="o-editor-accordion__img icon_addon-sign-off"></i>
                                             <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Sign off
                                             </p>
-
+                                            <el-switch v-model="editing.Addons.signOff.enable" />
                                         </div>
                                     </div>
                                     <SignOff v-if="state.show === 'sign'"></SignOff>
@@ -31,11 +31,8 @@
                                         <i class="o-editor-accordion__img icon_addon-disclaimer"></i>
                                         <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">
                                             Disclaimer
-                                        </p><span class="a-pro-icon">
-                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature">
-                                                <i class="icon_service-pro"></i>
-                                            </div>
-                                        </span>
+                                        </p>
+                                        <el-switch v-model="editing.Addons.Disclaimer.enable" />
                                     </div>
                                 </div>
                                 <Disclaimer v-if="state.show === 'disclaimer'"></Disclaimer>
@@ -49,7 +46,7 @@
                                         <i class="o-editor-accordion__img icon_addon-green-message"></i>
                                         <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Green message
                                         </p>
-
+                                        <el-switch v-model="editing.Addons.green.enable" />
                                     </div>
                                 </div>
                                 <GreenMessage v-if="state.show === 'green-message'"></GreenMessage>
@@ -62,11 +59,10 @@
                                 <div class="title o-editor-accordion__head u-br-t2" @click="state.show = 'videos'">
                                     <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5"><i
                                             class="o-editor-accordion__img icon_addon-video"></i>
-                                        <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Video
-                                            conference</p><span class="a-pro-icon">
-                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature"><i
-                                                    class="icon_service-pro"></i></div>
-                                        </span>
+                                        <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">
+                                            Video conference
+                                        </p>
+                                        <el-switch v-model="editing.Addons.video.enable" />
                                     </div>
                                 </div>
                                 <VideoConference v-if="state.show === 'videos'"></VideoConference>
@@ -80,10 +76,8 @@
                                     <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5">
                                         <i class="o-editor-accordion__img icon_addon-marketplace"></i>
                                         <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">
-                                            Marketplace &amp; Retail </p><span class="a-pro-icon">
-                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature"><i
-                                                    class="icon_service-pro"></i></div>
-                                        </span>
+                                            Marketplace &amp; Retail </p>
+                                        <el-switch v-model="editing.Addons.marketplace.enable" />
                                     </div>
                                 </div>
                                 <Marketplace v-if="state.show === 'marketplace'"></Marketplace>
@@ -95,11 +89,7 @@
                                     <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5">
                                         <i class="o-editor-accordion__img icon_addon-social"></i>
                                         <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">Social</p>
-                                        <span class="a-pro-icon">
-                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature">
-                                                <i class="icon_service-pro"></i>
-                                            </div>
-                                        </span>
+                                        <el-switch v-model="editing.Addons.social.enable" />
                                     </div>
                                 </div>
                                 <Social v-if="state.show === 'social'"></Social>
@@ -111,13 +101,12 @@
                             <div class="o-editor-accordion__item u-br-20 u-bs-1 u-mr-b0">
                                 <div class="sort"></div>
                                 <div class="title o-editor-accordion__head u-br-t2" @click="state.show = 'calendar'">
-                                    <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5"><i
-                                            class="o-editor-accordion__img icon_addon-event"></i>
-                                        <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53"> Event &amp;
-                                            Calendar </p><span class="a-pro-icon">
-                                            <div class="a-tooltip u-fw-300" position="top" tooltip="PRO feature"><i
-                                                    class="icon_service-pro"></i></div>
-                                        </span>
+                                    <div class="o-editor-accordion__title-wrap e--addon u-pd-va1 u-pd-l2 u-pd-r1f5">
+                                        <i class="o-editor-accordion__img icon_addon-event"></i>
+                                        <p class="o-editor-accordion__title e--cnt-none u-fz-13 u-lh-1f53">
+                                            Event &amp; Calendar
+                                        </p>
+                                        <el-switch v-model="editing.Addons.calender.enable" />
                                     </div>
                                 </div>
                                 <Calendar v-if="state.show === 'calendar'"></Calendar>
@@ -141,7 +130,9 @@ import Marketplace from "./Marketplace.vue"
 import Social from "./Social.vue"
 import Calendar from "./Calendar.vue"
 import VideoConference from "./VideoConference.vue"
+import { useEditingStore } from '@/stores'
 
+const editing = useEditingStore()
 const state = reactive({
     show: "sign"
 })

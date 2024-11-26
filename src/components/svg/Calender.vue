@@ -118,7 +118,7 @@ const fontSize = computed(() => {
 // 24 * 0.7 = 16.8
 // 15.6 - 16.8 = -1.2
 const iconSize = computed(() => {
-    return -1.2 + props.calender?.size * 0.7 + 'px'
+    return -1.2 + props.calender?.size * 0.7
 })
 </script>
 

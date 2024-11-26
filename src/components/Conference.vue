@@ -28,8 +28,8 @@ const props = defineProps({
         default: 'table' // table or tr
     },
     data: {
-        type: Array,
-        default: []
+        type: Object,
+        default: {}
     },
     design: {
         type: Object,

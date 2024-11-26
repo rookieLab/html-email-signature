@@ -45,7 +45,7 @@ Object.values(iconComponents).map(component => (
     socialIconsMap.value[component.name] = shallowRef(component)
 ))
 
-console.log('socialIconsMap', socialIconsMap, props.data)
+// console.log('socialIconsMap', socialIconsMap, props.data)
 </script>
 
 <style scoped></style>
