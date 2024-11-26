@@ -100,7 +100,7 @@
             </table>
         </div>
         <div v-if="editing.Image?.bannerImg">
-            <Banner :data="editing.Image"></Banner>
+            <Banner :data="editing?.Image"></Banner>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

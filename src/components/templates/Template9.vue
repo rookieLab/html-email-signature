@@ -60,7 +60,7 @@
                     </td>
                 </tr>
             </table>
-            <Banner :data="editing.Image"></Banner>
+            <Banner :data="editing?.Image"></Banner>
         </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>

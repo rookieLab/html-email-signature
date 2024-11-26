@@ -1,5 +1,5 @@
 <template>
-    <td :style="_styles" valign="top">
+    <td :style="_styles" :valign="valign" :align="align">
         <a :href="data.avatarLink" target="_blank">
             <img alt="SignMaker" :src="data.avatarImg" style="display: block;" :style="{ minWidth: data.avatarWidth }"
                 :width="data.avatarWidth" /></a>
@@ -21,6 +21,14 @@ const props = defineProps({
     styles: {
         type: Object,
         default: {}
+    },
+    align: {
+        type: String,
+        default: 'top' // top or center
+    },
+    valign: {
+        type: String,
+        default: 'top' // top or middle
     }
 })
 

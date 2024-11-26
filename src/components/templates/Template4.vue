@@ -55,7 +55,7 @@
                     </table>
                 </td>
             </tr>
-            <Banner :data="editing.Image" type="tr"
+            <Banner :data="editing?.Image" type="tr"
                 :tdStyle="{ margin: '0.1px', padding: '15px 20px 20px', color: 'rgb(0, 0, 1)', cursor: 'pointer' }">
             </Banner>
         </table>

@@ -2,7 +2,7 @@
     <template v-if="type === 'table'">
         <table v-if="data.bannerImg" width="500" cellspacing="0" cellpadding="0" border="0">
             <tr>
-                <td :style="styles">
+                <td :style="_styles">
                     <a :href="data.bannerLink" target="_blank">
                         <img :src="data.bannerImg" valign="top" :width="data.bannerWidth"
                             alt="created with signmaker.io" style="display: block;">
@@ -13,7 +13,7 @@
     </template>
     <template v-else>
         <tr v-if="data.bannerImg">
-            <td :style="styles">
+            <td :style="_styles">
                 <a :href="data.bannerLink" target="_blank">
                     <img :src="data.bannerImg" valign="top" :width="data.bannerWidth" alt="created with signmaker.io"
                         style="display: block;">
@@ -35,15 +35,15 @@ const props = defineProps({
         type: Object,
         default: {}
     },
-    tdStyle: {
+    styles: {
         type: Object,
         default: {}
     }
 })
 
 const defaultTdStyle = { margin: '0.1px', paddingTop: '10px', cursor: 'pointer' }
-const styles = computed(() => {
-    return { ...defaultTdStyle, ...props.tdStyle }
+const _styles = computed(() => {
+    return { ...defaultTdStyle, ...props.styles }
 })
 </script>
 

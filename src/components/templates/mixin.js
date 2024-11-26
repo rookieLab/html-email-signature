@@ -43,7 +43,7 @@ export const myMixin = {
     //     this.store.saveTemplate('Template1', this.editing);
     // },
     initEditingStore() {
-      // console.log('initEditingStore', this.$options.name, this.type)
+      console.log('initEditingStore', this.$options.name, this.type)
       if (this.type === 'preview') {
         let data = this.store.loadTemplateByName(this.$options.name);
         if (!data) {

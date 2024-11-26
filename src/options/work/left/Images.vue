@@ -7,7 +7,7 @@
                     <h2 class="u-fz-13 u-fw-600 u-lh-1f53 u-cl-black-dark">Image</h2>
                 </div>
                 <div class="u-pd-va4 u-pd-ha2 u-display-flex@xl u-pd-t4f5@xl u-pd-b5@xl u-pd-ha3@xl">
-                    <div v-if="editing.Image.avatarImg" class="m-media-preview">
+                    <div v-if="editing.Image?.avatarImg" class="m-media-preview">
                         <img alt="Logo image" :src="editing.Image.avatarImg" class="m-media-preview__image">
                         <el-icon class="m-media-preview__close icon absolute" @click="editing.Image.avatarImg = ''">
                             <Close />

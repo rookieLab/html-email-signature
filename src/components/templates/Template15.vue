@@ -1,12 +1,6 @@
 <template>
     <div>
-        <table cellpadding="0" style="border-collapse: collapse;">
-            <tr>
-                <td style="margin: 0.1px; padding: 10px 0px; cursor: pointer;"><img width="500"
-                        src="https://img.mysignature.io/a/v1/1/f/f/1ff1daa5-466f-5685-a4ba-14499682b2c6.png"
-                        alt="Happy Holidays!"></td>
-            </tr>
-        </table>
+        <SignOff :data="editing.Addons?.signOff" />
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 13.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
@@ -15,13 +9,14 @@
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px 20px 0px 0px; border-right: 2px solid rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
-                                    <tr>
+                                    <Avatar :align="center" :data="editing.Image" :styles="{ padding: '0px 0px 10px' }" />
+                                    <!-- <tr>
                                         <td align="center"
                                             style="margin: 0.1px; padding: 0px 0px 10px; cursor: pointer;"><img
                                                 src="https://img.mysignature.io/p/b/9/6/b965d2dd-7d06-5ac0-978f-850927afddc8.png?time=1709120995"
                                                 width="155" alt=" &quot;created with MySignature.io&quot;"
                                                 style="display: block; min-width: 155px; margin: 0px auto;"></td>
-                                    </tr>
+                                    </tr> -->
                                 </table>
                             </td>
                             <td valign="middle" style="margin: 0.1px; padding: 0px 0px 0px 20px;">
@@ -123,83 +118,66 @@
                 </tr>
             </table>
         </div>
+        <div v-if="editing.Addons?.Disclaimer.enable">
+            <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.social.enable">
+            <SocialShareLarge :data="editing.Addons?.social" />
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.video.enable">
+            <Conference :data="editing.Addons?.video"></Conference>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.calender?.enable">
+            <Calender :calender="editing.Addons?.calender" :design="editing.design" />
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.marketplace.enable">
+            <Marketplace :data="editing.Addons?.marketplace" />
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">  </td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing?.Image?.bannerImg">
+            <Banner :data="editing?.Image"></Banner>
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </template>
 <script>
-import { shallowRef, ref, computed } from 'vue'
-import { useStore } from '@/stores/store'
-import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
-import jsonData from '@/stores/data.json'
+
+import { myMixin } from './mixin.js'
+// 模版：显示data.json 中的数据
+// 编辑，需要editingStore 来编辑
+// 预览：显示store中的数据
 
 export default {
     name: 'Template15',
-    data() {
-        return {
-            editing: {},
-            socialIconsMap: {}
-        }
-    },
-    props: {
-                type: {
-            type: String,
-            default: 'preview' // editing | preview
-        },
-        data: {
-            type: Object,
-            default: () => (null)
-        }
-    },
-    methods: {
-        // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.data);
-        // },
-         initEditingStore() {
-            if (this.type === 'preview') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = data
-            }
-
-            if (this.type === 'editing') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = useEditingStore()
-                this.editing.init(data);
-            }
-
-        },
-        loadSocialIcons() {
-            Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = shallowRef(component)
-            ))
-        },
-        init() {
-            this.initEditingStore(this.$options.name);
-            this.loadSocialIcons();
-        }
-    },
-    computed: {
-        textStyle() {
-            let fontName = this.editing?.design?.font || "Arial"
-            return {
-                color: this.editing.design?.TextColor,
-                fontFamily: jsonData.fontList[fontName],
-                fontSize: this.editing.design?.fontSize + 'px'
-            }
-        }
-    },
-    mounted() {
-        this.store = useStore();
-        
-        this.templates = useTemplatesStore()
-
-        this.init()
-    }
+    mixins: [myMixin]
 }
 </script>
 <style scoped></style>

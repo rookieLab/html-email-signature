@@ -1,14 +1,13 @@
 <template>
     <div>
+        <SignOff :data="editing.Addons?.signOff" />
         <table cellpadding="0" width="500" style="border-collapse: collapse; font-size: 14.6px;">
             <tr>
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td valign="middle" style="margin: 0.1px; padding: 0px 15px 0px 0px; cursor: pointer;"><img
-                                    src="https://img.mysignature.io/p/9/f/5/9f589c89-8f75-5baa-a893-e2bbe134972d.png?time=1685569257"
-                                    width="125" alt=" &quot;created with MySignature.io&quot;"
-                                    style="display: block; min-width: 125px;"></td>
+                            <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" valign="middle" />
+  
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px; font: 14.6px / 18.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -50,13 +49,15 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 17.5px / 22.2px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">Karen
-                                                Shevans</span></td>
+                                                Shevans</span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.6px / 18.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">Photographer</span><span
-                                                style="cursor: pointer;"></span></td>
+                                                style="cursor: pointer;"></span>
+                                        </td>
                                     </tr>
                                     <tr style="cursor: pointer;">
                                         <td
@@ -80,14 +81,7 @@
                     </table>
                 </td>
             </tr>
-            <tr>
-                <td
-                    style="margin: 0.1px; padding: 15px 0px 0px; font: 14.6px / 18.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                    <span><img
-                            src="https://img.mysignature.io/b/9/f/5/9f589c89-8f75-5baa-a893-e2bbe134972d.png?time=1685569257"
-                            valign="top" width="356" alt="created with MySignature.io" style="display: block;"></span>
-                </td>
-            </tr>
+            <Banner :data="editing?.Image" type="tr" :styles="{ padding: '15px 0px 0px' }" />
         </table>
         <div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
@@ -96,83 +90,55 @@
                 </tr>
             </table>
         </div>
+        <div v-if="editing.Addons?.Disclaimer.enable">
+            <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.social.enable">
+            <SocialShareLarge :data="editing.Addons?.social" />
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.video.enable">
+            <Conference :data="editing.Addons?.video"></Conference>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.calender?.enable">
+            <Calender :calender="editing.Addons?.calender" :design="editing.design" />
+            <table width="500" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div v-if="editing.Addons?.marketplace.enable">
+            <Marketplace :data="editing.Addons?.marketplace" />
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+                <tr>
+                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">  </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </template>
 <script>
-import { shallowRef, ref, computed } from 'vue'
-import { useStore } from '@/stores/store'
-import { useEditingStore, useTemplatesStore } from '@/stores'
-import * as iconComponents from '@/components/svg-icon-a'
-import jsonData from '@/stores/data.json'
+
+import { myMixin } from './mixin.js'
 
 export default {
     name: 'Template44',
-    data() {
-        return {
-            editing: {},
-            socialIconsMap: {}
-        }
-    },
-    props: {
-                type: {
-            type: String,
-            default: 'preview' // editing | preview
-        },
-        data: {
-            type: Object,
-            default: () => (null)
-        }
-    },
-    methods: {
-        // saveTemplate() {
-        //     this.store.saveTemplate('Template1', this.data);
-        // },
-         initEditingStore() {
-            if (this.type === 'preview') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = data
-            }
-
-            if (this.type === 'editing') {
-                let data = this.store.loadTemplateByName(this.$options.name);
-                if (!data) {
-                    data = this.templates.getTemplate(this.$options.name)
-                }
-                this.editing = useEditingStore()
-                this.editing.init(data);
-            }
-
-        },
-        loadSocialIcons() {
-            Object.values(iconComponents).map(component => (
-                this.socialIconsMap[component.name] = shallowRef(component)
-            ))
-        },
-        init() {
-            this.initEditingStore(this.$options.name);
-            this.loadSocialIcons();
-        }
-    },
-    computed: {
-        textStyle() {
-            let fontName = this.editing?.design?.font || "Arial"
-            return {
-                color: this.editing.design?.TextColor,
-                fontFamily: jsonData.fontList[fontName],
-                fontSize: this.editing.design?.fontSize + 'px'
-            }
-        }
-    },
-    mounted() {
-        this.store = useStore();
-        
-        this.templates = useTemplatesStore()
-
-        this.init()
-    }
+    mixins: [myMixin]
 }
 </script>
 <style scoped></style>
