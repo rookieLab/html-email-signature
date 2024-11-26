@@ -20,7 +20,7 @@ chrome.action.onClicked.addListener(() => {
 // });
 
 function saveSavedTemplates(data) {
-  chrome.storage.sync.set({ savedTemplates: data }, () => {
+  chrome.storage.local.set({ savedTemplates: data }, () => {
     console.log('savedTemplates saved')
   })
 }
@@ -39,16 +39,16 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
 
   if (request.action === "saveSavedTemplates") {
     // 处理消息，例如向所有 tab 发送消息
-    console.log("background saveSavedTemplates", request.data)
-    saveSavedTemplates(request.data)
+    // console.log("background saveSavedTemplates", request.data)
+    saveSavedTemplates(JSON.stringify(request.data))
   }
   if (request.action === "getSavedTemplates") {
     // 处理消息，例如向所有 tab 发送消息
-    chrome.storage.sync.get(['savedTemplates'], (result) => {
-      console.log("background getSavedTemplates", request)
+    chrome.storage.local.get(['savedTemplates'], (result) => {
+      // console.log("background getSavedTemplates", result.savedTemplates)
       chrome.tabs.sendMessage(sender.tab.id, {
         action: 'savedTemplatesResponse',
-        data: result.savedTemplates || []
+        data: JSON.parse(result.savedTemplates) || []
       });
     });
   }

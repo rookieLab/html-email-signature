@@ -1,6 +1,6 @@
 <template>
   <transition appear>
-    <div v-show="injectStore.show" id="ap-inject-app" style="display: flex;flex-direction: column; z-index: 9;">
+    <div v-show="inject.show" id="ap-inject-app" style="display: flex;flex-direction: column; z-index: 9;">
       <div class="header">
         <h1>Email Signature - SignMaker</h1>
         <div class="header-close" @click="closeDialog">
@@ -10,8 +10,9 @@
         </div>
       </div>
       <div class="main" style="padding: 0 10px;">
-        <div class="template-container" v-for="c in componentArray" @click="handleSelectTemplate(c.name)">
-          <component :is="c" :data="savedTemplatesMap[c.name]?.data" />
+        <div class="template-container" v-for="c in inject.savedTemplates" style="position: relative;margin-top: 10px;">
+          <component :is="componentNameMap[c.name]" :data="c.data" />
+          <div class="mask" @click="handleSelectTemplate($event)"> </div>
         </div>
         <el-button style="width: 100%;margin-top: 15px;" type="primary" round @click="handleMoreSignature">
           More Signature
@@ -27,40 +28,30 @@ import { useInjectStore } from '@/stores'
 import * as tempComponents from '@/components/templates'
 import { UploadFilled, Close, CloseBold } from '@element-plus/icons-vue'
 
-const injectStore = useInjectStore()
+const inject = useInjectStore()
 
 
 
 // 初始化保持的模版
-const savedTemplates = injectStore.getSavedTemplates()
-const savedTemplatesNames = savedTemplates.map(t => t.name)
-const savedTemplatesMap = {}
-savedTemplates.forEach(t => {
-  savedTemplatesMap[t.name] = t
+const componentNameMap = {}
+Object.entries(tempComponents).forEach(([key, component]) => {
+  componentNameMap[component.name] = component
 })
-const componentArray = Object.values(tempComponents).filter(c => savedTemplatesNames.includes(c.name))
-console.log("savedTemplatesNames", savedTemplatesNames, savedTemplatesMap)
-
-
-
-// const componentArray = Object.values(tempComponents).sort((a, b) => {
-//     const aInSaved = savedTemplatesNames.includes(a.name)
-//     const bInSaved = savedTemplatesNames.includes(b.name)
-//     if (aInSaved && !bInSaved) return -1
-//     if (!aInSaved && bInSaved) return 1
-//     return 0
-// })
-
-
-
 
 
 const closeDialog = () => {
-  injectStore.show = false
+  inject.show = false
 }
 
-const handleSelectTemplate = (templateName) => {
-  console.log('handleSelectTemplate', templateName)
+const escapeHTMLPolicy = trustedTypes.createPolicy("forceInner", {
+  createHTML: (to_escape) => to_escape
+})
+
+const handleSelectTemplate = (e, target) => {
+  const firstSibling = e.target.parentNode.firstElementChild
+  const textbox = document.querySelector("div[role='textbox']")
+  textbox.innerHTML = escapeHTMLPolicy.createHTML(firstSibling.innerHTML);
+  console.log('handleSelectTemplate', e.target, firstSibling)
 }
 
 
@@ -199,5 +190,16 @@ onMounted(() => {
 
 #ap-inject-app .template-container:hover {
   border-color: red;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+  z-index: 999;
 }
 </style>

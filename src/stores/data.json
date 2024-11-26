@@ -26,12 +26,10 @@
     "Template1": {
         "general": {
             "name": "Jason Fuller",
+            "pronoun": "",
             "position": "Creative Manager",
             "company": "BIG BOLD Innovations",
-            "email": "",
-            "phone": "",
-            "website": "",
-            "signoff": "Regards,",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
@@ -119,7 +117,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -205,6 +202,7 @@
             "pronoun": "",
             "company": "TRAVEL BLOGGER",
             "position": "",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
@@ -288,24 +286,23 @@
             },
             "social": {
                 "paddingTop": 5,
-                "badgeSize": 36,
-                "badgeShape": "rounded",
-                "badgeType": "brand",
-                "badgeColor": "#000000",
+                "badgeSize": 30,
+                "badgeShape": "circle",
+                "badgeType": "invert",
                 "data": [
                     {
                         "name": "facebook",
-                        "img": "https://img.mysignature.io/addons/v2/facebook_v1_shape1_b.png",
+                        "img": "https://img.mysignature.io/addons/v2/facebook_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     },
                     {
                         "name": "twitter",
-                        "img": "https://img.mysignature.io/addons/v2/twitter_v1_shape1_b.png",
+                        "img": "https://img.mysignature.io/addons/v2/twitter_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     },
                     {
-                        "name": "linkedin",
-                        "img": "https://img.mysignature.io/addons/v2/linkedin_v1_shape1_b.png",
+                        "name": "youtube",
+                        "img": "https://img.mysignature.io/addons/v2/youtube_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     }
                 ]
@@ -363,7 +360,6 @@
             "font": "Georgia",
             "fontSize": 12,
             "templateColor": "#097d5e",
-            "TextColor": "rgb(0, 0, 1)",
             "iconsType": "branded",
             "iconsSize": 23,
             "iconsShape": "circle",
@@ -377,6 +373,7 @@
             "pronoun": "",
             "company": "",
             "position": "REALTOR in Skyline Realty",
+            "department": "",
             "contacts": [
                 {
                     "title": "Phone",
@@ -463,7 +460,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -533,9 +529,8 @@
         "design": {
             "color": "#000000",
             "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "fontSize": 14,
+            "templateColor": "#000001",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -633,14 +628,13 @@
                 "size": 34,
                 "top": 5,
                 "textColor": "#1f1f1f",
-                "CTAColor": "#0a3ab"
+                "CTAColor": "#0091ff"
             },
             "social": {
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -711,8 +705,7 @@
             "color": "#000000",
             "font": "Arial",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#000001",
             "iconsType": "colored",
             "iconsSize": 21,
             "iconsShape": "rounded",
@@ -722,26 +715,24 @@
     },
     "Template5": {
         "general": {
-            "name": "NICHOLAS EASTERLIN",
+            "name": "Henrik Ross",
             "pronoun": "",
-            "company": "",
-            "position": "TRAVEL BLOGGER",
-            "email": "nicksterlin@mysignature.io",
-            "skype": "sterlin",
-            "website": "",
+            "company": "| APEXIN DIGITAL",
+            "position": "Co-founder",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "nicksterlin@mysignature.io"
-                },
-                {
-                    "title": "Skype",
-                    "name": "",
-                    "value": "sterlin"
+                    "value": "name@example.com"
                 },
                 {
                     "title": "Website",
+                    "name": "",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Skype",
                     "name": "",
                     "value": ""
                 },
@@ -815,7 +806,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -841,28 +831,28 @@
                 "providers": [
                     {
                         "name": "ebay",
-                        "img": "/assets/addons/ebay_shape1_black.png",
+                        "img": "/assets/addons/ebay_shape1_white.png",
                         "link": ""
                     },
                     {
                         "name": "amazon",
-                        "img": "/assets/addons/amazon_shape1_black.png",
+                        "img": "/assets/addons/amazon_shape1_white.png",
                         "link": ""
                     },
                     {
                         "name": "appstore",
-                        "img": "/assets/addons/appstore_shape1_black.png",
-                        "link": ""
+                        "img": "/assets/addons/appstore_shape1_white.png",
+                        "link": "https://signmaker.io"
                     },
                     {
                         "name": "googlemy",
-                        "img": "/assets/addons/googlemy_shape1_black.png",
+                        "img": "/assets/addons/googlemy_shape1_white.png",
                         "link": ""
                     },
                     {
                         "name": "googleplay",
-                        "img": "/assets/addons/googleplay_shape1_black.png",
-                        "link": ""
+                        "img": "/assets/addons/googleplay_shape1_white.png",
+                        "link": "https://signmaker.io"
                     }
                 ]
             },
@@ -883,11 +873,10 @@
             "avatarWidth": 134
         },
         "design": {
-            "color": "#000000",
+            "color": "#ffffff",
             "font": "Arial",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#ffffff",
             "iconsType": "colored",
             "iconsSize": 26,
             "iconsShape": "rounded",
@@ -897,31 +886,29 @@
     },
     "Template6": {
         "general": {
-            "name": "NICHOLAS EASTERLIN",
+            "name": "JULIANA SILVA",
             "pronoun": "",
             "company": "",
-            "position": "TRAVEL BLOGGER",
-            "email": "nicksterlin@mysignature.io",
-            "skype": "sterlin",
-            "website": "",
+            "position": "Real Estate Agent",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "nicksterlin@mysignature.io"
-                },
-                {
-                    "title": "Skype",
-                    "name": "",
-                    "value": "sterlin"
+                    "name": "email ",
+                    "value": "name@example.com"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": ""
+                    "name": "website ",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Cellphone",
+                    "name": "Phone",
+                    "value": "+1 678 909 5432"
+                },
+                {
+                    "title": "Skype",
                     "name": "",
                     "value": ""
                 },
@@ -990,7 +977,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -1059,10 +1045,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
+            "font": "Tahoma",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#ea7f4c",
             "iconsType": "colored",
             "iconsSize": 21,
             "iconsShape": "rounded",
@@ -1074,39 +1059,37 @@
         "general": {
             "name": "NICHOLAS EASTERLIN",
             "pronoun": "",
-            "company": "",
-            "position": "TRAVEL BLOGGER",
-            "email": "nicksterlin@mysignature.io",
-            "skype": "sterlin",
-            "website": "",
+            "company": "Mount Sinai Hospital",
+            "position": "",
+            "department": "",
             "contacts": [
                 {
-                    "title": "Email",
+                    "title": "Phone",
                     "name": "",
-                    "value": "nicksterlin@mysignature.io"
-                },
-                {
-                    "title": "Skype",
-                    "name": "",
-                    "value": "sterlin"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": ""
+                    "value": "+1 (567) 321-7876"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": ""
+                    "value": "+1 (684) 555-0102"
+                },
+                {
+                    "title": "Email",
+                    "name": "",
+                    "value": "name@example.com"
+                },
+                {
+                    "title": "Website",
+                    "name": "",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
                     "name": "",
-                    "value": ""
+                    "value": "654 Health Heights, NY 11542, USA"
                 },
                 {
-                    "title": "Phone",
+                    "title": "Skype",
                     "name": "",
                     "value": ""
                 }
@@ -1165,7 +1148,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -1236,8 +1218,7 @@
             "color": "#000000",
             "font": "Arial",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#000001",
             "iconsType": "colored",
             "iconsSize": 24,
             "iconsShape": "circle",
@@ -1247,31 +1228,29 @@
     },
     "Template8": {
         "general": {
-            "name": "NICHOLAS EASTERLIN",
-            "pronoun": "",
-            "company": "",
-            "position": "TRAVEL BLOGGER",
-            "email": "nicksterlin@mysignature.io",
-            "skype": "sterlin",
-            "website": "",
+            "name": "Giuliana Thompson",
+            "pronoun": " Paediatrician",
+            "company": "Apollo Hospital",
+            "position": "",
+            "department": "",
             "contacts": [
+                {
+                    "title": "Cellphone",
+                    "name": "",
+                    "value": "+1 578 223 5675"
+                },
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "nicksterlin@mysignature.io"
+                    "value": "name@example.com"
                 },
                 {
                     "title": "Skype",
                     "name": "",
-                    "value": "sterlin"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
                     "value": ""
                 },
                 {
-                    "title": "Cellphone",
+                    "title": "Website",
                     "name": "",
                     "value": ""
                 },
@@ -1340,7 +1319,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -1410,9 +1388,8 @@
         "design": {
             "color": "#000000",
             "font": "Arial",
-            "fontSize": 12,
+            "fontSize": 14,
             "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
             "iconsType": "colored",
             "iconsSize": 26,
             "iconsShape": "circle",
@@ -1426,6 +1403,7 @@
             "pronoun": "",
             "company": "",
             "position": "Villegas Fasion",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
@@ -1512,7 +1490,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -1580,11 +1557,10 @@
             "avatarWidth": 145
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
+            "color": "#9d5353",
+            "font": "Times New Roman",
             "fontSize": 12,
-            "templateColor": "rgb(9, 125, 94)",
-            "TextColor": "rgb(0, 0, 1)",
+            "templateColor": "#551804",
             "iconsType": "colored",
             "iconsSize": 26,
             "iconsShape": "circle",
@@ -1598,6 +1574,7 @@
             "pronoun": "",
             "company": "",
             "position": "Family Law Attorney",
+            "department": "",
             "contacts": [
                 {
                     "title": "Email",
@@ -1684,7 +1661,6 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "badgeColor": "#000000",
                 "data": [
                     {
                         "name": "facebook",
@@ -1753,7 +1729,7 @@
         },
         "design": {
             "font": "Verdana",
-            "fontSize": 14,
+            "fontSize": 15.7,
             "fontWeight": 500,
             "color": "#000000",
             "templateColor": "#1f1f1f",

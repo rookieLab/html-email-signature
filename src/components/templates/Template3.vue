@@ -6,35 +6,40 @@
                 <td style="margin: 0.1px; padding: 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
-                            <td style="margin: 0.1px; padding: 0px;" valign="top">
+                            <td style="margin: 0.1px; padding: 0px;" valign="top" :style="textStyle">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style='margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                                            <span style="color: rgb(0, 0, 1); font-weight: 600; cursor: pointer;">
-                                                {{ editing.general?.name }}
-                                                <!-- VANESSA SLATER -->
+                                        <td style="margin: 0.1px; padding: 0px 0px 2px;line-height: 19.5px;"
+                                            :style="{ fontFamily: fontFamily, }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor, fontSize: editing.design?.fontSize * 1.1 + 'px' }">
+                                                {{ editing.general?.name }}&nbsp;
                                             </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
+
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='margin: 0.1px; padding: 0px 0px 10px; font: 600 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
+                                        <td style="margin: 0.1px; padding: 0px 0px 10px;;font-weight: 600;"
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}
+                                            </span>
                                             <span style="cursor: pointer;">
-                                                {{ editing.general?.position }}
-                                                <!-- REALTOR in Skyline Realty -->
+                                                {{ editing.general?.department }}
                                             </span>
                                         </td>
                                     </tr>
+
                                     <Contact :data="editing.general?.contacts" :design="editing.design"
                                         :layout="'column'" />
-                                    <!-- <tr style="cursor: pointer;" v-for="c in contacts">
-                                        <td
-                                            style='margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
 
-                                            <ContactIndex :name="c.name" :key="c.key" :value="c.value" />
-                                        </td>
-                                    </tr> -->
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 10px 0px 0px; font: 12.8px / 16.3px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>

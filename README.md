@@ -20,7 +20,7 @@ escapeHTMLPolicy = trustedTypes.createPolicy("forceInner", {
 oss://ap-data-us-oss/signmaker/web/js13kpwa/
 
 
-
+badgeType: brand:invert
 Social Icons: rounded:square:circle
 Design colored|branded
 

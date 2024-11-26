@@ -4,40 +4,44 @@
         <table cellpadding="0"
             style="border-collapse: collapse; font-size: 10.4px; background-color: rgb(239, 238, 238);">
             <tr>
-                <td
-                    style="margin: 0.1px; padding: 20px 20px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
+                <td style="margin: 0.1px; padding: 20px 20px 0px; " :style="textStyle">
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" />
-                            <td valign="top"
-                                style="margin: 0.1px; padding: 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
+                            <td valign="top" style="margin: 0.1px; padding: 0px; font: 10.4px / 13.2px; "
+                                :style="textStyle">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 13.5px / 17.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                            <span style="font-weight: 600; cursor: pointer;">
-                                                <!-- Gannon Powell -->
-                                                {{ editing.general?.name }}
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 5px;  font: 13.5px / 17.2px"
+                                            :style="{ fontFamily: fontFamily }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
                                             </span>
-                                            <span style="font-weight: 600; cursor: pointer;">
-                                                &nbsp;{{ editing.general?.pronoun }}
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
                                             </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">{{ editing.general?.position }}</span>
-                                            <span style="cursor: pointer;"
-                                                v-if="editing.general?.company">&nbsp;|&nbsp;{{
-                                                    editing.general?.company }}</span>
-                                            <span style="cursor: pointer;"
-                                                v-if="editing.general?.department">&nbsp;|&nbsp;{{
-                                                    editing.general?.department }} </span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 5px 0px; text-transform: uppercase; border-top: 1px solid rgb(0, 0, 1);"
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                &nbsp;|&nbsp;{{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                &nbsp;|&nbsp;{{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :design="editing.design"
-                                        :styles="{ padding: '5px 0px 0px' }" :layout="'column'" />
+                                        :styles="{ ...textStyle, padding: '5px 0px 0px' }" :layout="'column'" />
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -54,39 +58,10 @@
             <Banner :data="editing.Image" type="tr"
                 :tdStyle="{ margin: '0.1px', padding: '15px 20px 20px', color: 'rgb(0, 0, 1)', cursor: 'pointer' }">
             </Banner>
-            <!-- <tr>
-                <td
-                    style="margin: 0.1px; padding: 15px 20px 20px; font: 10.4px / 13.2px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                    <a :href="editing.Image?.bannerLink" target="_blank">
-                        <img :src="editing.Image?.bannerImg" valign="top" :width="editing.Image?.bannerWidth"
-                            alt="created with MySignature.io" style="display: block;">
-                    </a>
-                </td>
-            </tr> -->
         </table>
 
         <div>
-            <table cellpadding="0" width="500"
-                style="width: 500px; color: rgb(59, 48, 46); line-height: 1; font-size: 14.1px; border-collapse: collapse;">
-                <tr style="cursor: pointer;">
-                    <td width="34" height="34" align="center"
-                        style="padding: 15px 0px 0px; margin: 0.1px; min-width: 34px;">
-
-                        <Calender :name="editing.Addons?.calender?.icon" />
-
-                    </td>
-                    <td
-                        style="font-family: Arial, Helvetica, sans-serif; font-size: 14.1px; padding: 15px 0px 0px; margin: 0.1px;">
-                        <span>{{ editing.Addons?.calender?.text }}&nbsp;</span>
-                        <a :href="editing.Addons?.calender?.link" target="_blank"
-                            style="text-decoration: none; font-size: 14.1px; color: rgb(1, 125, 232);">
-                            {{ editing.Addons?.calender?.CTA }}
-                        </a>
-                        <!-- <span style="text-decoration: none; font-size: 14.1px; color: rgb(0, 145, 255);">Projects
-                            here</span> -->
-                    </td>
-                </tr>
-            </table>
+            <Calender :calender="editing.Addons?.calender" :design="editing.design" />
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

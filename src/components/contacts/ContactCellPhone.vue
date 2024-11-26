@@ -1,5 +1,5 @@
 <template>
-    <span :style="nameStyle">{{ name }}&nbsp;</span>
+    <span :style="nameStyle" v-if="name">{{ name }}&nbsp;</span>
     <a href="tel:phone" target="_blank" style="color: inherit; text-decoration: none; ">{{ value }}</a>
 </template>
 

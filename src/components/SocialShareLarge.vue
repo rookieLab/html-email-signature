@@ -1,7 +1,7 @@
 <template>
     <table cellpadding="0" style="border-collapse: collapse;">
         <tr>
-            <td v-for="item in data.data" :style="_styles">
+            <td v-for="item in _data" :style="_styles">
                 <a :href="item.link" target="_blank">
                     <img :src="item.img" :height="data.badgeSize" :width="data.badgeSize * 3.3" :alt="item.name"
                         style="display: block;">
@@ -21,8 +21,8 @@ const props = defineProps({
         default: 'table' // table or tr
     },
     data: {
-        type: Array,
-        default: []
+        type: Object,
+        default: {}
     },
     design: {
         type: Object,
@@ -38,6 +38,24 @@ const defaultStyle = { margin: '0.1px', padding: '16px 4px 4px 0px', color: 'rgb
 const _styles = computed(() => {
     return { ...defaultStyle, ...props.styles }
 })
+
+const _data = computed(() => {
+    let shape = props.data.badgeShape || 'square'
+    if (shape === 'rounded') {
+        return props.data.data.map(item => {
+            item.img = item.img.replace('shape1', 'shape2')
+            return item
+        })
+    }
+    else if (shape === 'circle') {
+        return props.data.data.map(item => {
+            item.img = item.img.replace('shape1', 'shape3')
+            return item
+        })
+    }
+    return props.data.data
+})
+
 
 const socialIconsMap = ref({})
 Object.values(iconComponents).map(component => (

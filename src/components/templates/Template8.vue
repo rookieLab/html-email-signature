@@ -8,43 +8,44 @@
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 9px 0px 0px' }" />
                             <td valign="top"
-                                style="border-left: 2px solid rgb(9, 125, 94); margin: 0.1px; padding: 0px 0px 0px 9px;">
+                                style="border-left: 2px solid rgb(9, 125, 94); margin: 0.1px; padding: 0px 0px 0px 9px;"
+                                :style="textStyle">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.1px / 21.7px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="font: 17.1px / 21.7px Arial, Helvetica, sans-serif; color: rgb(9, 125, 94); cursor: pointer;">Giuliana
-                                                Thompson</span>&nbsp;&nbsp;<span
-                                                style="font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">Paediatrician</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 5px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.1 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                &nbsp;{{ editing.general?.pronoun }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Apollo Hospital</span>
+                                        <td align="left" style="margin: 0.1px; padding: 5px 0px; " :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">+1
-                                                578 223 5675</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">name@example.com</span>
-                                        </td>
-                                    </tr>
+
+                                    <Contact :data="editing.general?.contacts" :design="editing.design" layout="column"
+                                        :styles="{ padding: '0px', borderBottom: '0' }" separator=" | " />
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />
-                                            
+
                                         </td>
                                     </tr>
                                 </table>

@@ -9,49 +9,43 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" />
-                            <td valign="top"
-                                style="margin: 0.1px; padding: 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
+                            <td valign="top" style="margin: 0.1px; padding: 0px;" :style="textStyle">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                            <span style="font-weight: 600; cursor: pointer;">Dr. Terrence Baker •
-                                                Pediatrician</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 5px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.3 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); text-transform: uppercase; border-top: 1px solid rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Mount Sinai
-                                                Hospital</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 5px 0px; text-transform: uppercase;"
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                (684) 555-0102</span>&nbsp;|&nbsp;<span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                (567) 321-7876</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">
-                                                name@example.com </span>&nbsp;|&nbsp;<span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span use-font-color="true">654 Health Heights, NY 11542,
-                                                USA</span>
-                                        </td>
-                                    </tr>
+
+                                    
+                                    <Contact :data="editing.general?.contacts" :design="editing.design"
+                                        layout="row-left" :styles="{ padding: '5px 0px 0px', borderBottom: '0' }"
+                                        separator=" | " />
+
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.1px / 14.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">

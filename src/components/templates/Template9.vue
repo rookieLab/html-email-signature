@@ -7,51 +7,46 @@
                     <td style="margin: 0.1px; padding: 0px;">
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
-                           
+
                                 <Avatar :data="editing.Image" :styles="{ padding: '0px 12px 0px 0px' }" />
                                 <td valign="top"
-                                    style="border-left: 1px solid rgb(85, 24, 4); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
+                                    style="border-left: 1px solid rgb(85, 24, 4); margin: 0.1px; padding: 0px 0px 0px 12px;"
+                                    :style="textStyle">
                                     <table cellpadding="0" style="border-collapse: collapse;">
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 16.6px / 21.2px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
-                                                <span style="font-weight: 600; color: rgb(85, 24, 4); cursor: pointer;">
-                                                    Mya Butler ♛
+                                            <td align="left"
+                                                style="margin: 0.1px; padding: 0px 0px 5px; line-height: 22.2px;"
+                                                :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.3 + 'px' }">
+                                                <span v-if="editing.general?.name"
+                                                    style="font-weight: 600;  cursor: pointer;"
+                                                    :style="{ color: editing.design?.templateColor }">
+                                                    {{ editing.general?.name }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                    {{ editing.general?.pronoun }}&nbsp;
                                                 </span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(157, 83, 83);">
-                                                <span style="color: rgb(157, 83, 83); cursor: pointer;">
-                                                    Villegas Fasion
+                                            <td align="left" style="margin: 0.1px; padding: 5px 0px; "
+                                                :style="textStyle">
+                                                <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                    {{ editing.general?.position }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                    {{ editing.general?.company }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                    {{ editing.general?.department }}
                                                 </span>
                                             </td>
                                         </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(85, 24, 4); font-weight: 600;">email:&nbsp;</span><span
-                                                    style="color: rgb(157, 83, 83); text-decoration: none; font-family: 'Times New Roman', Times, serif;">mya@villegas.io</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(85, 24, 4); font-weight: 600;">website:&nbsp;</span><span
-                                                    style="color: rgb(157, 83, 83); text-decoration: none; font-family: 'Times New Roman', Times, serif;">mysignature.io</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(85, 24, 4); font-weight: 600;">address:&nbsp;</span><span
-                                                    style="color: rgb(157, 83, 83);">987 Comfort Blvd, Paris</span>
-                                            </td>
-                                        </tr>
+
+                                        <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+
+
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 0px; font: 12.8px / 16.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">

@@ -1,5 +1,5 @@
 <template>
-    <span :style="nameStyle">{{ name }}&nbsp;</span>
+    <span :style="nameStyle" v-if="name">{{ name }}&nbsp;</span>
     <span>{{ value }}</span>
 </template>
 

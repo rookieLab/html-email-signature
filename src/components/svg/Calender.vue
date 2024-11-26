@@ -1,11 +1,11 @@
 <template>
-    <!-- name: {{ name }} - size: {{ props.calender?.size }} - fontSize: {{ fontSize }} - iconSize: {{ iconSize }} -->
+    <!-- name: {{ calender }} icon- size: {{ props.calender?.size }} - fontSize: {{ fontSize }} - iconSize: {{ iconSize }} -->
     <table cellpadding="0" width="500"
-        style="width: 500px; color: rgb(31, 31, 31); line-height: 1;  border-collapse: collapse;" :style="{
-            fontSize: fontSize
+        style="width: 500px; color: rgb(31, 31, 31);   border-collapse: collapse;" :style="{
+            fontSize: fontSize, fontWeight: 'normal'
         }">
         <tr style="cursor: pointer;">
-            
+
             <td width="24" height="24" align="center" style="padding: 20px 0px 0px; margin: 0.1px; ">
                 <AddonAdd v-if="calender.icon === 'add'" :size="iconSize" />
                 <AddonAdded v-if="calender.icon === 'added'" :size="iconSize" />
@@ -42,10 +42,8 @@
                 <AddonTimeCalendar v-if="calender.icon === 'time-calendar'" :size="iconSize" />
                 <AddonVebinar v-if="calender.icon === 'vebinar'" :size="iconSize" />
                 <AddonVipTicket v-if="calender.icon === 'vip-ticket'" :size="iconSize" />
-                <!-- </template> -->
-                <!-- <AddonIndex :name="editing.Addons?.calender?.icon" /> -->
             </td>
-            <td style=" padding: 20px 0px 0px; margin: 0.1px;" :style="{
+            <td style=" padding: 20px 0px 0px 10px; margin: 0.1px;" :style="{
                 fontFamily: design?.fontFamily,
                 fontWeight: design?.fontWeight,
                 fontSize: fontSize

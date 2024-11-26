@@ -7,9 +7,7 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" />
-                            <td style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 12.1px / 15.3px Tahoma, Geneva, sans-serif; "
-                                :style="{ color: editing.design?.TextColor }" valign="top">
-
+                            <td style="margin: 0.1px; padding: 0px 0px 0px 15px; " :style="textStyle" valign="top">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
                                         <td style="margin: 0.1px; padding: 0px 0px 5px; " :style="textStyle">
@@ -29,13 +27,11 @@
                                     <tr>
                                         <td style="margin: 0.1px; padding: 0px 0px 5px;" :style="textStyle">
                                             <span v-if="editing.general?.company" style="cursor: pointer;">
-                                                <span>
-                                                    {{ editing.general?.company }}&nbsp;
-                                                </span>
+                                                {{ editing.general?.company }}&nbsp;
                                             </span>
-                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">
-                                                    {{ editing.general?.department }}
-                                                </span></span>
+                                            <span style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :design="editing.design"

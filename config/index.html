@@ -1,0 +1,201 @@
+<!--
+ * @Author: 秦少卫
+ * @Date: 2023-03-07 00:00:38
+ * @LastEditors: 秦少卫
+ * @LastEditTime: 2024-06-26 14:10:57
+ * @Description: file content
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>双光源调节器</title>
+    <style>
+        .container {
+            position: relative;
+            margin: 20px;
+        }
+        
+        #imageCanvas {
+            border: 1px solid #ccc;
+        }
+        
+        .controls {
+            margin-top: 20px;
+        }
+        
+        .light-control {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="imageInput" accept="image/*">
+        <canvas id="imageCanvas"></canvas>
+        
+        <div class="controls">
+            <div class="light-control">
+                <label>红光强度:</label>
+                <input type="range" id="redIntensity" min="0" max="100" value="50">
+            </div>
+            <div class="light-control">
+                <label>蓝光强度:</label>
+                <input type="range" id="blueIntensity" min="0" max="100" value="50">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class DualLightEffect {
+            constructor(canvas) {
+                this.canvas = canvas;
+                this.ctx = canvas.getContext('2d');
+                this.image = null;
+                this.redLight = { x: 0, y: 0, intensity: 0.5 };
+                this.blueLight = { x: 0, y: 0, intensity: 0.5 };
+                this.isDragging = false;
+                this.selectedLight = null;
+                
+                this.setupEventListeners();
+            }
+
+            setupEventListeners() {
+                this.canvas.addEventListener('mousedown', this.onMouseDown.bind(this));
+                this.canvas.addEventListener('mousemove', this.onMouseMove.bind(this));
+                this.canvas.addEventListener('mouseup', this.onMouseUp.bind(this));
+                
+                // 光源强度控制
+                document.getElementById('redIntensity').addEventListener('input', (e) => {
+                    this.redLight.intensity = e.target.value / 100;
+                    this.render();
+                });
+                
+                document.getElementById('blueIntensity').addEventListener('input', (e) => {
+                    this.blueLight.intensity = e.target.value / 100;
+                    this.render();
+                });
+            }
+
+            loadImage(file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        this.image = img;
+                        this.canvas.width = img.width;
+                        this.canvas.height = img.height;
+                        
+                        // 初始化光源位置
+                        this.redLight.x = this.canvas.width * 0.3;
+                        this.redLight.y = this.canvas.height * 0.5;
+                        this.blueLight.x = this.canvas.width * 0.7;
+                        this.blueLight.y = this.canvas.height * 0.5;
+                        
+                        this.render();
+                    };
+                    img.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+
+            createLightGradient(x, y, intensity, color) {
+                const radius = Math.max(this.canvas.width, this.canvas.height) * 0.4;
+                const gradient = this.ctx.createRadialGradient(x, y, 0, x, y, radius);
+                gradient.addColorStop(0, `${color}${Math.floor(intensity * 255).toString(16).padStart(2, '0')}`);
+                gradient.addColorStop(1, 'transparent');
+                return gradient;
+            }
+
+            render() {
+                if (!this.image) return;
+
+                // 绘制原始图片
+                this.ctx.drawImage(this.image, 0, 0);
+
+                // 应用光源效果
+                this.ctx.globalCompositeOperation = 'overlay';
+                
+                // 红光
+                this.ctx.fillStyle = this.createLightGradient(
+                    this.redLight.x, 
+                    this.redLight.y, 
+                    this.redLight.intensity, 
+                    '#ff0000'
+                );
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+                
+                // 蓝光
+                this.ctx.fillStyle = this.createLightGradient(
+                    this.blueLight.x, 
+                    this.blueLight.y, 
+                    this.blueLight.intensity, 
+                    '#0000ff'
+                );
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+                
+                this.ctx.globalCompositeOperation = 'source-over';
+
+                // 绘制光源指示器
+                this.drawLightIndicator(this.redLight.x, this.redLight.y, 'red');
+                this.drawLightIndicator(this.blueLight.x, this.blueLight.y, 'blue');
+            }
+
+            drawLightIndicator(x, y, color) {
+                this.ctx.beginPath();
+                this.ctx.arc(x, y, 10, 0, Math.PI * 2);
+                this.ctx.strokeStyle = color;
+                this.ctx.lineWidth = 2;
+                this.ctx.stroke();
+            }
+
+            onMouseDown(e) {
+                const rect = this.canvas.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                // 检查是否点击了光源
+                if (this.isNearLight(x, y, this.redLight)) {
+                    this.isDragging = true;
+                    this.selectedLight = this.redLight;
+                } else if (this.isNearLight(x, y, this.blueLight)) {
+                    this.isDragging = true;
+                    this.selectedLight = this.blueLight;
+                }
+            }
+
+            onMouseMove(e) {
+                if (this.isDragging && this.selectedLight) {
+                    const rect = this.canvas.getBoundingClientRect();
+                    this.selectedLight.x = e.clientX - rect.left;
+                    this.selectedLight.y = e.clientY - rect.top;
+                    this.render();
+                }
+            }
+
+            onMouseUp() {
+                this.isDragging = false;
+                this.selectedLight = null;
+            }
+
+            isNearLight(x, y, light) {
+                const distance = Math.sqrt(
+                    Math.pow(x - light.x, 2) + Math.pow(y - light.y, 2)
+                );
+                return distance < 20;
+            }
+        }
+
+        // 初始化
+        const canvas = document.getElementById('imageCanvas');
+        const effect = new DualLightEffect(canvas);
+
+        // 图片上传处理
+        document.getElementById('imageInput').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                effect.loadImage(file);
+            }
+        });
+    </script>
+</body>
+</html>
