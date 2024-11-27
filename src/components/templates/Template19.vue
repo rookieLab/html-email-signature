@@ -35,6 +35,13 @@
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <table cellpadding="0" style="border-collapse: collapse;">
                                                 <tr>
+                                                    <td align="left"
+                                                        style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                                        <SocialShare :data="editing.socialIcons"
+                                                            :design="editing.design" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td
                                                         style="margin: 0.1px; padding: 0px 5px 0px 0px; font: 15.7px / 19.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
                                                         <span

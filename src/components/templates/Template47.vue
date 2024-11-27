@@ -8,7 +8,7 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" valign="middle" />
-             
+
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -49,9 +49,8 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 2px; font: 15.4px / 19.5px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(20, 186, 71); font-weight: 600; cursor: pointer;">Camelia
-                                                Poler</span>
+                                            <span style="color: rgb(20, 186, 71); font-weight: 600; cursor: pointer;">
+                                                Camelia Poler</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -61,12 +60,13 @@
                                                 style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 12.8px / 16.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">cam@mysignature.io</span>,&nbsp;<span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">mysignature.io</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
+                                        separator=", " />
+                                     <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>

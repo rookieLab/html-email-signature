@@ -28,32 +28,20 @@
                                     <Contact :data="editing.general?.contacts" :layout="'row-left'"
                                         :styles="{ ...textStyle, padding: '5px 0px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-                                    <!-- <tr style="cursor: pointer;">
-                                        <td
-                                            style='margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
-                                            <span
-                                                style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Times New Roman", Times, serif;'>+1
-                                                757 3145
-                                                2220</span> | <span
-                                                style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Times New Roman", Times, serif;'>
-                                                johnsmith@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style='margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
-                                            <span
-                                                style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Times New Roman", Times, serif;'></span>
-                                        </td>
-                                    </tr> -->
+
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 10px 0px 0px; font: 13.1px / 16.5px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
+                                            <span style="color: rgb(255, 255, 255); font-weight: 400; cursor: pointer;">
+                                                Connect with me on LinkedIn:</span>
                                             <span
-                                                style="color: rgb(255, 255, 255); font-weight: 400; cursor: pointer;">Connect
-                                                with me on
-                                                LinkedIn:</span><span
                                                 style="color: rgb(255, 255, 255); font-weight: 400; cursor: pointer;"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>

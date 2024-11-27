@@ -8,8 +8,8 @@
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
                                 <Avatar :data="editing.Image" :styles="{ padding: '0px 12px 0px 0px' }" valign="top" />
-                                        <!-- width="159" alt=" &quot;created with MySignature.io&quot;"
-                                        style="display: block; min-width: 159px;"></td> --> 
+                                <!-- width="159" alt=" &quot;created with MySignature.io&quot;"
+                                        style="display: block; min-width: 159px;"></td> -->
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(110, 76, 55); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -24,41 +24,26 @@
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Travel
-                                                    Blogger |</span>&nbsp;<span
-                                                    style="color: rgb(0, 0, 1); cursor: pointer;">The G Word
+                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Travel Blogger
+                                                    |</span>&nbsp;
+                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">The G Word
                                                     channel</span>
                                             </td>
                                         </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(110, 76, 55); font-weight: 600;">email:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">gregory@mysignature.io</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(110, 76, 55); font-weight: 600;">phone:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">733
-                                                    663 33</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(110, 76, 55); font-weight: 600;">blog
-                                                    channel:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1); text-decoration: none; font-family: Tahoma, Geneva, sans-serif;">mysignature.io</span>
-                                            </td>
-                                        </tr>
+                                        <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 12px 0px 3px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                 Follow us:</td>
+                                        </tr>
+                                     <tr >
+                                        <td align="left"
+                                                style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                                <SocialShare :data="editing.socialIcons" :design="editing.design" />
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td

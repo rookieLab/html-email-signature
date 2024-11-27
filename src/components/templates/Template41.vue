@@ -16,47 +16,23 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Addison Mosley</span></td>
+                                            <span style="cursor: pointer;">Addison Mosley</span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;"> Florist</span>&nbsp;<span
                                                 style="cursor: pointer;">at LilyBloom</span><span
-                                                style="cursor: pointer;"></span></td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(132, 118, 108);">e:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">amosley@mysignature.io</span>
+                                                style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(132, 118, 108);">w:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(132, 118, 108);">p:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">566-728-42</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(132, 118, 108);">a:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1);">517 Robinson Lane, Athens</span></td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(132, 118, 108);">m:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, sans-serif;">+6-482-838-59</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                         <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>

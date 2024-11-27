@@ -55,31 +55,18 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">CEO</span>&nbsp;<span
-                                                style="cursor: pointer;">Teek Tech</span>
+                                            <span style="cursor: pointer;">CEO</span>&nbsp;
+                                            <span style="cursor: pointer;">Teek Tech</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">222
-                                                335 3632</span>,&nbsp;<span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">larry@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">55 Halsey St Brooklyn, NY
-                                                11216</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left-1'"
+                                        :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
+                                        separator=", " />
+                                      <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>

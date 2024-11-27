@@ -8,7 +8,7 @@
                     style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.9px / 22.8px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
                     <span
                         style="font-weight: 600; color: rgb(32, 142, 192); text-transform: uppercase; cursor: pointer;">
-                        Gunner  Lee</span>
+                        Gunner Lee</span>
                 </td>
             </tr>
             <tr>
@@ -31,7 +31,13 @@
             </tr>
             <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
                 :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-            
+
+            <tr>
+                <td align="left"
+                    style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                    <SocialShare :data="editing.socialIcons" :design="editing.design" />
+                </td>
+            </tr>
         </table>
         <div>
             <Banner :data="editing?.Image"></Banner>

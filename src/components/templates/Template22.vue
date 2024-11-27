@@ -16,7 +16,7 @@
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">
                                                 Samantha Wilson
-                                                
+
                                             </span>
                                         </td>
                                     </tr>
@@ -36,7 +36,12 @@
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-                                   
+                                    <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
+                                        </td>
+                                    </tr>
                                 </table>
                             </td>
                         </tr>

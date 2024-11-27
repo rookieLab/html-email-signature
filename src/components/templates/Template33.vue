@@ -10,62 +10,32 @@
                                 style="margin: 0.1px; padding: 0px 20px 0px 0px; border-right: 2px solid rgb(147, 45, 3);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <Avatar :data="editing.Image" align="center" :styles="{ padding: '0px 0px 10px' }" />
-                                
+                                        <Avatar :data="editing.Image" align="center"
+                                            :styles="{ padding: '0px 0px 10px' }" />
                                     </tr>
                                     <tr>
                                         <td align="center"
                                             style="margin: 0.1px; padding: 0px; font: 16.1px / 20.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <span
                                                 style="color: rgb(147, 45, 3); font-weight: 600; cursor: pointer;">Effie
-                                                Cantrell</span><span
-                                                style="color: rgb(0, 0, 1); cursor: pointer;"></span>
+                                                Cantrell</span>
+                                            <span style="color: rgb(0, 0, 1); cursor: pointer;"></span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="center"
                                             style="margin: 0.1px; padding: 5px 0px 0px; font: 200 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Head Teacher at
-                                                NYACADEMY</span>
+                                            <span style="cursor: pointer;">Head Teacher at NYACADEMY</span>
                                         </td>
                                     </tr>
                                 </table>
                             </td>
+
                             <td valign="middle" style="margin: 0.1px; padding: 0px 0px 0px 20px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(147, 45, 3); font-weight: 600;">あ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">Cantrell@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(147, 45, 3); font-weight: 600;">あ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1);">10 California st, fl 6</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(147, 45, 3); font-weight: 600;">あ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">733
-                                                663 33</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(147, 45, 3); font-weight: 600;">あ&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+
                                     <tr>
                                         <td style="margin: 0.1px; padding: 15px 0px 0px;">
                                             <table cellpadding="0" style="border-collapse: collapse;">
@@ -73,6 +43,13 @@
                                                     <td
                                                         style="margin: 0.1px; padding: 0px 0px 5px; font: 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                                         Follow us:</td>
+                                                </tr>
+                                                  <tr >
+                                        <td align="left"
+                                                        style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                                        <SocialShare :data="editing.socialIcons"
+                                                            :design="editing.design" />
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td

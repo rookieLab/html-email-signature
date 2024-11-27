@@ -15,8 +15,9 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
-                                                style="font: 17.3px / 22.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(235, 62, 145); cursor: pointer;">Anny
-                                                Parson</span><span
+                                                style="font: 17.3px / 22.1px &quot;Courier New&quot;, Courier, monospace; color: rgb(235, 62, 145); cursor: pointer;">
+                                                Anny Parson
+                                            </span><span
                                                 style="font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;"></span>
                                         </td>
                                     </tr>
@@ -26,33 +27,12 @@
                                             <span style="cursor: pointer;">Anny's Flowers</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">w:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">e:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">anny@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">a:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1);">5th Ave, fl. 3</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">p:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">838
-                                                3837 3344</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                        <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                     <tr>

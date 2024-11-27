@@ -44,7 +44,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -1834,20 +1834,7 @@
                 }
             ]
         },
-        "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -1979,7 +1966,7 @@
                 {
                     "title": "Website",
                     "name": "w: ",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -2000,15 +1987,15 @@
         },
         "socialIcons": [
             {
-                "name": "facebook",
-                "url": ""
-            },
-            {
                 "name": "twitter",
+                "url": "gg"
+            },
+            {
+                "name": "viber",
                 "url": ""
             },
             {
-                "name": "instagram",
+                "name": "line",
                 "url": ""
             }
         ],
@@ -2052,7 +2039,7 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
@@ -2114,11 +2101,11 @@
             "font": "Georgia",
             "fontSize": 14.1,
             "templateColor": "#ab0b0b",
-            "iconsType": "branded",
+            "iconsType": "colored",
             "iconsSize": 27,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#AB0B0B",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template13": {
@@ -2161,20 +2148,7 @@
                 }
             ]
         },
-        "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -2277,11 +2251,11 @@
             "font": "Palatino Linotype",
             "fontSize": 13.8,
             "templateColor": "#208ec0",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 24,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "#ff9514"
         }
     },
     "Template14": {
@@ -2440,11 +2414,11 @@
             "font": "Arial",
             "fontSize": 13.1,
             "templateColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 20,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "#ff9514"
         }
     },
     "Template15": {
@@ -2603,11 +2577,11 @@
             "font": "Arial Black",
             "fontSize": 13.6,
             "templateColor": "#000000",
-            "iconsType": "branded",
+            "iconsType": "colored",
             "iconsSize": 27,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#94E7FF",
+            "iconsBackground": "#000001"
         }
     },
     "Template16": {
@@ -2660,7 +2634,11 @@
                 "url": ""
             },
             {
-                "name": "instagram",
+                "name": "github",
+                "url": ""
+            },
+            {
+                "name": "linkedin",
                 "url": ""
             }
         ],
@@ -2767,11 +2745,11 @@
             "fontSize": 12.6,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsType": "colored",
+            "iconsSize": 20,
+            "iconsShape": "circle",
+            "iconsColor": "#000000",
+            "iconsBackground": "#ffe277"
         }
     },
     "Template17": {
@@ -2814,20 +2792,7 @@
                 }
             ]
         },
-        "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -2958,7 +2923,7 @@
                 {
                     "title": "Website",
                     "name": "W:",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -2988,6 +2953,10 @@
             },
             {
                 "name": "instagram",
+                "url": ""
+            },
+            {
+                "name": "medium",
                 "url": ""
             }
         ],
@@ -3093,11 +3062,11 @@
             "font": "Georgia",
             "fontSize": 14.4,
             "templateColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 30,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#000000",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template19": {
@@ -3121,7 +3090,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -3280,7 +3249,7 @@
                 {
                     "title": "Website",
                     "name": " w:",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Email",
@@ -3315,6 +3284,10 @@
             },
             {
                 "name": "instagram",
+                "url": ""
+            },
+            {
+                "name": "linkedin",
                 "url": ""
             }
         ],
@@ -3421,11 +3394,11 @@
             "fontSize": 12,
             "templateColor": "#74a677",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#B596BE",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template21": {
@@ -3469,18 +3442,7 @@
             ]
         },
         "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
+       
         ],
         "Addons": {
             "signOff": {
@@ -3602,7 +3564,7 @@
                 {
                     "title": "Website",
                     "name": "w:",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Email",
@@ -3632,18 +3594,7 @@
             ]
         },
         "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
+    
         ],
         "Addons": {
             "signOff": {
@@ -3776,7 +3727,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -3912,11 +3863,11 @@
             "fontSize": 11.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 20,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#000001",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template24": {
@@ -3935,7 +3886,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -4076,11 +4027,11 @@
             "fontSize": 14.4,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "#b5322c"
         }
     },
     "Template25": {
@@ -4092,27 +4043,27 @@
             "department": "",
             "contacts": [
                 {
+                    "title": "Phone",
+                    "name": "p: ",
+                    "value": "(123) 456-7890"
+                },
+                {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "e: ",
+                    "value": "johnsmith@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
                     "value": ""
                 },
                 {
-                    "title": "Phone",
+                    "title": "Website",
+                    "name": "w: ",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Address",
                     "name": "",
                     "value": ""
                 },
@@ -4236,39 +4187,39 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
+            "font": "Verdana",
+            "fontSize": 12.8,
+            "templateColor": "#337cc9",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 22,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "#4380bb"
         }
     },
     "Template26": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Prof. David Patel",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "School of Busines",
+            "company": "Horizon University",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "jason@example.com"
+                    "value": "david@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "+1(555) 789-0123"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -4293,7 +4244,7 @@
                 "url": ""
             },
             {
-                "name": "twitter",
+                "name": "linkedin",
                 "url": ""
             },
             {
@@ -4399,45 +4350,44 @@
             "avatarWidth": 110
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "color": "rgb(39, 65, 46)",
+            "font": "Lucida Console",
+            "fontSize": 12.5,
             "templateColor": "#000000",
-            "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsType": "colored",
+            "iconsSize": 21,
+            "iconsShape": "circle",
+            "iconsColor": "#27412E",
+            "iconsBackground": "#c9b9b3"
         }
     },
     "Template27": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Emily Carter",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Director",
+            "company": "Diamond Haven",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "name": "♔",
+                    "value": "carter@example.com"
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "♔",
+                    "value": "New York, USA"
+                },
+                {
+                    "title": "Cellphone",
+                    "name": "♔",
+                    "value": "222 335 3632"
+                },
+                {
+                    "title": "Website",
+                    "name": "♔",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Phone",
@@ -4452,18 +4402,7 @@
             ]
         },
         "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
+    
         ],
         "Addons": {
             "signOff": {
@@ -4563,11 +4502,10 @@
             "avatarWidth": 117
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#fff",
+            "font": "Times New Roman",
+            "fontSize": 13.3,
+            "templateColor": "#fff",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -4577,26 +4515,26 @@
     },
     "Template28": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Juliette Perry",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Beauty Blogger",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "jason@example.com"
+                    "value": "perry@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "16 286 134 579"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -4728,39 +4666,38 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Verdana",
+            "fontSize": 14.6,
             "templateColor": "#000000",
-            "TextColor": "#000000",
-            "iconsType": "branded",
+            "iconsType": "colored",
             "iconsSize": 27,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#000000",
+            "iconsBackground": "#e0d2e5"
         }
     },
     "Template29": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Shania Mason",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Instagram Influencer",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "title": "Cellphone",
+                    "name": "phone:",
+                    "value": "+1 733 953 63"
                 },
                 {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "title": "Email",
+                    "name": "email:",
+                    "value": "shania@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -4892,8 +4829,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Lucida Sans Unicode",
+            "fontSize": 12.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -4905,26 +4842,26 @@
     },
     "Template30": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Gregory Shelton",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Travel Blogger",
+            "company": "The G Word channel",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "email:",
+                    "value": "gregory@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
+                    "name": "phone:",
                     "value": "+2-535-656-12"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "name": "blog channel:",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -5056,10 +4993,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Tahoma",
+            "fontSize": 12.5,
+            "templateColor": "rgb(110, 76, 55)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -5069,36 +5005,36 @@
     },
     "Template31": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Aimie Rayner",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "French Teacher ? ☕",
+            "company": "",
             "department": "",
             "contacts": [
                 {
+                    "title": "Phone",
+                    "name": "p:",
+                    "value": "+3 162 464 48"
+                },
+                {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "name": "e:",
+                    "value": "aimie@example.com"
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "a:",
+                    "value": "5th Ave, fl. 3"
                 },
                 {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "title": "Website",
+                    "name": "w:",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Cellphone",
+                    "name": "m:",
+                    "value": "838 3837 3344"
                 },
                 {
                     "title": "Skype",
@@ -5220,10 +5156,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Lucida Sans Unicode",
+            "fontSize": 14.4,
+            "templateColor": "rgb(44, 62, 134)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -5233,26 +5168,26 @@
     },
     "Template32": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "SAHAR WARD",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Head Teacher",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "title": "Cellphone",
+                    "name": "phone:",
+                    "value": "+1 728 607 2433"
                 },
                 {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "title": "Email",
+                    "name": "email:",
+                    "value": "saharward@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -5384,8 +5319,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Verdana",
+            "fontSize": 11.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -5397,36 +5332,36 @@
     },
     "Template33": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Effie Cantrell",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Head Teacher at NYACADEMY",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "あ",
+                    "value": "Cantrell@example.com"
+                },
+                {
+                    "title": "Address",
+                    "name": "あ",
+                    "value": "10 California st, fl 6"
+                },
+                {
+                    "title": "Phone",
+                    "name": "あ",
+                    "value": "733 663 33"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
-                },
-                {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "あ",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Skype",
@@ -5459,7 +5394,7 @@
                 "fontFamily": "",
                 "fontSize": "",
                 "fontColor": "",
-                "img": "/assets/signoff/16a4235e-656c-5c80-a2e6-633d025af382.png"
+                "img": ""
             },
             "video": {
                 "enable": false,
@@ -5548,10 +5483,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Verdana",
+            "fontSize": 11.5,
+            "templateColor": "rgb(147, 45, 3)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -5561,7 +5495,7 @@
     },
     "Template34": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Maya Beard",
             "pronoun": "",
             "position": "Creative Manager",
             "company": "BIG BOLD Innovations",
@@ -5570,30 +5504,30 @@
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "jason@example.com"
+                    "value": "beard@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "+45-875-3885-43"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
-                },
-                {
-                    "title": "Phone",
                     "name": "",
                     "value": ""
                 },
                 {
                     "title": "Skype",
+                    "name": "",
+                    "value": "Primary School,"
+                },
+                {
+                    "title": "Address",
+                    "name": "",
+                    "value": "517 Robinson Lane, Athens"
+                },
+                {
+                    "title": "Phone",
                     "name": "",
                     "value": ""
                 }
@@ -5712,10 +5646,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Times New Roman",
+            "fontSize": 12.6,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -5725,31 +5658,31 @@
     },
     "Template35": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Monty Montes",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "CEO at Mail Nook",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "+1 733 663 3362"
+                },
+                {
+                    "title": "Email",
+                    "name": "",
+                    "value": "montymontesy@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
                     "name": "",
-                    "value": ""
+                    "value": "517 Robinson Lane, Athens"
                 },
                 {
                     "title": "Phone",
@@ -5876,8 +5809,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Palatino Linotype",
+            "fontSize": 11.2,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -5889,26 +5822,26 @@
     },
     "Template36": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Norman Richardson",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Owner",
+            "company": "Retter",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "email:",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
+                    "name": "mobile:",
                     "value": "+2-535-656-12"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -6039,11 +5972,10 @@
             "avatarWidth": 182
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#fff",
+            "font": "Georgia",
+            "fontSize": 13.6,
+            "templateColor": "#fff",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -6053,31 +5985,31 @@
     },
     "Template37": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Larry Barrera",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "CEO",
+            "company": "Teek Tech",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "222 335 3632"
+                },
+                {
+                    "title": "Email",
+                    "name": "",
+                    "value": "larry@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
                     "name": "",
-                    "value": ""
+                    "value": "55 Halsey St Brooklyn, NY 11216"
                 },
                 {
                     "title": "Phone",
@@ -6205,7 +6137,7 @@
         "design": {
             "color": "#000000",
             "font": "Arial",
-            "fontSize": 12,
+            "fontSize": 13.6,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -6217,26 +6149,26 @@
     },
     "Template38": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Mandoo",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Support team",
+            "company": "",
             "department": "",
             "contacts": [
                 {
+                    "title": "Website",
+                    "name": "w:",
+                    "value": "signmaker.io"
+                },
+                {
                     "title": "Email",
-                    "name": "",
+                    "name": "e:",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -6367,11 +6299,10 @@
             "avatarWidth": 138
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#000001",
+            "font": "Courier New",
+            "fontSize": 14.6,
+            "templateColor": "rgb(255, 189, 0)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -6381,26 +6312,31 @@
     },
     "Template39": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Antoni Clements",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Social Worker",
+            "company": "",
             "department": "",
             "contacts": [
                 {
+                    "title": "Phone",
+                    "name": "phone:",
+                    "value": "+57-366-274-45"
+                },
+                {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "email: ",
+                    "value": "clements@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -6408,14 +6344,9 @@
                     "value": ""
                 },
                 {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
-                },
-                {
                     "title": "Skype",
-                    "name": "",
-                    "value": ""
+                    "name": "skype: ",
+                    "value": "antoni_clements"
                 }
             ]
         },
@@ -6532,10 +6463,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Trebuchet MS",
+            "fontSize": 14.4,
+            "templateColor": "rgb(176, 70, 70)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -6545,34 +6475,34 @@
     },
     "Template40": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Jevan Ortiz",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Sales Manager | Coza",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "e:",
+                    "value": "ortiz@example.com"
                 },
                 {
                     "title": "Phone",
+                    "name": "p:",
+                    "value": "+756-23-5473"
+                },
+                {
+                    "title": "Website",
+                    "name": "w:",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Address",
+                    "name": "a:",
+                    "value": "55 Halsey St Brooklyn, NY 11216"
+                },
+                {
+                    "title": "Cellphone",
                     "name": "",
                     "value": ""
                 },
@@ -6695,11 +6625,10 @@
             "avatarWidth": 100
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#000001",
+            "font": "Courier New",
+            "fontSize": 12.8,
+            "templateColor": "rgb(157, 154, 146)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -6709,36 +6638,36 @@
     },
     "Template41": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Addison Mosley",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Florist",
+            "company": "at LilyBloom",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "e:",
+                    "value": "amosley@example.com"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "w:",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "p:",
+                    "value": "566-728-42"
+                },
+                {
+                    "title": "Address",
+                    "name": "a:",
+                    "value": "517 Robinson Lane, Athens"
+                },
+                {
+                    "title": "Cellphone",
+                    "name": "m:",
+                    "value": "+6-482-838-59"
                 },
                 {
                     "title": "Skype",
@@ -6860,10 +6789,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Lucida Sans Unicode",
+            "fontSize": 14.4,
+            "templateColor": "rgb(132, 118, 108)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -6873,31 +6801,31 @@
     },
     "Template42": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Robson Cooley",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Motion Designer",
+            "company": "",
             "department": "",
             "contacts": [
                 {
+                    "title": "Address",
+                    "name": "A:",
+                    "value": "New York, USA"
+                },
+                {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "E:",
+                    "value": "RC_animation@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "T:",
+                    "value": "222 335 3632"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "W:",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Phone",
@@ -7023,11 +6951,10 @@
             "avatarWidth": 143
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#000001",
+            "font": "Palatino Linotype",
+            "fontSize": 14.4,
+            "templateColor": "rgb(225, 167, 76)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -7044,24 +6971,24 @@
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "title": "Address",
+                    "name": "A:",
+                    "value": "55 Halsey St Brooklyn,NY"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "T:",
+                    "value": "222 335 3632"
+                },
+                {
+                    "title": "Email",
+                    "name": "E:",
+                    "value": "amina@example.com"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "W:",
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Phone",
@@ -7188,10 +7115,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Verdana",
+            "fontSize": 12.3,
+            "templateColor": "rgb(130, 155, 142)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -7201,26 +7127,26 @@
     },
     "Template44": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Karen Shevans",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Photographer",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "16 286 134 579"
+                },
+                {
+                    "title": "Email",
+                    "name": "",
+                    "value": "karen@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -7351,11 +7277,10 @@
             "avatarWidth": 125
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#000001",
+            "font": "Verdana",
+            "fontSize": 14.6,
+            "templateColor": "#000001",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -7365,26 +7290,26 @@
     },
     "Template45": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Andriana Jacobs",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "HR manager",
+            "company": "Capitol",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "email:",
+                    "value": "andriana@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "mobile:",
+                    "value": "+1 757 3145 2220"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -7529,26 +7454,26 @@
     },
     "Template46": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "DEBORAH LARSON",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Marketing Manager",
+            "company": "at Onjoy",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "✦ ",
+                    "value": "617-555-0130"
                 },
                 {
                     "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "name": "✦ ",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Email",
+                    "name": "✦ ",
+                    "value": "deborah@example.com"
                 },
                 {
                     "title": "Address",
@@ -7680,10 +7605,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Georgia",
+            "fontSize": 12.5,
+            "templateColor": "rgb(54, 54, 54)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -7693,26 +7617,26 @@
     },
     "Template47": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Camelia Poler",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Healthy Nutrition Coach",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
                     "name": "",
-                    "value": "jason@example.com"
+                    "value": "cam@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -7844,10 +7768,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Lucida Sans Unicode",
+            "fontSize": 12.8,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -7857,36 +7780,36 @@
     },
     "Template48": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Anny Parson",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "",
+            "company": "Anny's Flowers",
             "department": "",
             "contacts": [
                 {
+                    "title": "Website",
+                    "name": "w:",
+                    "value": "signmaker.io"
+                },
+                {
                     "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "name": "e:",
+                    "value": "anny@example.com"
+                },
+                {
+                    "title": "Phone",
+                    "name": "p:",
+                    "value": "838 3837 3344"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
-                },
-                {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "a:",
+                    "value": "5th Ave, fl. 3"
                 },
                 {
                     "title": "Skype",
@@ -8008,10 +7931,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Courier New",
+            "fontSize": 14.4,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -8021,31 +7943,31 @@
     },
     "Template49": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Kurt Marsel",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Flourcourt bakery",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "title": "Cellphone",
+                    "name": "M:",
+                    "value": "+1 288 944 4473"
                 },
                 {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "title": "Email",
+                    "name": "E:",
+                    "value": "kurt.baker@example.com"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "A:",
+                    "value": "1107 Pennsylvania St Denver, CO 80203"
                 },
                 {
                     "title": "Phone",
@@ -8172,10 +8094,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Comic Sans MS",
+            "fontSize": 11.8,
+            "templateColor": "rgb(195, 95, 62)",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -8185,26 +8106,26 @@
     },
     "Template50": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Garry Wolf",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Broker",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
+                    "title": "Phone",
+                    "name": "phone:",
+                    "value": "+1 729 855 4555"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
+                    "name": "mobile:",
                     "value": "+2-535-656-12"
                 },
                 {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "title": "Email",
+                    "name": "email:",
+                    "value": "garry@example.com"
                 },
                 {
                     "title": "Address",
@@ -8212,14 +8133,14 @@
                     "value": ""
                 },
                 {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "title": "Skype",
+                    "name": "skype:",
+                    "value": "Garry.SE"
                 },
                 {
-                    "title": "Skype",
+                    "title": "Website",
                     "name": "",
-                    "value": ""
+                    "value": "signmaker.io"
                 }
             ]
         },
@@ -8336,8 +8257,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Verdana",
+            "fontSize": 10.2,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -8368,7 +8289,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -8532,7 +8453,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -8696,7 +8617,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -8860,7 +8781,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9024,7 +8945,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9188,7 +9109,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9352,7 +9273,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9516,7 +9437,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9680,7 +9601,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -9844,7 +9765,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -10008,7 +9929,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -10172,7 +10093,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -10336,7 +10257,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",
@@ -10500,7 +10421,7 @@
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": "signmaker.io"
                 },
                 {
                     "title": "Address",

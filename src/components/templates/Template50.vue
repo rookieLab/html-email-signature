@@ -14,8 +14,9 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 13.3px / 16.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
-                                            <span style="font-weight: 600; cursor: pointer;">Garry
-                                                Wolf</span>
+                                            <span style="font-weight: 600; cursor: pointer;">
+                                                Garry Wolf
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -24,22 +25,13 @@
                                             <span style="cursor: pointer;">Broker</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <span>mobile:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                729 855 4555</span>&nbsp;|&nbsp;<span>phone:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+1
-                                                728 607 2433</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 10.2px / 13.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 0);">
-                                            <span>email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">garry@mysignature.io</span>&nbsp;|&nbsp;<span>skype:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">Garry.SE</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
+                                        separator=" | " />
+                                    <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                     <tr style="cursor: pointer;">

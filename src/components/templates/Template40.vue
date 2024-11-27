@@ -15,41 +15,18 @@
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 15.4px / 19.5px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
                                             <span
                                                 style="font-weight: 600; color: rgb(157, 154, 146); cursor: pointer;">Jevan
-                                                Ortiz</span>&nbsp;<span
+                                                Ortiz</span>&nbsp;
+                                            <span
                                                 style="font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;">Sales
                                                 Manager | Cozad</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(157, 154, 146); font-weight: 600;">e:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">ortiz@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(157, 154, 146); font-weight: 600;">w:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(157, 154, 146); font-weight: 600;">p:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Courier New&quot;, Courier, monospace;">+756-23-5473</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px &quot;Courier New&quot;, Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(157, 154, 146); font-weight: 600;">a:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1);">55 Halsey St Brooklyn, NY 11216</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                      <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                     <tr>

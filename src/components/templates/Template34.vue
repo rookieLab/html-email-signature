@@ -55,31 +55,17 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <span style="cursor: pointer;">Preschool Teacher</span><span
-                                                style="cursor: pointer;"></span>
+                                            <span style="cursor: pointer;">Preschool Teacher</span>
+                                            <span style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">beard@mysignature.io</span>,&nbsp;<span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">+45-875-3885-43</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <span style="color: rgb(0, 0, 0);">Primary School,
-                                            </span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 12.6px / 16.1px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 0);">
-                                            <span
-                                                style="color: rgb(0, 0, 0); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">517
-                                                Robinson Lane, Athens</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left-1'"
+                                        :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                  <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                 </table>

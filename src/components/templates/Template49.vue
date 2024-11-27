@@ -8,7 +8,7 @@
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
                                 <Avatar :data="editing.Image" :styles="{ padding: '0px 12px 0px 0px' }" valign="top" />
-                     
+
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(195, 95, 62); margin: 0.1px; padding: 0px 0px 0px 12px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -16,41 +16,26 @@
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 15.4px / 19.6px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
                                                 <span
-                                                    style="font-weight: 600; color: rgb(195, 95, 62); cursor: pointer;">Kurt
-                                                    Marsel</span>
+                                                    style="font-weight: 600; color: rgb(195, 95, 62); cursor: pointer;">
+                                                    Kurt Marsel
+                                                </span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td
                                                 style="margin: 0.1px; padding: 0px 0px 8px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Flourcourt
-                                                    bakery</span>
+                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">
+                                                    Flourcourt bakery
+                                                </span>
                                             </td>
                                         </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(195, 95, 62); font-weight: 600;">M:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">+1
-                                                    288 944 4473</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(195, 95, 62); font-weight: 600;">E:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">kurt.baker@mysignature.io</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style="margin: 0.1px; padding: 0px; font: 11.8px / 15.1px &quot;Comic Sans MS&quot;, cursive, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="color: rgb(195, 95, 62); font-weight: 600;">A:&nbsp;</span><span
-                                                    style="color: rgb(0, 0, 1);">1107 Pennsylvania St Denver, CO
-                                                    80203</span>
+                                        <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                          <tr >
+                                        <td align="left"
+                                                style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                                <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                             </td>
                                         </tr>
                                         <tr>

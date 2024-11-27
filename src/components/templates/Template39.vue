@@ -22,32 +22,16 @@
                                         <tr>
                                             <td
                                                 style='margin: 0.1px; padding: 0px 0px 8px; font: 14.4px / 18.3px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1);'>
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Social
-                                                    Worker</span>
+                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Social Worker</span>
                                             </td>
                                         </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style='margin: 0.1px; padding: 0px; font: 14.4px / 18.3px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1);'>
-                                                <span
-                                                    style="color: rgb(176, 70, 70); font-weight: 600;">phone: </span><span
-                                                    style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Trebuchet MS", Helvetica, sans-serif;'>+57-366-274-45</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style='margin: 0.1px; padding: 0px; font: 14.4px / 18.3px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1);'>
-                                                <span
-                                                    style="color: rgb(176, 70, 70); font-weight: 600;">email: </span><span
-                                                    style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Trebuchet MS", Helvetica, sans-serif;'>a.clements@mysignature.io</span>
-                                            </td>
-                                        </tr>
-                                        <tr style="cursor: pointer;">
-                                            <td
-                                                style='margin: 0.1px; padding: 0px; font: 14.4px / 18.3px "Trebuchet MS", Helvetica, sans-serif; color: rgb(0, 0, 1);'>
-                                                <span
-                                                    style="color: rgb(176, 70, 70); font-weight: 600;">skype: </span><span
-                                                    style='color: rgb(0, 0, 1); text-decoration: none; font-family: "Trebuchet MS", Helvetica, sans-serif;'>antoni_clements</span>
+                                        <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                        <tr >
+                                            <td align="left"
+                                                style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                                <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                             </td>
                                         </tr>
                                     </table>

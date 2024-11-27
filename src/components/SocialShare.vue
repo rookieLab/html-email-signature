@@ -1,6 +1,6 @@
 <template>
     <!-- {{ data }} -->
-    <table cellpadding="0" style="border-collapse: collapse;">
+    <table cellpadding="0" style="border-collapse: collapse;" v-if="layout === 'row'">
         <tr>
             <td v-for="icon in data" :style="_styles">
                 <component :is="socialIconsMap[icon.name]" :url="icon.url" :shape="design.iconsShape"
@@ -10,6 +10,15 @@
 
         </tr>
     </table>
+    <table cellpadding="0" style="border-collapse: collapse;" v-else>
+        <tr v-for="icon in data">
+            <td :style="_styles">
+                <component :is="socialIconsMap[icon.name]" :url="icon.url" :shape="design.iconsShape"
+                    :size="design.iconsSize" :color="design.iconsType === 'branded' ? undefined : design.iconsColor"
+                    :background="design.iconsType === 'branded' ? undefined : design.iconsBackground" />
+            </td>
+        </tr>
+    </table>
 </template>
 
 <script setup name="Banner">
@@ -17,9 +26,9 @@ import { ref, watch, computed, shallowRef } from 'vue'
 import * as iconComponents from '@/components/svg-icon-a'
 
 const props = defineProps({
-    type: {
+    layout: {
         type: String,
-        default: 'table' // table or tr
+        default: 'row' // row or column
     },
     data: {
         type: Array,

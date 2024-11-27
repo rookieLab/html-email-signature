@@ -25,9 +25,16 @@
                                             </span>
                                         </td>
                                     </tr>
-                                   
+
                                     <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+
+                                    <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
+                                        </td>
+                                    </tr>
                                 </table>
                             </td>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 0px 15px' }" />

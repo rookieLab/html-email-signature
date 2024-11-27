@@ -10,7 +10,8 @@
                                 style="margin: 0.1px; padding: 0px 20px 0px 0px; border-right: 2px solid rgb(225, 167, 76);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 10px' }" align="center" />
+                                        <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 10px' }"
+                                            align="center" />
                                     </tr>
                                     <tr>
                                         <td align="center"
@@ -28,38 +29,15 @@
                                     </tr>
                                 </table>
                             </td>
+
                             <td valign="middle" style="margin: 0.1px; padding: 0px 0px 0px 20px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(225, 167, 76); font-weight: 600;">A:&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1);">New York, USA</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(225, 167, 76); font-weight: 600;">T:&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">222
-                                                335 3632</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(225, 167, 76); font-weight: 600;">E:&nbsp;&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">RC_animation@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1); white-space: nowrap;">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;">mysignature.io</span>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                     <tr >
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
+                                            <SocialShare :data="editing.socialIcons" :design="editing.design" />
                                         </td>
                                     </tr>
                                     <tr>

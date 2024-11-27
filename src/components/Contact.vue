@@ -8,7 +8,7 @@
     </template>
     <template v-else-if="layout === 'row-left'">
         <tr style="cursor: pointer;" v-if="contactArray.length > 0">
-            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px; " :style="_styles">
+            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px; " :style="{ ..._styles, padding: '1px 0px' }">
                 <template v-for="(contact, index) in contactArray.slice(0, 2)">
                     <!-- 如果index 是奇数，则margin-right: 10px; -->
                     <template v-if="index % 2 === 1">
@@ -20,7 +20,7 @@
             </td>
         </tr>
         <tr style="cursor: pointer;" v-if="contactArray.length > 2">
-            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="_styles">
+            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="{ ..._styles, padding: '1px 0px' }">
                 <template v-for="(contact, index) in contactArray.slice(2, 4)">
                     <template v-if="index % 2 === 1">
                         {{ separator }}
@@ -31,7 +31,7 @@
             </td>
         </tr>
         <tr style="cursor: pointer;" v-for="(contact, index) in contactArray.slice(4)" :key="contact.key">
-            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="_styles">
+            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="{ ..._styles, padding: '1px 0px' }">
                 <ContactIndex :title="contact.title" :name="contact.name" :value="contact.value"
                     :nameStyle="_templateStyle" />
             </td>
@@ -40,7 +40,7 @@
     <template v-else-if="layout === 'row-left-1'">
         <!-- 有一行有两个 -->
         <tr style="cursor: pointer;" v-if="contactArray.length > 0">
-            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px; " :style="_styles">
+            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px; " :style="{ ..._styles, padding: '1px 0px' }">
                 <template v-for="(contact, index) in contactArray.slice(0, 2)">
                     <!-- 如果index 是奇数，则margin-right: 10px; -->
                     <template v-if="index % 2 === 1">
@@ -52,7 +52,7 @@
             </td>
         </tr>
         <tr style="cursor: pointer;" v-for="(contact, index) in contactArray.slice(2)" :key="contact.key">
-            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="_styles">
+            <td align="left" style="margin: 0.1px; padding: 5px 0px 0px;" :style="{ ..._styles, padding: '1px 0px' }">
                 <ContactIndex :title="contact.title" :name="contact.name" :value="contact.value"
                     :nameStyle="_templateStyle" />
             </td>
