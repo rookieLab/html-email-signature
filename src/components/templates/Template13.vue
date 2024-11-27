@@ -7,8 +7,8 @@
                 <td
                     style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.9px / 22.8px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
                     <span
-                        style="font-weight: 600; color: rgb(32, 142, 192); text-transform: uppercase; cursor: pointer;">Gunner
-                        Lee</span>
+                        style="font-weight: 600; color: rgb(32, 142, 192); text-transform: uppercase; cursor: pointer;">
+                        Gunner  Lee</span>
                 </td>
             </tr>
             <tr>
@@ -29,27 +29,9 @@
                     </table>
                 </td>
             </tr>
-            <tr style="cursor: pointer;">
-                <td
-                    style='margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                    <span style="font-weight: 600;">E: </span><span
-                        style='color: rgb(39, 39, 39); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>lee@mysignature.io</span>
-                </td>
-            </tr>
-            <tr style="cursor: pointer;">
-                <td
-                    style='margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                    <span style="font-weight: 600;">W: </span><span
-                        style='color: rgb(39, 39, 39); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>mysignature.io</span>
-                </td>
-            </tr>
-            <tr style="cursor: pointer;">
-                <td
-                    style='margin: 0.1px; padding: 1px 0px; font: 13.8px / 17.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1);'>
-                    <span style="font-weight: 600;">T: </span><span
-                        style='color: rgb(39, 39, 39); text-decoration: none; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>2376-987-021</span>
-                </td>
-            </tr>
+            <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+            
         </table>
         <div>
             <Banner :data="editing?.Image"></Banner>

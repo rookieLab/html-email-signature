@@ -25,7 +25,8 @@
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 16.9px / 21.5px Georgia, serif; color: rgb(0, 0, 1);">
                                             <span
-                                                style="font-weight: 600; color: rgb(171, 11, 11); cursor: pointer;">Amy
+                                                style="font-weight: 600; color: rgb(171, 11, 11); cursor: pointer;">
+                                                Amy
                                                 Williams</span>&nbsp;<span
                                                 style="font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">Teacher</span>
                                         </td>
@@ -33,33 +34,14 @@
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px 0px 5px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">Fluent
-                                                    Bridge Institute</span></span></td>
+                                            <span style="cursor: pointer;"><span style="color: rgb(0, 0, 1);">
+                                                Fluent
+                                                Bridge Institute</span></span></td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(171, 11, 11); font-weight: 600;">m:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+1
-                                                226 353 3638</span></td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(171, 11, 11); font-weight: 600;">e:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">amy@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(171, 11, 11); font-weight: 600;">w:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                    
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.1px / 17.9px Georgia, serif; color: rgb(0, 0, 1);">

@@ -26,6 +26,8 @@
                                                     Realty</span></span>
                                         </td>
                                     </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
                                     <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 12.8px / 16.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">

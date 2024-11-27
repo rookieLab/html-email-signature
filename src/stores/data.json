@@ -1804,21 +1804,21 @@
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "♦︎ ",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "name": "♦︎ ",
+                    "value": "767 454 9876"
                 },
                 {
                     "title": "Address",
+                    "name": "♦︎ ",
+                    "value": "814 Mission Str 600"
+                },
+                {
+                    "title": "Website",
                     "name": "",
                     "value": ""
                 },
@@ -1929,11 +1929,11 @@
                 ]
             },
             "Disclaimer": {
-                "enable": false,
+                "enable": true,
                 "type": "Confidentiality",
-                "fontSize": 14,
-                "color": "#000001",
-                "width": 436,
+                "fontSize": 12,
+                "color": "#687083",
+                "width": 302,
                 "autoWidth": false
             }
         },
@@ -1947,7 +1947,7 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
+            "font": "Times New Roman",
             "fontSize": 12,
             "templateColor": "#000000",
             "TextColor": "#000000",
@@ -1960,25 +1960,25 @@
     },
     "Template12": {
         "general": {
-            "name": "Jason Fuller",
-            "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "name": "Amy Williams",
+            "pronoun": "Teacher",
+            "position": "",
+            "company": "Fluent Bridge Institute",
             "department": "",
             "contacts": [
                 {
+                    "title": "Cellphone",
+                    "name": "m: ",
+                    "value": "+1 226 353 3638"
+                },
+                {
                     "title": "Email",
-                    "name": "",
+                    "name": "e: ",
                     "value": "jason@example.com"
                 },
                 {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
                     "title": "Website",
-                    "name": "",
+                    "name": "w: ",
                     "value": "bigboldin.io"
                 },
                 {
@@ -2110,11 +2110,10 @@
             "avatarWidth": 98
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#000001",
+            "font": "Georgia",
+            "fontSize": 14.1,
+            "templateColor": "#ab0b0b",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -2124,34 +2123,34 @@
     },
     "Template13": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Gunner Lee",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Nurse at Private Clinic",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "E: ",
                     "value": "jason@example.com"
                 },
                 {
-                    "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
+                    "title": "Phone",
+                    "name": " ",
                     "value": ""
                 },
                 {
-                    "title": "Phone",
+                    "title": "Cellphone",
+                    "name": "T: ",
+                    "value": "2376-987-021"
+                },
+                {
+                    "title": "Website",
+                    "name": "W ",
+                    "value": "signmaker.io"
+                },
+                {
+                    "title": "Address",
                     "name": "",
                     "value": ""
                 },
@@ -2274,11 +2273,10 @@
             "avatarWidth": 144
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "color": "#272727",
+            "font": "Palatino Linotype",
+            "fontSize": 13.8,
+            "templateColor": "#208ec0",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -2296,26 +2294,26 @@
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "e: ",
                     "value": "jason@example.com"
+                },
+                {
+                    "title": "Phone",
+                    "name": "p: ",
+                    "value": "303-6384-253"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
                     "value": ""
                 },
                 {
-                    "title": "Phone",
+                    "title": "Address",
                     "name": "",
                     "value": ""
                 },
@@ -2421,11 +2419,11 @@
                 ]
             },
             "Disclaimer": {
-                "enable": false,
-                "type": "Confidentiality",
-                "fontSize": 14,
-                "color": "#000001",
-                "width": 436,
+                "enable": true,
+                "type": "Ecommerce",
+                "fontSize": 13.6,
+                "color": "#000000",
+                "width": 419,
                 "autoWidth": false
             }
         },
@@ -2438,11 +2436,10 @@
             "avatarWidth": 136
         },
         "design": {
-            "color": "#000000",
+            "color": "#000001",
             "font": "Arial",
-            "fontSize": 12,
+            "fontSize": 13.1,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -2464,22 +2461,22 @@
                     "value": "jason@example.com"
                 },
                 {
-                    "title": "Cellphone",
+                    "title": "Phone",
                     "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "value": "+1 987 223 7332"
                 },
                 {
                     "title": "Address",
                     "name": "",
+                    "value": "Rochester, Minnesota, USA"
+                },
+                {
+                    "title": "Cellphone",
+                    "name": "",
                     "value": ""
                 },
                 {
-                    "title": "Phone",
+                    "title": "Website",
                     "name": "",
                     "value": ""
                 },
@@ -2602,11 +2599,10 @@
             "avatarWidth": 155
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "color": "#000001",
+            "font": "Arial Black",
+            "fontSize": 13.6,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -2616,31 +2612,31 @@
     },
     "Template16": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Sarah Thompson",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Unemployed Professional",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "E:",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "M:",
+                    "value": "+435-567-323"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
+                    "name": "A:",
+                    "value": "1107 Pennsylvania St Denver, CO 80203"
                 },
                 {
                     "title": "Phone",
@@ -2649,8 +2645,8 @@
                 },
                 {
                     "title": "Skype",
-                    "name": "",
-                    "value": ""
+                    "name": "S:",
+                    "value": "sarah_thompson"
                 }
             ]
         },
@@ -2767,8 +2763,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Lucida Sans Unicode",
+            "fontSize": 12.6,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -2780,12 +2776,17 @@
     },
     "Template17": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "John Smith",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Unemployed",
+            "company": "",
             "department": "",
             "contacts": [
+                {
+                    "title": "Phone",
+                    "name": "",
+                    "value": "+1 757 3145 2220 |"
+                },
                 {
                     "title": "Email",
                     "name": "",
@@ -2794,20 +2795,15 @@
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
-                },
-                {
-                    "title": "Address",
-                    "name": "",
                     "value": ""
                 },
                 {
-                    "title": "Phone",
+                    "title": "Address",
                     "name": "",
                     "value": ""
                 },
@@ -2930,11 +2926,10 @@
             "avatarWidth": 138
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "color": "#fff",
+            "font": "Times New Roman",
+            "fontSize": 13.1,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -2944,25 +2939,25 @@
     },
     "Template18": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Benjamin Cruz",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Blog: The Thrifty Traveler",
+            "company": "",
             "department": "",
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "E:",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": ""
                 },
                 {
                     "title": "Website",
-                    "name": "",
+                    "name": "W:",
                     "value": "bigboldin.io"
                 },
                 {
@@ -3094,11 +3089,10 @@
             "avatarWidth": 169
         },
         "design": {
-            "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "color": "#000001",
+            "font": "Georgia",
+            "fontSize": 14.4,
             "templateColor": "#000000",
-            "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -3272,26 +3266,26 @@
     },
     "Template20": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "OLIVIA THOMPSON",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "FOOD CRITIC &amp; RESTAURANT REVIEWER",
+            "company": "",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
-                    "name": "",
-                    "value": "+2-535-656-12"
+                    "name": "m:",
+                    "value": "+2-535-656-12 "
                 },
                 {
                     "title": "Website",
-                    "name": "",
+                    "name": " w:",
                     "value": "bigboldin.io"
+                },
+                {
+                    "title": "Email",
+                    "name": "e:",
+                    "value": "jason@example.com "
                 },
                 {
                     "title": "Address",
@@ -3300,8 +3294,8 @@
                 },
                 {
                     "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": " p:",
+                    "value": "+533-540-111"
                 },
                 {
                     "title": "Skype",
@@ -3425,7 +3419,7 @@
             "color": "#000000",
             "font": "Arial",
             "fontSize": 12,
-            "templateColor": "#000000",
+            "templateColor": "#74a677",
             "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
@@ -3444,18 +3438,18 @@
             "contacts": [
                 {
                     "title": "Email",
-                    "name": "",
+                    "name": "email:",
                     "value": "jason@example.com"
                 },
                 {
                     "title": "Cellphone",
-                    "name": "",
+                    "name": "mobile:",
                     "value": "+2-535-656-12"
                 },
                 {
                     "title": "Website",
                     "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
@@ -3464,8 +3458,8 @@
                 },
                 {
                     "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "phone: ",
+                    "value": "(555) 987-6543"
                 },
                 {
                     "title": "Skype",
@@ -3587,10 +3581,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "font": "Times New Roman",
+            "fontSize": 17.4,
+            "templateColor": "#d76d26",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -3600,36 +3593,36 @@
     },
     "Template22": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Samantha Wilson",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Property Specialist",
+            "company": "Green Leaf Properties",
             "department": "",
             "contacts": [
                 {
+                    "title": "Website",
+                    "name": "w:",
+                    "value": "bigboldin.io"
+                },
+                {
                     "title": "Email",
-                    "name": "",
+                    "name": "e:",
                     "value": "jason@example.com"
+                },
+                {
+                    "title": "Phone",
+                    "name": "p:",
+                    "value": "+3 455-56-02"
                 },
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
-                },
-                {
-                    "title": "Website",
-                    "name": "",
-                    "value": "bigboldin.io"
+                    "value": ""
                 },
                 {
                     "title": "Address",
-                    "name": "",
-                    "value": ""
-                },
-                {
-                    "title": "Phone",
-                    "name": "",
-                    "value": ""
+                    "name": "a:",
+                    "value": "Richmond Staten Island, NY 10306 USA"
                 },
                 {
                     "title": "Skype",
@@ -3751,9 +3744,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
-            "templateColor": "#000000",
+            "font": "Verdana",
+            "fontSize": 12.1,
+            "templateColor": "#5b56d2",
             "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
@@ -3764,10 +3757,10 @@
     },
     "Template23": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "MICHAEL EVANS",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Real Estate Consultant",
+            "company": "Summit Realty",
             "department": "",
             "contacts": [
                 {
@@ -3778,7 +3771,7 @@
                 {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "(555) 987-6543"
                 },
                 {
                     "title": "Website",
@@ -3788,7 +3781,7 @@
                 {
                     "title": "Address",
                     "name": "",
-                    "value": ""
+                    "value": "517 Robinson Lane, Athens"
                 },
                 {
                     "title": "Phone",
@@ -3915,8 +3908,8 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
-            "fontSize": 12,
+            "font": "Georgia",
+            "fontSize": 11.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",
@@ -3928,21 +3921,16 @@
     },
     "Template24": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Jessica Martinez",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Realtor at",
+            "company": "Coastal Properties",
             "department": "",
             "contacts": [
                 {
-                    "title": "Email",
-                    "name": "",
-                    "value": "jason@example.com"
-                },
-                {
                     "title": "Cellphone",
                     "name": "",
-                    "value": "+2-535-656-12"
+                    "value": "+2-535-656-12,"
                 },
                 {
                     "title": "Website",
@@ -3952,7 +3940,12 @@
                 {
                     "title": "Address",
                     "name": "",
-                    "value": ""
+                    "value": "984 E 9th St, Stuart, FL 36780"
+                },
+                {
+                    "title": "Email",
+                    "name": "",
+                    "value": "jason@example.com"
                 },
                 {
                     "title": "Phone",
@@ -4078,9 +4071,9 @@
             "avatarWidth": 120
         },
         "design": {
-            "color": "#000000",
+            "color": "#4f2a12",
             "font": "Arial",
-            "fontSize": 12,
+            "fontSize": 14.4,
             "templateColor": "#000000",
             "TextColor": "#000000",
             "iconsType": "branded",

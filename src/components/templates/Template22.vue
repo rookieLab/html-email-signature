@@ -8,56 +8,35 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" valign="top" />
-                        
+
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Samantha
-                                                Wilson</span>
+                                            <span style="cursor: pointer;">
+                                                Samantha Wilson
+                                                
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Property
-                                                Specialist</span> <span style="cursor: pointer;">Green
-                                                Leaf
-                                                Properties</span><span style="cursor: pointer;"></span>
+                                            <span style="cursor: pointer;">
+                                                Property Specialist
+
+                                            </span> <span style="cursor: pointer;">
+
+                                                Green Leaf Properties
+
+
+                                            </span><span style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(91, 86, 210);">w: </span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(91, 86, 210);">e: </span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">wilson@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(91, 86, 210);">p: </span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Verdana, Geneva, sans-serif;">+3
-                                                455-56-02</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(91, 86, 210);">a: </span><span
-                                                style="color: rgb(0, 0, 1);">Richmond
-                                                Staten
-                                                Island, NY 10306 USA</span>
-                                        </td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                   
                                 </table>
                             </td>
                         </tr>

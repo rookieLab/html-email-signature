@@ -14,8 +14,9 @@
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 0px 0px 5px; font: 16.8px / 21.4px "Times New Roman", Times, serif; color: rgb(255, 255, 255); cursor: pointer;'>
-                                            <span style="font-weight: 600; cursor: pointer;">John
-                                                Smith</span>
+                                            <span style="font-weight: 600; cursor: pointer;">
+                                                John Smith
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -24,7 +25,10 @@
                                             <span style="cursor: pointer;">Unemployed</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left'"
+                                        :styles="{ ...textStyle, padding: '5px 0px 0px' }"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                    <!-- <tr style="cursor: pointer;">
                                         <td
                                             style='margin: 0.1px; padding: 5px 0px 0px; font: 13.1px / 16.5px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
                                             <span
@@ -41,7 +45,7 @@
                                             <span
                                                 style='color: rgb(255, 255, 255); text-decoration: none; font-family: "Times New Roman", Times, serif;'></span>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                     <tr>
                                         <td
                                             style='margin: 0.1px; padding: 10px 0px 0px; font: 13.1px / 16.5px "Times New Roman", Times, serif; color: rgb(255, 255, 255);'>
@@ -62,7 +66,7 @@
         <div>
             <table cellpadding="0" style="border-collapse: collapse;">
                 <tr>
-                    
+
                     <td style="padding: 14px 4px 4px 0px; margin: 0.1px;">
                         <span><img alt="linkedin" height="32"
                                 src="https://img.mysignature.io/addons/v2/linkedin_v2_shape1_i.png"

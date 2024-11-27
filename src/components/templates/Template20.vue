@@ -3,7 +3,7 @@
         <SignOff :data="editing.Addons?.signOff" />
         <table cellpadding="0" style="border-collapse: collapse; font-size: 13.1px;">
             <tr>
-                <Avatar :data="editing.Image" />
+                <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 13px' }" align="center" />
                 <!-- <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
                         src="https://img.mysignature.io/p/3/9/0/390e98a2-420e-52a6-a8a8-ef6aa04f2b12.png?time=1709198100"
                         width="162" alt=" &quot;created with MySignature.io&quot;"
@@ -12,8 +12,9 @@
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 0px 0px 5px; font: 17.1px / 21.7px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="font-weight: 600; color: rgb(116, 166, 119); cursor: pointer;">OLIVIA
-                        THOMPSON</span>
+                    <span style="font-weight: 600; color: rgb(116, 166, 119); cursor: pointer;">
+                        OLIVIA THOMPSON
+                    </span>
                 </td>
             </tr>
             <tr>
@@ -22,11 +23,15 @@
                     <span style="cursor: pointer;">FOOD CRITIC &amp; RESTAURANT REVIEWER</span>
                 </td>
             </tr>
-            <tr style="cursor: pointer;">
+            <Contact :data="editing.general?.contacts" :layout="'center'" :styles="textStyle"
+                :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+            <!-- <tr style="cursor: pointer;">
                 <td align="center"
                     style="margin: 0.1px; padding: 5px 20px; font: 13.1px / 16.7px Georgia, serif; color: rgb(116, 166, 119); border-bottom: 1px solid rgb(235, 228, 228);">
-                    <span>m:&nbsp;</span><span
-                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+435-567-323</span>&nbsp;&nbsp;<span>w:&nbsp;</span><span
+                    <span>m:&nbsp;</span>
+                    <span
+                        style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+435-567-323</span>&nbsp;&nbsp;
+                    <span>w:&nbsp;</span><span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
                 </td>
             </tr>
@@ -37,7 +42,7 @@
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">thompsonr@mysignature.io</span>&nbsp;&nbsp;<span>p:&nbsp;</span><span
                         style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+533-540-111</span>
                 </td>
-            </tr>
+            </tr> -->
             <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 10px 0px 0px; font: 13.1px / 16.7px Georgia, serif; color: rgb(0, 0, 1);">

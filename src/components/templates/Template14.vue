@@ -16,7 +16,10 @@
                                             <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Sadie
                                                 &amp; Nixon Family Blog</span></td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                            :styles="textStyle"
+                                            :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                    <!-- <tr style="cursor: pointer;">
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                             <span style="color: rgb(0, 0, 0); font-weight: 600;">p:&nbsp;</span><span
@@ -29,7 +32,7 @@
                                             <span style="color: rgb(0, 0, 0); font-weight: 600;">e:&nbsp;</span><span
                                                 style="color: rgb(0, 0, 1); text-decoration: none; font-family: Arial, Helvetica, sans-serif;">sadie@mysignature.io</span>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 2px 0px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
@@ -103,14 +106,14 @@
                     <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"></td>
                 </tr>
             </table>
-            <table width="419" cellpadding="0" style="border-collapse: collapse;">
+            <!-- <table width="419" cellpadding="0" style="border-collapse: collapse;">
                 <tr>
                     <td
                         style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
                         If you do not wish to receive more information about our products and/or services, you can
                         unsubscribe by replying to this email with the subject line "DO NOT SEND".</td>
                 </tr>
-            </table>
+            </table> -->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

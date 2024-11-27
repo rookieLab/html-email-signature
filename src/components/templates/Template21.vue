@@ -8,42 +8,25 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :valign="top" :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" />
-                 
+
                             <td valign="top" style="margin: 0.1px; padding: 0px 15px 0px 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 0px; font: 20.9px / 26.6px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Alex Johnson</span></td>
+                                            <span style="cursor: pointer;">Alex Johnson</span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 4px 0px; font: 17.4px / 22.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
                                             <span style="cursor: pointer;">Foodie Extraordinaire</span><span
-                                                style="cursor: pointer;"></span><span
-                                                style="cursor: pointer;"></span></td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.4px / 22.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(215, 109, 38);">phone:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">(555)
-                                                987-6543</span></td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.4px / 22.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(215, 109, 38);">email:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">alex@mysignature.io</span>
+                                                style="cursor: pointer;"></span><span style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.4px / 22.2px &quot;Times New Roman&quot;, Times, serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(215, 109, 38);">mobile:&nbsp;</span><span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: &quot;Times New Roman&quot;, Times, serif;">+893
-                                                7373-87389</span></td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+
                                 </table>
                             </td>
                             <td valign="middle"

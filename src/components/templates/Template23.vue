@@ -28,37 +28,9 @@
                                                 style="cursor: pointer;">Summit Realty</span>
                                         </td>
                                     </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">(555)
-                                                987-6543</span>,&nbsp;<span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">+1
-                                                728 607 2433</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">michaelevans@mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(0, 0, 1); text-decoration: none; font-family: Georgia, serif;">mysignature.io</span>
-                                        </td>
-                                    </tr>
-                                    <tr style="cursor: pointer;">
-                                        <td
-                                            style="margin: 0.1px; padding: 1px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 1);">517 Robinson Lane,
-                                                Athens</span>
-                                        </td>
-                                    </tr>
+                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                        :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
+                                   
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
