@@ -4833,11 +4833,11 @@
             "fontSize": 12.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 24,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "#e0106c"
         }
     },
     "Template30": {
@@ -4996,11 +4996,11 @@
             "font": "Tahoma",
             "fontSize": 12.5,
             "templateColor": "rgb(110, 76, 55)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 26,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "#9c4413"
         }
     },
     "Template31": {
@@ -5054,6 +5054,9 @@
             },
             {
                 "name": "instagram",
+                "url": ""
+            },{
+                "name": "linkedin",
                 "url": ""
             }
         ],
@@ -5159,11 +5162,11 @@
             "font": "Lucida Sans Unicode",
             "fontSize": 14.4,
             "templateColor": "rgb(44, 62, 134)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsType": "colored",
+            "iconsSize": 22,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "#d30000"
         }
     },
     "Template32": {
@@ -5323,11 +5326,11 @@
             "fontSize": 11.8,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFC68D",
+            "iconsBackground": "#37009a"
         }
     },
     "Template33": {
@@ -5486,11 +5489,11 @@
             "font": "Verdana",
             "fontSize": 11.5,
             "templateColor": "rgb(147, 45, 3)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 24,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#932D03",
+            "iconsBackground": "rgb(213, 162, 138)"
         }
     },
     "Template34": {
@@ -5649,11 +5652,11 @@
             "font": "Times New Roman",
             "fontSize": 12.6,
             "templateColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 22,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#000000",
+            "iconsBackground": "#ffffff"
         }
     },
     "Template35": {
@@ -5813,11 +5816,11 @@
             "fontSize": 11.2,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(175, 161, 107)"
         }
     },
     "Template36": {
@@ -5976,11 +5979,11 @@
             "font": "Georgia",
             "fontSize": 13.6,
             "templateColor": "#fff",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsType": "colored",
+            "iconsSize": 31,
+            "iconsShape": "circle",
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "rgb(67, 54, 102)"
         }
     },
     "Template37": {
@@ -6140,11 +6143,11 @@
             "fontSize": 13.6,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 25,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#FFFFFF",
+            "iconsBackground": "#000001"
         }
     },
     "Template38": {
@@ -6303,11 +6306,11 @@
             "font": "Courier New",
             "fontSize": 14.6,
             "templateColor": "rgb(255, 189, 0)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsType": "colored",
+            "iconsSize": 23,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(0, 174, 76)"
         }
     },
     "Template39": {
@@ -6351,18 +6354,7 @@
             ]
         },
         "socialIcons": [
-            {
-                "name": "facebook",
-                "url": ""
-            },
-            {
-                "name": "twitter",
-                "url": ""
-            },
-            {
-                "name": "instagram",
-                "url": ""
-            }
+      
         ],
         "Addons": {
             "signOff": {
@@ -6525,6 +6517,10 @@
             {
                 "name": "instagram",
                 "url": ""
+            },
+            {
+                "name": "skype",
+                "url": ""
             }
         ],
         "Addons": {
@@ -6629,11 +6625,11 @@
             "font": "Courier New",
             "fontSize": 12.8,
             "templateColor": "rgb(157, 154, 146)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 21,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(212, 210, 190)"
         }
     },
     "Template41": {
@@ -6683,6 +6679,13 @@
             },
             {
                 "name": "twitter",
+                "url": ""
+            },      {
+                "name": "skype",
+                "url": ""
+            },
+            {
+                "name": "line",
                 "url": ""
             },
             {
@@ -6792,11 +6795,11 @@
             "font": "Lucida Sans Unicode",
             "fontSize": 14.4,
             "templateColor": "rgb(132, 118, 108)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(56, 103, 107)"
         }
     },
     "Template42": {
@@ -6955,11 +6958,11 @@
             "font": "Palatino Linotype",
             "fontSize": 14.4,
             "templateColor": "rgb(225, 167, 76)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsType": "colored",
+            "iconsSize": 29,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(163, 178, 210)"
         }
     },
     "Template43": {
@@ -7118,11 +7121,11 @@
             "font": "Verdana",
             "fontSize": 12.3,
             "templateColor": "rgb(130, 155, 142)",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 25,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(130, 155, 142)"
         }
     },
     "Template44": {
@@ -7281,11 +7284,11 @@
             "font": "Verdana",
             "fontSize": 14.6,
             "templateColor": "#000001",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 30,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#000000",
+            "iconsBackground": "rgb(255, 255, 255)"
         }
     },
     "Template45": {
@@ -7445,11 +7448,11 @@
             "fontSize": 12,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 31,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#EFCAB0",
+            "iconsBackground": "rgb(255, 255, 255)"
         }
     },
     "Template46": {
@@ -7608,11 +7611,11 @@
             "font": "Georgia",
             "fontSize": 12.5,
             "templateColor": "rgb(54, 54, 54)",
-            "iconsType": "branded",
+            "iconsType": "colored",
             "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(59, 171, 214)"
         }
     },
     "Template47": {
@@ -7771,11 +7774,11 @@
             "font": "Lucida Sans Unicode",
             "fontSize": 12.8,
             "templateColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 23,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(20, 186, 71)"
         }
     },
     "Template48": {
@@ -7829,6 +7832,10 @@
             },
             {
                 "name": "instagram",
+                "url": ""
+            },
+            {
+                "name": "skype",
                 "url": ""
             }
         ],
@@ -7934,11 +7941,11 @@
             "font": "Courier New",
             "fontSize": 14.4,
             "templateColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 29,
             "iconsShape": "rounded",
-            "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsColor": "#EB3E91",
+            "iconsBackground": "rgb(255, 255, 255)"
         }
     },
     "Template49": {
@@ -8097,11 +8104,11 @@
             "font": "Comic Sans MS",
             "fontSize": 11.8,
             "templateColor": "rgb(195, 95, 62)",
-            "iconsType": "branded",
-            "iconsSize": 27,
-            "iconsShape": "rounded",
+            "iconsType": "colored",
+            "iconsSize": 26,
+            "iconsShape": "circle",
             "iconsColor": "#ffffff",
-            "iconsBackground": "#000000"
+            "iconsBackground": "rgb(195, 95, 62)"
         }
     },
     "Template50": {
@@ -8261,8 +8268,8 @@
             "fontSize": 10.2,
             "templateColor": "#000000",
             "TextColor": "#000000",
-            "iconsType": "branded",
-            "iconsSize": 27,
+            "iconsType": "colored",
+            "iconsSize": 26,
             "iconsShape": "rounded",
             "iconsColor": "#ffffff",
             "iconsBackground": "#000000"

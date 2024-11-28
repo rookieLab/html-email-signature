@@ -38,9 +38,8 @@
                                             </span>
                                         </td>
                                     </tr>
-
                                     <Contact :data="editing.general?.contacts" :design="editing.design" layout="column"
-                                        :styles="{ padding: '0px', borderBottom: '0' }" separator=" | " />
+                                        :styles="{ ...textStyle, padding: '0px', borderBottom: '0' }" separator=" | " />
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 14.2px / 18.1px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">

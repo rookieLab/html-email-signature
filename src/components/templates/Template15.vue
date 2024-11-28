@@ -16,7 +16,7 @@
                             </td>
                             <td valign="middle" style="margin: 0.1px; padding: 0px 0px 0px 20px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"  :styles="{ ...textStyle, padding: '5px 0px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
                                     <tr>

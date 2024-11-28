@@ -1,7 +1,7 @@
 <template>
     <template v-if="layout === 'column'">
-        <tr v-for="c in data" :style="_styles">
-            <td v-if="c.value" style="margin: 0.1px; padding: 2px 0px;" :style="textStyle">
+        <tr v-for="c in data">
+            <td v-if="c.value" style="margin: 0.1px; padding: 2px 0px;" :style="_styles">
                 <ContactIndex :title="c.title" :name="c.name" :value="c.value" :nameStyle="_templateStyle" />
             </td>
         </tr>

@@ -23,12 +23,14 @@
                     <span style="cursor: pointer;">FOOD CRITIC &amp; RESTAURANT REVIEWER</span>
                 </td>
             </tr>
-            <Contact :data="editing.general?.contacts" :layout="'center'" :styles="textStyle"
+            <Contact :data="editing.general?.contacts" :layout="'center'"
+                :styles="{ ...textStyle, padding: '5px 20px' }"
                 :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-            <tr >
+            <tr>
                 <td align="center"
                     style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
-                    <SocialShare :data="editing.socialIcons" :design="editing.design" :styles="{ padding: '0px 5px' }" />
+                    <SocialShare :data="editing.socialIcons" :design="editing.design"
+                        :styles="{ padding: '0px 5px' }" />
                 </td>
             </tr>
         </table>

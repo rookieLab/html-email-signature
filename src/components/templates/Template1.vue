@@ -35,7 +35,7 @@
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :design="editing.design"
-                                        :layout="'column'" />
+                                        :styles="{ ...textStyle, padding: '2px 0px' }" :layout="'column'" />
                                     <tr>
                                         <td style="margin: 0.1px; padding: 8px 0px 0px;" :style="textStyle">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />

@@ -41,9 +41,8 @@
                                         </td>
                                     </tr>
 
-
                                     <Contact :data="editing.general?.contacts" :design="editing.design"
-                                        layout="row-left" :styles="{ padding: '5px 0px 0px', borderBottom: '0' }"
+                                        layout="row-left" :styles="{ ...textStyle,padding: '5px 0px 0px', borderBottom: '0' }"
                                         separator=" | " />
 
                                     <tr>

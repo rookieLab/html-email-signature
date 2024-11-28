@@ -38,7 +38,8 @@
                                     </tr>
 
 
-                                    <Contact :data="editing.general?.contacts" :design="editing.design" />
+                                    <Contact :data="editing.general?.contacts" :design="editing.design"
+                                        :styles="{ ...textStyle, padding: '2px 0px' }" />
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 8px 0px 0px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">

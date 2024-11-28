@@ -38,7 +38,7 @@
                                     </tr>
 
                                     <Contact :data="editing.general?.contacts" :design="editing.design"
-                                        :layout="'column'" />
+                                        :styles="{ ...textStyle, padding: '1px 0px' }" :layout="'column'" />
 
                                     <tr>
                                         <td

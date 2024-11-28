@@ -43,7 +43,7 @@
                                         </tr>
 
                                         <Contact :data="editing.general?.contacts" :layout="'column'"
-                                            :styles="textStyle"
+                                            :styles="{ ...textStyle, padding: '0px'}"
                                             :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
 

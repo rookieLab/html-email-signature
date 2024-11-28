@@ -34,7 +34,7 @@
                     </table>
                 </td>
             </tr>
-            <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+            <Contact :data="editing.general?.contacts" :layout="'column'" :styles="{ ...textStyle, padding: '1px 0px' }"
                 :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
             <tr>
                 <td align="left"
