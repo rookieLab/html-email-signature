@@ -28,7 +28,8 @@
                                                 style="cursor: pointer;">Summit Realty</span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
 
@@ -44,7 +45,7 @@
                                                             :styles="{ padding: '0px  3px' }" />
                                                     </td>
                                                 </tr>
-                                                
+
                                             </table>
                                         </td>
                                     </tr>

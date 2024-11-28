@@ -25,7 +25,7 @@
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'row-left'"
-                                        :styles="{ ...textStyle, padding: '5px 0px 0px' }"
+                                        :styles="{ ...textStyle, padding: '0px 0px 5px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
                                         separator=" | " />
                                      <tr >

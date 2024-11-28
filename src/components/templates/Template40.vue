@@ -21,7 +21,8 @@
                                                 Manager | Cozad</span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '2px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
                                     <tr>

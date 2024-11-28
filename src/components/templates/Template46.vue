@@ -25,7 +25,8 @@
                                             <span style="cursor: pointer;">at Onjoy</span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'row-left'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left'"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
                                         separator=", " />
 

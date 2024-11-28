@@ -30,7 +30,7 @@
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'row-left-1'"
-                                        :styles="textStyle"
+                                         :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
                                 </table>

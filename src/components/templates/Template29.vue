@@ -31,7 +31,8 @@
                                                 style="cursor: pointer;">Instagram Influencer</span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="{ ...textStyle, padding: '0px' }"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
 

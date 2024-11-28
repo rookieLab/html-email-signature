@@ -26,14 +26,15 @@
                                             <span style="cursor: pointer;">Retter</span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '5px 0px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-                              
+
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 13.6px / 17.3px Georgia, serif; color: rgb(0, 0, 1);">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />
-                                          
+
                                         </td>
                                     </tr>
                                 </table>

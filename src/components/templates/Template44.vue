@@ -12,7 +12,7 @@
 
                                 <SocialShare :data="editing.socialIcons" :design="editing.design" layout="column"
                                     :styles="{ padding: '4px 15px 0px 0px' }" />
-                                
+
                             </td>
                             <td valign="middle" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
@@ -30,7 +30,8 @@
                                                 style="cursor: pointer;"></span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'row-left'" :styles="textStyle"
+                                    <Contact :data="editing.general?.contacts" :layout="'row-left'"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }"
                                         separator=", " />
 
