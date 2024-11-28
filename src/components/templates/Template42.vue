@@ -13,18 +13,33 @@
                                         <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 10px' }"
                                             align="center" />
                                     </tr>
+                            
                                     <tr>
                                         <td align="center"
-                                            style="margin: 0.1px; padding: 0px; font: 20.2px / 25.6px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(225, 167, 76); font-weight: 600; cursor: pointer;">Robson
-                                                Cooley</span><span style="color: rgb(0, 0, 1); cursor: pointer;"></span>
+                                            style="margin: 0.1px; padding:  0px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.4 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td align="center"
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 200 14.4px / 18.3px &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Motion Designer</span>
+                                        <td align="center" style="margin: 0.1px; padding: 5px 0px 0px "
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                 </table>

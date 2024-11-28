@@ -7,31 +7,52 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" />
-
                             <td valign="top" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 2px; font: 14.2px / 18.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                            <span
-                                                style="font-weight: 600; color: rgb(55, 0, 154); cursor: pointer;">SAHAR
-                                                WARD</span>
+                                        <td align="left" style="margin: 0.1px; padding:0px 0px 2px; " :style="{
+                                            fontFamily: fontFamily,
+                                            fontSize: editing.design?.fontSize * 1.2 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 8px; font: 600 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Head Teacher</span>
+                                        <td align="left" style="margin: 0.1px;" :style="{
+                                            ...textStyle,
+                                            fontWeight: '600',
+                                            borderTop: '1px solid rgb(255, 255, 255)',
+                                            fontSize: editing.design?.fontSize * 1 + 'px',
+                                            padding: '0px 0px 8px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'" :styles="{ ...textStyle, padding: '0px' }"
+
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
-                                
+
                                     <tr>
                                         <td
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />
-                                      
+
                                         </td>
                                     </tr>
                                 </table>

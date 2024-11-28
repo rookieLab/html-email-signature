@@ -9,27 +9,43 @@
                             <td style="margin: 0.1px; padding: 0px;" valign="top">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style='margin: 0.1px; padding: 0px 0px 2px; font: 17.3px / 22.1px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
-                                            <span style="color: rgb(13, 31, 117); font-weight: 600; cursor: pointer;">
-                                                FRANCO ALEXANDER
-
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.4 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
                                             </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style='margin: 0.1px; padding: 0px 0px 10px; font: 600 14.4px / 18.3px "Times New Roman", Times, serif; color: rgb(0, 0, 1);'>
-                                            <span style="cursor: pointer;">
-                                                Criminal Defense Attorney
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 8px " :style="{
+                                            ...textStyle,
+                                            fontWeight: '600',
+                                            fontSize: editing.design?.fontSize * 1.2 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
                                             </span>
                                         </td>
                                     </tr>
+                                    
 
-                                    <Contact :data="editing.general?.contacts" :layout="'column'"  :styles="{ ...textStyle, padding: '1px 0px' }"
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
-                                    <tr >
+                                    <tr>
                                         <td align="left"
                                             style="margin: 0.1px; padding: 10px 0px 0px; font: 11.8px / 15.1px Georgia, serif; color: rgb(0, 0, 1);">
                                             <SocialShare :data="editing.socialIcons" :design="editing.design" />

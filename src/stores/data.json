@@ -1796,10 +1796,10 @@
     },
     "Template11": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "FRANCO ALEXANDER",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Criminal Defense Attorney",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -1936,7 +1936,7 @@
             "color": "#000000",
             "font": "Times New Roman",
             "fontSize": 12,
-            "templateColor": "#000000",
+            "templateColor": "#0d1f75",
             "TextColor": "#000000",
             "iconsType": "branded",
             "iconsSize": 27,
@@ -2260,10 +2260,10 @@
     },
     "Template14": {
         "general": {
-            "name": "Jason Fuller",
-            "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "name": "Sadie",
+            "pronoun": "& Nixon Family Blog",
+            "position": "",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -2423,10 +2423,10 @@
     },
     "Template15": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -2894,7 +2894,7 @@
             "color": "#fff",
             "font": "Times New Roman",
             "fontSize": 13.1,
-            "templateColor": "#000000",
+            "templateColor": "#ffffff",
             "iconsType": "branded",
             "iconsSize": 27,
             "iconsShape": "rounded",
@@ -3237,7 +3237,7 @@
         "general": {
             "name": "OLIVIA THOMPSON",
             "pronoun": "",
-            "position": "FOOD CRITIC &amp; RESTAURANT REVIEWER",
+            "position": "FOOD CRITIC & RESTAURANT REVIEWER",
             "company": "",
             "department": "",
             "contacts": [
@@ -3390,7 +3390,7 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
+            "font": "Georgia",
             "fontSize": 12,
             "templateColor": "#74a677",
             "TextColor": "#000000",
@@ -3403,10 +3403,10 @@
     },
     "Template21": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "Alex Johnson",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Foodie Extraordinaire",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -3441,9 +3441,7 @@
                 }
             ]
         },
-        "socialIcons": [
-       
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -3542,7 +3540,7 @@
             "avatarWidth": 119
         },
         "design": {
-            "color": "#000000",
+            "color": "#000001",
             "font": "Times New Roman",
             "fontSize": 17.4,
             "templateColor": "#d76d26",
@@ -3593,9 +3591,7 @@
                 }
             ]
         },
-        "socialIcons": [
-    
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -4025,8 +4021,7 @@
             "color": "#4f2a12",
             "font": "Arial",
             "fontSize": 14.4,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "templateColor": "#4f2a12",
             "iconsType": "colored",
             "iconsSize": 23,
             "iconsShape": "rounded",
@@ -4036,10 +4031,10 @@
     },
     "Template25": {
         "general": {
-            "name": "Jason Fuller",
-            "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "name": "John Smith",
+            "pronoun": "Realtor",
+            "position": "ABC Realty",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -4203,7 +4198,7 @@
             "name": "Prof. David Patel",
             "pronoun": "",
             "position": "School of Busines",
-            "company": "Horizon University",
+            "company": "| Horizon University",
             "department": "",
             "contacts": [
                 {
@@ -4366,7 +4361,7 @@
             "name": "Emily Carter",
             "pronoun": "",
             "position": "Director",
-            "company": "Diamond Haven",
+            "company": "| Diamond Haven",
             "department": "",
             "contacts": [
                 {
@@ -4401,9 +4396,7 @@
                 }
             ]
         },
-        "socialIcons": [
-    
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -4831,8 +4824,7 @@
             "color": "#000000",
             "font": "Lucida Sans Unicode",
             "fontSize": 12.8,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "templateColor": "#d81d54",
             "iconsType": "colored",
             "iconsSize": 24,
             "iconsShape": "rounded",
@@ -4845,7 +4837,7 @@
             "name": "Gregory Shelton",
             "pronoun": "",
             "position": "Travel Blogger",
-            "company": "The G Word channel",
+            "company": "| The G Word channel",
             "department": "",
             "contacts": [
                 {
@@ -5055,7 +5047,8 @@
             {
                 "name": "instagram",
                 "url": ""
-            },{
+            },
+            {
                 "name": "linkedin",
                 "url": ""
             }
@@ -5324,8 +5317,7 @@
             "color": "#000000",
             "font": "Verdana",
             "fontSize": 11.8,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "templateColor": "rgb(55, 0, 154)",
             "iconsType": "colored",
             "iconsSize": 23,
             "iconsShape": "rounded",
@@ -5500,8 +5492,8 @@
         "general": {
             "name": "Maya Beard",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "Preschool Teacher",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -5828,7 +5820,7 @@
             "name": "Norman Richardson",
             "pronoun": "",
             "position": "Owner",
-            "company": "Retter",
+            "company": "| Retter",
             "department": "",
             "contacts": [
                 {
@@ -6353,9 +6345,7 @@
                 }
             ]
         },
-        "socialIcons": [
-      
-        ],
+        "socialIcons": [],
         "Addons": {
             "signOff": {
                 "enable": false,
@@ -6468,8 +6458,8 @@
     "Template40": {
         "general": {
             "name": "Jevan Ortiz",
-            "pronoun": "",
-            "position": "Sales Manager | Coza",
+            "pronoun": "Sales Manager | Coza",
+            "position": "",
             "company": "",
             "department": "",
             "contacts": [
@@ -6680,7 +6670,8 @@
             {
                 "name": "twitter",
                 "url": ""
-            },      {
+            },
+            {
                 "name": "skype",
                 "url": ""
             },
@@ -6967,10 +6958,10 @@
     },
     "Template43": {
         "general": {
-            "name": "Jason Fuller",
+            "name": "AMINA DELAROSA",
             "pronoun": "",
-            "position": "Creative Manager",
-            "company": "BIG BOLD Innovations",
+            "position": "PR MANAGER",
+            "company": "",
             "department": "",
             "contacts": [
                 {
@@ -7296,7 +7287,7 @@
             "name": "Andriana Jacobs",
             "pronoun": "",
             "position": "HR manager",
-            "company": "Capitol",
+            "company": " | Capitol",
             "department": "",
             "contacts": [
                 {
@@ -7444,10 +7435,9 @@
         },
         "design": {
             "color": "#000000",
-            "font": "Arial",
+            "font": "Georgia",
             "fontSize": 12,
-            "templateColor": "#000000",
-            "TextColor": "#000000",
+            "templateColor": "#ffffff",
             "iconsType": "colored",
             "iconsSize": 31,
             "iconsShape": "rounded",
@@ -7610,7 +7600,7 @@
             "color": "#000000",
             "font": "Georgia",
             "fontSize": 12.5,
-            "templateColor": "rgb(54, 54, 54)",
+            "templateColor": "#3babd6",
             "iconsType": "colored",
             "iconsSize": 27,
             "iconsShape": "circle",
@@ -7773,7 +7763,7 @@
             "color": "#000000",
             "font": "Lucida Sans Unicode",
             "fontSize": 12.8,
-            "templateColor": "#000000",
+            "templateColor": "#14ba47",
             "iconsType": "colored",
             "iconsSize": 23,
             "iconsShape": "rounded",
@@ -7940,7 +7930,7 @@
             "color": "#000000",
             "font": "Courier New",
             "fontSize": 14.4,
-            "templateColor": "#000000",
+            "templateColor": "rgb(235, 62, 145)",
             "iconsType": "colored",
             "iconsSize": 29,
             "iconsShape": "rounded",

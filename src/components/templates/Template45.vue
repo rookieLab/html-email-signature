@@ -10,18 +10,40 @@
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 16.1px / 20.4px Georgia, serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
+            
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 20.8px / 26.5px Georgia, serif; color: rgb(255, 255, 255); cursor: pointer;">
-                                            <span style="font-weight: 600; cursor: pointer;">
-                                                Andriana Jacobs</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 5px; line-height: 22.2px;" :style="{
+                                                fontFamily: fontFamily,
+                                                color: editing.design?.templateColor,
+                                                fontSize: editing.design?.fontSize * 1.7 + 'px'
+                                            }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 16.1px / 20.4px Georgia, serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);">
-                                            <span style="cursor: pointer;">HR manager</span>&nbsp;|&nbsp;<span
-                                                style="cursor: pointer;">Capitol</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding:5px 0px;text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);"
+                                            :style="{
+                                                ...textStyle,
+                                                color: editing.design?.templateColor,
+                                                 fontSize: editing.design?.fontSize * 1.4 + 'px'
+                                            }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'"

@@ -10,27 +10,45 @@
                             <td valign="middle"
                                 style="margin: 0.1px; padding: 0px; font: 12.6px / 16.1px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
                                 <SocialShare :data="editing.socialIcons" :design="editing.design" layout="column" />
-
                             </td>
                             <td valign="middle" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 2px; font: 15.2px / 19.3px 'Times New Roman', Times, serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(15, 15, 15); font-weight: 600; cursor: pointer;">Maya
-                                                Beard</span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 2px; " :style="{
+                                            fontFamily: fontFamily,
+                                            fontSize: editing.design?.fontSize * 1.2 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 12.6px / 16.1px 'Times New Roman', Times, serif; color: rgb(0, 0, 0);">
-                                            <span style="cursor: pointer;">Preschool Teacher</span>
-                                            <span style="cursor: pointer;"></span>
+                                        <td align="left" style="margin: 0.1px;" :style="{
+                                            ...textStyle,
+                                            fontWeight: '500',
+                                            borderTop: '1px solid rgb(255, 255, 255)',
+                                            fontSize: editing.design?.fontSize * 1 + 'px',
+                                            padding: '0px 0px 5px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'row-left-1'"
-                                         :styles="{ ...textStyle, padding: '1px 0px' }"
+                                        :styles="{ ...textStyle, padding: '1px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
                                 </table>

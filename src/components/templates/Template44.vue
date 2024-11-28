@@ -17,17 +17,31 @@
                             <td valign="middle" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 2px; font: 17.5px / 22.2px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">
-                                                Karen Shevans</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 2px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.2 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 14.6px / 18.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Photographer</span><span
-                                                style="cursor: pointer;"></span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 5px"
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'row-left'"

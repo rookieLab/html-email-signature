@@ -15,17 +15,31 @@
                             <td valign="middle" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 2px; font: 17.5px / 22.2px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(0, 0, 0); font-weight: 600; cursor: pointer;">
-                                                Juliette Perry</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 2px; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.2 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 14.6px / 18.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Beauty Blogger</span><span
-                                                style="cursor: pointer;"></span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 5px "
+                                            :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'"
@@ -50,14 +64,6 @@
                 </tr>
             </table>
             <Banner :data="editing?.Image" type="table" :styles="{ paddingTop: '10px' }"></Banner>
-            <!-- <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; padding-top: 10px; cursor: pointer;"><span><img
-                                src="https://img.mysignature.io/b/2/3/4/23423a38-4b1c-5ebe-83af-58367bfa50fc.png?time=1709309023"
-                                valign="top" width="324" alt="created with MySignature.io"
-                                style="display: block;"></span></td>
-                </tr>
-            </table> -->
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>

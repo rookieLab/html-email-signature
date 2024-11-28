@@ -6,17 +6,36 @@
                 <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" valign="middle" />
             </tr>
             <tr>
-                <td
-                    style="margin: 0.1px; padding: 10px 10px 0px 0px; font: 14.6px / 18.5px 'Palatino Linotype', 'Book Antiqua', Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;">
-                    <span
-                        style="font-weight: 600; color: rgb(0, 0, 0); text-transform: uppercase; cursor: pointer;">Monty
-                        Montes</span>
+                <td align="left" style="margin: 0.1px; padding: 10px 10px 0px 0px; text-transform: uppercase;" :style="{
+                    fontFamily: fontFamily,
+                    fontSize: editing.design?.fontSize * 1.4 + 'px',
+                }">
+                    <span v-if="editing.general?.name" style="font-weight: 600;  cursor: pointer;"
+                        :style="{ color: editing.design?.templateColor }">
+                        {{ editing.general?.name }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                        {{ editing.general?.pronoun }}&nbsp;
+                    </span>
                 </td>
             </tr>
             <tr>
-                <td
-                    style="margin: 0.1px; padding: 5px 0px 0px; font: 11.2px / 14.2px 'Palatino Linotype', 'Book Antiqua', Palatino, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">CEO at Mail Nook</span><span style="cursor: pointer;"></span>
+                <td align="left" style="margin: 0.1px;" :style="{
+                    ...textStyle,
+                    fontWeight: '500',
+                    borderTop: '1px solid rgb(255, 255, 255)',
+                    fontSize: editing.design?.fontSize * 1 + 'px',
+                    padding: '5px 0px 0px'
+                }">
+                    <span v-if="editing.general?.position" style="cursor: pointer;">
+                        {{ editing.general?.position }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.company" style="cursor: pointer;">
+                        {{ editing.general?.company }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.department" style="cursor: pointer;">
+                        {{ editing.general?.department }}
+                    </span>
                 </td>
             </tr>
             <tr>
@@ -24,7 +43,8 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <td height="1"
-                                style="margin: 0.1px; padding: 0px; border-top: 2px solid rgb(0, 0, 1); font: 1px / 1px 'Palatino Linotype', 'Book Antiqua', Palatino, serif; width: 30px;">
+                                style="margin: 0.1px; padding: 0px; border-top: 2px solid rgb(0, 0, 1); font: 1px / 1px 'Palatino Linotype', 'Book Antiqua', Palatino, serif; width: 30px;"
+                                :style="{ borderColor: editing.design?.templateColor }">
                             </td>
                         </tr>
                     </table>

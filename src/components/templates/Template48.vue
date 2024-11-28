@@ -12,19 +12,33 @@
                                 style="border-left: 2px solid rgb(235, 62, 145); margin: 0.1px; padding: 0px 0px 0px 9px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.3px / 22.1px 'Courier New', Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="font: 17.3px / 22.1px 'Courier New', Courier, monospace; color: rgb(235, 62, 145); cursor: pointer;">
-                                                Anny Parson
-                                            </span><span
-                                                style="font: 14.4px / 18.3px 'Courier New', Courier, monospace; color: rgb(0, 0, 1); cursor: pointer;"></span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px; line-height: 22.1px;"
+                                            :style="{
+                                                fontFamily: fontFamily,
+                                                fontWeight: 500,
+                                                fontSize: editing.design?.fontSize * 1.2 + 'px'
+                                            }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 14.4px / 18.3px 'Courier New', Courier, monospace; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Anny's Flowers</span>
+                                        <td align="left" style="margin: 0.1px; padding: 5px 0px " :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'"

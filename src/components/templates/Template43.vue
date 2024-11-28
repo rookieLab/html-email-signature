@@ -10,16 +10,30 @@
                                 style="margin: 0.1px; padding: 0px 20px 0px 0px; border-right: 3px solid rgb(130, 155, 142);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 17.2px / 21.9px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="color: rgb(130, 155, 142); cursor: pointer;">AMINA
-                                                DELAROSA</span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px ; line-height: 22.2px;"
+                                            :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.3 + 'px' }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 2px 0px 0px; font: 200 12.3px / 15.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                            PR MANAGER</td>
+                                        <td align="left" style="margin: 0.1px; padding: 2px 0px 0px" :style="textStyle">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td

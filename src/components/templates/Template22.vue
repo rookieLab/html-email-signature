@@ -11,27 +11,41 @@
 
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
                                 <table cellpadding="0" style="border-collapse: collapse;">
+                                    
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px; font: 14.4px / 18.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">
-                                                Samantha Wilson
-
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;" :style="{
+                                                fontFamily: fontFamily,
+                                                fontSize: editing.design?.fontSize * 1.1 + 'px',
+                                                padding: '0px'
+                                            }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
                                             </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 4px 0px; font: 12.1px / 15.3px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">
-                                                Property Specialist
-
-                                            </span> <span style="cursor: pointer;">
-
-                                                Green Leaf Properties
-
-
-                                            </span><span style="cursor: pointer;"></span>
+                                        <td align="left" style="margin: 0.1px;" :style="{
+                                            fontFamily: fontFamily,
+                                            fontWeight: 500,
+                                            fontSize: editing.design?.fontSize * 1 + 'px',
+                                            color: editing.design?.color,
+                                            padding: '4px 0px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'"

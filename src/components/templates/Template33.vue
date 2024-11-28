@@ -14,18 +14,37 @@
                                             :styles="{ padding: '0px 0px 10px' }" />
                                     </tr>
                                     <tr>
-                                        <td align="center"
-                                            style="margin: 0.1px; padding: 0px; font: 16.1px / 20.5px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span
-                                                style="color: rgb(147, 45, 3); font-weight: 600; cursor: pointer;">Effie
-                                                Cantrell</span>
-                                            <span style="color: rgb(0, 0, 1); cursor: pointer;"></span>
+                                        <td align="center" style="margin: 0.1px; padding: 0px; " :style="{
+                                            fontFamily: fontFamily,
+                                            fontSize: editing.design?.fontSize * 1.4 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td align="center"
-                                            style="margin: 0.1px; padding: 5px 0px 0px; font: 200 11.5px / 14.7px Verdana, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="cursor: pointer;">Head Teacher at NYACADEMY</span>
+                                        <td align="center" style="margin: 0.1px;" :style="{
+                                            ...textStyle,
+                                            fontWeight: '500',
+                                            borderTop: '1px solid rgb(255, 255, 255)',
+                                            fontSize: editing.design?.fontSize * 1 + 'px',
+                                            padding: '5px 0px 0px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                 </table>

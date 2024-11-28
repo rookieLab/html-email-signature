@@ -9,21 +9,43 @@
                     <table cellpadding="0" style="border-collapse: collapse;">
                         <tr>
                             <Avatar :data="editing.Image" :styles="{ padding: '0px 15px 0px 0px' }" valign="top" />
-
                             <td valign="top"
                                 style="margin: 0.1px; padding: 0px; font: 13.6px / 17.3px Georgia, serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 17.7px / 22.5px Georgia, serif; color: rgb(255, 255, 255); cursor: pointer;">
-                                            <span style="font-weight: 600; cursor: pointer;">Norman Richardson</span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 5px; " :style="{
+                                            fontFamily: fontFamily,
+                                            fontSize: editing.design?.fontSize * 1.3 + 'px',
+                                        }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 5px 0px; font: 13.6px / 17.3px Georgia, serif; color: rgb(255, 255, 255); text-transform: uppercase; border-top: 1px solid rgb(255, 255, 255);">
-                                            <span style="cursor: pointer;">Owner</span>&nbsp;|&nbsp;
-                                            <span style="cursor: pointer;">Retter</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; border-top: 1px solid rgb(255, 255, 255);text-transform: uppercase;"
+                                            :style="{
+                                                ...textStyle,
+                                                fontWeight: '500',
+                                                borderColor: editing.design?.templateColor,
+                                                fontSize: editing.design?.fontSize * 1 + 'px',
+                                                padding: '5px 0px',
+                                            }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'column'"

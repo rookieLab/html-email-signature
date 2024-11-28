@@ -11,18 +11,35 @@
                             <td valign="top" style="margin: 0.1px; padding: 0px;">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 2px; font: 15.1px / 19.1px Georgia, serif; color: rgb(0, 0, 1); cursor: pointer;">
-                                            <span
-                                                style="font-weight: 600; color: rgb(59, 171, 214); cursor: pointer;">DEBORAH
-                                                LARSON</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 2px; line-height: 22.2px;" :style="{
+                                                fontFamily: fontFamily,
+                                                fontSize: editing.design?.fontSize * 1.2 + 'px'
+                                            }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 8px; font: 600 12.5px / 15.9px Georgia, serif; color: rgb(54, 54, 54);">
-                                            <span style="cursor: pointer;">Marketing Manager</span>&nbsp;
-                                            <span style="cursor: pointer;">at Onjoy</span>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 8px " :style="{
+                                            ...textStyle,
+                                            fontSize: editing.design?.fontSize * 1.1 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
                                         </td>
                                     </tr>
                                     <Contact :data="editing.general?.contacts" :layout="'row-left'"

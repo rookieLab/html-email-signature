@@ -8,30 +8,39 @@
                         <table cellpadding="0" style="border-collapse: collapse;">
                             <tr>
                                 <Avatar :data="editing.Image" :styles="{ padding: '0px 12px 0px 0px' }" valign="top" />
-                                <!-- width="159" alt=" &quot;created with MySignature.io&quot;"
-                                        style="display: block; min-width: 159px;"></td> -->
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(110, 76, 55); margin: 0.1px; padding: 0px 0px 0px 12px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 16.2px / 20.6px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="font-weight: 600; color: rgb(110, 76, 55); cursor: pointer;">Gregory
-                                                    Shelton</span>
+                                            <td align="left"
+                                                style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;"
+                                                :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.3 + 'px' }">
+                                                <span v-if="editing.general?.name"
+                                                    style="font-weight: 600;  cursor: pointer;"
+                                                    :style="{ color: editing.design?.templateColor }">
+                                                    {{ editing.general?.name }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                    {{ editing.general?.pronoun }}&nbsp;
+                                                </span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 12.5px / 15.9px Tahoma, Geneva, sans-serif; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Travel Blogger
-                                                    |</span>&nbsp;
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">The G Word
-                                                    channel</span>
+                                            <td align="left" style="margin: 0.1px; padding: 0px 0px 8px "
+                                                :style="textStyle">
+                                                <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                    {{ editing.general?.position }}
+                                                </span>
+                                                <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                    {{ editing.general?.company }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                    {{ editing.general?.department }}
+                                                </span>
                                             </td>
                                         </tr>
                                         <Contact :data="editing.general?.contacts" :layout="'column'"
-                                           :styles="{ ...textStyle, padding: '0px' }"
+                                            :styles="{ ...textStyle, padding: '0px' }"
                                             :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
                                         <tr>

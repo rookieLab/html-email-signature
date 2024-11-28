@@ -10,18 +10,33 @@
                                 <td valign="top"
                                     style="border-left: 1px solid rgb(255, 189, 0); margin: 0.1px; padding: 0px 0px 0px 12px; font: 14.6px / 18.5px 'Courier New', Courier, monospace; color: rgb(0, 0, 1);">
                                     <table cellpadding="0" style="border-collapse: collapse;">
+
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 18.9px / 24.1px 'Courier New', Courier, monospace; color: rgb(0, 0, 1);">
-                                                <span
-                                                    style="font-weight: 600; color: rgb(255, 189, 0); cursor: pointer;">Mandoo</span>
+                                            <td align="left"
+                                                style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;"
+                                                :style="{ fontFamily: fontFamily, fontSize: editing.design?.fontSize * 1.3 + 'px' }">
+                                                <span v-if="editing.general?.name"
+                                                    style="font-weight: 600;  cursor: pointer;"
+                                                    :style="{ color: editing.design?.templateColor }">
+                                                    {{ editing.general?.name }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                                                    {{ editing.general?.pronoun }}&nbsp;
+                                                </span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td
-                                                style="margin: 0.1px; padding: 0px 0px 8px; font: 14.6px / 18.5px 'Courier New', Courier, monospace; color: rgb(0, 0, 1);">
-                                                <span style="color: rgb(0, 0, 1); cursor: pointer;">Support
-                                                    team</span>
+                                            <td align="left" style="margin: 0.1px; padding: 0px 0px 8px "
+                                                :style="textStyle">
+                                                <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                    {{ editing.general?.position }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                    {{ editing.general?.company }}&nbsp;
+                                                </span>
+                                                <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                    {{ editing.general?.department }}
+                                                </span>
                                             </td>
                                         </tr>
                                         <Contact :data="editing.general?.contacts" :layout="'column'"

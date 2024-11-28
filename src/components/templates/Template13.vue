@@ -4,20 +4,38 @@
         <table cellpadding="0" style="border-collapse: collapse; font-size: 13.8px;" width="400">
             <Avatar :data="editing.Image" />
             <tr>
-                <td
-                    style='margin: 0.1px; padding: 10px 10px 0px 0px; font: 17.9px / 22.8px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(0, 0, 1); letter-spacing: 0.4pt; cursor: pointer;'>
-                    <span
-                        style="font-weight: 600; color: rgb(32, 142, 192); text-transform: uppercase; cursor: pointer;">
-                        Gunner Lee</span>
+                <td align="left" style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;" :style="{
+                    fontFamily: fontFamily,
+                    fontSize: editing.design?.fontSize * 1.3 + 'px',
+                    textTransform: 'uppercase'
+                }">
+                    <span v-if="editing.general?.name" style="font-weight: 600;  cursor: pointer;"
+                        :style="{ color: editing.design?.templateColor }">
+                        {{ editing.general?.name }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                        {{ editing.general?.pronoun }}&nbsp;
+                    </span>
                 </td>
             </tr>
             <tr>
-                <td
-                    style='margin: 0.1px; padding: 5px 0px 0px; font: 13.8px / 17.5px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: rgb(39, 39, 39);'>
-                    <span style="cursor: pointer;">Nurse at Private Clinic
-                    </span><span style="cursor: pointer;"></span>
+                <td align="left" style="margin: 0.1px; padding: 0px 0px 8px " :style="{
+                    ...textStyle,
+                    fontWeight: '500',
+                    fontSize: editing.design?.fontSize * 1 + 'px'
+                }">
+                    <span v-if="editing.general?.position" style="cursor: pointer;">
+                        {{ editing.general?.position }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.company" style="cursor: pointer;">
+                        {{ editing.general?.company }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.department" style="cursor: pointer;">
+                        {{ editing.general?.department }}
+                    </span>
                 </td>
             </tr>
+            
             <tr>
                 <td style="margin: 0.1px; padding: 15px 0px;">
                     <table cellpadding="0" style="border-collapse: collapse;">
@@ -29,7 +47,7 @@
                     </table>
                 </td>
             </tr>
-            <Contact :data="editing.general?.contacts" :layout="'column'"  :styles="{ ...textStyle, padding: '1px 0px' }"
+            <Contact :data="editing.general?.contacts" :layout="'column'" :styles="{ ...textStyle, padding: '1px 0px' }"
                 :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
             <tr>

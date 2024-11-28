@@ -11,13 +11,42 @@
                                 style="margin: 0.1px; padding: 0px 0px 0px 15px; font: 13.1px / 16.5px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
                                 <table cellpadding="0" style="border-collapse: collapse;">
                                     <tr>
-                                        <td
-                                            style="margin: 0.1px; padding: 0px 0px 5px; font: 15.6px / 19.8px Arial, Helvetica, sans-serif; color: rgb(0, 0, 1);">
-                                            <span style="font-weight: 600; color: rgb(0, 0, 0); cursor: pointer;">Sadie
-                                                &amp; Nixon Family Blog</span>
+                                        <td align="left"
+                                            style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;" :style="{
+                                                fontFamily: fontFamily,
+                                                fontSize: editing.design?.fontSize * 1.1 + 'px'
+                                            }">
+                                            <span v-if="editing.general?.name"
+                                                style="font-weight: 600;  cursor: pointer;"
+                                                :style="{ color: editing.design?.templateColor }">
+                                                {{ editing.general?.name }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.pronoun"
+                                                style="font-weight: 600;  cursor: pointer;">
+                                                {{ editing.general?.pronoun }}&nbsp;
+                                            </span>
                                         </td>
                                     </tr>
-                                    <Contact :data="editing.general?.contacts" :layout="'column'"  :styles="{ ...textStyle, padding: '2px 0px' }"
+                                    <tr>
+                                        <td align="left" style="margin: 0.1px; padding: 0px 0px 8px " :style="{
+                                            ...textStyle,
+                                            fontWeight: '500',
+                                            fontSize: editing.design?.fontSize * 1 + 'px'
+                                        }">
+                                            <span v-if="editing.general?.position" style="cursor: pointer;">
+                                                {{ editing.general?.position }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.company" style="cursor: pointer;">
+                                                {{ editing.general?.company }}&nbsp;
+                                            </span>
+                                            <span v-if="editing.general?.department" style="cursor: pointer;">
+                                                {{ editing.general?.department }}
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    
+                                    <Contact :data="editing.general?.contacts" :layout="'column'"
+                                        :styles="{ ...textStyle, padding: '2px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
 
 

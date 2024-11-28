@@ -4,23 +4,39 @@
         <table cellpadding="0" style="border-collapse: collapse; font-size: 13.1px;">
             <tr>
                 <Avatar :data="editing.Image" :styles="{ padding: '0px 0px 13px' }" align="center" />
-                <!-- <td align="center" style="margin: 0.1px; padding: 0px 0px 13px; cursor: pointer;"><img
-                        src="https://img.mysignature.io/p/3/9/0/390e98a2-420e-52a6-a8a8-ef6aa04f2b12.png?time=1709198100"
-                        width="162" alt=" &quot;created with MySignature.io&quot;"
-                        style="display: block; min-width: 162px;"></td> -->
             </tr>
             <tr>
-                <td align="center"
-                    style="margin: 0.1px; padding: 0px 0px 5px; font: 17.1px / 21.7px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="font-weight: 600; color: rgb(116, 166, 119); cursor: pointer;">
-                        OLIVIA THOMPSON
+                <td align="center" style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;" :style="{
+                    fontFamily: fontFamily,
+                    fontSize: editing.design?.fontSize * 1.4 + 'px',
+                    padding: '0px 0px 5px'
+                }">
+                    <span v-if="editing.general?.name" style="font-weight: 600;  cursor: pointer;"
+                        :style="{ color: editing.design?.templateColor }">
+                        {{ editing.general?.name }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.pronoun" style="cursor: pointer;">
+                        {{ editing.general?.pronoun }}&nbsp;
                     </span>
                 </td>
             </tr>
             <tr>
-                <td align="center"
-                    style="margin: 0.1px; padding: 0px 0px 5px; font: 600 13.1px / 16.7px Georgia, serif; color: rgb(0, 0, 1);">
-                    <span style="cursor: pointer;">FOOD CRITIC &amp; RESTAURANT REVIEWER</span>
+                <td align="center" style="margin: 0.1px; padding: 0px 0px 8px " :style="{
+                    fontFamily: fontFamily,
+                    fontWeight: 600,
+                    fontSize: editing.design?.fontSize * 1.3 + 'px',
+                    color: editing.design?.color,
+                    padding: '0px 0px 5px'
+                }">
+                    <span v-if="editing.general?.position" style="cursor: pointer;">
+                        {{ editing.general?.position }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.company" style="cursor: pointer;">
+                        {{ editing.general?.company }}&nbsp;
+                    </span>
+                    <span v-if="editing.general?.department" style="cursor: pointer;">
+                        {{ editing.general?.department }}
+                    </span>
                 </td>
             </tr>
             <Contact :data="editing.general?.contacts" :layout="'center'"
