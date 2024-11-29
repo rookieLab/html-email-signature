@@ -1,15 +1,15 @@
 <template>
     <table cellpadding="0" style="border-collapse: collapse;" width="500">
         <tr>
-            <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;">
-                <a :href="data.url" target="_blank" :style="meetStyle" style="
+            <td style="padding: 20px 0px 0px; margin: 0.1px; cursor: pointer;" :style="{ paddingTop: data.top + 'px' }">
+                <a :href="data.url" target="_blank" style="
                     display: flex;
-                    gap: 10px;
-                    padding: 10px;
+                    gap: 7px;
+                    padding: 5px;
                     display: inline-flex;
                     font-weight: 800;
-                ">
-                    <IconsMeet :name="data.type" :color="data.color" />
+                " :style="meetStyle">
+                    <IconsMeet :name="data.type" :color="data.color" :size="data.size" />
                     <span> {{ data.text }}</span>
                 </a>
             </td>
@@ -50,9 +50,10 @@ const meetStyle = computed(() => {
         circle: '30px'
     }
     return {
+        ...props.styles,
         color: props.data.color,
         fontFamily: jsonData.fontList[fontName],
-        marginTop: props.data.top + 'px',
+        fontSize: props.data.size + 'px',
         backgroundColor: props.data.bgcolor,
         borderRadius: shapemap[props.data.shape]
     }

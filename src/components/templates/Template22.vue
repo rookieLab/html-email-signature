@@ -11,7 +11,7 @@
 
                             <td style="margin: 0.1px; padding: 0px 15px 0px 0px;" valign="top">
                                 <table cellpadding="0" style="border-collapse: collapse;">
-                                    
+
                                     <tr>
                                         <td align="left"
                                             style="margin: 0.1px; padding: 0px 0px 8px; line-height: 22.2px;" :style="{
@@ -75,26 +75,14 @@
                     </td>
                 </tr>
             </table>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-                        <span><img alt="facebook" height="32"
-                                src="https://img.mysignature.io/addons/v2/facebook_v2_shape3_b.png"
-                                style="display: block;" width="112" /></span>
-                    </td>
-                    <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-                        <span><img alt="twitter" height="32"
-                                src="https://img.mysignature.io/addons/v2/twitter_v2_shape3_b.png"
-                                style="display: block;" width="112" /></span>
-                    </td>
-                    <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-
-                    </td>
-                    <td style="padding: 18px 4px 4px 0px; margin: 0.1px;">
-
-                    </td>
-                </tr>
-            </table>
+            <div v-if="editing.Addons?.social.enable">
+                <SocialShareLarge :data="editing.Addons?.social" />
+                <table width="500" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
             <table cellpadding="0" style="border-collapse: collapse;" width="500">
                 <tr style="cursor: pointer;">
                     <td
@@ -117,14 +105,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.social.enable">
-            <SocialShareLarge :data="editing.Addons?.social" />
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
-        </div>
+
         <div v-if="editing.Addons?.video.enable">
             <Conference :data="editing.Addons?.video"></Conference>
             <table border="0" cellpadding="0" cellspacing="0" width="500">

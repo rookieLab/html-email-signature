@@ -44,7 +44,7 @@
                                             </span>
                                         </td>
                                     </tr>
-                                    
+
                                     <Contact :data="editing.general?.contacts" :layout="'column'"
                                         :styles="{ ...textStyle, padding: '2px 0px' }"
                                         :templateStyle="{ fontWeight: '600', color: editing.design?.templateColor }" />
@@ -77,25 +77,14 @@
             </tr>
         </table>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/instagram_v1_shape2_i.png" height="39"
-                                width="137" alt="instagram" style="display: block;"></span></td>
-                    <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_i.png" height="39"
-                                width="137" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 19px 4px 4px 0px; margin: 0.1px;"></td>
-                </tr>
-            </table>
-            <!-- <table width="419" cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td
-                        style="margin: 0.1px; padding: 15px 0px 0px; font: 13.6px / 17.3px Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); cursor: pointer;">
-                        If you do not wish to receive more information about our products and/or services, you can
-                        unsubscribe by replying to this email with the subject line "DO NOT SEND".</td>
-                </tr>
-            </table> -->
+            <div v-if="editing.Addons?.social.enable">
+                <SocialShareLarge :data="editing.Addons?.social" />
+                <table width="500" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
@@ -110,14 +99,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.social.enable">
-            <SocialShareLarge :data="editing.Addons?.social" />
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
-        </div>
+
         <div v-if="editing.Addons?.video.enable">
             <Conference :data="editing.Addons?.video"></Conference>
             <table border="0" cellpadding="0" cellspacing="0" width="500">

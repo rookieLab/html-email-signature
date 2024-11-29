@@ -56,26 +56,6 @@
                 </td>
             </tr>
         </table>
-        <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/youtube_v3_shape1_i.png" height="36"
-                                width="126" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/facebook_v2_shape1_i.png" height="36"
-                                width="126" alt="facebook" style="display: block;"></span></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/linkedin_v3_shape1_i.png" height="36"
-                                width="126" alt="linkedin" style="display: block;"></span></td>
-                </tr>
-            </table>
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
-        </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
             <table border="0" cellpadding="0" cellspacing="0" width="500">

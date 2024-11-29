@@ -1,9 +1,9 @@
 <template>
     <div>
-        <IconVideo v-if="name === 'zoom'" :color="color" />
-        <GoogleMeet v-if="name === 'google-meet'" :color="color" />
-        <IconSkype v-if="name === 'skype'" :color="color" />
-        <MicrosoftTeams v-if="name === 'microsoft-teams'" :color="color" />
+        <IconVideo v-if="name === 'zoom'" :color="color" :size="size" />
+        <GoogleMeet v-if="name === 'google-meet'" :color="color" :size="size" />
+        <IconSkype v-if="name === 'skype'" :color="color" :size="size" />
+        <MicrosoftTeams v-if="name === 'microsoft-teams'" :color="color" :size="size" />
     </div>
 </template>
 
@@ -22,6 +22,10 @@ const props = defineProps({
     color: {
         type: String,
         default: '#000000'
+    },
+    size: {
+        type: Number,
+        default: 20
     }
 })
 

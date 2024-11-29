@@ -68,22 +68,6 @@
                 </td>
             </tr>
         </table>
-        <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/youtube_v1_shape2_b.png" height="47"
-                                width="165" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"></td>
-                    <td style="padding: 15px 4px 4px 0px; margin: 0.1px;"></td>
-                </tr>
-            </table>
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
-        </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
             <table border="0" cellpadding="0" cellspacing="0" width="500">

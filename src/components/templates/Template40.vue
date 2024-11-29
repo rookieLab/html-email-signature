@@ -59,13 +59,14 @@
         </table>
         <div>
             <Banner :data="editing?.Image" type="table"></Banner>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 12px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
-                                src="https://img.mysignature.io/a/v1/a/2/a/a2af7570-7bf9-50e8-9673-9170b2cf670c.png"
-                                alt="Meet me on Zoom" width="168" style="display: block;"></span></td>
-                </tr>
-            </table>
+            <div v-if="editing.Addons?.video.enable">
+                <Conference :data="editing.Addons?.video"></Conference>
+                <table border="0" cellpadding="0" cellspacing="0" width="500">
+                    <tr>
+                        <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
+                    </tr>
+                </table>
+            </div>
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr style="cursor: pointer;">
                     <td
@@ -95,14 +96,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.video.enable">
-            <Conference :data="editing.Addons?.video"></Conference>
-            <table border="0" cellpadding="0" cellspacing="0" width="500">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;"></td>
-                </tr>
-            </table>
-        </div>
+
         <div v-if="editing.Addons?.calender?.enable">
             <Calender :calender="editing.Addons?.calender" :design="editing.design" />
             <table width="500" cellspacing="0" cellpadding="0" border="0">

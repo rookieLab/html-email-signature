@@ -96,7 +96,7 @@
                 "link": "",
                 "shape": "circle",
                 "type": "google-meet",
-                "size": 5,
+                "size": 13,
                 "top": 5,
                 "color": "#ffffff",
                 "bgcolor": "#00a090"
@@ -288,17 +288,17 @@
                 "data": [
                     {
                         "name": "facebook",
-                        "img": "https://img.mysignature.io/addons/v2/facebook_v1_shape1_i.png",
+                        "img": "/assets/addons/facebook_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     },
                     {
                         "name": "twitter",
-                        "img": "https://img.mysignature.io/addons/v2/twitter_v1_shape1_i.png",
+                        "img": "/assets/addons/twitter_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     },
                     {
                         "name": "youtube",
-                        "img": "https://img.mysignature.io/addons/v2/youtube_v1_shape1_i.png",
+                        "img": "/assets/addons/youtube_v1_shape1_i.png",
                         "link": "https://www.baidu.com"
                     }
                 ]
@@ -1849,15 +1849,15 @@
             },
             "video": {
                 "enable": true,
-                "text": "Meet me on Google Meet",
+                "text": "Meet me on Skype",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
-                "type": "google-meet",
-                "size": 5,
+                "shape": "square",
+                "type": "skype",
+                "size": 13,
                 "top": 5,
                 "color": "#ffffff",
-                "bgcolor": "#00a090"
+                "bgcolor": "#283765"
             },
             "green": {
                 "enable": false,
@@ -2044,7 +2044,18 @@
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "youtube",
+                        "img": "/assets/addons/youtube_v3_shape2_i.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "instagram",
+                        "img": "/assets/addons/instagram_v2_shape2_i.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -2352,12 +2363,23 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "instagram",
+                        "img": "/assets/addons/instagram_v1_shape2_i.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "youtube",
+                        "img": "/assets/addons/youtube_v1_shape2_i.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -2488,16 +2510,16 @@
                 "img": "/assets/signoff/1ff1daa5-466f-5685-a4ba-14499682b2c6.png"
             },
             "video": {
-                "enable": false,
-                "text": "Meet me on Google Meet",
+                "enable": true,
+                "text": "Meet me on Skype",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
-                "type": "google-meet",
-                "size": 5,
+                "shape": "rounded",
+                "type": "skype",
+                "size": 13,
                 "top": 5,
-                "color": "#ffffff",
-                "bgcolor": "#00a090"
+                "color": "#000000",
+                "bgcolor": "#85d4ec"
             },
             "green": {
                 "enable": false,
@@ -2833,12 +2855,18 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "linkedin",
+                        "img": "/assets/addons/linkedin_v2_shape1_i.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -3000,12 +3028,23 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "youtube",
+                        "img": "/assets/addons/youtube_v1_shape2_b.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "twitter",
+                        "img": "/assets/addons/twitter_v1_shape2_b.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -3136,16 +3175,16 @@
                 "img": "/assets/signoff/4d53a4cb-c582-5346-bbc3-ce88b15c569e.png"
             },
             "video": {
-                "enable": false,
-                "text": "Meet me on Google Meet",
+                "enable": true,
+                "text": "Meet me on Zoom",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
-                "type": "google-meet",
-                "size": 5,
-                "top": 5,
+                "shape": "square",
+                "type": "zoom",
+                "size": 15,
+                "top": 8,
                 "color": "#ffffff",
-                "bgcolor": "#00a090"
+                "bgcolor": "#1877f2"
             },
             "green": {
                 "enable": false,
@@ -3632,12 +3671,23 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "facebook",
+                        "img": "/assets/addons/facebook_v2_shape3_b.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "twitter",
+                        "img": "/assets/addons/twitter_v2_shape3_b.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -4260,14 +4310,14 @@
                 "img": "/assets/signoff/e34190c9-9a03-5b3a-b4ef-03f0dcae7688.png"
             },
             "video": {
-                "enable": false,
+                "enable": true,
                 "text": "Meet me on Google Meet",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
+                "shape": "rounded",
                 "type": "google-meet",
-                "size": 5,
-                "top": 5,
+                "size": 15,
+                "top": 10,
                 "color": "#ffffff",
                 "bgcolor": "#00a090"
             },
@@ -4763,12 +4813,18 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "instagram",
+                        "img": "/assets/addons/instagram_v3_shape2_b.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -6045,16 +6101,16 @@
                 "img": "/assets/signoff/1d96162a-e416-5a24-a98a-6c9a9a932dbf.png"
             },
             "video": {
-                "enable": false,
-                "text": "Meet me on Google Meet",
+                "enable": true,
+                "text": "Meet me on Zoom",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
-                "type": "google-meet",
-                "size": 5,
-                "top": 5,
+                "shape": "rounded",
+                "type": "zoom",
+                "size": 14,
+                "top": 10,
                 "color": "#ffffff",
-                "bgcolor": "#00a090"
+                "bgcolor": "#0043c3"
             },
             "green": {
                 "enable": false,
@@ -6526,16 +6582,16 @@
                 "img": "/assets/signoff/8c7f336d-810a-5088-bc33-029256f51e61.png"
             },
             "video": {
-                "enable": false,
-                "text": "Meet me on Google Meet",
+                "enable": true,
+                "text": "Meet me on Zoom",
                 "font": "Arial",
                 "link": "",
-                "shape": "circle",
-                "type": "google-meet",
-                "size": 5,
-                "top": 5,
+                "shape": "rounded",
+                "type": "zoom",
+                "size": 13,
+                "top": 11,
                 "color": "#ffffff",
-                "bgcolor": "#00a090"
+                "bgcolor": "#877e68"
             },
             "green": {
                 "enable": false,
@@ -7702,12 +7758,18 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "youtube",
+                        "img": "/assets/addons/youtube_v2_shape1_b.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,
@@ -8195,12 +8257,28 @@
                 "CTAColor": "#0a3ab"
             },
             "social": {
-                "enable": false,
+                "enable": true,
                 "paddingTop": 5,
                 "badgeSize": 36,
                 "badgeShape": "rounded",
                 "badgeType": "brand",
-                "data": []
+                "data": [
+                    {
+                        "name": "youtube",
+                        "img": "/assets/addons/youtube_v3_shape1_i.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "facebook",
+                        "img": "/assets/addons/facebook_v2_shape1_i.png",
+                        "link": "https://www.baidu.com"
+                    },
+                    {
+                        "name": "linkedin",
+                        "img": "/assets/addons/linkedin_v3_shape1_i.png",
+                        "link": "https://www.baidu.com"
+                    }
+                ]
             },
             "marketplace": {
                 "enable": false,

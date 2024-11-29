@@ -57,15 +57,15 @@
             </tr>
         </table>
         <div>
-            <table cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"><span><img
-                                src="https://img.mysignature.io/addons/v2/youtube_v2_shape1_b.png" height="35"
-                                width="123" alt="youtube" style="display: block;"></span></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"></td>
-                    <td style="padding: 5px 4px 4px 0px; margin: 0.1px;"></td>
-                </tr>
-            </table>
+            <div v-if="editing.Addons?.social.enable">
+                <SocialShareLarge :data="editing.Addons?.social" />
+                <table width="500" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+
             <table width="500" cellpadding="0" style="border-collapse: collapse;">
                 <tr style="cursor: pointer;">
                     <td width="30" style="padding: 15px 0px 0px; margin: 0.1px;"><img
@@ -90,14 +90,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.social.enable">
-            <SocialShareLarge :data="editing.Addons?.social" />
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
-        </div>
+
         <div v-if="editing.Addons?.video.enable">
             <Conference :data="editing.Addons?.video"></Conference>
             <table border="0" cellpadding="0" cellspacing="0" width="500">

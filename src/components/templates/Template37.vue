@@ -62,18 +62,6 @@
         </table>
         <div>
             <Banner :data="editing?.Image" type="table"></Banner>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 18px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
-                                src="https://img.mysignature.io/a/v1/2/9/0/290f6436-d4ca-528c-8641-396e568f397a.png"
-                                alt="Meet me on Zoom" width="169" style="display: block;"></span></td>
-                </tr>
-            </table>
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
         </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>

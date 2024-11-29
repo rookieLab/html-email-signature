@@ -109,22 +109,6 @@
                     </td>
                 </tr>
             </table>
-            <table cellpadding="0" style="border-collapse: collapse;" width="500">
-
-                <tr>
-                    <td style="padding: 5px 0px 0px; margin: 0.1px; cursor: pointer;">
-                        <span><img alt="Meet me on Zoom"
-                                src="https://img.mysignature.io/a/v1/b/e/f/befec403-19d9-5f8b-947f-5e76f2423281.png"
-                                style="display: block;" width="184" /></span>
-                    </td>
-                </tr>
-            </table>
-            <table border="0" cellpadding="0" cellspacing="0" width="500">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">
-                         </td>
-                </tr>
-            </table>
         </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
@@ -142,7 +126,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.video.enable">
+        <div v-if="editing.Addons?.video?.enable">
             <Conference :data="editing.Addons?.video"></Conference>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>

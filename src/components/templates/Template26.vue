@@ -69,18 +69,6 @@
                                 style="max-width: 490px; display: block;" width="375"></span></td>
                 </tr>
             </table>
-            <table width="500" cellpadding="0" style="border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 11px 0px 0px; margin: 0.1px; cursor: pointer;"><span><img
-                                src="https://img.mysignature.io/a/v1/7/b/f/7bfd3300-ca21-549e-a5b4-0b4abb4ace67.png"
-                                alt="Meet me on Google Meet" width="224" style="display: block;"></span></td>
-                </tr>
-            </table>
-            <table width="500" cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                    <td style="margin: 0.1px; line-height: 1px; font-size: 1px; height: 1px;">&nbsp;</td>
-                </tr>
-            </table>
         </div>
         <div v-if="editing.Addons?.Disclaimer.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>

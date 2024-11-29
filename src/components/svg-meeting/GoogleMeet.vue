@@ -1,7 +1,7 @@
 <template>
     <div>
-        <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20"
-            height="20">
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" :width="size * 1.4"
+        :height="size * 1.4">
             <path
                 d="M572.928 512l100.112 86 111.968 96.192v-359.04l-106.048 88.48L572.928 512zM48 677.328V832c0 35.36 28.48 64 63.632 64h153.76V677.328H48zM265.392 128L48 346.672h217.392V128zM265.392 346.672H48v330.656h217.392V346.672z"
                 :fill="color" p-id="1306"></path>
@@ -19,6 +19,10 @@ export default {
         color: {
             type: String,
             default: '#000000'
+        },
+        size: {
+            type: Number,
+            default: 20
         }
     }
 };
