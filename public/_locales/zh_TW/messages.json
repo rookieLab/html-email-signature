@@ -1,8 +1,8 @@
 {
   "name": {
-    "message": "在线PDF签名 - SignatureMaker"
+    "message": "email signature generator - signmaker.io"
   },
   "description": {
-    "message": "直接在PDF上签名,轻松调节签名画笔的大小和粗细。本地操作，保护隐私。"
+    "message": "Helps you quickly create a personalized, professional email signature. You can add pictures, banners, calendars and other elements."
   }
 }

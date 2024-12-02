@@ -93,7 +93,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.Disclaimer.enable">
+        <div v-if="editing.Addons?.Disclaimer?.enable">
             <Disclaimer :data="editing.Addons?.Disclaimer" :styles="{ fontFamily: fontFamily }"></Disclaimer>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
@@ -101,7 +101,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.social.enable">
+        <div v-if="editing.Addons?.social?.enable">
             <SocialShareLarge :data="editing.Addons?.social" />
             <table width="500" cellspacing="0" cellpadding="0" border="0">
                 <tr>
@@ -109,7 +109,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.video.enable">
+        <div v-if="editing.Addons?.video?.enable">
             <Conference :data="editing.Addons?.video"></Conference>
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
@@ -125,7 +125,7 @@
                 </tr>
             </table>
         </div>
-        <div v-if="editing.Addons?.marketplace.enable">
+        <div v-if="editing.Addons?.marketplace?.enable">
             <Marketplace :data="editing.Addons?.marketplace" />
             <table border="0" cellpadding="0" cellspacing="0" width="500">
                 <tr>
