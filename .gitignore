@@ -2,7 +2,7 @@
 node_modules
 dist
 typings/auto-imports.d.ts
-
+artifacts
 # local env files
 .env.local
 .env.*.local
