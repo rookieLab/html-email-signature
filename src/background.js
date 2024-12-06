@@ -1,8 +1,13 @@
 
 
 // 处理扩展程序的后台任务，比如保存设置、管理状态等
+let unurl = 'https://docs.google.com/forms/d/e/1FAIpQLSd0MdkOOONlIOosiNpXxGXrsYXPLWvaRQjvYnb8BwTqnX7egg/viewform';
 chrome.runtime.onInstalled.addListener(() => {
-  console.log("Douyin Video Uploader installed.");
+  chrome.runtime.setUninstallURL(unurl);
+});
+
+chrome.runtime.onUpdateAvailable.addListener(() => {
+  chrome.runtime.setUninstallURL(unurl);
 });
 
 
