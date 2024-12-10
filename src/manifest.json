@@ -42,6 +42,7 @@
         "js/inject/obfuscate.js",
         "js/inject/inject.bundle.js",
         "fonts/*",
+        "tawk/*",
         "img/*"
       ],
       "matches": [
