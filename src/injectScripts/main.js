@@ -76,10 +76,10 @@ function handleYahoo() {
             return
         }
         // 页面第一次就存在target，无需监听页面变化
-        const target = document.querySelector("div[role='toolbar'] div.D_F.ek_EZ.ab_C")
+        const target = document.querySelector("div[data-test-id='compose-toolbar'] div[data-test-id='focus-group'] div.D_F.ek_EZ.ab_C")
         if (target) {
             handleYahooMutationTarget(target, true)
-            resolve(null)
+            resolve(targetNodeV)
         }
         resolve(targetNodeV)
     })
@@ -116,7 +116,7 @@ function getChannelByUrl() {
     if (url.startsWith("https://mail.google.com/mail")) {
         return "google"
     }
-    if (url.startsWith("https://mail.yahoo.com/n/compose")) {
+    if (url.startsWith("https://mail.yahoo.com/n")) {
         return "yahoo"
     }
     if (url.startsWith("https://outlook.live.com/mail")) {
@@ -149,6 +149,12 @@ function handleMutationTarget(target, direct = false) {
 }
 
 function handleYahooMutationTarget(target, direct = false) {
+    if (target.querySelector('#'+INJECT_BTN_YAHOO_EMAIL)) {
+        return
+    }
+    if (direct == false && target.getAttribute("data-test-id") == "novation-main-content") {
+        target = target.querySelector("div[data-test-id='compose-toolbar'] div[data-test-id='focus-group'] div.D_F.ek_EZ.ab_C")
+    }
     if (direct || (channel === 'yahoo' && target.localName === 'div')) {
         if (!target.classList.contains('D_F') || !target.classList.contains('ek_EZ') || !target.classList.contains('ab_C')) {
             return
