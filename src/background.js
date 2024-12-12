@@ -3,6 +3,7 @@
 // 处理扩展程序的后台任务，比如保存设置、管理状态等
 let unurl = 'https://docs.google.com/forms/d/e/1FAIpQLSd0MdkOOONlIOosiNpXxGXrsYXPLWvaRQjvYnb8BwTqnX7egg/viewform';
 chrome.runtime.onInstalled.addListener(() => {
+  chrome.tabs.create({ url: 'https://signmaker.io' });
   chrome.runtime.setUninstallURL(unurl);
 });
 

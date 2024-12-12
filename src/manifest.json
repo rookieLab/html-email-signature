@@ -10,7 +10,9 @@
     "unlimitedStorage"
   ],
   "host_permissions": [
-    "https://mail.google.com/*"
+    "https://mail.google.com/*",
+    "https://mail.yahoo.com/*",
+    "https://outlook.live.com/*"
   ],
   "icons": {
     "128": "icons/128.png"
@@ -22,7 +24,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://mail.google.com/*"
+        "https://mail.google.com/*",
+        "https://mail.yahoo.com/*",
+        "https://outlook.live.com/*"
       ],
       "js": [
         "js/inject/content.bundle.js"
@@ -46,7 +50,9 @@
         "img/*"
       ],
       "matches": [
-        "https://mail.google.com/*"
+        "https://mail.google.com/*",
+        "https://mail.yahoo.com/*",
+        "https://outlook.live.com/*"
       ]
     }
   ]

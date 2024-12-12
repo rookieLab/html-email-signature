@@ -1,6 +1,6 @@
 <template>
   <transition appear>
-    <div v-show="inject.show" id="ap-inject-app" style="display: flex;flex-direction: column; z-index: 9;">
+    <div v-show="inject.show" id="ap-inject-app" style="display: flex;flex-direction: column; z-index: 1000;">
       <div class="header">
         <h1>Email Signature - SignMaker</h1>
         <div class="header-close" @click="closeDialog">
@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="main" style="padding: 0 10px;">
-        <div class="template-container" v-for="c in inject.savedTemplates" style="position: relative;margin-top: 10px;">
+        <div class="template-container" v-for="(c, key) in inject.savedTemplates" :key="key" style="position: relative;margin-top: 10px;">
           <component :is="componentNameMap[c.name]" :data="c.data" />
           <div class="mask" @click="handleSelectTemplate($event)"> </div>
         </div>
@@ -49,8 +49,18 @@ const escapeHTMLPolicy = trustedTypes.createPolicy("forceInner", {
 
 const handleSelectTemplate = (e, target) => {
   const firstSibling = e.target.parentNode.firstElementChild
-  const textbox = document.querySelector("div[role='textbox']")
-  textbox.innerHTML = escapeHTMLPolicy.createHTML(firstSibling.innerHTML);
+  const innerHTML = escapeHTMLPolicy.createHTML(firstSibling.innerHTML);
+  let textbox = document.querySelectorAll("div[role='textbox']")
+  if (!textbox) {
+    return
+  }
+  textbox = textbox[textbox.length - 1]
+  const signature = textbox.querySelector("div[id='signature']")
+  if (signature == null) {
+        textbox.innerHTML += '<div id="signature">' + innerHTML + '</div>'
+  } else {
+        signature.innerHTML =  innerHTML;
+  }
   console.log('handleSelectTemplate', e.target, firstSibling)
 }
 

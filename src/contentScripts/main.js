@@ -2,6 +2,8 @@
 import WAPlusApp from './app'
 import App from '@/pages/App.vue'
 import Icon from '@/components/Icon.vue'
+import YahooIcon from '@/components/YahooIcon.vue'
+import OutlookIcon from '@/components/OutlookIcon.vue'
 import pinia from '@/stores'
 import { useInjectStore } from '@/stores'
 import { createApp } from 'vue'
@@ -9,7 +11,7 @@ import { i18n } from '@/i18n'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
-import { INJECT_APP_ID, INJECT_BTN_GOOGLE_EMAIL } from '@/service/constants.js'
+import { INJECT_APP_ID } from '@/service/constants.js'
 
 var injectStore = undefined
 
@@ -80,6 +82,19 @@ window.addEventListener('message', function (event) {
             const app = createApp(Icon);
             app.mount('#' + containerId);
         }
+        if (event.data.action === 'INJECT_COMPONENT_YAHOO') {
+            // 处理注入组件的逻辑
+            const containerId = event.data.payload.containerId;
+            const app = createApp(YahooIcon);
+            app.mount('#' + containerId);
+        }
+        if (event.data.action === 'INJECT_COMPONENT_OUTLOOK') {
+            // 处理注入组件的逻辑
+            const containerId = event.data.payload.containerId;
+            const app = createApp(OutlookIcon);
+            app.mount('#' + containerId);
+        }
+
         if (event.data.action === 'MORE_SIGNATURE') {
             console.log('MORE_SIGNATURE')
             chrome.runtime.sendMessage({
