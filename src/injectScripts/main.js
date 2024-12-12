@@ -154,6 +154,9 @@ function handleYahooMutationTarget(target, direct = false) {
     }
     if (direct == false && target.getAttribute("data-test-id") == "novation-main-content") {
         target = target.querySelector("div[data-test-id='compose-toolbar'] div[data-test-id='focus-group'] div.D_F.ek_EZ.ab_C")
+        if (!target) {
+            return
+        }
     }
     if (direct || (channel === 'yahoo' && target.localName === 'div')) {
         if (!target.classList.contains('D_F') || !target.classList.contains('ek_EZ') || !target.classList.contains('ab_C')) {
@@ -182,6 +185,9 @@ function handleOutlookMutationTarget(target, direct = false) {
     }
     if (direct == false && target.classList.contains('cBeRi') && target.classList.contains('dMm6A') && target.classList.contains('AiSsJ')) {
         target = target.querySelector("div.ocwZc")
+        if (!target) {
+            return
+        }
     }
     if (direct || (channel === 'outlook' && target.localName === 'div')) {
         if (!target.classList.contains('ocwZc')) {
