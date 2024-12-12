@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 4,
   "name": "__MSG_name__",
   "homepage_url": "https://wadesk.io/",
   "description": "__MSG_description__",
