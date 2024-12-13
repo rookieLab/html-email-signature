@@ -6,6 +6,16 @@ let observers = {}
 let channel = null
 const observeConfig = { childList: true, subtree: true }
 
+function throttle(fn, delay) {
+    let lastTime = 0;
+    return function (...args) {
+      const now = Date.now();
+      if (now - lastTime >= delay) {
+        lastTime = now;
+        fn.apply(this, args);
+      }
+    };
+}
 
 function mutationCallBack(mutations) {
     mutations.forEach((mutation) => {
@@ -22,6 +32,8 @@ function mutationCallBack(mutations) {
     })
 }
 
+const throttleMutationCallBack = throttle(mutationCallBack, 200)
+
 function createObserver() {
     // 清理旧的监听
     clearObserve()
@@ -37,6 +49,9 @@ function createObserver() {
                 return
             }
             let mutationObserverV = new MutationObserver(mutationCallBack)
+            if (channel == 'google') {
+                mutationObserverV = new MutationObserver(throttleMutationCallBack)
+            }
             // 启动监听
             mutationObserverV.observe(targetNodeV, observeConfig)
             observers[channel] = mutationObserverV
@@ -60,7 +75,8 @@ function handleGoogle() {
         const target = document.querySelector("td.gU.aYL")
         if (target) {
             handleMutationTarget(target, true)
-            resolve(null)
+            resolve(targetNodeV)
+            return
         }
         resolve(targetNodeV)
     })
@@ -80,6 +96,7 @@ function handleYahoo() {
         if (target) {
             handleYahooMutationTarget(target, true)
             resolve(targetNodeV)
+            return
         }
         resolve(targetNodeV)
     })
@@ -99,6 +116,7 @@ function handleOutlook() {
         if (target) {
             handleOutlookMutationTarget(target, true)
             resolve(null)
+            return
         }
         resolve(targetNodeV)
     })
@@ -126,6 +144,24 @@ function getChannelByUrl() {
 }
 
 function handleMutationTarget(target, direct = false) {
+    if (target.querySelector('#'+INJECT_BTN_GOOGLE_EMAIL)) {
+        return
+    }
+    if (direct == false && target.classList.contains('dw')) {
+        setTimeout(function(){
+            target = target.querySelector(".aYL")
+            if (!target) {
+                return
+            }
+            asyncHandleMutationTarget(direct, target)
+        }, 100)
+        return
+    }
+    asyncHandleMutationTarget(direct, target)
+   
+}
+
+function asyncHandleMutationTarget(direct, target) {
     if (direct || (channel === 'google' && target.localName === 'td')) {
 
         if (!target.classList.contains('gU') || !target.classList.contains('aYL')) {

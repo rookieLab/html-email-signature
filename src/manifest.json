@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_name__",
-  "homepage_url": "https://wadesk.io/",
+  "homepage_url": "https://signmaker.io/",
   "description": "__MSG_description__",
   "default_locale": "en",
   "permissions": [
