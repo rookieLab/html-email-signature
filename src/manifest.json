@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_name__",
-  "homepage_url": "https://wadesk.io/",
+  "homepage_url": "https://signmaker.io/",
   "description": "__MSG_description__",
   "default_locale": "en",
   "permissions": [
@@ -10,7 +10,9 @@
     "unlimitedStorage"
   ],
   "host_permissions": [
-    "https://mail.google.com/*"
+    "https://mail.google.com/*",
+    "https://mail.yahoo.com/*",
+    "https://outlook.live.com/*"
   ],
   "icons": {
     "128": "icons/128.png"
@@ -22,7 +24,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://mail.google.com/*"
+        "https://mail.google.com/*",
+        "https://mail.yahoo.com/*",
+        "https://outlook.live.com/*"
       ],
       "js": [
         "js/inject/content.bundle.js"
@@ -42,11 +46,12 @@
         "js/inject/obfuscate.js",
         "js/inject/inject.bundle.js",
         "fonts/*",
-        "tawk/*",
         "img/*"
       ],
       "matches": [
-        "https://mail.google.com/*"
+        "https://mail.google.com/*",
+        "https://mail.yahoo.com/*",
+        "https://outlook.live.com/*"
       ]
     }
   ]
