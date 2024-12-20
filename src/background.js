@@ -1,7 +1,7 @@
 
 
 // 处理扩展程序的后台任务，比如保存设置、管理状态等
-let unurl = 'https://signmaker.io/feedback?utm_source=email_signature_generator';
+let unurl = 'https://signmaker.io/feedback?utm_source=Email Signature Generator';
 chrome.runtime.onInstalled.addListener(() => {
   chrome.tabs.create({ url: 'https://signmaker.io' });
   chrome.runtime.setUninstallURL(unurl);
