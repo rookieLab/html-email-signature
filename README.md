@@ -75,8 +75,6 @@ Whether you're a corporate employee, freelancer, or an individual handling daily
 ---
 
 ## **联系我们 | Contact Us**
-- 访问官网了解更多 | Visit our website for more information:  
-  [rookie9527rookie9527@gmail.com](rookie9527rookie9527@gmail.com)  
 
 - 客服邮箱 | Support Email:  
   rookie9527rookie9527@gmail.com
